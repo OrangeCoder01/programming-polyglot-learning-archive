@@ -1,0 +1,605 @@
+#Angela Yu's 100 Day python bootcamp: Day 3 Project: Treasure Island
+
+print("Please enter your name:")
+name = input()
+
+print("In 1654, you are in the middle of the night, you were one of the crew who only survived the ")
+print("shipwreck from the tornado")
+user_enter = input()
+ascci_art = r'''               . '@(@@@@@@@)@. (@@) `  .   '
+     .  @@'((@@@@@@@@@@@)@@@@@)@@@@@@@)@
+     @@(@@@@@@@@@@))@@@@@@@@@@@@@@@@)@@` .
+  @.((@@@@@@@)(@@@@@@@@@@@@@@))@\@@@@@@@@@)@@@  .
+ (@@@@@@@@@@@@@@@@@@)@@@@@@@@@@@\\@@)@@@@@@@@)
+(@@@@@@@@)@@@@@@@@@@@@@(@@@@@@@@//@@@@@@@@@) `
+ .@(@@@@)##&&&&&(@@@@@@@@)::_=(@\\@@@@)@@ .   .'
+   @@`(@@)###&&&&&!!;;;;;;::-_=@@\\@)@`@.
+   `   @@(@###&&&&!!;;;;;::-=_=@.@\\@@     '
+      `  @.#####&&&!!;;;::=-_= .@  \\
+            ####&&&!!;;::=_-        `
+             ###&&!!;;:-_=
+              ##&&!;::_=
+             ##&&!;:=
+            ##&&!:-
+           #&!;:-
+          #&!;=
+          #&!-
+           #&=
+   jgs      #&-
+            \\#/'
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ '''
+print(ascci_art)
+user_enter = input()
+print("You were sent by the orders of your captain Smith to find")
+print("the treasure hidden in the Mohavai island")
+user_enter = input()
+print("but....\n...\n...\n...")
+user_enter = input()
+print("Everyone is gone...")
+user_enter = input()
+print("Every thing is gone...")
+user_enter = input()
+print("Time is unknown")
+user_enter = input()
+print("but one thing is known")
+user_enter = input()
+print("It is that you are on the island of Mohavai")
+user_enter = input()
+
+ascci_art = r'''
+                     %%%%
+                    %%%%-(
+                  _%%%%%_/                        \ ' /
+                _%%%%%%%%                        - (_) -
+              _%%%%%%%/ \%                        / , \
+             %%%%%%%%%\\ \_
+               %%%%%%   \ \\
+                   )    /\_/
+                 /(___. \
+                 '----' (
+                /       )
+    ---....____/        (_____ __ _ ___ ___ __ _ _ _____ _ _ ___
+              /         )---...___ =-= = -_= -=_= _-=_-_ -=- =-_
+            ,'          (         ```--.._= -_= -_= _-=- -_= _=-
+         ,-'            )                 ``--._=-_ =-=_-= _-= _
+         '-._    '-..___(                       ``-._=_-=_- =_-=
+             ``---....__)                            `-._-=_-_=-
+                   )|)|                                  `-._=-_
+        gnv       '-'-.\_                                    `-.'''
+print(ascci_art)
+
+print("alone in this cold island of ominious omnipotent hissings that")
+print("brings nothing but skin shivering and heart beats")
+user_enter = input()
+
+print("you gaze into the abyss of black sea")
+user_enter = input()
+print("and the abyss gazes back to you")
+user_enter = input()
+print(".\n.\n.\n")
+user_enter = input()
+print(f"Hello, {name}!")
+user_enter = input()
+print("You turn your head to the speaker like an owl")
+user_enter = input()
+print(f"don't worry {name}, said a frog")
+print("I am guiding you to where you are looking for, said the frog")
+user_enter = input()
+print("your mouth jams, your eyes pealed, and your skin pale")
+print("Who are you? said you")
+user_enter = input()
+print("I am Mr. Maam Kin, just call me Mr. Maam")
+print("I am not what you think")
+user_enter = input()
+print("I am benign")
+user_enter = input()
+print("By your side")
+user_enter = input()
+print("I saw your captain and his crew swollen by the sea")
+user_enter = input()
+print("That too unfortunate for")
+user_enter = input()
+print("Them")
+user_enter = input()
+print("And me, said Mr. Maam")
+user_enter = input()
+print("You are way frigtened like never seen before")
+user_enter = input()
+print("Calm down, and relax, the thing you are looking for")
+user_enter = input()
+
+
+ascci_art = r'''                             ,-.
+                        _,-' - `--._
+                      ,'.:  __' _..-)
+                    ,'     /,o)'  ,'
+                   ;.    ,'`-' _,)
+                 ,'   :.   _.-','
+               ,' .  .    (   /
+              ; .:'     .. `-/
+            ,'       ;     ,'
+         _,/ .   ,      .,' ,
+       ,','     .  .  . .\,'..__
+     ,','  .:.      ' ,\ `\)``
+     `-\_..---``````-'-.`.:`._/
+     ,'   '` .` ,`- -.  ) `--..`-..
+     `-...__________..-'-.._  \
+        ``--------..`-._ ```'''
+
+
+
+print(ascci_art)
+print("will help me, said Mr. Maam")
+user_enter = input()
+print("Finally, gaining the least amount of courage...")
+user_enter = input()
+print("You frog, what do you want from me, said You")
+user_enter = input()
+print("Listen, I used to be a human being before I came here")
+user_enter = input()
+print("I was looking for the treasure, like you did")
+user_enter = input()
+print("coincidence isn't it, that ships get wrecked by same tornado")
+user_enter = input()
+print("No it is not, you fool!")
+user_enter = input()
+print("The world is full of dark spirits that guard this island")
+print("They are casted by the effect of a villanious witch")
+print(", that decided to break the rules of nature, and be immortal")
+user_enter = input()
+print("For her becoming an immortal, she now has the ability")
+print("of immortalizing others and transmogrifying into what she desires")
+user_enter = input()
+print("Wa wa w w wai wai t Wait!!!!, said you")
+user_enter = input()
+print("How long have been in here, said you")
+user_enter = input()
+print("Time can not be known when there is no change, said Mr. Maam")
+user_enter = input()
+print("How can I know time, when everything is identical, same a I came here for the first time, said Mr. Maam")
+user_enter = input()
+print("Courage returns to veins")
+print(f"And now, tell me young {name}")
+user_enter = input()
+print("In the midst of all of this")
+user_enter = input()
+print("Who are you, said Mr. Maam")
+user_enter = input()
+print("You just said it, Mr. Maam, said You")
+user_enter = input()
+print(f"We will see about that, young {name}, said Mr. Maam")
+print("You have a list of choices and decisions")
+print("a wrong calculated move, will end you:")
+user_enter = input()
+print("being dead")
+user_enter = input()
+print("....")
+user_enter = input()
+print("or worse, end up being like me")
+user_enter = input()
+print("Fear floods the veins as if a dam got obliterated")
+user_enter = input()
+print(f"Fear not young, {name}")
+print("fortune favors the bold!")
+user_enter = input()
+print("And remember:")
+user_enter = input()
+print("Who you are,")
+user_enter = input()
+print("When everything is gone")
+user_enter = input()
+print("Relax, relax, relax....... , said Mr. Maam")
+user_enter = input()
+print("There are three blockades that need to be overrun to reach the temple")
+user_enter = input()
+print("First: The Mohavai's Forest")
+user_enter = input()
+print("Second: The Crab Colony")
+user_enter = input()
+print("Finally, the temple")
+user_enter = input()
+print("Time will go by...")
+print("I will meet you at your destination")
+user_enter = input()
+print("See those palm trees")
+print("Feedforward there")
+print(f"Young {name}, and don't look back")
+print("You gazed at the palm trees")
+
+
+
+ascci_art = r'''    ###########################'`################################
+    ###########################  V##'############################
+    #########################V'  `V  ############################
+    ########################V'      ,############################
+    #########`#############V      ,A###########################V
+    ########' `###########V      ,###########################V',#
+    ######V'   ###########l      ,####################V~~~~'',###
+    #####V'    ###########l      ##P' ###########V~~'   ,A#######
+    #####l      d#########l      V'  ,#######V~'       A#########
+    #####l      ##########l         ,####V''         ,###########
+    #####l        `V######l        ,###V'   .....;A##############
+    #####A,         `######A,     ,##V' ,A#######################
+    #######A,        `######A,    #V'  A##################''
+    ##########,,,       `####A,           `#''             ,,,
+    #############A,                               ,,,     ,######
+    ######################oooo,                 ;####, ,#########
+    ##################P'                   A,   ;#####V##########
+    #####P'           ,###             `#,     `V############
+    ##P'                ,d###;              ##,       `V#########
+    ##########A,,   #########A              )##,    ##A,..,ooA###
+    #############A, Y#########A,            )####, ,#############
+    ###############A ############A,        ,###### ##############
+    ###############################       ,#######V##############
+    ###############################      ,#######################
+    ##############################P    ,d########################
+    ##############################'    d#########################
+    ##############################     ##########################
+    ##############################     ##########################
+    #############################P     ##########################
+    #############################'     ##########################
+    ############################P      ##########################
+    ###########################P'     ;##########################
+    ###########################'     ,###########################
+    ##########################       ############################
+    #########################       ,############################
+    ########################        d###########P'    `Y#########
+    #######################        ,############        #########
+    ######################        ,#############        #########
+    #####################        ,##############b.    ,d#########
+    ####################        ,################################
+    ###################         #################################
+    ##################          #######################P'  `V##P'
+    #######P'     `V#           ###################P'
+    #####P'                    ,#################P'
+    ###P'                      d##############P''
+    ##P'                       V##############'
+    #P'                         `V###########'
+    #'                             `V##P'
+                                                                '''#
+                                                                
+print(ascci_art)
+user_enter = input()
+print("And The frog is no where to be seen")
+user_enter = input()
+print("Hope be by my side, said You")
+
+print("Moving")
+user_enter = input()
+print("Moving")
+print("Moving")
+print("Moving")
+print("Moving")
+print("Moving")
+print("Moving")
+print("Hiss")
+print("Moving")
+print("Moving")
+print("Hiss")
+print("Moving")
+print("Moving")
+print("Moving")
+print("Moving")
+print("Hiss Hiss")
+print("Moving")
+print("Moving")
+print("Moving")
+print("Hiss")
+print("Hiss")
+print("Hiss")
+user_enter = input()
+print("Okay, enough!!! Who is there!?")
+user_enter = input()
+print("A snake appeared")
+print(f"thh thello Mr. {name}, arthe you thhhe one, snake finaaly spoken")
+ascci_art = r'''      ---_ ......._-_--.
+      (|\ /      / /| \  \
+      /  /     .'  -=-'   `.
+     /  /    .'             )
+   _/  /   .'        _.)   /
+  / o   o        _.-' /  .'
+  \          _.-'    / .'*|
+   \______.-'//    .'.' \*|
+    \|  \ | //   .'.' _ |*|
+     `   \|//  .'.'_ _ _|*|
+      .  .// .'.' | _ _ \*|
+      \`-|\_/ /    \ _ _ \*\
+       `/'\__/      \ _ _ \*\
+      /^|            \ _ _ \*
+     '  `             \ _ _ \      ASH (+VK)
+                       \_
+'''
+
+print(ascci_art)
+print(f"You look hungryth, aren't you, {name}?")
+print(ascci_art)
+print("No")
+print(ascci_art)
+print("..... Actually yes. said You")
+print("How about a little apple")
+user_choice = input("Will your take the apples (Yes or No)?") 
+if user_choice == "Yes":
+    print("You got poisoned and your corpse got digested by the snake")
+    ascci_art = '''    _Y_     Y       Y       Y        Y        Y
+   ( " \   (")     (")     (")      (")      (")
+   |    |   \\      \\      \\       \\       \\
+   |    ;    \\      \\      \\       \\       \\
+   |   /     ( \      ))      ))       ))       ))
+    \ /      /  |    //      //       //       //
+    //      /   )   //      //       //       //
+   ((      (   /   ((_     ((       ((       ((
+    \\      \ /     \ \     \\       \\       \\
+     \\      \\     (  \     \\       \\       \\
+      \\      \\     \_ |     \\       \\       \\
+       ))      ))      ))     _))       ))       ))
+      //      //      //     / /       //       //
+     //      //      //     ( /       //       //
+    //      //      //      //       //       //
+   ((      ((      ((      ((       ( |      ((
+    \\      \\      \\      \\       \\       \\
+     \\      \\      \\      \\       \\       \\leb
+      V       V       V       V        V        V'''
+    print(ascci_art)
+    exit()
+else:
+    print("You ran away as fast as you can from the snake")
+    ascci_art = '''      ,////,
+                        /// 6|
+                        //  _|
+                       _/_,-'
+                  _.-/'/   \   ,/;,
+               ,-' /'  \_   \ / _/
+               `\ /     _/\  ` /
+                 |     /,  `\_/
+                 |     \'
+ pb  /\_        /`      /\
+   /' /_``--.__/\  `,. /  \
+  |_/`  `-._     `\/  `\   `.
+            `-.__/'     `\   |
+                          `\  \
+                            `\ \
+                              \_\__
+                               \___)'''
+    print(ascci_art)
+
+print("running")
+print("running")
+print("running")
+print("running")
+print("running")
+print("running")
+print("rustling")
+print("running")
+print("running")
+print("rustling")
+print("running")
+print("running")
+print("running")
+print("running")
+print("rustling")
+print("running")
+print("running")
+print("running")
+print("rustling")
+print("rustling")
+print("rustling")
+user_enter = input()
+print("Hey!?, Who is making that sound")
+user_enter = input()
+print("A huge army of crabs appeared from their cover")
+user_enter = input()
+print("Okay, enough!!! Who is there!?")
+user_enter = input()
+print("There is one big sized crap, that could be their king")
+user_enter = input()
+print("Your are an free food, ahm... I mean, an astranged stranger from strange lands")
+user_enter = input()
+print("That does not satisfy me, this lonliness")
+user_enter = input()
+print("my friend, is our enemy number one")
+user_enter = input()
+print("Seeing you in such state brings me to tears")
+user_enter = input()
+print("I don't want to be alone")
+user_enter = input()
+print("Come, come ... here you find company, and shelter, don't you want to stay and a good night sleep, said king Krab")
+user_enter = input()
+print("")
+
+second_user_choice = input("Are you willing to sleep (Yes or No): ")
+if second_user_choice == "Yes":
+  
+    ascci_art = r'''                     
+                    (
+                  )    )
+               _.(--"("""--.._
+              /, _..-----).._,\
+             |  `------------  |
+              \               /
+               '.           .'
+           jgs   '--.....--'
+
+
+                ___           .-""-.
+               /   ''---...-'.'  `\\
+          jgs  \___...---"""-._-.__//
+                               '---
+                               '''
+    print("You were sleeping on a cauldron customized as a bed!")
+    print("You are left simmerded and eaten as a warm protein-rich soup")
+    print(ascci_art)
+    exit()
+else:
+    print("You ran as the lighting bolt")
+
+user_enter = input()
+print("Not only you ran this fast")
+user_enter = input()
+print("Mr. Maam runs by jumping fast along")
+user_enter = input()
+print("he ah hea hea the final destination is the most difficult ha ha ha")
+print(f"Brace ha ha yourself for what is about to ha ha come, young {name}")
+user_enter = input()
+print("The frog once more disappeared as thin air")
+ascci_art = r'''
+         A                                                                                            A
+        / \                                                                                          / \
+       _\_/_                                         /\  /\                                         _\_/_
+      / _ __\                                 /\     \/  \/     /\                                 / _ __\
+      \_____/                                 \/    <``><''>    \/                                 \_____/
+       |___|                           /\    <``>    TT  TT    <''>    /\                           |___|
+      /     \                          \/     TT     ||  ||     TT     \/                          /     \
+     /       \                  /\    <``>    ||     ||  ||     ||    <''>    /\                  /       \
+  __/____ ____\__               \/     TT    <||>._.<||  ||>._.<||>    TT     \/               __/____ ____\__
+ /_______________\       /\    <``>    ||>.=""||,.-. ||  || .-.,||""=.<||    <''>    /\       /_______________\
+ )_______________(       \/     TT    <||,.-.<||"   "||  ||"   "||>.-.,||>    TT     \/       )_______________(
+  |_|___|___|___|       <``>    ||>.=""||"   "||     ||  ||     ||"   "||""=.<||    <''>       |_|___|___|___|
+  |___|___|___|_| /\     TT    <||,.-.<||     ||"-_-"||  ||"-_-"||     ||>.-.,||>    TT     /\ |___|___|___|_|
+  |_|___|___|___| \/     ||>.=""||"   "||"-_-"||> .=<||  ||>=. <||"-_-"||"   "||""=.<||     \/ |_|___|___|___|
+  |___|___|___|_|<``>    ||,.-.<||     ||> .=<||>"   ||__||   "<||>=. <||     ||>.-.,||    <''>|___|___|___|_|
+  |_|___|___|___| TT    <||"   "||"-_-"||."   ||     | /\\|     ||   ".||"-_-"||"   "||>    TT |_|___|___|___|
+  |___|___|___|_| ||  ,* ||     ||> .=<||>    ||     ||()||     ||    <||>=. <||     || *,  || |___|___|___|_|
+  |_|___|___|___|_||>*  ,||"-_-"||."   ||     ||     | __/|     ||     ||   ".||"-_-"||,  *<||_|_|___|___|___|
+  |___|___|___|_|__|,.-.<||> .=<||>    ||     ||     ||  ||     ||     ||    <||>=. <||>.-.,|__|___|___|___|_|
+   )|___|___|___| ||`   "||."   ||     ||     ||   ,<||  ||>,   ||     ||     ||   ".||"   '|| |_|___|___|___|
+  /\__|___|___|_| ||"    ||>    ||     ||     ||>,","||  ||",",<||     ||     ||    <||    "|| |___|___|___|_|
+  |_|___|___|___| ||"-_-"||     ||     ||   ,<|| .-. ||  || .-. ||>,   ||     ||     ||"-_-"|| |_|___|___|___|
+  |___|___|___|_| ||> .=<||     ||     ||>," "||"   "||  ||"   "||" ",<||     ||     ||>=. <|| |___|___|___|_|
+  |_|___|___|___|_||>"   ||     ||>,_,<|| .-.<||     ||  ||     ||>.-. ||>,_,<||     ||   "<||_|_|___|___|___|
+  |___|___|___|_|__|     ||>,_,<|| .-. ||"   "||"-_-"||  ||"-_-"||"   "|| .-. ||>,_,<||     |__|___|___|___|_|
+  |_|___|___|___| ||>,_,<|| .-. ||"   "||     ||  .=<||  ||>=.  ||     ||"   "|| .-. ||>,_,<|| |_|___|___|___|
+  |___|___|___|_| || .-. ||"   "||     ||"-_-"||>"   ||  ||   "<||"-_-"||     ||"   "|| .-. || |___|___|___|_|
+  |_|___|___|___| ||"   "||     ||"-_-"||  .=<||     ||  ||     ||>=.  ||"-_-"||     ||"   "|| |_|___|___|___|
+  |___|___|___|_| ||     ||"-_-"||  .=<||>"   ||     ||  ||     ||   "<||>=.  ||"-_-"||     || |___|___|___|_|
+  |_|___|___|___|_||"-_-"||  .=<||>"   ||     ||     ||  ||     ||     ||   "<||>=.  ||"-_-"||_|_|___|___|___|
+  |___|___|___|_|__|  .=<||>"   ||     ||     ||     ||  ||     ||     ||     ||   "<||>=.  |__|___|___|___|_|
+  |_|___|___|___| ||>"   ||     ||     ||     ||     ||  ||     ||     ||     ||     ||   "<|| |_|___|___|___|
+  |___|___|___|_| ||     ||     ||     ||     ||     ||  ||     ||     ||     ||     ||     || |___|___|___|_|
+  |_|___|___|___| ||>___<||>___<||>___<||>___<||>___<||  ||>___<||>___<||>___<||>___<||>___<|| |_|___|___|___|
+  |___|___|___|_| "-----------------------------------"  "-----------------------------------" |___|___|___dv|
+'''
+
+print(ascci_art)
+print("The gate of the temple has been reached!")
+user_enter = input()
+
+ascci_art = r'''                          !
+                          /^\
+                        /     \
+     |               | (       ) |               |
+    /^\  |          /^\ \     / /^\          |  /^\
+    |O| /^\        (   )|-----|(   )        /^\ |O|
+    |_| |-|    |^-^|---||-----||---|^-^|    |-| |_|
+    |O| |O|    |/^\|/^\||  |  ||/^\|/^\|    |O| |O|
+    |-| |-|    ||_|||_||| /^\ |||_|||_||    |-| |-|
+    |O| |O|    |/^\|/^\||(   )||/^\|/^\|    |O| |O|
+    |-| |-|    ||_|||_||||   ||||_|||_||    |-| |-|
+    |O| |_|----|___|___|||___|||___|_|_|    |O| |O|
+    |_|                                         |_|
+       /_______________________________________\
+    __|_______________________________________|___|
+
+'''
+user_enter = input()
+print(ascci_art)
+print("The temple has been reached")
+print("Entering the hall and....")
+ascci_art = r'''*            xXxx
+                    xXXx     *
+         ^^          xxXXx
+    /\__{^^}__/\      xxXXxx                               *
+   / _        _ \     xxXXxx
+   \/ \/\ww/\/ \/      xxXXxx                     {~~~~\
+                       xxxXxx                      ~\:::~~\
+                *      xxxXxx                        ~~\:::~\
+                        xxXXxx                          \::::\
+                        xxXXxxx          *               }::::}
+                        xxxXxxx                          }::::}
+                        xxxXXxxx                        /::::/
+  *                     xxxxXXxx                       /::::/
+                        xxxxXXxx                   {~~~:::/~
+                        %%xxxxx%%                   ~~~~~~
+                        %%%%%%%%%
+                       %%%%%%%%%%%
+                       %%%%%%%%%%%       *
+           *           %%%%%%%%%%%
+                     xxxxxxxx%%%%%
+                   xxXXXXXXXxxx%%%                ^^         *
+                 xxXx/////xxXxxx%%           /\__{^^}__/\
+         xxxxxxxxxXxx////(/xxXxxx%          / _        _ \
+           XXXXXXXxx//(/(((/xxxXxx          \/ \/\ww/\/ \/
+ *            xxxx////(/(/(/)\\xXxx
+               ///////(/(/(/\)\\xxxx
+               /((/(//(/(/((\/\)xXxxx
+               //(/(/(//(/  \ \)\xxxxx
+               //((//(/( /    \ \\\xxxx         *
+            *   (((///(\   \ /  )\)\xXxx
+               /(//((/(\  @ /@  )\\)\xxxx
+              //(/(///(\::/ \:::)\\))\xxxx
+             /(/(/(///(\:(   ):/)\\)\)\xXxx
+            /((/(/(/(/(\  \ /  /)\\)\\)\xxxxx
+              //(/(/(/(\\ \__/ /)\\\)\)\\ xxx
+           /////(/(/(/(\\\    //)))\)\\)                   *
+              /((/(/(/(/(\\\_///)))\)\\\\)
+               ///(/(/(/(\)) ((/)\)\)\\)\\\
+   *          ///((/(/(/(/)) ((/)\)\))\\)))\
+                (///(/(/(//) ((/\\)\)))\\
+                 ///(/(/(//      \)\\\))\        Abbey Birk'''
+                 
+print(ascci_art)
+print("The witch is here along with the Krab king, and his army of krabs, along with the abominate snake ")
+print("The witchmade a wicked smirk, and said:")
+print("Indeed, how many will come and many will be, and how many have lost")
+user_enter = input()
+print("The beauty of life and the sourness of pain")
+print("with the relish of the past and uncertainty of the future")
+print("No fear can bring a strike into a man's hurt than the feeling of mortality")
+user_enter = input()
+print("You little weakling mortal, you were born that way, unril you learn that")
+user_enter = input()
+print("forever being is the answer for all universal pain")
+print("time is endless, and experience is too")
+user_enter = input()
+print("How about you last forever everywhere")
+user_enter = input()
+user_choice = input("Will you choose immortality (yes or no)")
+if user_choice == "Yes":
+    print("Nooooooo, said Mr. Maam")
+    print("Jumping right into you and moving you out of the wand's casted spell")
+    user_enter = input()
+    print("Mr. Maam jumped right into the witch's face, losing the grip of the wand")
+    print("You grabbed the wand and said Adracadabra")
+    user_enter = input()
+    print("Then one by one:")
+    user_enter = input()
+    print("The witch disappeared")
+    user_enter = input()
+    print("The krabs disappeared")
+    user_enter = input()
+    print("The snake disappeared")
+    user_enter = input()
+    print("The temple is collapsing part by part")
+    user_enter = input()
+    print(f"Thank you for freeing me young {name}")
+else:
+    print("The witch was in disarray, it was an impossible answer")
+    print(f"Great, job young {name}, you truely know who you are")
+    user_enter = input()
+    print("Then one by one:")
+    user_enter = input()
+    print("The witch disappeared")
+    user_enter = input()
+    print("The krabs disappeared")
+    user_enter = input()
+    print("The snake disappeared")
+    user_enter = input()
+    print("The temple is collapsing part by part")
+    user_enter = input()
+    print(f"Thank you for freeing me young {name}")
+user_enter = input()
+print("You were waken up by a crew, yelling for the long time")
+print("You went up and looked at an island where the ship is heading to")
+print("You gaze at the island")
+user_enter = input()
+print("And the island gazes back")
