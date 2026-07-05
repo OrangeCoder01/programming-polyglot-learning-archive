@@ -15,6 +15,7 @@ About the archive architecture: {excluding: Arduino IDE}
 
 First layer: 
               The programming languages I have been mastering:
+              
 Second layer:
               There is the personal-forge: which is personal work that does not follow a curriculum from a course or etc...
               and there is the course curriculum like {100 day bootcamp}      
