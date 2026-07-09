@@ -4,7 +4,7 @@ About the contributor:
 
                       I am Yassin, an ECE student, has a deep curiousity for tinkering, in the fields of Engineering.
                       I find it suitable for documenting the process of learning from the ground up into one big repository
-                      for projects that include using programming languages such as games built using Python or real-life problem solving projects using Arduino IDE.
+                      for projects that include using programming languages such as games built using Python or real-life problem solving projects using Arduino                          IDE.
                       And even simple challenges like digit-count of an input integer using C++
 
 About the archive:
