@@ -2,16 +2,16 @@
 
 About the contributor:
 
-                      I am Yassin, an ECE student, has a deep curiousity for tinkering, in the fields of Engineering.
-                      I find it suitable for documenting the process of learning from the ground up into one big repository
-                      for projects that include using programming languages such as games built using Python or real-life problem solving projects using Arduino-IDE.
-                      And even simple challenges like digit-count of an input integer using C++
+    I am Yassin, an ECE student, has a deep curiousity for tinkering, in the fields of Engineering.
+    I find it suitable for documenting the process of learning from the ground up into one big repository
+    for projects that include using programming languages such as games built using Python or real-life problem solving projects using Arduino-IDE.
+    And even simple challenges like digit-count of an input integer using C++
 
 About the archive:
 
-                  This archive stores that serves the purpose of documenting both:
-                  1) The learning process, starting from Hello World from every new programming I started to learn (Python, etc... )
-                  2) The projects, from simple games like hangman from Python to Arduino projects
+    This archive serves the purpose of documenting both:
+      1) The learning process, starting from Hello World from every new programming I started to learn (Python, etc... )
+      2) The projects, from simple games like hangman from Python to Arduino projects
 
 About the archive architecture: {Special Case: Arduino IDE}
 
