@@ -31,7 +31,7 @@ Third layer:
 
               The challenges folder which could be a combination of simple daily exercises or challenges that 
               have been beaten (I think this is the right word for it), it is the perfect ground for testing programming concepts
-              like using dictinaries and keys in Python. This folder holds the learning process.             
+              like using dictionaries and keys in Python. This folder holds the learning process.             
               The projects folder which holds the projects I have made like Caesar Cipher, which differs from the challenges folder
               by storing projects that truely solves real-life problems.
               {Arduino IDE}:
