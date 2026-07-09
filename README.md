@@ -13,7 +13,7 @@ About the archive:
                   1) The learning process, starting from Hello World from every new programming I started to learn (Python, etc... )
                   2) The projects, from simple games like hangman from Python to Arduino projects
 
-About the archive architecture: {excluding: Arduino IDE}
+About the archive architecture: {Special Case: Arduino IDE}
 
 First layer: 
 
