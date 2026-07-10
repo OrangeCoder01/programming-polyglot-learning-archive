@@ -11,17 +11,21 @@
 
     This archive serves the purpose of documenting both:
       1) The learning process, starting from Hello World from every new programming I started to learn (Python, etc... )
-      2) The projects, from simple games like hangman from Python to Arduino projects
+      2) The projects that could aspire others: from simple games like hangman from Python to Arduino projects
 
 |About the archive architecture: {Special Case: Arduino IDE}|
 
 ||First layer:|| 
 
-    The programming languages I have been mastering:
+    The programming languages I have been mastering currently:
+    . C++
+    . Arduino-IDE
+    . Python
               
 ||Second layer:||
 
-    There is the personal-forge: which is personal work that does not follow a curriculum from a course or etc...
+    There is the personal-forge folders: which contains the personal work that does not follow a curriculum from a course or etc...,
+    excluding the curriculum or a list of tasks given by AI models (mostly ChatGPT) as mentors
     and there is the course curriculum like {100 day bootcamp}     
     
     {Arduino IDE}:         
@@ -29,7 +33,7 @@
                         
 ||Third layer:||
 
-    The challenges folder which could be a combination of simple daily exercises or challenges that 
+    The challenges folder which contain a combination of simple daily exercises or challenges that 
     have been beaten (I think this is the right word for it), it is the perfect ground for testing programming concepts
     ike using dictionaries and keys in Python. This folder holds the learning process.             
     The projects folder which holds the projects I have made like Caesar Cipher, which differs from the challenges folder
@@ -41,8 +45,8 @@
     
 ||{Arduino additional layer} for debugging:||
                     
-    There could be a multiple codes inside the debugging
-    folder, for showcasing different approaches for debugging                                                             
+    There could be multiple codes inside one component-debugging folder like rot_enco_debugging_esp32wr38 folder
+    for showcasing different approaches for debugging                                                             
     There is the projects folder that holds the projects
                           
 ||Fourth layer:||
