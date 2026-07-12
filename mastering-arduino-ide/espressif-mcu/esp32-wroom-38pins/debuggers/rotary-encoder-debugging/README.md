@@ -1,3 +1,5 @@
+# Rotary Encoder debugging 
+
 This code is helpful for debugging the rotary encoder that has SW, CLK, and DT pins, it uses versatile coding strategies
 to detect changes in the rotary encoder's direction of rotation and the press state.
 
