@@ -74,6 +74,6 @@ int main()
 {
     printf("Welcome, This is the Armstrong number challenge:\n");
     int user_inp_input = user_int_validation();
-    printf("the Armstrong number for: {%i} is: {%i}, and it is: ", user_inp_input, armstrong_mathematics(user_inp_input));
+    printf("the Armstrong number for: {%i} is: {%li}, and it is: ", user_inp_input, armstrong_mathematics(user_inp_input));
     armstrong_number_validator(user_inp_input);
 }
