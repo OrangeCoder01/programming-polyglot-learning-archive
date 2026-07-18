@@ -5,7 +5,7 @@ A ${\color{blue}\text{Palindrome Number}}$ is simply a number that is identical 
 Integer number:&emsp;&emsp;&emsp;&emsp;&ensp;           1 2 3 2 1<br>
 Their digital place:&emsp;&emsp;&emsp;&emsp;         0 1 2 3 4<br>
 The reversed integer number:&ensp;   1 2 3 2 1<br>
-Their reversed digital place:&emsp;&space;  4 3 2 1 0<br>
+Their reversed digital place:&emsp;&ensp;  4 3 2 1 0<br>
 ${\color{green}\text{Reversed order == Number}}$<br>
 
 So this is a ${\color{blue}\text{Palindrome Number}}$.<br>
