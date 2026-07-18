@@ -4,4 +4,10 @@ The ${\color{yellow}\text{challenges}}$ and ${\color{green}\text{projects}}$ are
 
 ${\color{orchid}\text{Architecture inside the}}$ ${\color{red}\text{personal-forge}}$ ${\color{orchid}\text{ subfolders:}}$
 
+Each folder is named to reflect its ${\color{seagreen}\text{order}}$, its ${\color{orange}\text{purpose}}$, and the ${\color{violet}\text{programming language}}$ used.
+${\color{seagreen}\text{order}}$: It follows a chronological listing method.
+${\color{orange}\text{purpose}}$: It describes what you should expect from the code inside the subfolder.
+${\color{violet}\text{language}}$: It indicates the programming language used.
+${\color{silver}\text{Format}}$: ${\color{seagreen}\text{(order)}}$\_${\color{orange}\text{(purpose)}}$\_${\color{violet}\text{(programming language)}}$
+
 
