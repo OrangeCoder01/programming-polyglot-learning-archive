@@ -1,5 +1,5 @@
 # ${\color{blue}\text{Palindrome Number}}$
-## ${\color{orange}\text{Concept explanantion:}}$
+## ${\color{orange}\text{Concept Explanantion:}}$
 A ${\color{blue}\text{Palindrome Number}}$ is simply a number that is identical to its reversed form, ${\color{pink} \text{for an example:}}$ 12321,
 <br>Digits:&emsp;&emsp;&emsp;&emsp;&ensp;  1 2 3 2 1<br>
 Reversed order:&ensp;  1 2 3 2 1<br>
@@ -20,6 +20,6 @@ ${\color{red}\text{Reversed order }\neq\text{ Number}}$<br>
 This is ${\color{red}\text{not}}$ a ${\color{blue}\text{Palindrome Number}}$<br>
 ## ${\color{limegreen}\text{Startegy:}}$
 ## ${\color{purple}\text{Block Diagram:}}$
-|
+## ${\color{silver}\text{Code Explanation:}}$
 
 
