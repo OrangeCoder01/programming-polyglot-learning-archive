@@ -11,6 +11,6 @@ Their reversed digital place: 4 3 2 1 0<br>
 <br>
 
 
-Code explanation:
-Later!
+## $${\color{blue}Code explanation:}$$
+
 
