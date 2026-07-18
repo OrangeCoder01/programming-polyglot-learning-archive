@@ -10,7 +10,7 @@ The reversed integer number:&ensp;   1 2 3 2 1<br>
 Their reversed digital place:&emsp;&ensp;  4 3 2 1 0<br>
 ${\color{green}\text{Reversed order == Number}}$<br>
 
-So this is a ${\color{blue}\text{Palindrome Number}}$.<br>
+So this is a ${\color{blue}\text{Palindrome Number}}$<br>
 
 ${\color{pink}\text{example of}}{\color{red}\text{non}}{\color{blue}\text{Palindrome-Number}}{\color{pink}\text{:}}$<br>
 
@@ -19,6 +19,7 @@ Digits:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;          1 8 7 5 6 3 <br>
 Reversed number:&emsp;&emsp; 3 6 5 7 8 1<br>
 ${\color{red}\text{Reversed order }\neq\text{ Number}}$
 <br>
+This is ${\color{red}\text{not}}$ a ${\color{blue}\text{Palindrome Number}}$<br>
 ## ${\color{purple}\text{Block Diagram:}}$
 |
 
