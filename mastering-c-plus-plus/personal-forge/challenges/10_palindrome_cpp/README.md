@@ -1,5 +1,5 @@
-# ${\color{blue}Palindrome \space Number}$
-## ${\color{orange}Concept \space explanantion:}$
+# ${\color{blue}\text{Palindrome Number}}$
+## ${\color{orange}\text{Concept explanantion:}}$
 A ${\color{blue}\text{Palindrome Number}}$ is simply a number that is identical to its reversed form, ${\color{pink} \text{for an example:}}$ 12321,<br>Digits:  1 2 3 2 1<br>Reversed order:  1 2 3 2 1<br><br>
 So this is a ${\color{blue}\text{Palindrome Number}}$.<br><br>
 
