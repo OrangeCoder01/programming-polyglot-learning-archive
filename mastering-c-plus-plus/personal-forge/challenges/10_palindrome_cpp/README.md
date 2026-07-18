@@ -9,7 +9,7 @@ The reversed integer number:  1 2 3 2 1<br>
 Their reversed digital place: 4 3 2 1 0<br>
 <br>
 
-${\color{pink}\text{example of}}{\color{red}\text{non—}}{\color{blue}\text{Palindrome-Number}}{\color{pink}\text{:}}$
+${\color{pink}\text{example of}}{\color{red}\text{non}}{\color{blue}\text{Palindrome-Number}}{\color{pink}\text{:}}$
 
 <br>
 Number:          187563  <br>
