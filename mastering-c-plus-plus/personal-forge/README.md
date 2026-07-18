@@ -4,3 +4,17 @@ ${\color{red}Peronal-forge}$ folder for ${\color{blue}C++}$ is a folder that hol
 The ${\color{yellow}challenges}$ and ${\color{green}project}$ are mostly made due personal desire to solve real-life problems or finishing tasks/objective given by an AI model such as **ChatGPT**, for it is one of the best mentors which assess and aid in my understanding and skills through giving code ${\color{yellow}challenges}$ and later ${\color{green}projects}$, and disscuses and point out the faliure in the code.
 
 ## ${\color{orchid}\text{Architecture inside the }}$ ${\color{red}\text{personal-forge}}$ ${\color{orchid}\text{subfolders:}}$
+
+Each Folder is coined with a name that reflect both its ${\color{orange}\text{purpose}}$, its ${\color{seagreen}\text{order}} and the used ${\color{violet}\text{language}}$<br>
+${\color{orange}\text{purpose}}$: It is what you expect from the code inside the subfolder.<br>
+${\color{seagreen}\text{order}}$: It is a chronological method for listing.<br>
+${\color{violet}\text{language}}$: It is the programming language used.<br>
+
+${\color{silver}\text{Format:}}$ ${\color{orange}\text{(purpose)}}$_${\color{seagreen}\text{(order)}}$_${\color{violet}\text{(programming language)}}$ 
+${\color{pink}\text{Example:}}$<br>
+&emsp;&emsp;${\color{orange}\text{15}}$_${\color{seagreen}\text{armstrong_number}}$_${\color{violet}\text{cpp}}$<br>
+&emsp;&emsp; It is listed as ${\color{orange}\text{15}}$th code finished writting, early code exposes earlier coding styles, while latest codes showcases more professionalism.<br>
+&emsp;&emsp; ${\color{seagreen}\text{armstrong_number}}:$ reflect that the code is outputting a value that is associated with Armstrong Number <br>
+&emsp;&emsp; ${\color{violet}\text{cpp}}: It written using C++ programming language<br>
+
+
