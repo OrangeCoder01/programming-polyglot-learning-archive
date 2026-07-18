@@ -10,7 +10,7 @@ ${\color{pink}\text{example of}}{\color{blue}\text{Palindrome-Number}}{\color{pi
 &emsp;&emsp;&emsp;The reversed integer number:&ensp;   1 2 3 2 1<br>
 &emsp;&emsp;&emsp;Their reversed digital place:&emsp;&ensp;  4 3 2 1 0<br>
 ${\color{green}\text{Reversed order == Number}}$<br>
-;So this is a ${\color{blue}\text{Palindrome Number}}$<br>
+So this is a ${\color{blue}\text{Palindrome Number}}$<br>
 
 ${\color{pink}\text{example of}}{\color{red}\text{non}}{\color{blue}\text{Palindrome-Number}}{\color{pink}\text{:}}$<br>
 &emsp;&emsp;&emsp;Number:&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;        187563  <br>
