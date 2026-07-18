@@ -8,7 +8,7 @@ Integer number:&emsp;&emsp;&emsp;&ensp;&ensp;&emsp;&ensp;&ensp;&ensp;          1
 Their digital place:&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;         0 1 2 3 4<br>
 The reversed integer number:&ensp;   1 2 3 2 1<br>
 Their reversed digital place:&emsp;&ensp;  4 3 2 1 0<br>
-${\color{green}\text{Reversed order == Number}}$<br>
+${\color{green}\text{Reversed order == Number}}$
 
 So this is a ${\color{blue}\text{Palindrome Number}}$<br>
 
