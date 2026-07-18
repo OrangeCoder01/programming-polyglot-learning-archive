@@ -1,7 +1,5 @@
 # $${\color{blue}Palindrome \space Number}$$
-<br>
 ## $${\color{orange}Concept \space explanantion:}$$
-<br>
 A $${\color{blue}Palindrome \space Number}$$ is simply a number that is identical to its reversed form, such as: 12321,<br>Digits:  1 2 3 2 1<br>Reversed order:  1 2 3 2 1<br><br>
 
 Integer number:               1 2 3 2 1<br>
