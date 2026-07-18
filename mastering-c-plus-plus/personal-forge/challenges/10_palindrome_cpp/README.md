@@ -2,8 +2,8 @@
 ## ${\color{orange}\text{Concept explanantion:}}$
 A ${\color{blue}\text{Palindrome Number}}$ is simply a number that is identical to its reversed form, ${\color{pink} \text{for an example:}}$ 12321,<br>Digits:  1 2 3 2 1<br>Reversed order:  1 2 3 2 1<br><br>
 
-Integer number:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;            1 2 3 2 1<br>
-Their digital place:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;           0 1 2 3 4<br>
+Integer number:&emsp;&emsp;&emsp;&emsp;&ensp;           1 2 3 2 1<br>
+Their digital place:&emsp;&emsp;&emsp;&emsp;         0 1 2 3 4<br>
 The reversed integer number:&emsp;&emsp;   1 2 3 2 1<br>
 Their reversed digital place:&emsp;  4 3 2 1 0<br>
 ${\color{green}\text{Reversed order == Number}}$<br>
