@@ -4,7 +4,8 @@ A $${\color{blue}Palindrome \space Number}$$ is simply a number that is identica
 So this is a $${\color{blue}Palindrome \space Number}$$.<br><br>
 
 $${\color{pink}example \space of}$$
-$${\color{red}non-}$$ $${\color{blue}Palindrome-Number}$$
+$${\color{red}non-}$$
+$${\color{blue}Palindrome-Number}$$
 $${\color{pink}:}$$
 
 Integer number:               1 2 3 2 1<br>
