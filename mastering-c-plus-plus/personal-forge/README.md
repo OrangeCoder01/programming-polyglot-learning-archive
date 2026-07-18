@@ -17,6 +17,11 @@ ${\color{silver}\text{Format}}$: ${\color{seagreen}\text{(order)}}$ `_` ${\color
 &emsp;&emsp; ${\color{orange}\text{armstrong}}$ `_` ${\color{orange}\text{number}}$: It indicates that the code produces an output related to an Armstrong Number.<br>
 &emsp;&emsp; ${\color{violet}\text{cpp}}$: It is written using the C++ programming language.<br>
 
-
+And inside each subfolder, there is README.md that explains the ${\color{yellow}\text{challenges}}$ or ${\color{red}\text{projects}}$:<br>
+It includes sections:<br>
+${\color{orange}\text{Concept Explanantion:}}$<br>
+${\color{limegreen}\text{Startegy:}}$<br>
+${\color{purple}\text{Block Diagram:}}$<br>
+${\color{silver}\text{Code Explanation:}}$<br>
 
 
