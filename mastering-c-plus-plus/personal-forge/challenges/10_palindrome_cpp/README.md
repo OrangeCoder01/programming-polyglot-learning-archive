@@ -19,7 +19,7 @@ Digits:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;          1 8 7 5 6 3 <br>
 Reversed number:&emsp;&emsp; 3 6 5 7 8 1<br>
 ${\color{red}\text{Reversed order }\neq\text{ Number}}$
 <br>
-## ${\color{blue}\text{Code explanation:}}$
+## ${\color{purple}\text{Block Diagram:}}$
 |
 
 
