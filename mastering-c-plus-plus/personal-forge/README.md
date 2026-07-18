@@ -9,12 +9,10 @@ The ${\color{yellow}\text{challenges}}$ and ${\color{green}\text{projects}}$ are
 Each folder is named to reflect its ${\color{orange}\text{purpose}}$, its ${\color{seagreen}\text{order}}$, and the ${\color{violet}\text{programming language}}$ used.
 
 ${\color{orange}\text{purpose}}$: It describes what you should expect from the code inside the subfolder.
-
 ${\color{seagreen}\text{order}}$: It follows a chronological listing method.
-
 ${\color{violet}\text{language}}$: It indicates the programming language used.
 
-${\color{silver}\text{Format:}}$ ${\color{orange}\text{(purpose)}}$ `_` ${\color{seagreen}\text{(order)}}$ `_` ${\color{violet}\text{(programming language)}}$
+${\color{silver}\text{Format}}$: ${\color{orange}\text{(purpose)}}$`_`${\color{seagreen}\text{(order)}}$`_`${\color{violet}\text{(programming language)}}$
 
 ${\color{pink}\text{Example:}}$
 &emsp;&emsp;${\color{seagreen}\text{15}}$ `_` ${\color{seagreen}\text{armstrong`_`number}}$ `_` ${\color{violet}\text{cpp}}$
