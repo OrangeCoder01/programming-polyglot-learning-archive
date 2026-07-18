@@ -5,12 +5,12 @@ The ${\color{red}\text{personal-forge}}$ folder for ${\color{blue}\text{C++}}$ i
 The ${\color{yellow}\text{challenges}}$ and ${\color{green}\text{projects}}$ are mostly created due to a personal desire to solve real-life problems or complete tasks/objectives given by an AI model such as **ChatGPT**, as it is one of the best mentors for assessing and improving my understanding and skills by providing coding ${\color{yellow}\text{challenges}}$, later followed by ${\color{green}\text{projects}}$, while discussing and pointing out flaws in my code.
 
 ## ${\color{orchid}\text{Architecture inside the }}${\color{red}\text{personal-forge}}${\color{orchid}\text{ subfolders:}}$
+<br>
+Each folder is named to reflect its ${\color{orange}\text{purpose}}$, its ${\color{seagreen}\text{order}}$, and the ${\color{violet}\text{programming language}}$ used.<br>
 
-Each folder is named to reflect its ${\color{orange}\text{purpose}}$, its ${\color{seagreen}\text{order}}$, and the ${\color{violet}\text{programming language}}$ used.
-
-${\color{orange}\text{purpose}}$: It describes what you should expect from the code inside the subfolder.
-${\color{seagreen}\text{order}}$: It follows a chronological listing method.
-${\color{violet}\text{language}}$: It indicates the programming language used.
+${\color{orange}\text{purpose}}$: It describes what you should expect from the code inside the subfolder.<br>
+${\color{seagreen}\text{order}}$: It follows a chronological listing method.<br>
+${\color{violet}\text{language}}$: It indicates the programming language used.<br>
 
 ${\color{silver}\text{Format}}$: ${\color{orange}\text{(purpose)}}$`_`${\color{seagreen}\text{(order)}}$`_`${\color{violet}\text{(programming language)}}$
 
