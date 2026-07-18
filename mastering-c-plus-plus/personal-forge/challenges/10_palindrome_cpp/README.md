@@ -4,7 +4,7 @@ A ${\color{blue}\text{Palindrome Number}}$ is simply a number that is identical 
 <br>Digits:&emsp;&emsp;&emsp;&emsp;&ensp;  1 2 3 2 1<br>
 Reversed order:&ensp;  1 2 3 2 1<br>
 
-Integer number:&emsp;&emsp;&emsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;          1 2 3 2 1<br>
+Integer number:&emsp;&emsp;&emsp;&ensp;&ensp;&emsp;&ensp;&ensp;&ensp;          1 2 3 2 1<br>
 Their digital place:&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;         0 1 2 3 4<br>
 The reversed integer number:&ensp;   1 2 3 2 1<br>
 Their reversed digital place:&emsp;&ensp;  4 3 2 1 0<br>
