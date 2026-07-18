@@ -16,9 +16,8 @@ ${\color{pink}\text{example of}}{\color{red}\text{non}}{\color{blue}\text{Palind
 &emsp;&emsp;&emsp;Number:&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;        187563  <br>
 &emsp;&emsp;&emsp;Digits:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;          1 8 7 5 6 3 <br>
 &emsp;&emsp;&emsp;Reversed number:&emsp;&emsp; 3 6 5 7 8 1<br>
-&emsp;&emsp;&emsp;${\color{red}\text{Reversed order }\neq\text{ Number}}$
-<br>
-This is ${\color{red}\text{not}}$ a ${\color{blue}\text{Palindrome Number}}$<br>
+&emsp;&emsp;&emsp;${\color{red}\text{Reversed order }\neq\text{ Number}}$<br>
+&emsp;&emsp;&emsp;This is ${\color{red}\text{not}}$ a ${\color{blue}\text{Palindrome Number}}$<br>
 ## ${\color{purple}\text{Block Diagram:}}$
 |
 
