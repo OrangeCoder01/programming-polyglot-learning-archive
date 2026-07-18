@@ -15,7 +15,7 @@ So this is a ${\color{blue}\text{Palindrome Number}}$.<br>
 ${\color{pink}\text{example of}}{\color{red}\text{non}}{\color{blue}\text{Palindrome-Number}}{\color{pink}\text{:}}$<br>
 
 Number:&emsp;&emsp;&emsp;&ensp;&emsp;&ensp;&ensp;         187563  <br>
-Digits:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;          1 8 7 5 6 3 <br>
+Digits:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;          1 8 7 5 6 3 <br>
 Reversed number:&emsp;&emsp; 3 6 5 7 8 1<br>
 ${\color{red}\text{Reversed order }\neq\text{ Number}}$
 <br><br>
