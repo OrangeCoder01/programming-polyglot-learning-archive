@@ -1,6 +1,7 @@
 # ${\color{blue}\text{Palindrome Number}}$
 ## ${\color{orange}\text{Concept explanantion:}}$
-A ${\color{blue}\text{Palindrome Number}}$ is simply a number that is identical to its reversed form, ${\color{pink} \text{for an example:}}$ 12321,<br>Digits:  1 2 3 2 1&emsp;&emsp;&ensp;<br>Reversed order:  1 2 3 2 1<br>
+A ${\color{blue}\text{Palindrome Number}}$ is simply a number that is identical to its reversed form, ${\color{pink} \text{for an example:}}$ 12321,<br>Digits:  1 2 3 2 1&emsp;
+<br>Reversed order:  1 2 3 2 1<br>
 
 Integer number:&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&emsp;&ensp;           1 2 3 2 1<br>
 Their digital place:&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;         0 1 2 3 4<br>
