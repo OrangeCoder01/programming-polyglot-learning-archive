@@ -21,7 +21,7 @@ And inside each subfolder, there is README.md that explains the ${\color{yellow}
 It includes sections:<br>
 ${\color{orange}\text{Concept Explanantion:}}$<br>
 It explains the concept of the ${\color{yellow}\text{challenges}}$ `/` ${\color{red}\text{projects}}$ code, taking armstrong as an
-${\color{pink}\text{example:}}$ , 
+${\color{pink}\text{example:}}$, 
 ${\color{limegreen}\text{Startegy:}}$<br>
 ${\color{purple}\text{Block Diagram:}}$<br>
 ${\color{silver}\text{Code Explanation:}}$<br>
