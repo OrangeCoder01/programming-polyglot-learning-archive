@@ -8,6 +8,7 @@ Each folder is named to reflect its ${\color{seagreen}\text{order}}$, its ${\col
 ${\color{seagreen}\text{order}}$: It follows a chronological listing method.<br>
 ${\color{orange}\text{purpose}}$: It describes what you should expect from the code inside the subfolder.<br>
 ${\color{violet}\text{language}}$: It indicates the programming language used.<br>
-${\color{silver}\text{Format}}$: ${\color{seagreen}\text{(order)}}$\_${\color{orange}\text{(purpose)}}$\_${\color{violet}\text{(programming language)}}$
+
+${\color{silver}\text{Format}}$: ${\color{seagreen}\text{(order)}}$`_`${\color{orange}\text{(purpose)}}$`_`${\color{violet}\text{(programming language)}}$<br>
 
 
