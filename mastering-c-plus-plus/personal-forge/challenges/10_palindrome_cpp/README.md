@@ -11,9 +11,9 @@ Their reversed digital place: 4 3 2 1 0<br>
 
 ${\color{pink}\text{example of}}$ ${\color{red}\text{non-}}$ ${\color{blue}\text{Palindrome-Number}}$ ${\color{pink}\text{:}}$
 <br>
-Number: \space 187563  <br
-Digits: \space 1 \space 8 \space 7 \space 5 \space 6 \space 3
-Reversed number: \space 3 \space 6 \space 5 \space 7 \space 8 \space 1 <br><br>
+Number:          187563  <br
+Digits:          1 8 7 5 6 3
+Reversed number: 3 6 5 7 8 1 <br><br>
 
 ## ${\color{blue}\text{Code explanation:}}$
 |
