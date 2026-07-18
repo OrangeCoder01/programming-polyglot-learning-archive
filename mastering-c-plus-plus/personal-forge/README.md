@@ -10,7 +10,7 @@ ${\color{orange}\text{purpose}}$: It is what you expect from the code inside the
 ${\color{seagreen}\text{order}}$: It is a chronological method for listing.<br>
 ${\color{violet}\text{language}}$: It is the programming language used.<br>
 
-${\color{silver}\text{Format:}}$ ${\color{orange}\text{(purpose)}}$_${\color{seagreen}\text{(order)}}$_${\color{violet}\text{(programming language)}}$ 
+${\color{silver}\text{Format:}}$ ${\color{orange}\text{(purpose)}}$ ${\text{_}}$ ${\color{seagreen}\text{(order)}}$ ${\text{_}}$ ${\color{violet}\text{(programming language)}}$ <br>
 ${\color{pink}\text{Example:}}$<br>
 &emsp;&emsp;${\color{orange}\text{15}}$ ${\text{_}}$ ${\color{seagreen}\text{armstrong_number}} ${\text{_}}$ ${\color{violet}\text{cpp}}$<br>
 &emsp;&emsp; It is listed as ${\color{orange}\text{15}}$th code finished writting, early code exposes earlier coding styles, while latest codes showcases more professionalism.<br>
