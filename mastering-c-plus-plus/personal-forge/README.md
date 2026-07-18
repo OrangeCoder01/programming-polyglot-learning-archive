@@ -5,16 +5,18 @@ The ${\color{yellow}challenges}$ and ${\color{green}project}$ are mostly made du
 
 ## ${\color{orchid}\text{Architecture inside the }}$ ${\color{red}\text{personal-forge}}$ ${\color{orchid}\text{subfolders:}}$
 
-Each Folder is coined with a name that reflect both its ${\color{orange}\text{purpose}}$, its ${\color{seagreen}\text{order}} and the used ${\color{violet}\text{language}}$<br>
-${\color{orange}\text{purpose}}$: It is what you expect from the code inside the subfolder.<br>
-${\color{seagreen}\text{order}}$: It is a chronological method for listing.<br>
-${\color{violet}\text{language}}$: It is the programming language used.<br>
+Each folder is named to reflect its ${\color{orange}\text{purpose}}$, its ${\color{seagreen}\text{order}}$, and the used ${\color{violet}\text{language}}$.
 
-${\color{silver}\text{Format:}}$ ${\color{orange}\text{(purpose)}}$ ${\text{_}}$ ${\color{seagreen}\text{(order)}}$ ${\text{_}}$ ${\color{violet}\text{(programming language)}}$ <br>
-${\color{pink}\text{Example:}}$<br>
-&emsp;&emsp;${\color{orange}\text{15}}$ ${\text{_}}$ ${\color{seagreen}\text{armstrong_number}}$ ${\text{_}}$ ${\color{violet}\text{cpp}}$<br>
-&emsp;&emsp; It is listed as ${\color{orange}\text{15}}$th code finished writting, early code exposes earlier coding styles, while latest codes showcases more professionalism.<br>
-&emsp;&emsp; ${\color{seagreen}\text{armstrong_number}}$: reflect that the code is outputting a value that is associated with Armstrong Number <br>
-&emsp;&emsp; ${\color{violet}\text{cpp}}:$ It written using C++ programming language<br>
+${\color{orange}\text{purpose}}$: It is what you expect from the code inside the subfolder.
+${\color{seagreen}\text{order}}$: It is a chronological method for listing.
+${\color{violet}\text{language}}$: It is the programming language used.
+
+${\color{silver}\text{Format:}}$ ${\color{orange}\text{(purpose)}}$${\text{\_}}$${\color{seagreen}\text{(order)}}$${\text{\_}}$${\color{violet}\text{(programming language)}}$
+
+${\color{pink}\text{Example:}}$
+&emsp;&emsp;${\color{orange}\text{15}}$${\text{\_}}$${\color{seagreen}\text{armstrong\_number}}$${\text{\_}}$${\color{violet}\text{cpp}}$
+&emsp;&emsp;It is listed as the ${\color{orange}\text{15}}$th code finished writing. Early code exposes earlier coding styles, while latest codes showcase more professionalism.
+&emsp;&emsp;${\color{seagreen}\text{armstrong\_number}}$: Reflects that the code is outputting a value that is associated with an Armstrong Number.
+&emsp;&emsp;${\color{violet}\text{cpp}}$: It is written using the C++ programming language.
 
 
