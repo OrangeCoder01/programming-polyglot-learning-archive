@@ -18,6 +18,7 @@ ${\color{pink}\text{example of}}{\color{red}\text{non}}{\color{blue}\text{Palind
 &emsp;&emsp;&emsp;Reversed number:&emsp;&emsp; 3 6 5 7 8 1<br>
 ${\color{red}\text{Reversed order }\neq\text{ Number}}$<br>
 This is ${\color{red}\text{not}}$ a ${\color{blue}\text{Palindrome Number}}$<br>
+## ${\color{olive}\text{Startegy:}}$
 ## ${\color{purple}\text{Block Diagram:}}$
 |
 
