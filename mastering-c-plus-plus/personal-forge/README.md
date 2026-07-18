@@ -12,7 +12,7 @@ ${\color{violet}\text{programming language}}$: It indicates the programming lang
 ${\color{silver}\text{Format}}$: ${\color{seagreen}\text{(order)}}$ `_` ${\color{orange}\text{(purpose)}}$ `_` ${\color{violet}\text{(programming language)}}$<br>
 
  $${\color{pink}\text{Example:}}$$<br>
-&emsp;&emsp; ${\color{seagreen}\text{15}}$ `_` ${\color{orange}\text{armstrong}}$ `_` ${\color{orange}\text{number}}$ `_` ${\color{violet}\text{cpp}}$<br>
+&emsp;&emsp; ${\color{seagreen}\text{(15)}}$ `_` ${\color{orange}\text{(armstrong}}$ `_` ${\color{orange}\text{number)}}$ `_` ${\color{violet}\text{cpp}}$<br>
 &emsp;&emsp; ${\color{seagreen}\text{15}}$: It is the 15th code completed, earlier code reflects my earlier coding style, while later code showcases a more professional approach.<br>
 &emsp;&emsp; ${\color{orange}\text{armstrong}}$ `_` ${\color{orange}\text{number}}$: It indicates that the code produces an output related to an Armstrong Number.<br>
 &emsp;&emsp; ${\color{violet}\text{cpp}}$: It is written using the C++ programming language.<br>
