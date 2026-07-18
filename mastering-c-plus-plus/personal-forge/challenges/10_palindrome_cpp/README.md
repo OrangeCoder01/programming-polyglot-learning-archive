@@ -1,5 +1,6 @@
-This is the palindrome challenge:
-Palindrome is simply a number that is identical to its reversed form, such as: 12321, the digits are 1 2 3 2 1, the reversed form
+# $${\color{blue}Palindrome Number}$$
+<br>
+A $${\color{blue}Palindrome Number}$$ is simply a number that is identical to its reversed form, such as: 12321, the digits are 1 2 3 2 1, the reversed form
 places reverses the order of the digits by putting the last digit first, until first digit to last digit:
 
 Integer number:               1 2 3 2 1
