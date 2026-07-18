@@ -16,8 +16,8 @@ ${\color{pink}\text{example of}}{\color{red}\text{non}}{\color{blue}\text{Palind
 <br>
 Number:          187563  <br>
 Digits:          1 8 7 5 6 3 <br>
-Reversed number: 3 6 5 7 8 1 <br>
-${\color{red}\text{Reversed order != Number}}$<br><br>
+Reversed number: 3 6 5 7 8 1 <br>${\color{red}\text{Reversed order != Number}}$
+<br><br>
 
 ## ${\color{blue}\text{Code explanation:}}$
 |
