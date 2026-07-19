@@ -12,11 +12,16 @@ and filtered `_` ${\color{blue}\text{right}}$ `_` ${\color{blue}\text{to}}$ `_` 
 places every index in the array a different copy of the input integer with different stages of integer division and according to the direction of integer division:
 
 ${\color{pink}\text{for example:}}$<br>
+input : 9623, filtered `_` ${\color{blue}\text{right}}$ `_` ${\color{blue}\text{to}}$ `_` ${\color{blue}\text{left}}$ `_` sequence 
+= `[9623, 623, 63, 3]`
 input : 9623, filtered `_` ${\color{red}\text{Left}}$ `_` ${\color{red}\text{to}}$ `_` ${\color{red}\text{right}}$ `_` sequence
 = `[3, 63, 623, 9623]`<br>
 
-input : 9623, filtered `_` ${\color{blue}\text{right}}$ `_` ${\color{blue}\text{to}}$ `_` ${\color{blue}\text{left}}$ `_` sequence 
-= `[9623, 623, 63, 3]`
+so the idea is to peform the ${\color{blue}\text{first}}$ operation and use it as input for the ${\color{red}\text{second}}$:<br>
+input = 3572593 ➡️ `[3572593 357259 35725 3572 357 35 3 ]` ➡️ `[3,5,7,2,5,9,3]`<br>
 
-so the idea is to peform the ${\color{red}\text{blue}}$ operation and use it 
+The final output is hold in filtered`_` ${\color{red}\text{Left}}$`_` ${\color{red}\text{to}}$`_` ${\color{red}\text{right}}$`_` sequence<br>
+by looping through it, and summing every digit, finally the sum is returned
+
+
 
