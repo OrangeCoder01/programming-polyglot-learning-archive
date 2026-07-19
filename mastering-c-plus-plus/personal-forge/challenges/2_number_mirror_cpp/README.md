@@ -1,5 +1,5 @@
 # ${\color{blue}\text{Number Mirror}}$
-${\color{orange}\text{Concept Explanation}}$
+##${\color{orange}\text{Concept Explanation}}$
 ${\color{blue}\text{Number Mirror}}$ simply takes an input integer from the user and returns the flipped or reversed number<br>
 Input: 125678, Output: 876521<br>
 
