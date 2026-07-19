@@ -18,7 +18,7 @@ input : 9623, ${\color{red}\text{filtered}}$ `_` ${\color{red}\text{Left}}$ `_` 
 = `[9, 96, 962, 9623]`<br>
 
 so the idea is to peform the ${\color{blue}\text{first}}$ operation and use it as input for the ${\color{red}\text{second}}$:<br>
-input = 3572593 ➡️ `[3572593 357259 35725 3572 357 35 3 ]` ➡️ `[3,5,7,2,5,9,3]`<br>
+input = 3572593 ➡️ `[3572593, 357259, 35725, 3572, 357, 35, 3]` ➡️ `[3,5,7,2,5,9,3]`<br>
 
 The final output is hold in ${\color{red}\text{filtered}}$ `_` ${\color{red}\text{Left}}$ `_` ${\color{red}\text{to}}$ `_` ${\color{red}\text{right}}$ `_` ${\color{red}\text{sequence}}$ <br>
 by looping through it, and summing every digit, finally the sum is returned
