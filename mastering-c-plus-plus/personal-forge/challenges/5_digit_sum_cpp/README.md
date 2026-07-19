@@ -15,7 +15,7 @@ ${\color{pink}\text{for example:}}$<br>
 input : 9623, ${\color{blue}\text{filtered}}$ `_` ${\color{blue}\text{right}}$ `_` ${\color{blue}\text{to}}$ `_` ${\color{blue}\text{left}}$ `_` ${\color{blue}\text{sequence}}$ 
 = `[9623, 623, 23, 3]`<br>
 input : 9623, ${\color{red}\text{filtered}}$ `_` ${\color{red}\text{Left}}$ `_` ${\color{red}\text{to}}$ `_` ${\color{red}\text{right}}$ `_` ${\color{red}\text{sequence}}$ 
-= `[3, 23, 623, 9623]`<br>
+= `[9, 96, 962, 9623]`<br>
 
 so the idea is to peform the ${\color{blue}\text{first}}$ operation and use it as input for the ${\color{red}\text{second}}$:<br>
 input = 3572593 ➡️ `[3572593 357259 35725 3572 357 35 3 ]` ➡️ `[3,5,7,2,5,9,3]`<br>
