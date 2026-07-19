@@ -9,12 +9,20 @@ ${\color{seagreen}\text{order}}$: It follows a chronological listing method.<br>
 ${\color{orange}\text{purpose}}$: It describes what you should expect from the code inside the subfolder.<br>
 ${\color{violet}\text{programming language}}$: It indicates the programming language used.<br>
 
-${\color{silver}\text{Format}}$: ${\color{seagreen}\text{(order)}}$ `_` ${\color{orange}\text{(purpose)}}$ `_` ${\color{violet}\text{(programming language)}}$<br>
+${\color{silver}\text{Format}}$: ${\color{seagreen}\text{(order)}}$ \_ ${\color{orange}\text{(purpose)}}$ \_ ${\color{violet}\text{(programming language)}}$<br>
 
  $${\color{pink}\text{Example:}}$$<br>
-&emsp;&emsp; ${\color{seagreen}\text{(15)}}$ `_` ${\color{orange}\text{(armstrong}}$ `_` ${\color{orange}\text{number)}}$ `_` ${\color{violet}\text{cpp}}$<br>
+&emsp;&emsp; ${\color{seagreen}\text{(15)}}$
+\_ 
+${\color{orange}\text{(armstrong}}$
+\_ 
+${\color{orange}\text{number)}}$
+\_ 
+${\color{violet}\text{cpp}}$<br>
 &emsp;&emsp; ${\color{seagreen}\text{15}}$: It is the 15th code completed, earlier code reflects my earlier coding style, while later code showcases a more professional approach.<br>
-&emsp;&emsp; ${\color{orange}\text{armstrong}}$ `_` ${\color{orange}\text{number}}$: It indicates that the code produces an output related to an Armstrong Number.<br>
+&emsp;&emsp; ${\color{orange}\text{armstrong}}$
+\_ 
+${\color{orange}\text{number}}$: It indicates that the code produces an output related to an Armstrong Number.<br>
 &emsp;&emsp; ${\color{violet}\text{cpp}}$: It is written using the ${\color{blue}\text{C++}}$ ${\color{violet}\text{(programming language)}}$.<br>
 
 
