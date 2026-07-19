@@ -13,7 +13,7 @@ places every index in the array a different copy of the input integer with diffe
 
 ${\color{pink}\text{for example:}}$<br>
 input : 9623, ${\color{blue}\text{filtered}}$ `_` ${\color{blue}\text{right}}$ `_` ${\color{blue}\text{to}}$ `_` ${\color{blue}\text{left}}$ `_` ${\color{blue}\text{sequence}}$ 
-= `[9623, 623, 63, 3]`<br>
+= `[9623, 623, 23, 3]`<br>
 input : 9623, ${\color{red}\text{filtered}}$ `_` ${\color{red}\text{Left}}$ `_` ${\color{red}\text{to}}$ `_` ${\color{red}\text{right}}$ `_` ${\color{red}\text{sequence}}$ 
 = `[3, 23, 623, 9623]`<br>
 
