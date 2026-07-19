@@ -1,7 +1,7 @@
 # ${\color{blue}\text{Number Mirror}}$
 ## ${\color{orange}\text{Concept Explanation}}$
 ${\color{blue}\text{Number Mirror}}$ simply takes an input integer from the user and returns the flipped or reversed number<br>
-Input: 125678, Output: 876521<br>
+${\color{pink}\text{for example}}$: Input: 125678, Output: 876521<br>
 
 The first block is the `int user_input_integer_num()` function which checks the user's input is integer and also checks the if the user<br>
 would like to even enter a number.<br>
