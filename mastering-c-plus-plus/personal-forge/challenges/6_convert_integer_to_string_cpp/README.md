@@ -5,8 +5,10 @@ to store the result out of the modulus and integer division operations, which ar
 integer<br>
 
 ${\color{pink}\text{for example}}$:<br>
-input : number ➡️ number % 10 = digit  ➡️ number = number / 10 ⤵️<br>
-               ⬆️                      ⬅️                      ⬅️<br>
+```
+input : number ➡️ number % 10 = digit  ➡️ number = number / 10 ⤵️
+               ⬆️                      ⬅️                      ⬅️
+```
 Meaning if the input if 1573 then the looping will be:<br>
 1573 % 10 ➡️ (3) ---> number = 1573/10 = 157<br>
 157 % 10  ➡️ (7) ---> number = 157/10 = 15<br>
