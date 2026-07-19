@@ -16,6 +16,6 @@ Meaning if the input if 1573 then the looping will be:<br>
 1 % 10  ➡️ (1) ---> number = 1/10 = 0<br>
 
 after that, initializing a char array that takes each each and add + '1' which is the ascii distance
-of the digit to its char form, ${\color{pink}\text{for example}}$: 5 + '1' = '5'<br>
+of the digit to its char form,<br> ${\color{pink}\text{for example}}$: 5 + '1' = '5'<br>
 
 finally using printf() to print the result
