@@ -18,7 +18,7 @@ ${\color{silver}\text{Format}}$: ${\color{seagreen}\text{(order)}}$ `_` ${\color
 &emsp;&emsp; ${\color{violet}\text{cpp}}$: It is written using the ${\color{blue}\text{C++}}$ ${\color{violet}\text{(programming language)}}$.<br>
 
 
-And inside each subfolder, there is README.md that explains the ${\color{yellow}\text{challenges}}$ or ${\color{red}\text{projects}}$:<br>
+And inside each subfolder, there is README.md that explains the ${\color{yellow}\text{challenges}}$ or ${\color{red}\text{projects}}$ concept:<br>
 ${\color{orange}\text{Concept Explanantion:}}$<br>
 
 
