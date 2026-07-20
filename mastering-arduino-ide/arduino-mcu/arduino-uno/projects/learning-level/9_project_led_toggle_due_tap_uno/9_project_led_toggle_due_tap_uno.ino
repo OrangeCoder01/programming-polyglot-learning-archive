@@ -4,11 +4,6 @@ int LED_pin = 2;
 bool LED_State = 0;
 bool Previous_TapSensor_State = 0;
 
-void Stabilizing()
-{
-
-  
-}
 
 void Analyzing_The_Tap_Sensor_Response() {
 
