@@ -3,7 +3,7 @@
 using std::cin;
 /*
 Code Explanation:
-    The 'Prime Number Generator' is about genetrating the number of primes founfd until reaching user's limit
+    The 'Prime Number Generator' is about genetrating the number of primes found until reaching user's limit
 */
 
 void user_input_validation(int &user_input_integer)
