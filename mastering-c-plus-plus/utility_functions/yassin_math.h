@@ -1,4 +1,3 @@
-#include <iostream>
 
 float pow(float element, int power)
 {
@@ -46,14 +45,44 @@ float sqrt(float element, int root)
     return value;
 }
 
+
 float round(float input, int decimal_point)
 {
     float val_before_round_point = (input * pow(10.0f, decimal_point));
     int val_after_round_point_by_a_decimal_place = (int)(val_before_round_point * 10.0f) % 10;
-
+    
     if(val_after_round_point_by_a_decimal_place >= 5){val_before_round_point += 1.0f;}
     val_before_round_point = (float)((int)(val_before_round_point));
-
+    
     return (val_before_round_point * pow(10.0f, -decimal_point));
 }
 
+// Added 31/7/2026 1:10 AM after {33_lcd_finder_cpp} challenge.
+
+long long int gcd(long long int user_int_inp_1, long long int user_int_inp_2)
+{
+    long long int a = (user_int_inp_1 < 0) ? -user_int_inp_1 : user_int_inp_1;
+    long long int b = (user_int_inp_2 < 0) ? -user_int_inp_2 : user_int_inp_2;
+
+    if(a == 0 && b > 0) return b;
+    if(b == 0 && a > 0) return a;
+    if(a == b) return a;      
+
+    long long int remainder = 0;
+
+    while(b != 0)
+    {
+        remainder = a % b;
+        a = b;
+        b = remainder;
+    }
+
+    return a;
+}
+
+long long int lcm(long long int user_int_inp_1, long long int user_int_inp_2)
+{
+    long long int a = user_int_inp_1;
+    long long int b = user_int_inp_2;
+    return (a / gcd(a, b)) * b;
+}
