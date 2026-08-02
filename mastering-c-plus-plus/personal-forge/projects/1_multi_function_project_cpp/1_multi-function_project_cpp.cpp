@@ -507,7 +507,7 @@ void prime_number_generator()
         user_input_number_validation(limit);
         lli_limit = (long long int)(limit);
 
-        printf("Primes found till (%i): [", lli_limit);
+        printf("Primes found till (%lli): [", lli_limit);
         
         bool first_prime = true;
         for (int i = 2; i <= limit; i++) 
