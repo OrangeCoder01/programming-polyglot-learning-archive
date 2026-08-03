@@ -217,7 +217,7 @@ void add_student()
 }
 int search_student()
 {
-    printf("stud_ids[0]: %i \n", stud_ids[0]);
+    printf("stud_ids[0]: %lld \n", stud_ids[0]);
     if(stud_ids[0] == -1) {printf("There are no students registered, you must register at least to use this feature. \n"); return 0;}
     
     int input_id = 0;
