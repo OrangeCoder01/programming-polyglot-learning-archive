@@ -194,7 +194,7 @@ void print_student_details(int target_name_order)
         i++; 
     }
     printf("\n");
-    printf("ID: %i\n", stud_ids[target_name_order]);
+    printf("ID: %lld\n", stud_ids[target_name_order]);
     printf("Score: %.2f\n", stud_scores[target_name_order]);
     printf("===================================================\n");
 }
