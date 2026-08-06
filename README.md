@@ -20,7 +20,7 @@ code solutions to ${\color{yellow}\text{challenges}}$ to building ${\color{red}\
 ${\color{blue}\text{(2.2)}}$ The ${\color{red}\text{projects}}$ that could inspire others: from simple games like `Hangman Game` from ${\color{orange}\text{Python}}$ to ${\color{Turquoise}\text{Arduino}}$ ${\color{red}\text{projects}}$ as `Laser-Trip Wire`.
 <br>
 <br>
-Dedicating most of the time to ${\color{yellow}\text{challenges}}$ as they are mostly demand solving specific problems, whilst ${\color{red}\text{projects}}$ are present with the same quantities as the ${\color{yellow}\text{challenges}}$ due to its objective to solve multiple ${\color{yellow}\text{challenges}}$ simultaneously whilst keeping program integrity.
+Dedicating most of the time to ${\color{yellow}\text{challenges}}$ as they mostly demand solving specific `part of the big problem` problem, whilst ${\color{red}\text{projects}}$ are present with the same quantities as the ${\color{yellow}\text{challenges}}$ due to its objective to solve `The big problem` consisting multiple ${\color{yellow}\text{challenges}}$ simultaneously whilst keeping program integrity and coherency.
 <br>
 
 ## |About the archive architecture: {Special Case: Arduino IDE}:|
