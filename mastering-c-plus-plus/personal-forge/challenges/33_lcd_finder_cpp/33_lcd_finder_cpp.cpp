@@ -2,7 +2,7 @@
 using std::cin;
 
 /*
-Code Explanation:
+Concept Explanation:
     lcm stands for "least common multiple" which receives two integer inputs and outputs one integer
     lcm(16, 42) must return the least multiple between 16 and 42.
 

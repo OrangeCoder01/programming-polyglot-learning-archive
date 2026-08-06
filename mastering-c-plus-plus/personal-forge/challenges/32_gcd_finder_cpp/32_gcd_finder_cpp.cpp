@@ -2,7 +2,7 @@
 using std::cin;
 
 /*
-Code Explanation:
+Concept Explanation:
     gcd stands for "greatest common divisor" which receives two integer inputs and outputs one integer
     gcd(16, 42) must return the greatest divisor between 16 and 42 that does not result into a fraction
     

@@ -1,5 +1,5 @@
 /*
-Explanation:
+Concept Explanation:
     This program takes from the user an integer and check if this number is prime or not
 */
 

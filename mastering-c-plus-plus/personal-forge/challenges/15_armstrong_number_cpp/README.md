@@ -1,5 +1,5 @@
 # ${\color{orange}\text{Armstrong Number}}$:
-## ${\color{orange}\text{Code Explanation}}$:
+## ${\color{orange}\text{Concept Explanation}}$:
 
 ${\color{orange}\text{Armstrong Number}}$ ${\color{yellow}\text{challenge}}$ is about taking an input integer, count the number of digits, separate each digit and then power each digit by the power of number of digits
 <br>

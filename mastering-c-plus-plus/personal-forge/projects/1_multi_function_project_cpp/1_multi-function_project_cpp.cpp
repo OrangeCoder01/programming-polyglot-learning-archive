@@ -3,7 +3,7 @@ using std::cin;
 #include "../../utility_functions/yassin_math.h"//new stuff
 
 /*
-Code Explanation:
+Concept Explanation:
 
 The project is about bringing a program serving the user by giving list of applications that the user
 use for analyzing numbers, generating numbers or performing tasks:
