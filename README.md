@@ -12,12 +12,16 @@ Here in the ${\color{purple}\text{repository}}$ you might come across games buil
 And even simple ${\color{yellow}\text{challenges}}$ as ${\color{blue}\text{digit count}}$ that counts the frequency of the digits in the input integer using ${\color{blue}\text{C++}}$
 <br><br>
 This ${\color{purple}\text{archive}}$ serves the purpose of documenting both:<br>
-(1) The learning process, starting from `Hello World` to a step-by step producing:<br>
+${\color{blue}\text{(2.1)}}$ The learning process, starting from `Hello World` to a step-by step producing:<br>
 &emsp;(${\color{limegreen}\text{algorithmically}}$ challenging, robust ${\color{limegreen}\text{O code notation}}$ known as `Space/Time complexity code` functionality,<br>
 &emsp;more ${\color{limegreen}\text{modular}}$, better ${\color{limegreen}\text{user input validation handeling}}$ and ${\color{limegreen}\text{versatile/generic}}$ in use)<br>
 code solutions to ${\color{yellow}\text{challenges}}$ to building ${\color{red}\text{projects}}$.<br>
 
-(2) The ${\color{red}\text{projects}}$ that could inspire others: from simple games like `Hangman Game` from ${\color{orange}\text{Python}}$ to ${\color{Turquoise}\text{Arduino}}$ ${\color{red}\text{projects}}$.
+${\color{blue}\text{(2.2)}}$ The ${\color{red}\text{projects}}$ that could inspire others: from simple games like `Hangman Game` from ${\color{orange}\text{Python}}$ to ${\color{Turquoise}\text{Arduino}}$ ${\color{red}\text{projects}}$ as `Laser-Trip Wire`.
+<br>
+<br>
+Dedicating most of the time to ${\color{yellow}\text{challenges}}$ as they are mostly demand solving specific problems, whilst ${\color{red}\text{projects}}$ are present with the same quantities as the ${\color{yellow}\text{challenges}}$ due to its objective to solve multiple ${\color{yellow}\text{challenges}}$ simultaneously whilst keeping program integrity.
+<br>
 
 ## |About the archive architecture: {Special Case: Arduino IDE}:|
 ### ||First layer:||
