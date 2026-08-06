@@ -42,18 +42,19 @@ ${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{or
 <br>${\color{blue}\text{(3.1.4)}}$ Layer ${\color{blue}\text{(4)}}$
 
 ### ${\color{blue}\text{(3.1.1)}}$ Layer ${\color{blue}\text{(1)}}$:
-
 The programming languages I have been mastering currently:<br>
     . ${\color{blue}\text{C++}}$ <br>
     . ${\color{turquoise}\text{Arduino-IDE}}$ <br>
     . ${\color{orange}\text{Python}}$
               
 ### ${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$:
-<br>${\color{red}\text{personal-forge}}$ folder:
+${\color{red}\text{personal-forge}}$ folder:
 <br>This folder contains work that does not lie in any curriculum roadmap as `100 day Python Bootcamp by Dr. Angela Yu` from a course or etc...,
-<br>except the ones given by an AI agent as an `ai-driven personalized learning pathway`; which is the use of AI model in teaching
-<br>programming mastery
-             
+<br>except the ones given by an AI agent **(ChatGPT)** as an `AI-driven personalized learning pathway`; which is the use of AI model in mentoring.
+<br>And this process to earn mastery ${\color{purple}\text{programming language}}$ is by **(ChatGPT)**:
+<br>(handing tasks, assessing the code file answer, pin-pointing common mistakes and giving constant feedback).
+<br>Personally found such dynamic pedagogic and effective way to learn.
+
 ### ${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$:
 
     The ${\color{yellow}\text{challenges}}$ folder which contain a combination of simple daily exercises or ${\color{yellow}\text{challenges}}$ that 
