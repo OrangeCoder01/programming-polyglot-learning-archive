@@ -4,10 +4,10 @@
 
 My name is ${\color{orange}\text{Yassin}}$, an ${\color{blue}\text{ECE}}$ student, has a deep curiosity for ${\color{limegreen}\text{tinkering}}$, in the fields of ${\color{blue}\text{Engineering}}$.
 <br>
-I thought of building a ${\color{purple}\text{repository}}$ that documents my learning process including: ${\color{yellow}\text{challenges}}$, ${\color{red}\text{projects}}$, building tool-kit ${\color{purple}\text{libraries}}$ with respect to the ${\color{purple}\text{programming languages}}$. 
+I thought of building a ${\color{purple}\text{repository}}$ that documents my learning process including: ${\color{yellow}\text{challenges}}$, ${\color{red}\text{projects}}$, building tool-kit ${\color{purple}\text{libraries}}$ with respect to the ${\color{purple}\text{programming languages}}$ dedicated to be mastered.
 <br>
-such as games built using Python or real-life problem solving projects using Arduino-IDE.
-And even simple challenges like digit-count of an input integer using C++
+Here in the ${\color{purple}\text{repository}}$ you might come across games built using ${\color{orange}\text{python}}$, or real-life problem solving projects using ${\color{Turquoise}\text{Arduino-IDE}}$, as ${\color{blue}\text{Water Dispenser}}$ ${\color{red}\text{project}}$ 
+And even simple ${\color{yellow}\text{challenges}}$ as ${\color{blue}\text{digit count}}$ that counts the frequency of the digits in the input integer using ${\color{blue}\text{C++}}$
 
 ## |About the archive:|
 
@@ -34,10 +34,10 @@ And even simple challenges like digit-count of an input integer using C++
                         
 ### ||Third layer:||
 
-    The challenges folder which contain a combination of simple daily exercises or challenges that 
+    The ${\color{yellow}\text{challenges}}$ folder which contain a combination of simple daily exercises or ${\color{yellow}\text{challenges}}$ that 
     have been beaten (I think this is the right word for it), it is the perfect ground for testing programming concepts
     like using dictionaries and keys in Python. This folder holds the learning process.             
-    The projects folder which holds the projects I have made like Caesar Cipher, which differs from the challenges folder
+    The projects folder which holds the projects I have made like Caesar Cipher, which differs from the ${\color{yellow}\text{challenges}}$ folder
     by storing projects that truly solves real-life problems.
               
     {Arduino IDE}:         
