@@ -32,14 +32,14 @@ ${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{or
 <br>showcasing the sub-architecture design in organizing code files, same as About ${\color{red}\text{project}}$ folder.
 <br>With each new composition of subfolder, a shorter and succinct explanation is provided.
 <br>There are ${\color{orange}\text{Concept Explanation}}$ that is only provided for code folders (which the most composite sub-folder which contains the code file)
-<br>It explains the concept, for ${\color{pink}\text{example}}$: `Palindrome`, `Armstrong` or `Euclidean methodology for gcd & lcd computation`.
+<br>It explains the concept, for ${\color{pink}\text{example}}$: `Palindrome`, `Armstrong` or `Euclidean methodology for GCD & LCD computation`.
 <br>
 ## ${\color{blue}\text{[3]}}$ About the ${\color{purple}\text{archive architecture}}$: (*Special Case:* ${\color{turquoise}\text{Arduino-IDE}}$):
 ### ${\color{blue}\text{(3.1)}}$ ${\color{tan}\text{Normal}}$ ${\color{purple}\text{architecture}}$ layering:
 ${\color{blue}\text{(3.1.1)}}$ Layer ${\color{blue}\text{(1)}}$: The ${\color{purple}\text{programming languages}}$ currently being mastered.
-<br>${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$ ${\color{red}\text{personal-forge}}$ folder and ${\color{orange}\text{Course Curriculum}}$
-<br>${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$
-<br>${\color{blue}\text{(3.1.4)}}$ Layer ${\color{blue}\text{(4)}}$
+<br>${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$: ${\color{red}\text{personal-forge}}$ and ${\color{orange}\text{Course Curriculum}}$ folders.
+<br>${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$: ${\color{red}\text{projects}}$ and ${\color{yellow}\text{challenges}}$ folders.
+<br>${\color{blue}\text{(3.1.4)}}$ Layer ${\color{blue}\text{(4)}}$: The code folders.
 
 #### ${\color{blue}\text{(3.1.1)}}$ Layer ${\color{blue}\text{(1)}}$:
 The programming languages I have been mastering currently:<br>
