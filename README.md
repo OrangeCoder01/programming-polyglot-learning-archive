@@ -35,7 +35,7 @@ ${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{or
 <br>It explains the concept, for ${\color{pink}\text{example}}$: `Palindrome`, `Armstrong` or `Euclidean methodology for gcd & lcd computation`.
 <br>
 ## ${\color{blue}\text{[3]}}$ About the ${\color{purple}\text{archive architecture}}$: (*Special Case:* ${\color{turquoise}\text{Arduino-IDE}}$):
-<br>${\color{blue}\text{(3.1)}}$ ${\color{tan}\text{Normal architecture layering:}}$
+${\color{blue}\text{(3.1)}}$ ${\color{tan}\text{Normal architecture layering:}}$
 <br>${\color{blue}\text{(3.1.1)}}$ Layer ${\color{blue}\text{(1)}}$: The ${\color{purple}\text{programming languages}}$ currently being mastered.
 <br>${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$ ${\color{red}\text{personal-forge}}$ folder and ${\color{orange}\text{Course Curriculum}}$
 <br>${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$
@@ -62,13 +62,15 @@ ${\color{orange}\text{Course Curriculum}}$ folder:
 <br>${\color{yellow}\text{challenges}}$ and ${\color{red}\text{project}}$ are different, due to following the instruction of the tutor.
 <br>This folder could face some inconsistencies as the tutor might not decide to hand a challenge or the task at hand
 <br>is not suitable to addressed among the code files.
+
 ### ${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$:
 
-    The ${\color{yellow}\text{challenges}}$ folder which contain a combination of simple daily exercises or ${\color{yellow}\text{challenges}}$ that 
-    have been beaten (I think this is the right word for it), it is the perfect ground for testing programming concepts
-    like using dictionaries and keys in Python. This folder holds the learning process.             
-    The projects folder which holds the projects I have made like Caesar Cipher, which differs from the ${\color{yellow}\text{challenges}}$ folder
-    by storing projects that truly solves real-life problems.
+The ${\color{yellow}\text{challenges}}$ folder which contain a combination of simple exercises, that is the perfect ground for testing programming concepts:
+<br>like using `dictionaries & keys` in ${\color{orange}\text{Python}}$ or `pass by reference & pass by value` in ${\color{blue}\text{C++}}$.
+<br>And overall-programming skills as: `Clean Code`, `Optimized Time/Space Complexity code functionality` and `Algorithmic thinking`.
+<br>This folder holds the learning process.             
+The projects folder which holds the projects I have made like Caesar Cipher, which differs from the ${\color{yellow}\text{challenges}}$ folder
+by storing projects that truly solves real-life problems.
               
                           
 ### ${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$:
@@ -78,7 +80,7 @@ ${\color{orange}\text{Course Curriculum}}$ folder:
 
              
 
-
+    or new debugging technique as `Attach Interrupt` in ${\color{turquoise}\text{Arduino-IDE}}$.
     {Arduino IDE}:         
     There is the list of the microcontrollers such as Arduino Uno or ESP32 Wroom 38 pins refered as esp32wr38
                
