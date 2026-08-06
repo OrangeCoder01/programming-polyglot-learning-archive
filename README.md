@@ -1,11 +1,13 @@
-# Programming Polyglot Learning Archive Repository
+# ${\color{purple}\text{Programming Polyglot Learning Archive Repository}}$
 
-## |About the contributor:|
+## ${\color{blue}\text{[1]}}$ About the ${\color{orange}\text{contributor}}$
 
-    I am Yassin, an ECE student, has a deep curiosity for tinkering, in the fields of Engineering.
-    I find it suitable for documenting the process of learning from the ground up into one big repository
-    for projects that include using programming languages such as games built using Python or real-life problem solving projects using Arduino-IDE.
-    And even simple challenges like digit-count of an input integer using C++
+My name is ${\color{orange}\text{Yassin}}$, an ${\color{blue}\text{ECE}}$ student, has a deep curiosity for ${\color{limegreen}\text{tinkering}}$, in the fields of ${\color{blue}\text{Engineering}}$.
+<br>
+I thought of building a ${\color{purple}\text{repository}}$ that documents my learning process including: ${\color{yellow}\text{challenges}}$, ${\color{red}\text{projects}}$, building tool-kit ${\color{purple}\text{libraries}}$ with respect to the ${\color{purple}\text{programming languages}}$. 
+<br>
+such as games built using Python or real-life problem solving projects using Arduino-IDE.
+And even simple challenges like digit-count of an input integer using C++
 
 ## |About the archive:|
 
@@ -34,13 +36,13 @@
 
     The challenges folder which contain a combination of simple daily exercises or challenges that 
     have been beaten (I think this is the right word for it), it is the perfect ground for testing programming concepts
-    ike using dictionaries and keys in Python. This folder holds the learning process.             
+    like using dictionaries and keys in Python. This folder holds the learning process.             
     The projects folder which holds the projects I have made like Caesar Cipher, which differs from the challenges folder
-    by storing projects that truely solves real-life problems.
+    by storing projects that truly solves real-life problems.
               
     {Arduino IDE}:         
-    There is debuggers folders which is helpful for keeping debuggng codes that helps
-    in troubleshooting componets.
+    There is debuggers folders which is helpful for keeping debugging codes that help
+    in troubleshooting components.
     
 ### ||{Arduino additional layer} for debugging:||
                     
