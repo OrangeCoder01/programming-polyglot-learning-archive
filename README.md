@@ -35,9 +35,9 @@ ${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{or
 <br>It explains the concept, for ${\color{pink}\text{example}}$: `Palindrome`, `Armstrong` or `Euclidean methodology for gcd & lcd computation`.
 <br>
 ## ${\color{blue}\text{[3]}}$ About the ${\color{purple}\text{archive architecture}}$: (*Special Case:* ${\color{turquoise}\text{Arduino-IDE}}$):
-<br>${\color{tan}\text{Normal architecture layering:}}$
+<br>${\color{blue}\text{(3.1)}}$ ${\color{tan}\text{Normal architecture layering:}}$
 <br>${\color{blue}\text{(3.1.1)}}$ Layer ${\color{blue}\text{(1)}}$: The ${\color{purple}\text{programming languages}}$ currently being mastered.
-<br>${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$
+<br>${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$ ${\color{red}\text{personal-forge}}$ folder and ${\color{orange}\text{Course Curriculum}}$
 <br>${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$
 <br>${\color{blue}\text{(3.1.4)}}$ Layer ${\color{blue}\text{(4)}}$
 
@@ -49,10 +49,10 @@ The programming languages I have been mastering currently:<br>
     . ${\color{orange}\text{Python}}$
               
 ### ${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$:
-
-    There is the personal-forge folders: which contains the personal work that does not follow a curriculum from a course or etc...,
-    excluding the curriculum or a list of tasks given by AI models (mostly ChatGPT) as mentors
-    and there is the course curriculum like {100 day bootcamp}     
+<br>${\color{red}\text{personal-forge}}$ folder:
+<br>This folder contains work that does not lie in any curriculum roadmap as `100 day Python Bootcamp by Dr. Angela Yu` from a course or etc...,
+<br>except the ones given by an AI agent as an `ai-driven personalized learning pathway`; which is the use of AI model in teaching
+<br>programming mastery
              
 ### ${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$:
 
