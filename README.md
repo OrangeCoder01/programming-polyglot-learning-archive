@@ -1,19 +1,19 @@
 # ${\color{purple}\text{Programming Polyglot Learning Archive Repository}}$
 
-## ${\color{blue}\text{[1]}}$ About the ${\color{orange}\text{contributor}}$
+## ${\color{blue}\text{[1]}}$ About the ${\color{orange}\text{contributor}}$:
 
 My name is ${\color{orange}\text{Yassin}}$, an ${\color{blue}\text{ECE}}$ student, has a deep curiosity for ${\color{limegreen}\text{tinkering}}$, in the fields of ${\color{blue}\text{Engineering}}$.
 <br>
 I thought of building a ${\color{purple}\text{repository}}$ that documents my learning process including: ${\color{yellow}\text{challenges}}$, ${\color{red}\text{projects}}$, building tool-kit ${\color{purple}\text{libraries}}$ with respect to the ${\color{purple}\text{programming languages}}$ dedicated to be mastered.
 <br>
-Here in the ${\color{purple}\text{repository}}$ you might come across games built using ${\color{orange}\text{python}}$, or real-life problem solving projects using ${\color{Turquoise}\text{Arduino-IDE}}$, as ${\color{blue}\text{Water Dispenser}}$ ${\color{red}\text{project}}$ 
+Here in the ${\color{purple}\text{repository}}$ you might come across games built using ${\color{orange}\text{Python}}$, or real-life problem solving projects using ${\color{Turquoise}\text{Arduino-IDE}}$, as ${\color{blue}\text{Water Dispenser}}$ ${\color{red}\text{project}}$ 
 And even simple ${\color{yellow}\text{challenges}}$ as ${\color{blue}\text{digit count}}$ that counts the frequency of the digits in the input integer using ${\color{blue}\text{C++}}$
 
-## |About the archive:|
+## ${\color{blue}\text{[2]}}$ About the ${\color{purple}\text{archive}}$:
 
-    This archive serves the purpose of documenting both:
-      1) The learning process, starting from Hello World from every new programming I started to learn (Python, etc... )
-      2) The projects that could aspire others: from simple games like hangman from Python to Arduino projects
+This ${\color{purple}\text{archive}}$ serves the purpose of documenting both:<br>
+    1) The learning process, starting as simple as `Hello World` to building ${\color{red}\text{projects}}$.<br>
+    2) The ${\color{red}\text{projects}}$ that could inspire others: from simple games like `Hangman Game` from ${\color{orange}\text{Python}}$ to ${\color{Turquoise}\text{Arduino}}$ ${\color{red}\text{projects}}$.
 
 ## |About the archive architecture: {Special Case: Arduino IDE}:|
 ### ||First layer:||
