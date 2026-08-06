@@ -35,6 +35,7 @@ ${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{or
 <br>It explains the concept, for ${\color{pink}\text{example}}$: `Palindrome`, `Armstrong` or `Euclidean methodology for gcd & lcd computation`.
 <br>
 ## ${\color{blue}\text{[3]}}$ About the ${\color{purple}\text{archive architecture}}$: (*Special Case:* ${\color{turquoise}\text{Arduino-IDE}}$):
+<br>${\color{tan}\text{Normal architecture layering:}}$
 <br>${\color{blue}\text{(3.1.1)}}$ Layer ${\color{blue}\text{(1)}}$: The ${\color{purple}\text{programming languages}}$ currently being mastered.
 <br>${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$
 <br>${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$
@@ -42,10 +43,10 @@ ${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{or
 
 ### ${\color{blue}\text{(3.1.1)}}$ Layer ${\color{blue}\text{(1)}}$:
 
-    The programming languages I have been mastering currently:
-    . C++
-    . Arduino-IDE
-    . Python
+The programming languages I have been mastering currently:<br>
+    . ${\color{blue}\text{C++}}$ <br>
+    . ${\color{turquoise}\text{Arduino-IDE}}$ <br>
+    . ${\color{orange}\text{Python}}$
               
 ### ${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$:
 
@@ -53,7 +54,7 @@ ${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{or
     excluding the curriculum or a list of tasks given by AI models (mostly ChatGPT) as mentors
     and there is the course curriculum like {100 day bootcamp}     
              
-### ### ${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$:
+### ${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$:
 
     The ${\color{yellow}\text{challenges}}$ folder which contain a combination of simple daily exercises or ${\color{yellow}\text{challenges}}$ that 
     have been beaten (I think this is the right word for it), it is the perfect ground for testing programming concepts
