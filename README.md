@@ -35,28 +35,25 @@ ${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{or
 <br>It explains the concept, for ${\color{pink}\text{example}}$: `Palindrome`, `Armstrong` or `Euclidean methodology for gcd & lcd computation`.
 <br>
 ## ${\color{blue}\text{[3]}}$ About the ${\color{purple}\text{archive architecture}}$: (*Special Case:* ${\color{turquoise}\text{Arduino-IDE}}$):
-<br>${\color{blue}\text{(3.1)}}$ Layer ${\color{blue}\text{(1)}}$: The ${\color{purple}\text{programming Languages}}$ being currently mastered.
-<br>${\color{blue}\text{(3.2)}}$ Layer ${\color{blue}\text{(2)}}$
-<br>${\color{blue}\text{(3.3)}}$ Layer ${\color{blue}\text{(3)}}$
-<br>${\color{blue}\text{(3.4)}}$ Layer ${\color{blue}\text{(4)}}$
+<br>${\color{blue}\text{(3.1.1)}}$ Layer ${\color{blue}\text{(1)}}$: The ${\color{purple}\text{programming languages}}$ currently being mastered.
+<br>${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$
+<br>${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$
+<br>${\color{blue}\text{(3.1.4)}}$ Layer ${\color{blue}\text{(4)}}$
 
-### ||First layer:||
+### ${\color{blue}\text{(3.1.1)}}$ Layer ${\color{blue}\text{(1)}}$:
 
     The programming languages I have been mastering currently:
     . C++
     . Arduino-IDE
     . Python
               
-### ||Second layer:||
+### ${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$:
 
     There is the personal-forge folders: which contains the personal work that does not follow a curriculum from a course or etc...,
     excluding the curriculum or a list of tasks given by AI models (mostly ChatGPT) as mentors
     and there is the course curriculum like {100 day bootcamp}     
-    
-    {Arduino IDE}:         
-    There is the list of the microcontrollers such as Arduino Uno or ESP32 Wroom 38 pins refered as esp32wr38
-                        
-### ||Third layer:||
+             
+### ### ${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$:
 
     The ${\color{yellow}\text{challenges}}$ folder which contain a combination of simple daily exercises or ${\color{yellow}\text{challenges}}$ that 
     have been beaten (I think this is the right word for it), it is the perfect ground for testing programming concepts
@@ -64,6 +61,18 @@ ${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{or
     The projects folder which holds the projects I have made like Caesar Cipher, which differs from the ${\color{yellow}\text{challenges}}$ folder
     by storing projects that truly solves real-life problems.
               
+                          
+### ${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$:
+
+    The code files.
+
+
+             
+
+
+    {Arduino IDE}:         
+    There is the list of the microcontrollers such as Arduino Uno or ESP32 Wroom 38 pins refered as esp32wr38
+               
     {Arduino IDE}:         
     There is debuggers folders which is helpful for keeping debugging codes that help
     in troubleshooting components.
@@ -73,14 +82,5 @@ ${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{or
     There could be multiple codes inside one component-debugging folder like rot_enco_debugging_esp32wr38 folder
     for showcasing different approaches for debugging                                                             
     There is the projects folder that holds the projects
-                          
-### ||Fourth layer:||
-
-    The code files.
-
-
-             
-
-
 
 
