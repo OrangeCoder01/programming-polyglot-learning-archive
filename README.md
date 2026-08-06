@@ -35,19 +35,19 @@ ${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{or
 <br>It explains the concept, for ${\color{pink}\text{example}}$: `Palindrome`, `Armstrong` or `Euclidean methodology for gcd & lcd computation`.
 <br>
 ## ${\color{blue}\text{[3]}}$ About the ${\color{purple}\text{archive architecture}}$: (*Special Case:* ${\color{turquoise}\text{Arduino-IDE}}$):
-${\color{blue}\text{(3.1)}}$ ${\color{tan}\text{Normal architecture layering:}}$
-<br>${\color{blue}\text{(3.1.1)}}$ Layer ${\color{blue}\text{(1)}}$: The ${\color{purple}\text{programming languages}}$ currently being mastered.
+### ${\color{blue}\text{(3.1)}}$ ${\color{tan}\text{Normal architecture layering:}}$
+${\color{blue}\text{(3.1.1)}}$ Layer ${\color{blue}\text{(1)}}$: The ${\color{purple}\text{programming languages}}$ currently being mastered.
 <br>${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$ ${\color{red}\text{personal-forge}}$ folder and ${\color{orange}\text{Course Curriculum}}$
 <br>${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$
 <br>${\color{blue}\text{(3.1.4)}}$ Layer ${\color{blue}\text{(4)}}$
 
-### ${\color{blue}\text{(3.1.1)}}$ Layer ${\color{blue}\text{(1)}}$:
+#### ${\color{blue}\text{(3.1.1)}}$ Layer ${\color{blue}\text{(1)}}$:
 The programming languages I have been mastering currently:<br>
     . ${\color{blue}\text{C++}}$ <br>
     . ${\color{turquoise}\text{Arduino-IDE}}$ <br>
     . ${\color{orange}\text{Python}}$
               
-### ${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$:
+#### ${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$:
 ${\color{red}\text{personal-forge}}$ folder:
 <br>This folder contains work that does not lie in any curriculum roadmap as `100 day Python Bootcamp by Dr. Angela Yu` from a course or etc...,
 <br>except the ones given by an AI agent **(ChatGPT)** as an `AI-driven personalized learning pathway`; which is the use of AI model in mentoring.
@@ -63,17 +63,22 @@ ${\color{orange}\text{Course Curriculum}}$ folder:
 <br>This folder could face some inconsistencies as the tutor might not decide to hand a challenge or the task at hand
 <br>is not suitable to addressed among the code files.
 
-### ${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$:
+#### ${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$:
 
 The ${\color{yellow}\text{challenges}}$ folder which contain a combination of simple exercises, that is the perfect ground for testing programming concepts:
 <br>like using `dictionaries & keys` in ${\color{orange}\text{Python}}$ or `pass by reference & pass by value` in ${\color{blue}\text{C++}}$.
-<br>And overall-programming skills as: `Clean Code`, `Optimized Time/Space Complexity code functionality` and `Algorithmic thinking`.
-<br>This folder holds the learning process.             
-The projects folder which holds the projects I have made like Caesar Cipher, which differs from the ${\color{yellow}\text{challenges}}$ folder
-by storing projects that truly solves real-life problems.
+<br>And overall-programming skills as: `Clean Code`, `Optimized Time/Space Complex code functionality` and `Algorithmic thinking`.
+<br>         
+The ${\color{red}\text{projects}}$ folder which holds the ${\color{red}\text{projects}}$ I have made, for ${\color{pink}\text{example}}$: `Caesar Cipher` in ${\color{orange}\text{Python}}$, or `Student Management System` in ${\color{blue}\text{C++}}$
+<br>which differs from the ${\color{yellow}\text{challenges}}$ folder
+<br>by storing ${\color{red}\text{projects}}$ that is complex and adopt different strategy in coding that is dismissed in ${\color{yellow}\text{challenges}}$ code files as:
+<br>`Modularity`; for designing "Big System small block" which is organizing small block function to be called for specific task, to build the system "piece by piece".  
+<br>`Data synchronicity`; for ${\color{pink}\text{example}}: Arrays: any alteration by an even small margin will cause mis-selecting input by altered indices,
+<br>`Time/Space complex code functionality`; for avoiding massive overload on the CPU (space complex) and avoiding long "waiting for result" time.
+<br>
               
                           
-### ${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$:
+#### ${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$:
 
     The code files.
 
