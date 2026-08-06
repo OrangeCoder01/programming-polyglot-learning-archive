@@ -30,11 +30,20 @@ You might encounter folders that contain `personally made` ${\color{purple}\text
 ${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{orange}\text{Concept Explanation}}$:
 <br>Most of folders might contain ${\color{tan}\text{ReadMe}}$ that explains it contents,
 <br>showcasing the sub-architecture design in organizing code files, same as About ${\color{red}\text{project}}$ folder.
-<br> With each new composition of subfolder, a shorter and succinct explanation is provided.
+<br>With each new composition of subfolder, a shorter and succinct explanation is provided.
 <br>There are ${\color{orange}\text{Concept Explanation}}$ that is only provided for code folders (which the most composite sub-folder which contains the code file)
 <br>It explains the concept, for ${\color{pink}\text{example}}$: `Palindrome`, `Armstrong` or `Euclidean methodology for gcd & lcd computation`.
 <br>
 ## ${\color{blue}\text{[3]}}$ About the ${\color{purple}\text{archive architecture}}$: (*Special Case:* ${\color{turquoise}\text{Arduino-IDE}}$):
+<br>${\color{blue}\text{(3.1)}}$ 
+$Layer${\color{blue}\text{(1)}}$: The ${\color{purple}\text{programming Languages}}$ being currently mastered.
+<br>${\color{blue}\text{(3.2)}}$ 
+$Layer${\color{blue}\text{(2)}}$
+<br>${\color{blue}\text{(3.3)}}$ 
+$Layer${\color{blue}\text{(3)}}$
+<br>${\color{blue}\text{(3.4)}}$ 
+$Layer${\color{blue}\text{(4)}}$
+
 ### ||First layer:||
 
     The programming languages I have been mastering currently:
