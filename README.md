@@ -86,8 +86,13 @@ This section contain the code folders, they contain code files but may also cont
 <br>It is succinct explanation that explains the concept of `Floyd pyramid`.
 <br>
 ### ${\color{blue}\text{(3.2)}}$ ${\color{turquoise}\text{Arduino-IDE:}}$ **Special Case** ${\color{purple}\text{architecture}}$ layering:
+${\color{blue}\text{(3.1.1)}}$ Layer ${\color{blue}\text{(1)}}$: The brand of the development board folders for ${\color{pink}\text{example}}$: `Arduino (arduino-mcu)`, `Espressif (espressif-mcu)` or etc...
+<br>${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$: The development board family tree folders for ${\color{pink}\text{example}}$: `arduino_uno`, `arduino_mega`, `esp32-wroom-38pins`
+<br>${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$: ${\color{red}\text{projects}}$ and ${\color{gray}\text{debuggers}}$
+<br>${\color{blue}\text{(3.1.4)}}$ Layer ${\color{blue}\text{(4)}}$: Code folders
 
-
+`Will expand and refactor this REAMme.md` later
+<br>
 
              
 
