@@ -35,7 +35,7 @@ ${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{or
 <br>It explains the concept, for ${\color{pink}\text{example}}$: `Palindrome`, `Armstrong` or `Euclidean methodology for gcd & lcd computation`.
 <br>
 ## ${\color{blue}\text{[3]}}$ About the ${\color{purple}\text{archive architecture}}$: (*Special Case:* ${\color{turquoise}\text{Arduino-IDE}}$):
-### ${\color{blue}\text{(3.1)}}$ ${\color{tan}\text{Normal architecture layering:}}$
+### ${\color{blue}\text{(3.1)}}$ ${\color{tan}\text{Normal}}$ ${\color{purple}\text{architecture}}$ layering:
 ${\color{blue}\text{(3.1.1)}}$ Layer ${\color{blue}\text{(1)}}$: The ${\color{purple}\text{programming languages}}$ currently being mastered.
 <br>${\color{blue}\text{(3.1.2)}}$ Layer ${\color{blue}\text{(2)}}$ ${\color{red}\text{personal-forge}}$ folder and ${\color{orange}\text{Course Curriculum}}$
 <br>${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$
@@ -84,7 +84,8 @@ This section contain the code folders, they contain code files but may also cont
 <br>For ${\color{pink}\text{example}}$: explaining `Floyd Number pyramid`:
 <br>`Floyd Pyramid is a pyramid made out of numbers where the apex is 1 and below is the iteration of the number till reaching user specific input number at the base of the pyramid.`
 <br>It is succinct explanation that explains the concept of `Floyd pyramid`.
-
+<br>
+### ${\color{blue}\text{(3.2)}}$ ${\color{turquoise}\text{Arduino-IDE:}}$ **Special Case** ${\color{purple}\text{architecture}}$ layering:
 
 
 
