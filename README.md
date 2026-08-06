@@ -2,7 +2,7 @@
 
 ## ${\color{blue}\text{[1]}}$ About the ${\color{orange}\text{contributor}}$:
 
-My name is ${\color{orange}\text{Yassin}}$, an ${\color{blue}\text{ECE}}$ student, has a deep curiosity for ${\color{limegreen}\text{tinkering}}$, in the fields of ${\color{blue}\text{Engineering}}$.
+My name is ${\color{orange}\text{Yassin}}$, an ${\color{blue}\text{ECE}}$ student, has a deep curiosity for ${\color{limegreen}\text{tinkering}}$ in ${\color{blue}\text{Engineering}}$ fields.
 <br>
 
 ## ${\color{blue}\text{[2]}}$ About the ${\color{purple}\text{archive}}$:
@@ -11,7 +11,7 @@ I thought of building a ${\color{purple}\text{repository}}$ that documents my le
 Here in the ${\color{purple}\text{repository}}$ you might come across games built using ${\color{orange}\text{Python}}$, or real-life problem solving projects using ${\color{Turquoise}\text{Arduino-IDE}}$, as ${\color{blue}\text{Water Dispenser}}$ ${\color{red}\text{project}}$ 
 And even simple ${\color{yellow}\text{challenges}}$ as ${\color{blue}\text{digit count}}$ that counts the frequency of the digits in the input integer using ${\color{blue}\text{C++}}$
 <br><br>
-This ${\color{purple}\text{archive}}$ serves the purpose of documenting both:<br>
+${\color{blue}\text{(2.1)}}$ This ${\color{purple}\text{archive}}$ serves the purpose of documenting both:<br>
 ${\color{blue}\text{(2.1.1)}}$ The learning process, starting from `Hello World` to a step-by step producing:<br>
 &emsp;(${\color{limegreen}\text{algorithmically}}$ challenging, robust ${\color{limegreen}\text{O code notation}}$ known as `Space/Time complexity code` functionality,<br>
 &emsp;more ${\color{limegreen}\text{modular}}$, better ${\color{limegreen}\text{user input validation handeling}}$ and ${\color{limegreen}\text{versatile/generic}}$ in use)<br>
@@ -20,9 +20,10 @@ code solutions to ${\color{yellow}\text{challenges}}$ to building ${\color{red}\
 ${\color{blue}\text{(2.1.2)}}$ The ${\color{red}\text{projects}}$ that could inspire others: from simple games like `Hangman Game` from ${\color{orange}\text{Python}}$ to ${\color{Turquoise}\text{Arduino}}$ ${\color{red}\text{projects}}$ as `Laser-Trip Wire`.
 <br>
 <br>
-About what most of the ${\color{purple}\text{programming}}$ folders contain:<br>
+${\color{blue}\text{(2.2)}}$ About what most of the ${\color{purple}\text{programming languages}}$ folders contain:<br>
 Dedicating most of the time to ${\color{yellow}\text{challenges}}$ as they mostly demand solving specific `part of the big problem` problem, whilst ${\color{red}\text{projects}}$ are present with the same quantities as the ${\color{yellow}\text{challenges}}$ due to its objective to solve `The big problem` consisting multiple ${\color{yellow}\text{challenges}}$ simultaneously whilst keeping program integrity and coherency.
 <br>
+You might encounter folders that contain `personally made` ${\color{purple}\text{libraries}}$ that are mostly found at low-level ${\color{purple}\text{programming languages}}$ ${\color{blue}\text{C++}}$ for ${\color{pink}\text{example}}$, its functions are helpful for future ${\color{red}\text{projects}}$/${\color{yellow}\text{challenges}}$, for it keeps a `clean code` by avoid rehearse writing the functions within all the code files, and at the same time visible to others at its specific assigned folder, as an ${\color{pink}\text{example}}$: `yassin_math.h` in  `utility_functions_cpp` folder in ${\color{blue}\text{C++}}$
 
 ## |About the archive architecture: {Special Case: Arduino IDE}:|
 ### ||First layer:||
