@@ -14,7 +14,7 @@ And even simple ${\color{yellow}\text{challenges}}$ as ${\color{blue}\text{digit
 ${\color{blue}\text{(2.1)}}$ This ${\color{purple}\text{archive}}$ serves the purpose of documenting both:
 <br>
 ${\color{blue}\text{(2.1.1)}}$ The learning process, starting from `Hello World` to a step-by step producing:<br>
-&emsp;(${\color{limegreen}\text{algorithmically}}$ challenging, robust ${\color{limegreen}\text{O code notation}}$ known as `Space/Time complexity code` functionality,<br>
+&emsp;(${\color{limegreen}\text{algorithmically}}$ challenging, faster/efficient ${\color{limegreen}\text{O code notation}}$ known as `Space/Time complexity code` functionality,<br>
 &emsp;more ${\color{limegreen}\text{modular}}$, better ${\color{limegreen}\text{user input validation handeling}}$ and ${\color{limegreen}\text{versatile/generic}}$ in use)<br>
 code solutions to ${\color{yellow}\text{challenges}}$ to building ${\color{red}\text{projects}}$.
 <br>
@@ -27,12 +27,12 @@ Dedicating most of the time to ${\color{yellow}\text{challenges}}$ as they mostl
 You might encounter folders that contain `personally made` ${\color{purple}\text{libraries}}$ that are mostly found at low-level ${\color{purple}\text{programming languages}}$ ${\color{blue}\text{C++}}$ for ${\color{pink}\text{example}}$, its functions are helpful for future ${\color{red}\text{projects}}$ or ${\color{yellow}\text{challenges}}$, for it keeps a `clean code` by avoid rehearse writing the functions within all the code files, and at the same time visible to others at its specific assigned folder, as an ${\color{pink}\text{example}}$: `yassin_math.h` in  `utility_functions_cpp` folder in ${\color{blue}\text{C++}}$.
 <br>
 <br>
-${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{orange}\text{Code Explanation}}$:
-Most of folders might contain ${\color{tan}\text{ReadMe}}$ that explains it contents, a About ${\color{yellow}\text{challenge}}$ folder
+${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{orange}\text{Concept Explanation}}$:
+<br>Most of folders might contain ${\color{tan}\text{ReadMe}}$ that explains it contents, a About ${\color{yellow}\text{challenge}}$ folder
 <br>showcases the sub-architecture design in organizing code files, same as About ${\color{red}\text{project}}$ folder.
 <br> With each new composition of subfolder, a shorter and succinct explanation is provided.
-<br>There are ${\color{orange}\text{code explanation}}$ that is only provided for code folders (which the most composite sub-folder which contains the code file)
-<br>
+<br>There are ${\color{orange}\text{Concept Explanation}}$ that is only provided for code folders (which the most composite sub-folder which contains the code file)
+<br>It explains the concept, for ${\color{pink}\text{example}}$: `Palindrome`, `Armstrong` or `Euclidean methodology for gcd & lcd computation`.
 
 ## |About the archive architecture: {Special Case: Arduino IDE}:|
 ### ||First layer:||
