@@ -65,16 +65,18 @@ ${\color{orange}\text{Course Curriculum}}$ folder:
 
 #### ${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$:
 
-The ${\color{yellow}\text{challenges}}$ folder which contain a combination of simple exercises, that is the perfect ground for testing programming concepts:
+The ${\color{yellow}\text{challenges}}$:
+<br> folder which contain a combination of simple exercises, that is the perfect ground for testing ${\color{purple}\text{programming}}$ ${\color{orange}\text{concepts}}$:
 <br>like using `dictionaries & keys` in ${\color{orange}\text{Python}}$ or `pass by reference & pass by value` in ${\color{blue}\text{C++}}$.
-<br>And overall-programming skills as: `Clean Code`, `Optimized Time/Space Complex code functionality` and `Algorithmic thinking`.
+<br>And overall-${\color{purple}\text{programming}}$ skills as: `Clean Code`, `Optimized Time/Space Complex code functionality design choice` and `Algorithmic thinking`.
 <br>         
-The ${\color{red}\text{projects}}$ folder which holds the ${\color{red}\text{projects}}$ I have made, for ${\color{pink}\text{example}}$: `Caesar Cipher` in ${\color{orange}\text{Python}}$, or `Student Management System` in ${\color{blue}\text{C++}}$
+The ${\color{red}\text{projects}}$ folder:
+<br>Holding the ${\color{red}\text{projects}}$ I have made, for ${\color{pink}\text{example}}$: `Caesar Cipher` in ${\color{orange}\text{Python}}$, or `Student Management System` in ${\color{blue}\text{C++}}$
 <br>which differs from the ${\color{yellow}\text{challenges}}$ folder
 <br>by storing ${\color{red}\text{projects}}$ that is complex and adopt different strategy in coding that is dismissed in ${\color{yellow}\text{challenges}}$ code files as:
 <br>`Modularity`; for designing "Big System small block" which is organizing small block function to be called for specific task, to build the system "piece by piece".  
-<br>`Data synchronicity`; for ${\color{pink}\text{example}}: Arrays: any alteration by an even small margin will cause mis-selecting input by altered indices,
-<br>`Time/Space complex code functionality`; for avoiding massive overload on the CPU (space complex) and avoiding long "waiting for result" time.
+`Data synchronicity`; for ${\color{pink}\text{example}}: Arrays: any alteration by an even small margin will cause mis-selecting input by false indices.
+<br>`Time/Space complex code functionality`; for avoiding massive overload on the CPU (space complex) and avoiding long "waiting for result" time (time complex).
 <br>
               
                           
