@@ -12,7 +12,7 @@ And even simple ${\color{yellow}\text{challenges}}$ as ${\color{blue}\text{digit
 ## ${\color{blue}\text{[2]}}$ About the ${\color{purple}\text{archive}}$:
 
 This ${\color{purple}\text{archive}}$ serves the purpose of documenting both:<br>
-    1) The learning process, starting as simple as `Hello World` to building ${\color{red}\text{projects}}$.<br>
+    1) The learning process, starting from `Hello World` to a step-by step producing: (${\color{limegreen}\text{algorithmically}}$ challenging, robust ${\color{limegreen}\text{O code notation}}$ known as Space/Time complexity code functionality, better in ) to building ${\color{red}\text{projects}}$.<br>
     2) The ${\color{red}\text{projects}}$ that could inspire others: from simple games like `Hangman Game` from ${\color{orange}\text{Python}}$ to ${\color{Turquoise}\text{Arduino}}$ ${\color{red}\text{projects}}$.
 
 ## |About the archive architecture: {Special Case: Arduino IDE}:|
