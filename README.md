@@ -35,14 +35,10 @@ ${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{or
 <br>It explains the concept, for ${\color{pink}\text{example}}$: `Palindrome`, `Armstrong` or `Euclidean methodology for gcd & lcd computation`.
 <br>
 ## ${\color{blue}\text{[3]}}$ About the ${\color{purple}\text{archive architecture}}$: (*Special Case:* ${\color{turquoise}\text{Arduino-IDE}}$):
-<br>${\color{blue}\text{(3.1)}}$ 
-$Layer${\color{blue}\text{(1)}}$: The ${\color{purple}\text{programming Languages}}$ being currently mastered.
-<br>${\color{blue}\text{(3.2)}}$ 
-$Layer${\color{blue}\text{(2)}}$
-<br>${\color{blue}\text{(3.3)}}$ 
-$Layer${\color{blue}\text{(3)}}$
-<br>${\color{blue}\text{(3.4)}}$ 
-$Layer${\color{blue}\text{(4)}}$
+<br>${\color{blue}\text{(3.1)}}$ Layer ${\color{blue}\text{(1)}}$: The ${\color{purple}\text{programming Languages}}$ being currently mastered.
+<br>${\color{blue}\text{(3.2)}}$ Layer ${\color{blue}\text{(2)}}$
+<br>${\color{blue}\text{(3.3)}}$ Layer ${\color{blue}\text{(3)}}$
+<br>${\color{blue}\text{(3.4)}}$ Layer ${\color{blue}\text{(4)}}$
 
 ### ||First layer:||
 
