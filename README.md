@@ -54,7 +54,14 @@ ${\color{red}\text{personal-forge}}$ folder:
 <br>And this process to earn mastery ${\color{purple}\text{programming language}}$ is by **(ChatGPT)**:
 <br>(handing tasks, assessing the code file answer, pin-pointing common mistakes and giving constant feedback).
 <br>Personally found such dynamic pedagogic and effective way to learn.
+<br>
 
+${\color{orange}\text{Course Curriculum}}$ folder:
+<br>This folder named instead as the name of the course itself, for ${\color{pink}\text{example}}$: ${\color{orange}\text{100-day-bootcamp}}$.
+<br>The folder contains the same content as the ${\color{red}\text{personal-forge}}$ folder, but the content of the subfolder
+<br>${\color{yellow}\text{challenges}}$ and ${\color{red}\text{project}}$ are different, due to following the instruction of the tutor.
+<br>This folder could face some inconsistencies as the tutor might not decide to hand a challenge or the task at hand
+<br>is not suitable to addressed among the code files.
 ### ${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$:
 
     The ${\color{yellow}\text{challenges}}$ folder which contain a combination of simple daily exercises or ${\color{yellow}\text{challenges}}$ that 
