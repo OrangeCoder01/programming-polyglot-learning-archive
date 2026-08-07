@@ -18,7 +18,8 @@ The programming languages currently being mastered:
 3) Arduino IDE
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-There are four folders, the repository predominantly consists with (except Arduino-IDE):
+There are 4 folders, the repository predominantly consists with (except Arduino-IDE):
+The first two are higher folders, each containing the latter two (lower folders)
 
 1) Personal-forge folder:
 This is a curriculum-free(Except a roadmap created by an AI model) work done. 
@@ -53,7 +54,7 @@ The Arduino IDE does not follow the same architecture philosophy;
 As any task is already a project even how simple its code is,
 thus ranking the projects by levels of difficulties, and the difficulty is assessed by
 the complex nature of the code (either conceptually as high-low-nibble data transmission in LCD or heavy-language-tools usage like struct or classes that requires
-more broad coding experience)
+broader coding experience)
 with the respect to earlier projects.
 
 Here is the architecture for Arduino-IDE
@@ -82,24 +83,24 @@ ${\color{blue}\text{(2.1)}}$ This ${\color{purple}\text{archive}}$ serves the pu
 <br>
 ${\color{blue}\text{(2.1.1)}}$ The learning process, starting from `Hello World` to a step-by step producing:<br>
 &emsp;(${\color{limegreen}\text{algorithmically}}$ challenging, faster/efficient ${\color{limegreen}\text{O code notation}}$ known as `Space/Time complexity code` functionality,<br>
-&emsp;more ${\color{limegreen}\text{modular}}$, better ${\color{limegreen}\text{user input validation handeling}}$ and ${\color{limegreen}\text{versatile/generic}}$ in use)<br>
+&emsp;more ${\color{limegreen}\text{modular}}$, better ${\color{limegreen}\text{user input validation handling}}$ and ${\color{limegreen}\text{versatile/generic}}$ in use)<br>
 code solutions to ${\color{yellow}\text{challenges}}$ to building ${\color{red}\text{projects}}$.
 <br>
 ${\color{blue}\text{(2.1.2)}}$ The ${\color{red}\text{projects}}$ that could inspire others: from simple games like `Hangman Game` from ${\color{orange}\text{Python}}$ to ${\color{Turquoise}\text{Arduino}}$ ${\color{red}\text{projects}}$ as `Laser-Trip Wire`.
 <br>
 <br>
 ${\color{blue}\text{(2.2)}}$ About what most of the ${\color{purple}\text{programming languages}}$ folders contain:<br>
-Dedicating most of the time to ${\color{yellow}\text{challenges}}$ as they mostly demand solving specific `part of the big problem` problem, while ${\color{red}\text{projects}}$ are lower in quantity than  ${\color{yellow}\text{challenges}}$ due to its objective to solve `The big problem` consisting multiple ${\color{yellow}\text{challenges}}$ while simultaneously keeping program integrity and coherency.
+Dedicating most of the time to ${\color{yellow}\text{challenges}}$ as they mostly demand solving specific `part of the big problem` problem, while ${\color{red}\text{projects}}$ are lower in quantity than  ${\color{yellow}\text{challenges}}$ due to its objective to solve `The big problem` consisting of multiple ${\color{yellow}\text{challenges}}$ while simultaneously keeping program integrity and coherency.
 <br>
 You might encounter folders that contain `personally made` ${\color{purple}\text{libraries}}$ that are mostly found at low-level ${\color{purple}\text{programming languages}}$ ${\color{blue}\text{C++}}$ for ${\color{pink}\text{example}}$, its functions are helpful for future ${\color{red}\text{projects}}$ or ${\color{yellow}\text{challenges}}$, as it keeps a `clean code` by avoiding rewritting the needed functions
 all over again in each code file, and at the same time, it is visible to others in one code file, as an ${\color{pink}\text{example}}$: `yassin_math.h` in  `utility_functions` folder in ${\color{blue}\text{C++}}$.
 <br>
 <br>
-${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{orange}\text{Concept Explanation}}$:
-<br>Most of folders might contain ${\color{tan}\text{ReadMe}}$ that explains their contents,
+${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMEs}}$ and ${\color{orange}\text{Concept Explanation}}$:
+<br>Most of folders might contain ${\color{tan}\text{ReadME}}$ that explains their contents,
 <br>showcasing the sub-architecture design in organizing code files, same as About ${\color{red}\text{project}}$ folder.
 <br>With each new composition of subfolder, a shorter and succinct explanation is provided.
-<br>There are ${\color{orange}\text{Concept Explanation}}$ that is only provided for code folders (which the most composite sub-folder which contains the code file)
+<br>There are ${\color{orange}\text{Concept Explanation}}$ that is only provided for code folders (which lowest sub-folder which contains the code file and maybe ${\color{tan}\text{README}}$)
 <br>It explains the concept, for ${\color{pink}\text{example}}$: `Palindrome`, `Armstrong` or `Euclidean methodology for GCD & LCD computation`.
 <br>
 ## ${\color{blue}\text{[3]}}$ About the ${\color{purple}\text{archive architecture}}$: (*Special Case:* ${\color{turquoise}\text{Arduino-IDE}}$):
@@ -129,7 +130,7 @@ ${\color{orange}\text{Course Curriculum}}$ folder:
 <br>The folder contains the same content as the ${\color{red}\text{personal-forge}}$ folder, but the content of the subfolder
 <br>${\color{yellow}\text{challenges}}$ and ${\color{red}\text{project}}$ are different, due to following the instruction of the tutor.
 <br>This folder could face some inconsistencies as the tutor might not decide to hand a challenge or the task at hand
-<br>is not suitable to addressed among the code files.
+<br>to be addressed among the code files.
 
 #### ${\color{blue}\text{(3.1.3)}}$ Layer ${\color{blue}\text{(3)}}$:
 
@@ -177,7 +178,7 @@ This layer showcase both the ${\color{gray}\text{debugger}}$ and ${\color{red}\t
 <br>problems in components in the case if there is a unexpected noise or glitch, and as a tool for testing component's
 <br>functionality and conditions.
 <br>
-<br>The ${\color{red}\text{project}}$ folder showcases a an assessed levels of code project difficulty folders `(only one layer is currently available)`
+<br>The ${\color{red}\text{project}}$ folder showcases assessed levels of code project difficulty folders `(only one layer is currently available)`
 #### ${\color{blue}\text{(3.2.4)}}$ Layer ${\color{blue}\text{(4)}}$:
 Each level of difficulty folder stores code folders that reflect the level of difficult either conceptually as understanding the time-based angle
 <br>of rotation of a servo motor, and programmatic language skills.
