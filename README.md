@@ -2,8 +2,6 @@
 
 ## ${\color{red}\text{Succinct details}}$:
 ```
-## Succinct details
-
 This repository is a chronological archive of my programming
 learning process, documenting challenges, projects, and personal
 libraries across multiple programming environments.
@@ -34,7 +32,7 @@ Development Board Brand
         └── Difficulty Level
             └── Code
 
-### Challenges vs. Projects
+Challenges vs. Projects
 
 Challenges → focused problems designed to develop specific
 programming concepts and algorithmic skills.
