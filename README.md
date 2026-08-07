@@ -160,16 +160,29 @@ ${\color{blue}\text{(3.2.1)}}$ Layer ${\color{blue}\text{(1)}}$: The brand of th
 <br>${\color{blue}\text{(3.2.4)}}$ Layer ${\color{blue}\text{(4)}}$: Difficulty folders 
 <br>${\color{blue}\text{(3.2.5)}}$ Layer ${\color{blue}\text{(5)}}$: code folder 
 <br>
-
+<br>
+${\color{red}\text{Important note}}$:
+<br> Espressif ESP32 Wroom 38 pins and Arduino UNO are currently only available.
+<br>
 #### ${\color{blue}\text{(3.2.1)}}$ Layer ${\color{blue}\text{(1)}}$: 
+This layer showcases different type of development boards companies as: `Espressif, Arduino, STMelectronics, Raspberry PI or etc...` 
 #### ${\color{blue}\text{(3.2.2)}}$ Layer ${\color{blue}\text{(2)}}$:
+There are different development board types and variations by each development board brand for:
+<br>`Arduino`: `Arduino UNO, Arduino NANO, ARDUINO MEGA, or etc...`
+<br>`Espressif`: `ESP32S3, ESP32C3, or etc...`
 #### ${\color{blue}\text{(3.2.3)}}$ Layer ${\color{blue}\text{(3)}}$:
+This layer showcase both the ${\color{gray}\text{debugger}}$ and ${\color{red}\text{project}}$ folders:
+<br>
+<br>The ${\color{gray}\text{debugger}}$ folder showcases series debugging code folder that yield in figuring out
+<br>problems in components in the case if there is a unexpected noise or glitch, and as a tool for testing component's
+<br>functionality and conditions.
+<br>
+<br>The ${\color{red}\text{project}}$ folder showcases a an assessed levels of code project difficulty folders `(only one layer is currently available)`
 #### ${\color{blue}\text{(3.2.4)}}$ Layer ${\color{blue}\text{(4)}}$:
+Each level of difficulty folder stores code folders that reflect the level of difficult either conceptually as understanding the time-based angle
+<br>of rotation of a servo motor, and programmatic language skills.
 #### ${\color{blue}\text{(3.2.5)}}$ Layer ${\color{blue}\text{(5)}}$:
+The code folder containing the code files and sometimes a ${\color{tan}\text{README}}$ folder.
 
-                    
-    There could be multiple codes inside one component-debugging folder like rot_enco_debugging_esp32wr38 folder
-    for showcasing different approaches for debugging                                                             
-    There is the projects folder that holds the projects
 
 
