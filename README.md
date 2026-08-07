@@ -1,5 +1,64 @@
 # ${\color{purple}\text{Programming Polyglot Learning Archive Repository}}$
 
+## ${\color{red}\text{Succinct details}}$:
+```
+The repository is made to cover the programming learning path
+from diverse set of programming languages. It acts as an archive to
+store achievements like challenges completed and projects executed.
+
+Programming languages may have an overlapping pattern of progress,
+earlier code file solve easy tasks; to achieve language syntax and features comprehension, but when the languages features are once familiarized with, the later code files then are more dedicated to solve more algorithmically difficult tasks.
+
+Current programming languages being mastered:
+1) C++
+2) Python
+3) Arduino IDE
+
+There are four folder, the repository is predominantly consists with:
+[Except the Arduino-IDE.]
+
+1) Personal-forge:
+This is a curriculum-free(Except a roadmap created by an AI model) work done. 
+The completed challenges and executed projects are mere problem intentionally created and solved.
+
+2) Course Curriculum:
+It is the opposite of the Personal-forge folder. This folder (named with the name of the course instead) contains the completed challenges and executed projects under the course syllabus and designed roadmap created by the mentor.
+ 2.1) 100-day-bootcamp ---> Python
+
+Thes two folders contain:
+
+3) Challenges folder:
+It holds the tasks that requires less system integration, and targets a specific problem such as:
+ 3.1) nth largest element in array ---> C++
+    which takes a user array of input elements, analyzing the 
+    input elements and extracts the nth order largest element.
+
+4) Projects folder:
+It holds the tasks that requires system integration, alot of algorithmic thinking, and data sychronization.
+ 2.1) Blackjack game ----> Python
+ 2.2) Bank Simulator ----> C++
+
+Most of the task are conceptually explained in either in a README or in a comment inside the code file.
+
+There might be an additional folders, that their purpose are already explained in their READMEs.
+such as Libraries as yassin_math.h ---->  C++
+
+The Arduino IDE does not follow the same architecturally philosophy,
+as any task is already a project even how simple.
+Thus ranking the projects by levels of difficulties, and the difficulty is assesed by the complex nature of the system with the respect to earlier projects.
+
+The first folders (in mastering-arduino-ide) are simply
+
+1) selecting the development board such as ESP32 or Arduino or etc...
+2) Then the type of the development board "Arduino Nano", 
+"Arduino Mega"or etc...
+3) The debugger folders which contain the debuggging code files that comes in handy when facing unexpected component behavior.
+and the projects
+4) The learning difficulty folder, containing the projects.
+
+```
+
+
 ## ${\color{blue}\text{[1]}}$ About the ${\color{orange}\text{contributor}}$:
 
 My name is ${\color{orange}\text{Yassin}}$, an ${\color{blue}\text{ECE}}$ student, has a deep curiosity for ${\color{limegreen}\text{tinkering}}$ in ${\color{blue}\text{Engineering}}$ fields.
@@ -24,7 +83,7 @@ ${\color{blue}\text{(2.1.2)}}$ The ${\color{red}\text{projects}}$ that could ins
 ${\color{blue}\text{(2.2)}}$ About what most of the ${\color{purple}\text{programming languages}}$ folders contain:<br>
 Dedicating most of the time to ${\color{yellow}\text{challenges}}$ as they mostly demand solving specific `part of the big problem` problem, whilst ${\color{red}\text{projects}}$ are present with the same quantities as the ${\color{yellow}\text{challenges}}$ due to its objective to solve `The big problem` consisting multiple ${\color{yellow}\text{challenges}}$ simultaneously whilst keeping program integrity and coherency.
 <br>
-You might encounter folders that contain `personally made` ${\color{purple}\text{libraries}}$ that are mostly found at low-level ${\color{purple}\text{programming languages}}$ ${\color{blue}\text{C++}}$ for ${\color{pink}\text{example}}$, its functions are helpful for future ${\color{red}\text{projects}}$ or ${\color{yellow}\text{challenges}}$, for it keeps a `clean code` by avoid rehearse writing the functions within all the code files, and at the same time visible to others at its specific assigned folder, as an ${\color{pink}\text{example}}$: `yassin_math.h` in  `utility_functions_cpp` folder in ${\color{blue}\text{C++}}$.
+You might encounter folders that contain `personally made` ${\color{purple}\text{libraries}}$ that are mostly found at low-level ${\color{purple}\text{programming languages}}$ ${\color{blue}\text{C++}}$ for ${\color{pink}\text{example}}$, its functions are helpful for future ${\color{red}\text{projects}}$ or ${\color{yellow}\text{challenges}}$, for it keeps a `clean code` by avoid rehearse writing the functions within all the code files, and at the same time visible to others at its specific assigned folder, as an ${\color{pink}\text{example}}$: `yassin_math.h` in  `utility_functions` folder in ${\color{blue}\text{C++}}$.
 <br>
 <br>
 ${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMes}}$ and ${\color{orange}\text{Concept Explanation}}$:
