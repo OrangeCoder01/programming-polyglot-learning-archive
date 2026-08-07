@@ -10,12 +10,14 @@ like challenges completed and projects executed.
 Programming languages may have an overlapping pattern of progress:
 earlier code file solve easy tasks; to achieve language syntax and features comprehension, but later getting familiar with the language's structure
 which leaves a room for solving algorithmically challenging driven tasks in the subsequent code files.
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 The programming languages currently being mastered:
 1) C++
 2) Python
 3) Arduino IDE
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 There are four folders, the repository predominantly consists with (except Arduino-IDE):
 
 1) Personal-forge:
@@ -44,7 +46,8 @@ Most of the task are conceptually explained in either in a README or in a commen
 
 There might be an additional folders, that their purpose are already explained in their READMEs.
 such as Libraries as yassin_math.h ---->  C++
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 The Arduino IDE does not follow the same architecturally philosophy,
 as any task is already a project even how simple.
 Thus ranking the projects by levels of difficulties, and the difficulty is assessed by
