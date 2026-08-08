@@ -44,6 +44,20 @@ Individual folders may contain README files explaining their
 purpose or the programming concept demonstrated by their code.
 ```
 
+## Name Legends:
+```
+🔵 Blue: C++ /structural concepts  
+🟣 Purple/Violet: Repository / archive concepts  / Programming Language
+🔴 Red: Projects  
+🟡 Yellow: Challenges  
+🟠 Orange: Python / course-related concepts  / Contributor's name
+🩵 Turquoise: blue Arduino  
+🩶 Gray: Debuggers  
+🩷 Pink: Examples
+🟢 Green: Topics outside repo
+🟤 Tan: README
+```
+
 ## ${\color{blue}\text{[1]}}$ About the ${\color{orange}\text{contributor}}$:
 
 My name is ${\color{orange}\text{Yassin}}$, an ${\color{blue}\text{ECE}}$ student, has a deep curiosity for ${\color{limegreen}\text{tinkering}}$ in ${\color{blue}\text{Engineering}}$ fields.
