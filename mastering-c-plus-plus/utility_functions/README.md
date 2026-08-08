@@ -1,4 +1,4 @@
-# Utility functions
+# ${\color{purple}\text{Utility functions}}$
 The purpose of this folder is to hold ${\color{purple}\text{libraries}}$
 <br>
 that contains well-prepared functions that serve well in the ${\color{yellow}\text{challenges}}$ (hereafter from the ${\color{blue}\text{32}}$ `_` ${\color{blue}\text{prime}}$ `_` ${\color{blue}\text{number}}$ ${\color{yellow}\text{challenge}}$) and <br> ${\color{red}\text{projects}}$
