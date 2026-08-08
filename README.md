@@ -54,7 +54,7 @@ purpose or the programming concept demonstrated by their code.
 🩵 Turquoise: blue Arduino  
 🩶 Gray: Debuggers  
 🩷 Pink: Examples
-🟢 Green: Topics outside repo
+🟢 Green: programming concepts
 🟤 Tan: README
 ```
 
