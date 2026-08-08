@@ -44,7 +44,7 @@ Individual folders may contain README files explaining their
 purpose or the programming concept demonstrated by their code.
 ```
 
-## Name Legends:
+## Color Legends:
 ```
 🔵 Blue: C++ /structural concepts  
 🟣 Purple/Violet: Repository / archive concepts  / Programming Language
@@ -56,6 +56,7 @@ purpose or the programming concept demonstrated by their code.
 🩷 Pink: Examples
 🟢 Green: programming concepts
 🟤 Tan: README
+None: Code files/ Code folders
 ```
 
 ## ${\color{blue}\text{[1]}}$ About the ${\color{orange}\text{contributor}}$:
