@@ -1,5 +1,5 @@
-# ${\color{red}\text{Project}}$
-This section is about the ${\color{red}\text{project}}$ I have done so far, under the guide of **ChatGPT**<br>
+# ${\color{red}\text{Projects}}$
+This section is about the ${\color{red}\text{projects}}$ I have done so far, under the guide of **ChatGPT**<br>
 as an `ai-driven personalized learning pathway`.<br>
 ${\color{red}\text{Projects}}$ are different from ${\color{yellow}\text{challenges}}$ as it provides real-life problem solving product, ${\color{pink}\text{for example}}$: 'Student Management System' that<br>
 is responsible for processing academic databases of registered student's details. The inherent nature of a ${\color{red}\text{project}}$ is its complex <br>
