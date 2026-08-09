@@ -46,15 +46,17 @@ purpose or the programming concept demonstrated by their code.
 
 ## Color Legends:
 ```
+Highlighting words with color is important for this repository;
+to enhance readability.
 🔵 Blue: C++ /structural concepts  
 🟣 Purple/Violet: Repository / archive concepts  / Programming Language
-🔴 Red: Projects  
-🟡 Yellow: Challenges  
+🔴 Red: Projects  / Personal-forge folders
+🟡 Yellow: Challenges folder
 🟠 Orange: Python / course-related concepts  / Contributor's name
 🩵 Turquoise: blue Arduino  
-🩶 Gray: Debuggers  
+🩶 Gray: Debuggers folder
 🩷 Pink: Examples
-🟢 Green: programming concepts
+🟢 Green: For highlighting keywords
 🟤 Tan: README
 None: Code files/ Code folders
 ```
