@@ -1,5 +1,5 @@
 # ${\color{yellow}\text{Challenges}}$:
-The folder is composite of code files that is dedicated to solve one task at a time;
+The folder is composed of code files that is dedicated to solve one task at a time;
 <br>to solve small problems at once, as `GCD` or `LCM` when solving math algorithm ${\color{yellow}\text{challenges}}$.
 <br>The code folder contains the code and maybe the ${\color{tan}\text{README}}$ files.
 <br>The challenges test distinctive set of programming skills:
