@@ -82,11 +82,11 @@ code solutions to ${\color{yellow}\text{challenges}}$ to building ${\color{red}\
 ${\color{blue}\text{(2.1.2)}}$ The ${\color{red}\text{projects}}$ that could inspire others: from simple games like `Hangman Game` from ${\color{orange}\text{Python}}$ to ${\color{Turquoise}\text{Arduino}}$ ${\color{red}\text{projects}}$ as `Laser-Trip Wire`.
 <br>
 <br>
-${\color{blue}\text{(2.2)}}$ About what most of the ${\color{purple}\text{programming languages}}$ folders contain:<br>
-Dedicating most of the time to ${\color{yellow}\text{challenges}}$ as they mostly demand solving specific `part of the big problem` problem, while ${\color{red}\text{projects}}$ are lower in quantity than  ${\color{yellow}\text{challenges}}$ due to its objective to solve `The big problem` consisting of multiple ${\color{yellow}\text{challenges}}$ while simultaneously keeping program integrity and coherency.
+${\color{blue}\text{(2.2)}}$ About ${\color{yellow}\text{challenges}}$, ${\color{red}\text{projects}}$ and ${\color{purple}\text{libraries}}$ folders:
+<br>Dedicated most of the time to ${\color{yellow}\text{challenges}}$ as they mostly demand solving specific `part of the big problem` problem, while ${\color{red}\text{projects}}$ are lower in quantity than  ${\color{yellow}\text{challenges}}$ due to its objective to solve `The big problem` consisting of multiple ${\color{yellow}\text{challenges}}$ while simultaneously keeping program integrity and coherency.
 <br>
 You might encounter folders that contain `personally made` ${\color{purple}\text{libraries}}$ that are mostly found at low-level ${\color{purple}\text{programming languages}}$ ${\color{blue}\text{C++}}$ for ${\color{pink}\text{example}}$, its functions are helpful for future ${\color{red}\text{projects}}$ or ${\color{yellow}\text{challenges}}$, as it keeps a `clean code` by avoiding rewritting the needed functions
-all over again in each code file, and at the same time, it is visible to others in one code file, as an ${\color{pink}\text{example}}$: `yassin_math.h` in  `utility_functions` folder in ${\color{blue}\text{C++}}$.
+all over again in each code file, and at the same time, it is visible to others in one code file, as an ${\color{pink}\text{example}}$: `yassin_math.h` in  ${\color{purple}\text{utility}}$ `_` ${\color{purple}\text{functions}}$ folder in ${\color{blue}\text{C++}}$.
 <br>
 <br>
 ${\color{blue}\text{(2.3)}}$ About ${\color{tan}\text{ReadMEs}}$ and ${\color{orange}\text{Concept Explanation}}$:
