@@ -8,8 +8,8 @@ The ${\color{purple}\text{architecture}}$ is different than all other ${\color{p
 <br>&ensp;&ensp;  ${\color{purple}\text{programming language}}$.
 <br>
 <br>${\color{blue}\text{3)}}$ The distinct purpose of ${\color{turquoise}\text{Arduino-IDE}}$ folder is to store the ${\color{red}\text{projects}}$ executed; for:
-<br>`documentation`: showcasing the code and the algorithmic implementation executed throughout project
-<br>and `inspiration`: others who might find some projects interesting and trying them out.
+<br>&emsp;&ensp;`documentation`: showcasing the code and the algorithmic implementation executed throughout project
+<br>&emsp;&ensp;and `inspiration`: others who might find some projects interesting and trying them out.
 
 
 
