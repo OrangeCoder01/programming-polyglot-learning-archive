@@ -6,4 +6,4 @@ is responsible for processing academic databases of registered student's details
 ${\color{purple}\text{architecture}}$ and versatility towards handling various kinds of problems without crashing the program, unlike ${\color{yellow}\text{challenges}}$, it is not specific <br>
 but generic in use, complex in ${\color{purple}\text{architecture}}$, and a solution to a problem. <br>
 <br>
-The ${\color{blue}\text{C++}}$ tools used latter ${\color{red}\text{projects}}$ are more diverse than the earlier ones, and are more professionally crafted due to long time experience.
+The ${\color{blue}\text{C++}}$ tools used in latter ${\color{red}\text{projects}}$ are more diverse than the earlier ones, and are more professionally crafted due to long time experience.
