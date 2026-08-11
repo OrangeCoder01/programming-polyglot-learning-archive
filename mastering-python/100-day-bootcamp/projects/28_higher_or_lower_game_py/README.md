@@ -1,6 +1,5 @@
 # ${\color{red}\text{Higher/Lower Game}}$
 ## ${\color{orange}\text{Concept Explanation}}$
-<br>
 <br>Higher/Lower game ${\color{red}\text{project}}$ is about guessing which celebrity has the higher amount of followers
 <br>The game dynamic is initialized by selection two randomly celebrities out of a list: comparing celebrity <br>and compared to celebrity.
 <br>
