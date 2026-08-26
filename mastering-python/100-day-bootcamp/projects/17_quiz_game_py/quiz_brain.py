@@ -8,7 +8,6 @@ def user_choice_validation(valid_pool_choices):
 class QuizBrain:
     def __init__(self, q_list):
         self.question_number = 0
-        self.total_q = 0
         self.score = 0
         self.question_list = q_list
     
