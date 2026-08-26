@@ -8,6 +8,7 @@ Quiz game is importing three code files: two has classes and one contain two dat
 <br>`text` and `answer` arrays attributes
 <br>
 <br>The object from `Quiz` has 3 attributes for: holding index, score and input list.
-<br>And 3 methods for: checking whether there is a next question,  
+<br>And 2 methods for: checking whether there is a next question and processing the available question.
+
 
 
