@@ -6,12 +6,13 @@ timmy_the_turtle = turtle.Turtle()
 
 timmy_the_turtle.shape("turtle")
 timmy_the_turtle.color("orange")
-timmy_the_turtle.speed(3)
+
 
 turtle.colormode(255)
 
 # Challenge {2}: Make a dotted line
 def dashed_line(distance):
+    timmy_the_turtle.speed(0)
     pace = 5
     for _ in range(int(distance//(pace*2))):   
         timmy_the_turtle.pencolor("black")
@@ -55,7 +56,7 @@ def draw_polygons(n_polygons):
 # Challenge {4}: Random walk 
 LIMIT_X = 350
 LIMIT_Y = 300
-timmy_the_turtle.speed(15)
+
 def random_color():
     r = randint(0, 255)
     g = randint(0, 255)
@@ -63,6 +64,7 @@ def random_color():
     return (r, g, b)
         
 def random_step():
+    timmy_the_turtle.speed(0)
     timmy_the_turtle.forward(randint(50, 80))
     x, y = timmy_the_turtle.position()
     
@@ -83,6 +85,8 @@ def random_direction():
     random_step()
             
 def random_walk():
+    timmy_the_turtle.speed(0)
+    
     timmy_the_turtle.penup()
     timmy_the_turtle.goto(0, 0) 
     timmy_the_turtle.pendown()
@@ -104,17 +108,21 @@ def make_spirograph(n_circles):
         timmy_the_turtle.circle(100)
     
 
-# make_spirograph(100)
+
 square_mov()
+my_screen.update()
 my_screen.reset()
 
 draw_polygons(10)
+my_screen.update()
 my_screen.reset()
 
-make_spirograph(1000)
+make_spirograph(100)
+my_screen.update()
 my_screen.reset()
 
 random_walk()
+my_screen.update()
 my_screen.reset()
 
 my_screen.exitonclick()                
