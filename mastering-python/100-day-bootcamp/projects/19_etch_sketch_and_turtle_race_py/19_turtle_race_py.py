@@ -46,18 +46,12 @@ def draw_race_ground():
     referee_turtle.setposition(350, 240)
     referee_turtle.setheading(270)
     
-    
-    
 
-
-
-my_screen = turtle.Screen()
 
 
 def turtle_speed_varying(random_turtle):
     random_turtle.speed(random.randint(0, 10))
 
-draw_race_ground()
 
 print("Welcome to turtle race:")
 turtle_num = amount_validator(input("Please, enter the number of participant turtles in the race: "))
@@ -81,6 +75,8 @@ for i in range(turtle_num):
 
 first_place_pos_x = -350
 
+my_screen = turtle.Screen()
+draw_race_ground()
 
 while first_place_pos_x <= 350:
     for racing_turtle in turtles_participants:
