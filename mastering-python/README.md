@@ -14,10 +14,8 @@ There are 2 folders:
 ```
 
 2) ${\color{red}\text{personal-forge}}$:
-<br>
-`
-    It holds project/challenges that contains personally-made or AI-made roadmap of tasks.
-`
+
+`It holds project/challenges that contains personally-made or AI-made roadmap of tasks.`
 
 
 
