@@ -12,7 +12,7 @@ Why learning ${\color{blue}\text{C++}}$:
         without having complete freedom given by "C" or managing every adversities such as "memory management" by "Python"
 
         Plus:
-        Deep understanding of the "C++" concept guarantees fluidity comprehending concepts in other programming langauges.
+        Deep understanding of the "C++" concept, highly guarantees flexibility in comprehending concepts in other programming languages.
 
 
     (2) It is applied in Embedded System and IOT (same as "C") due to its fast pace compile time and close relation to
