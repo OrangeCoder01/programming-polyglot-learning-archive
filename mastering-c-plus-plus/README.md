@@ -18,6 +18,7 @@ Why learning ${\color{blue}\text{C++}}$:
     (2) It is applied in Embedded System and IOT (same as "C") due to its fast pace compile time and close relation to
         assembly language.
     
-    (3) Used in "Operating Systems" and "Game engine" such as "Unreal" game engine. which bos
+    (3) Used in "Operating Systems" and "Game engine" such as "Unreal" game engine. It is the backbone of most known
+        software used.
         
 ```
