@@ -49,8 +49,7 @@ bool palindrome_array_compare(int arr[], int n)
 
 int main()
 {
-    printf("Welcome to 'Palindrome Array Checker' where you input:\nThe number elements of array.\nThen the elements' value.\n\nThe output is the constructed array and its reversed-placed elements.\n\n");
-    printf("Rules:\n");
+    printf("Welcome to 'Palindrome Array Checker' where you input:\nThe number elements of array.\nThen the elements' value.\n\nThe output will indicate whether the array is palindrome or not.\n\n");
     printf("Rules: \n(1) You are allowed to enter up to {10} elements, but you have to enter more than {1} element\n(2) With values ranging from {-65534} to {65534}");
     printf("\n\n");
     
