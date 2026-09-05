@@ -1,16 +1,31 @@
 # Mastering ${\color{turquoise}\text{Arduino-IDE}}$
-The ${\color{purple}\text{architecture}}$ is different than all other ${\color{purple}\text{programming languages}}$ due to:
-<br>
-<br>${\color{blue}\text{1)}}$ Being run on a completely different IDE: `Integrate Development Environment` in `Arduino-IDE` instead of `Visual Studio Code`.
-<br>
-<br>${\color{blue}\text{2)}}$ The language has many overlapping ${\color{blue}\text{C++}}$ structure and syntax, but has add-on features absent in ${\color{blue}\text{C++}}$;
-<br>&emsp;&ensp;to give commands to MCUs and control pins, while also having absent features like `try and catch`, which qualifies it a distinct 
-<br>&ensp;&ensp;  ${\color{purple}\text{programming language}}$.
-<br>
-<br>${\color{blue}\text{3)}}$ The distinct purpose of ${\color{turquoise}\text{Arduino-IDE}}$ folder is to store the ${\color{red}\text{projects}}$ executed; for:
-<br>&emsp;&ensp;`documentation`: showcasing the code and the algorithmic implementation executed throughout project
-<br>&emsp;&ensp;and `inspiration`: others who might find some projects interesting and trying them out.
+${\color{turquoise}\text{Arduino-IDE}}$ is `Arduino integrated development environment` <br>
+which is not a ${\color{violet}\text{programming language}}$ but a software that uses ${\color{turquoise}\text{C}}$/${\color{blue}\text{C++}}$ ${\color{violet}\text{programming language}}$. At first it has a distinct folder, but there is some overlap
+between it and ${\color{turquoise}\text{C}}$ folder containing `amit_embedded_system_course` folder;<br>
 <br>
 <br>
-The folder is composed of: `Development board brands`, such as `ESP32 (espressif-mcu)` or `Arduino (arduino-mcu)`;
-<br>due to the clear variance in `pin configuration` and `industrial capabilities` in each brand.
+But there is clear distinction between ${\color{turquoise}\text{Arduino-IDE}}$ and ${\color{turquoise}\text{C}}$/${\color{blue}\text{C++}}$ ${\color{violet}\text{programming languages}}$ despite ${\color{turquoise}\text{C}}$/${\color{blue}\text{C++}}$ being the backbone structure of ${\color{turquoise}\text{Arduino-IDE}}$: <br>
+due to introduction of hardware configuration builtin-function that is absent in ${\color{turquoise}\text{C}}$/${\color{blue}\text{C++}}$ due to the nature
+of ${\color{turquoise}\text{Arduino-IDE}}$ in handling both hardware and software unlike ${\color{turquoise}\text{C}}$/${\color{blue}\text{C++}}$.<br>
+<br>
+It recognized as ${\color{blue}\text{C++}}$ despite some dicrepancies in features: `Missing "Try and catch"` and `hardware`
+Why learn  ${\color{turquoise}\text{Arduino-IDE}}$
+```
+    (1) Software beginner-friendly for bridging complexity of "hardware" and "software"
+
+    (2) Developing Skills in handling adverse tasks such as optimization due to limited
+        memory size, capability of the microcontrollerS and timing by implementing
+        "AttachInterrupt" method.
+    
+    (3) Gaining a deeper understanding of the binary world of the very fabric of
+        every electronic device that has memory:
+        (3.1) Registers
+        (3.2) Binary bit manipulations
+        (3.3) Gates
+        (3.4) Memory management
+```
+<br>
+
+The architecture of ${\color{turquoise}\text{Arduino-IDE}}$ folder is different than all other programming languages' folder.
+
+
