@@ -4,12 +4,13 @@
 ```
 This repository is a chronological archive of my programming
 learning process, documenting challenges, projects, and personal
-libraries across multiple programming environments.
+libraries across multiple programming languages.
 
 Currently:
 1. C++
 2. Python
 3. Arduino IDE
+4. C
 
 Repository architecture
 For C++ and Python:
@@ -42,6 +43,10 @@ modularity, data management, and system-level reasoning.
 
 Individual folders may contain README files explaining their
 purpose or the programming concept demonstrated by their code.
+
+Repeating folders such as "personal-forge" are disccussed in "documents" folder that showcases
+the folder's rules, instruction and strategy in organizing and assessing the code files.
+
 ```
 
 ## Color Legends:
