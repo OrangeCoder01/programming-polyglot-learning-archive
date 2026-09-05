@@ -1,14 +1,6 @@
 #include <iostream>
 using std::cin;
-/*
-Concept Explanation:
- This mini-project called 'Student Management System'
- is about storing data about each new added student in
- a database (here it is the constant-size-static-allocated array).
- The user can manipulate the data by adding or removing student,
- analyze statistics from the average score, or search for the student
- by his/her ID.
-*/
+
 unsigned const int MAX_NAME_CAPACITY = 1000;
 unsigned const int MAX_NUMBER_OF_STUDENTS = 100;
 
