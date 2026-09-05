@@ -7,7 +7,7 @@ ${\color{red}\text{Note}}$:<br>
 (1) Every `child sub-folder` is always found inside the `parent folder` such as ${\color{yellow}\text{challenges}}$ and
 ${\color{red}\text{projects}}$ child sub-folders inside ${\color{red}\text{personal-forge}}$ parent folder.
 <br>
-(2) For every folder found with directories of the repo named by one of document's folder names are thus follows the rules and
+(2) For every folder found with directories of the repo named by one of document's folder names are thus following the rules and
 instructions written in these documents.
 
 
