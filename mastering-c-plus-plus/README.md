@@ -1,6 +1,23 @@
 # Mastering ${\color{blue}\text{C++}}$
-The folder holds the ${\color{red}\text{projects}}$ executed and ${\color{yellow}\text{challenges}}$ completed using ${\color{blue}\text{C++}}$ ${\color{purple}\text{programming language}}$.
-<br>There are 2 sub-folders:
-<br>${\color{red}\text{personal-forge}}$ folder: contains the work done in a curriculum free roadmap of ${\color{red}\text{projects}}$ and ${\color{yellow}\text{challenges}}$ except for a roadmap devised by an AI model **ChatGPT**
-<br>${\color{purple}\text{utility}}$ `_` ${\color{purple}\text{functions}}$ folder: holds `personally made` ${\color{purple}\text{libraries}}$ that are called in code files, that are helpful in avoiding rewriting
-<br>similar functions all over the code files which enhances `readability` and provides a `clean code`.
+
+${\color{blue}\text{C++}}$ ${\color{violet}\text{programming language}}$ is one of the lowest ${\color{violet}\text{programming languages}}$, it is a higher-level ${\color{violet}\text{programming language}}$ when compared to ${\color{turquoise}\text{C}}$ and lower-level onw when compared to ${\color{orange}\text{Python}}$
+<br>
+<br>
+Why learning ${\color{blue}\text{C++}}$:
+```
+    (1) Gives freedom for newbie programmer to understand ${\color{violet}\text{programming concepts}}$:
+        1.1) Semantics
+        1.2) Alogrithms
+        1.3) Syntax
+        without having complete freedom given by "C" or managing every adversities such as "memory management" by "Python"
+
+        Plus:
+        Deep understanding of the "C++" concept guarantees fluidity comprehending concepts in other programming langauges.
+
+
+    (2) It is applied in Embedded System and IOT (same as "C") due to its fast pace compile time and close relation to
+        assembly language.
+    
+    (3) Used in "Operating Systems" and "Game engine" such as "Unreal" game engine. which bos
+        
+```
