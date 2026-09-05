@@ -1,13 +1,6 @@
 #include <iostream>
 using std::cin;
 
-/*
-Concept expalantion:
-    This is 'Bank Simulator', the user enters his/her balance and asked to perform certain transactions
-    the user asked for in the menu. The program behind the scene stores transation history of the user.
-*/
-
-
 
 /*-------------------------------------------------------------------------------------------*/
 unsigned static const int MAX_TRANSACTIONS = 100;
