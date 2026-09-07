@@ -9,7 +9,7 @@ libraries across multiple programming languages.
 Currently:
 1. C++
 2. Python
-3. Arduino IDE
+3. C/C++ Arduino IDE
 4. C
 
 Repository architecture
