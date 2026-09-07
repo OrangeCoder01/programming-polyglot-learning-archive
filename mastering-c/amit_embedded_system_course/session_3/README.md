@@ -1,5 +1,5 @@
 # Classwork Session (3)
-Implemented:
+Learned:
 ```
     (1) Conditional flow 
         (1) Main keywords
