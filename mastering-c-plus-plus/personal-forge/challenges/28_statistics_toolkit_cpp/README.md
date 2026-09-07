@@ -1,5 +1,6 @@
 # Statistics toolkit
 ## ${\color{orange}\text{Concept explanation}}$:
+Explanation:
 ```
     The program helps user to analyze set of input numerical values and prints the analysis 
 ```
@@ -7,7 +8,7 @@ Input:
 ```
     (1) The number of elements the user want to analyze.
 
-    (2) The numerical value of the elements
+    (2) The numerical value of the elements.
 ```
 Outputs:
 ```
@@ -29,9 +30,9 @@ Outputs:
 
         (1.8) Variance: 
 
-        (1.9) Original array
+        (1.9) Original array:
 
-        (1.10) Bubble-sorted array
+        (1.10) Bubble-sorted array:
 
 ```
 
@@ -45,5 +46,5 @@ Rules:
 Obligation:
 ```
     (1) User must restart the program to initialize a new statisitc analysis.
-    (Due to using static allocated array which when its initialized with assigned constant size is immutable to size change)
+    (Due to using static allocated array which when its initialized with assigned constant size is immutable to size change.)
 ```

@@ -1,5 +1,9 @@
 # Second largest number in array
 ## ${\color{orange}\text{Concept explanation}}$:
+Explanation:
+```
+    The program finds the second largest element in a user-input array.
+```
 The program receives input:
 ```
     (1) number of elements.

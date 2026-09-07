@@ -1,5 +1,9 @@
 # Array Sum
 ## ${\color{orange}\text{Concept explanation}}$:
+Explanation:
+```
+    
+```
 The program receives input:
 ```
     (1) number of elements.

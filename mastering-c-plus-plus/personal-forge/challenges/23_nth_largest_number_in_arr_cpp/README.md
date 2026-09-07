@@ -1,5 +1,9 @@
 # Nth largest number in array
 ## ${\color{orange}\text{Concept explanation}}$:
+Explanation:
+```
+    The program finds the nth order largest element in the array in accordance "Dense ranking" system.
+```
 The program receives input:
 ```
     (1) number of elements.

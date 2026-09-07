@@ -1,5 +1,10 @@
 # Max element in array
 ## ${\color{orange}\text{Concept explanation}}$:
+Explanation:
+```
+    The program find the element with largest numerical values in a user-input array. 
+```
+
 The program receives input:
 ```
     (1) number of elements.

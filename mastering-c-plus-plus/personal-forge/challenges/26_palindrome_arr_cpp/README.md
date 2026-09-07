@@ -1,6 +1,11 @@
 # Palindrome array
 ## ${\color{orange}\text{Concept explanation}}$:
-
+Explanation:
+```
+    The program reads elements' values inserted by the user and process if the choronological placement of the
+    elements in the array place in congruence with its reversed form: in case it is true; the array is palindrome, otherwise
+    it is not a palindrome.
+```
 The program receives input:
 ```
     (1) number of elements.

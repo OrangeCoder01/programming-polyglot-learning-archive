@@ -1,5 +1,9 @@
 # Reverse Array
 ## ${\color{orange}\text{Concept explanation}}$:
+Explanation:
+```
+    The program transforms an input array into it reversed form and prints it. 
+```
 
 The program receives input:
 ```
