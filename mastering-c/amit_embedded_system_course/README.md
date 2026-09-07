@@ -8,6 +8,7 @@ What is ${\color{orange}\text{AMIT Embedded System Course}}$:
     The current course I got enrolled is "Embedded System" course, a helpful course.
 ```
 <br>
+
 What topics learned(learning):
 ```
     (1) Learning basics of electronics like:
