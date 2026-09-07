@@ -1,4 +1,7 @@
-4) Clear a bit by making a bit of a bit order be zeroed
+# Task (4)
+```
+(4) Clear a bit by making a bit of a bit order be zeroed
+```
 
 ${\color{red}\text{Note}}$: bit order start from 0.
 <br>${\color{pink}\text{for example}}$: 
