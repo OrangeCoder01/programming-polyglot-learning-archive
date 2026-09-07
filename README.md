@@ -18,20 +18,22 @@ For C++ and Python:
 Language
 └── Learning Path
     ├── Personal Forge
-    │   ├── Challenges
-    │   └── Projects
-    └── Course Curriculum
-        ├── Challenges
-        └── Projects
+    │   ├── Challenges ── Code Folder ── Code Files
+    │   └── Projects ── Code Folders ── Code Files
+    └── Course Curriculum 
+        ├── Challenges ── Code Folders ── Code Files
+        └── Projects ──  Code Folder ── Code Files
 
 For Arduino IDE:
 
 Development Board Brand
 └── Board Family
-    ├── Debuggers
-    └── Projects
-        └── Difficulty Level
-            └── Code
+        |
+        Board Types
+            ├── Debuggers
+            └── Projects
+                └── Difficulty Level
+                    └── Code
 
 Challenges vs. Projects
 
