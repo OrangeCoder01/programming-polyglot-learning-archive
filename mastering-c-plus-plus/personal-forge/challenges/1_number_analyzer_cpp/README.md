@@ -16,22 +16,23 @@ ${\color{blue}\text{Number analyzer}}$
     In case of false conditional statement of while loop, the internal
     state flag is reset using "cin.clear()", and buffer is cleared using "cin.ignore(1000, '\n')"
     where the buffer containing the invalid input is cleared out of its storage character by character
-    until reaching the ([Enter] or "\n"), but a limit of 1000 characters permissible to be removed,
-    exceeding the limit will force halt the checking  process for ([Enter] or "\n").
+    until reaching the ([Enter] or "\n"), but a limit of 1000 characters are permissible to be removed,
+    exceeding the limit will force halting the checking process for ([Enter] or "\n").
+
+
+    Then using functions: 
+    (1) "void number_sign_analyzer( int user_input_num)" for printing the number's sign, it will
+    "The user input number is positivie\negative\zero\nan" based on the number.
     
-    "\n"`cin.ignore(1000, '\n')`
+    (2) `void number_odd_even_identifier( int user_input_num)` for printf "even\odd" using the
+    modulus 2 condition logic
+
+    Printing the analysis done, until the user responds by typing any key other than 'y' ot 'Y',
+    as a choice-based loop using user decision for rerunning the program.
 ```
 
-Then uses functions: 
-`void number_sign_analyzer( int user_input_num)` for printing the number's sign, it will<br>
-"The user input number is positivie\negative\zero\nan" based on the number<br>
-and `void number_odd_even_identifier( int user_input_num)` for printinf "even\odd" using the
-modulus 2 condition logic<br>
 
-Then the user input looping, which loops by asking the user the number and prints the analysis<br>
-done, until the user responds by typing any key other than 'y' ot 'Y' when asked whether he or she<br> would like to continue inserting numbers.
 
-The callback functions are `number_sign_analyzer` and `number_odd_even_identifier` respectively
 
 
 
