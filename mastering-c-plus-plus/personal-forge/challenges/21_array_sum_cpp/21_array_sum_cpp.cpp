@@ -70,5 +70,5 @@ int main()
 {
     printf("Welcome, to #Array's elements sum#\nAll you have to do is to enter the number of elements/numbers you want to add,\nand then enter the value for each\nThen the output is printing out your input number and their sum\n\n");
     printf("Note: Number of elements/numbers shouldn't exceed 10 and not zero, and max value for any element/number is 65535 in both signs\n\n");
-    printf("The sum is %ld", arr_sum());
+    printf("The sum is %i", arr_sum());
 }
