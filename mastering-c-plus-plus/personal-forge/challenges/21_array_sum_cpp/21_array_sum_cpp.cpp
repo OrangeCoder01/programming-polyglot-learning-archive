@@ -9,6 +9,8 @@ int user_validation()
         if(!(cin >> number))
         {
             printf("Invalid Input, enter input again: ");
+            cin.clear();
+            cin.ignore(1000, '\n');
         }
         else{break;}
     }
@@ -42,7 +44,7 @@ int arr_sum()
 
         while(!(number <= 0xffff && number >= -0xffff))
         {
-            printf("You can not enter a value exceeding 65535\n");
+            printf("You can not enter a value exceeding 65535/ or lower than -65535\n");
             printf("re-enter the value for elemenet {%i}: ",i);
             number = user_validation();      
         }
@@ -66,7 +68,7 @@ int arr_sum()
 
 int main()
 {
-    printf("Welcome, to #Digit Array Sum#\nAll you have to do is to enter the number of elements/numbers you want to add,\nand then enter the value for each\nThen the output is printing out your input number and their sum\n\n");
-    printf("Note: Number of elements/numbers shouldn't exceed 10 and not zero, and max value for any element/number is 65535\n\n");
-    printf("The sum is %d", arr_sum());
+    printf("Welcome, to #Array's elements sum#\nAll you have to do is to enter the number of elements/numbers you want to add,\nand then enter the value for each\nThen the output is printing out your input number and their sum\n\n");
+    printf("Note: Number of elements/numbers shouldn't exceed 10 and not zero, and max value for any element/number is 65535 in both signs\n\n");
+    printf("The sum is %ld", arr_sum());
 }
