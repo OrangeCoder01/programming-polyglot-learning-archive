@@ -7,4 +7,12 @@ ${\color{orange}\text{Armstrong Number}}$ ${\color{yellow}\text{challenge}}$ is 
 sum all together, if the sum is the same as the integer, then the integer is an ${\color{orange}\text{Armstrong Number}}$
 <br>
 <br>
-${\color{pink}\text{For example}}$: 370 ➡️ 3 7 0 ➡️ num. of digits = 3 ➡️ 3³ + 7³ + 0 = 27 + 343 + 0 = 370 ➡️ return it is an ${\color{orange}\text{Armstrong Number}}$ 
+${\color{pink}\text{For example}}$: 
+```
+370 
+    ➡️ 3 7 0 
+        ➡️ num. of digits = 3 
+            ➡️ 3³ + 7³ + 0 = 27 + 343 + 0 = 370 
+                ➡️ prints "It is an Armstrong Number".
+```
+
