@@ -25,5 +25,5 @@ Learned:
             (2.2.1) For loop (Numerical controlled repetitions (finite))
                 (2.1.1.1) Declaration and initialization of control variable.
                 (2.1.1.2) Test condition.
-                (2.1.1.3) iterative or deiterative step.    
+                (2.1.1.3) Iterative or deiterative step.    
 ```
