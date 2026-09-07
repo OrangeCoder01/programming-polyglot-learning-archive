@@ -1,6 +1,8 @@
 # Statistics toolkit
 ## ${\color{orange}\text{Concept explanation}}$:
-
+```
+    The program helps user to analyze set of input numerical values and prints the analysis 
+```
 Input:
 ```
     (1) The number of elements the user want to analyze.
@@ -26,7 +28,11 @@ Outputs:
         (1.7) Standard deviation:
 
         (1.8) Variance: 
-        
+
+        (1.9) Original array
+
+        (1.10) Bubble-sorted array
+
 ```
 
 Rules:
