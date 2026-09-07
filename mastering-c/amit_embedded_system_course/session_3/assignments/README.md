@@ -9,5 +9,5 @@ Implemented:
       (2.1) separating the digits from an integer.
 
   (3) Conditional flow:
-      (3.1) In filtering outputs to input that fulfill certain conditions.
+      (3.1) In filtering inputs and output results that fulfill certain conditions.
 ```
