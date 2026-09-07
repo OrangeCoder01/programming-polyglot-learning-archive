@@ -10,25 +10,23 @@ Input:
 Outputs:
 ```
     (1) It prints:
-        (1.1)
 
-        (1.2)
+        (1.1) Minimum element:
+
+        (1.2) Maximum element:
+
+        (1.3) Mean:
+
+        (1.4) Mode:
+
+        (1.5) Median:
+
+        (1.6) Range:
+
+        (1.7) Standard deviation:
+
+        (1.8) Variance: 
         
-        (1.3)
-        
-        (1.4)
-        
-        (1.5)
-        
-        (1.6)
-        
-        (1.7)
-        
-        (1.8)
-        
-        (1.9)
-        
-        (1.10)
 ```
 
 Rules:
