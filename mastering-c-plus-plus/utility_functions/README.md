@@ -7,3 +7,8 @@ that contains well-prepared functions that serve well in the ${\color{yellow}\te
 ${\color{pink}\text{for example:}}$:<br> ${\color{purple}\text{yassin}}$ `_` ${\color{purple}\text{math.h}}$ ${\color{purple}\text{library}}$ that holds many re-usable functions like ${\color{orange}\text{pow(float, int)}}$ for handling power and ${\color{orange}\text{round(float, int)}}$ which handles the rounding with the given decimal-point precision
 <br> there might be many enhancement of libraries from time to time, I will try to keep record of old ${\color{purple}\text{libraries}}$.
 <br>
+<br>
+${\color{red}\text{Note}}$:
+```
+    The path directory is different due to writing code on a different workspace.
+```
