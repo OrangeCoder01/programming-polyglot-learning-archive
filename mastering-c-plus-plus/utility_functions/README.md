@@ -11,4 +11,8 @@ ${\color{pink}\text{for example:}}$:<br> ${\color{purple}\text{yassin}}$ `_` ${\
 ${\color{red}\text{Note}}$:
 ```
     The path directory is different due to writing code on a different workspace.
+
+    You will need to set a worksapce, add install this library in a folder and call the directory
+    of the file inside this folder in other code files so that the program acknowledges the code file
+    and make use of its functions.
 ```
