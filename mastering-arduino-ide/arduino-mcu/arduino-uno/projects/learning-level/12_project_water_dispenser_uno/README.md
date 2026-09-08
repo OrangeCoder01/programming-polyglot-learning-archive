@@ -199,11 +199,11 @@ The code:
 
 Thank you for your patience!
 
-This is:
+Hyperlink texts for:
 
-1) (TinkerCAD)[https://www.tinkercad.com/things/eZvYrkw7wTM-water-dispenser-/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard] Circuit design for the water dispenser project:
+1) [TinkerCAD](https://www.tinkercad.com/things/eZvYrkw7wTM-water-dispenser-/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard) Circuit design for the water dispenser project:
 
-2) (YT video)[https://studio.youtube.com/channel/UCjv-M0RC4VAx9AhodaJHAgA]:
+2) [YT video](https://studio.youtube.com/channel/UCjv-M0RC4VAx9AhodaJHAgA):
 
 
   

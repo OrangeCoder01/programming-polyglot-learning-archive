@@ -43,4 +43,4 @@ So using the logical NOT operator, the Current_State becomes the opposite of Pre
 Then using the State_Detector() to identify the state,
 and finally assigning Previous_State as the Current_State.
 
-(YouTube video)[https://www.youtube.com/shorts/B_wW2WJ-f0s]:
+[YouTube video](https://www.youtube.com/shorts/B_wW2WJ-f0s):
