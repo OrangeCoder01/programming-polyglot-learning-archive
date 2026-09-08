@@ -1,6 +1,6 @@
 /*
 Concept Explanation:
-    This program takes from the user an integer and check if this number is prime or not
+    This program takes from the user an integer and check if this number is a prime or not
 */
 
 #include <iostream>
