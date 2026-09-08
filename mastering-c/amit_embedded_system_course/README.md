@@ -13,7 +13,7 @@ What is ${\color{orange}\text{AMIT Embedded System Course}}$:
 ```
 <br>
 
-What topics learned(learning):
+What will be learned at the end of the course.:
 ```
     (1) Learning basics of electronics like:
         (1.1) Electronic infrastructure (Memories, Registers, Communication Protocols).
