@@ -15,10 +15,10 @@ int power_check(int integer_input, int base, int supposed_result)
 
 int main(void)
 {
-    int integer_input = 0, base_num = 2, result = -1;
+    int integer_input = 0, result = -1;
 
-    printf("This program recieves an integer number, a base number, and a supposed value that will be printed\n");
-    printf("if the integer number is a result of the powering the base number, for example: 8 = 2^4, supposed result = 1.\n\n");
+    printf("This program receives an integer number, a base number, and a supposed value that will be printed\n");
+    printf("if the integer number is a result of powering the base number by a base of 2 or 3 will be equal to: 1 or 0 respecitevly, otherwise -1, for example: 8 = 2^4, supposed result = 1.\n\n");
 
     printf("Please, enter the integer number: "); scanf(" %d", &integer_input);
 
