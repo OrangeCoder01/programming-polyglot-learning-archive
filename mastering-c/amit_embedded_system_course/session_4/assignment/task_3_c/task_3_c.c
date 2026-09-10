@@ -7,7 +7,7 @@ int prime_check(int input_number)
     else if(input_number == 2 || input_number == 3 ){ return 1;}
 
     int i = 2;
-    while( i <= (input_number) )
+    while( i * i <= input_number )
     {
         if(input_number % i == 0){ return 0;}
         i += 1;
