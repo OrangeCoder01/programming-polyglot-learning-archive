@@ -15,10 +15,15 @@ int main(void)
 
     int bit = 0;
     printf("Please enter the bit: ");scanf("%d", &bit);
-    
+
     if(bit < 0)
     {
         printf("Bit order can not be negative! ");
+        return 0;
+    }
+    if(user_bit > 32)
+    {
+        printf("Bit order can not be over 32 bits! ");
         return 0;
     }
 

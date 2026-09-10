@@ -13,6 +13,11 @@ int main(void)
         printf("Bit order can not be negative! ");
         return 0;
     }
+    if(user_bit > 32)
+    {
+        printf("Bit order can not be over 32 bits! ");
+        return 0;
+    }
 
     int result = (user_num >> user_bit) & 1;
     printf("The number {%d} has a bit in the order {%d}: {%d}", user_num, user_bit, result);
