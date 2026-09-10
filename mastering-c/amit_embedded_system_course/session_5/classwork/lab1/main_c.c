@@ -22,10 +22,19 @@ int main(void)
                  printf("Can not divide by zero \n");
                  is_valid = 0;
             }
-            else { result = div(num_1,  num_2); }
+            else { result = divide(num_1,  num_2); }
             break;
         }
-        case ('%'): { result = mod(num_1, num_2); break; }
+        case ('%'): 
+        {
+            if(num_2 == 0)
+            {
+                printf("Can not use modulus with zero \n");
+                is_valid = 0;
+            }
+            else { result = mod(num_1, num_2);  }
+            break; 
+        }
         default: 
         {
             printf("Invalid operator!\n");

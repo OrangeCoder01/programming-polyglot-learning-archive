@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "calculator_c.h"
 
 int main(void)

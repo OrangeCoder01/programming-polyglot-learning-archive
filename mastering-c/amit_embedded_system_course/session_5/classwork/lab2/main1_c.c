@@ -2,7 +2,7 @@
 int summation(int num)
 {
     if(num > 0) { return num + summation(num - 1); }
-    else if (num > 0) { return num + summation(num + 1); }
+    else if (num < 0) { return num + summation(num + 1); }
     else { return 0; }
 }
 int main(void)
