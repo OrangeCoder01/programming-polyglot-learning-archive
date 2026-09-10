@@ -3,5 +3,5 @@ Implementations:
 ```
     (1) Do-while loop in password validator.
 
-    (2) Functions as a calculator program.
+    (2) Functions.
 ```

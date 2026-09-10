@@ -60,7 +60,7 @@ int main(void)
                     printf("Can not divide by zero \n");
                     is_valid = 0;
                 }
-                else { result = user_num_1 / user_num_2; }
+                else { result = division(user_num_1, user_num_2); }
                 break;
             }
             default:
