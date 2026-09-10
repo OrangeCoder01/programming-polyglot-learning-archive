@@ -9,7 +9,7 @@ int main(void)
     printf("Please, enter 3-digit number: "); scanf("%d", &number);
     printf("Number: %d\n", number);
 
-    if(number > 999 || number < 0)
+    if(number > 999 || number < 100)
     {
         printf("Invalid input, can not proceed!\n");
         return 0;
