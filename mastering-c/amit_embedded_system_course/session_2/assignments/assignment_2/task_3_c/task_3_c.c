@@ -8,6 +8,13 @@ int main(void)
     
     printf("Please, enter 3-digit number: "); scanf("%d", &number);
     printf("Number: %d\n", number);
+
+    if(number > 999 || number < 0)
+    {
+        printf("Invalid input, can not proceed!\n");
+        return 0;
+    }
+
     int temp = number;
 
     digit = (temp / 100) % 10;

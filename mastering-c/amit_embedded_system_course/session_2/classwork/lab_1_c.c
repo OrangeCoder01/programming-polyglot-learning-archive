@@ -8,6 +8,11 @@ int main(void)
     printf("Please enter a number: ");scanf("%d", &user_num);
     int bit = 0;
     printf("Please enter the bit: ");scanf("%d", &bit);
+    if(bit < 0)
+    {
+        printf("Bit order can not be negative! ");
+        return 0;
+    }
 
     int end_val = (user_num | (1 << bit)) ;
 

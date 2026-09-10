@@ -9,8 +9,8 @@ int main(void)
         int x = 0;
         printf("Enter a value: ");scanf("%d", &x);
         printf("Value = %d\n", x);
-        return 0;    
+        printf("%i", 5 && 3);
 
-    printf("%i", 5 && 3);
+        return 0;    
     
 }

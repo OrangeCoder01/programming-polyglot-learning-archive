@@ -8,8 +8,8 @@ int main(void)
     //Learning formatters
     int x = 0;
     printf("Number: %d\n", x);
-    return 0;
-
+    
     printf("%i", 5 && 3);
+    return 0;
     
 }
