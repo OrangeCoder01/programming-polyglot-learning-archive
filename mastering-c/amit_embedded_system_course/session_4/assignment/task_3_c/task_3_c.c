@@ -30,7 +30,7 @@ int main(void)
 
     i = user_bound_1;
 
-    for(i; i < user_bound_2; i++)
+    for(i; i <= user_bound_2; i++)
     {
         if(prime_check(i)) { printf("%d ", i); }
     }
