@@ -7,7 +7,7 @@ Learned:
                 (1.1.1.1) Integer converter:
                 
                     int(): can be used with floats,
-                            and (numerical)/(single character) strings.
+                           and (numerical)/(single character) strings.
 
 
             (1.1.2) Float:
@@ -19,16 +19,16 @@ Learned:
 
 
             (1.1.3) String:
-                    (1.1.3.1) String converter:
+                (1.1.3.1) String converter:
 
-                    str(): can be used with integers
-                        for ASCII convertion to char.
+                str(): can be used with integers
+                    for ASCII convertion to char.
 
 
-                    (1.1.3.2) Text character extractor:
+                (1.1.3.2) Text character extractor:
 
-                        "Hello" --> H[0] e[1] l[2] l[3] o[4]
-                        print("Hello"[0]) = H
+                    "Hello" --> H[0] e[1] l[2] l[3] o[4]
+                    print("Hello"[0]) = H
 
 
 
