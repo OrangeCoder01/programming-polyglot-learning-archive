@@ -1,4 +1,4 @@
-# Day {8}
+# Day {7} and {8}
 # Challeng# {1}:
 
 def greet_with(name, location):

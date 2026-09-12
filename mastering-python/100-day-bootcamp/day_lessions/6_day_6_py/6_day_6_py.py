@@ -9,5 +9,3 @@ my_function()
 
 # Remeber indentation manipulation keys: (Ctrl + ]) and (Ctrl + [)
 
-# Day (7)
-
