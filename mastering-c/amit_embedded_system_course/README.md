@@ -8,7 +8,7 @@ What is ${\color{orange}\text{AMIT Embedded System Course}}$:
     to help expand their professional skills in their desired field.
 
     The current course I got enrolled is "Embedded System" course, a helpful course for understanding
-    for low-level programming and hardware architecture sophistications through implementations.
+    low-level programming and hardware architecture sophistications through implementations.
  
 ```
 <br>
