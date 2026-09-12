@@ -1,4 +1,4 @@
-# Day 7 and 8:
+# Day 7:
 Learned
 ```
     (1) Argument types:

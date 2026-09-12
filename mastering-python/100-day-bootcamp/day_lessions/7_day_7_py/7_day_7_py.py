@@ -1,5 +1,5 @@
-# Day {7} and {8}
-# Challeng# {1}:
+# Day {7}
+# Challenge {1}:
 
 def greet_with(name, location):
     print(f"Hello {name}")

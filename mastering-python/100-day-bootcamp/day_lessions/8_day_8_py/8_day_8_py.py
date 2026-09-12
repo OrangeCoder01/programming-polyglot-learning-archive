@@ -1,4 +1,4 @@
-# Day {8} and {9}
+# Day {8}
 
 english_dictionary = {"Eat": "The action of consuming an edible",
                       "Hen":"An animal thast walks on land with two legs and lays eggs"
