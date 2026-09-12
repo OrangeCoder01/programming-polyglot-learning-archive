@@ -4,7 +4,7 @@ What is ${\color{orange}\text{AMIT Embedded System Course}}$:
     AMIT stands for "Assosciation of management and information technology".
 
     The association located in Egypt, aimed for graduates and undergraduates 
-    who are interested or with a profession within STEM (Science-Technology-Engineering-Math) domain<br>
+    who are interested or with a profession within STEM (Science-Technology-Engineering-Math) domain
     to help expand their professional skills in their desired field.
 
     The current course I got enrolled is "Embedded System" course, a helpful course for understanding
