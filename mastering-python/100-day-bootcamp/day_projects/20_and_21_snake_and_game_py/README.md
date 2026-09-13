@@ -1,5 +1,5 @@
 # Snake Game
-[Snake Game YT](https://www.youtube.com/shorts/_KOVaTd6rPE) <br>
+[Snake Game YT](https://youtube.com/shorts/reHdIiY7o6g?feature=share) <br>
 What is "Snake Game"?
 ```
     It is one of old arcade games, famous association with Nokia (2000s cellphones) built-in games.
