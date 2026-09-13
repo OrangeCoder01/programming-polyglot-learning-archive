@@ -28,6 +28,4 @@ Learned:
                 print(piano_keys[2:5:2]) = ce
                 print(piano_keys[::2]) = aceg
                 print(piano_keys[::-1]) = gfedcba
-
-
 ```
