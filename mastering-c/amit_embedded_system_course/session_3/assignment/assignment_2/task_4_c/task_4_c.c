@@ -1,16 +1,25 @@
 #include <stdio.h>
-int main(void)
-{
-    int user_number = 0, power = 0, result = 0, i = 1;
-    printf("This program receives two input: an integer and the power, it outputs the result of the number powered by that root power: \n");
-    printf("Please, enter the integer: "); scanf("%d", &user_number);
-    printf("Please, enter the power: "); scanf("%d", &power);
 
-    result = user_number;
-    for (i; i < power; ++i)
+
+int main(void)/* conditional control flow is not learned, but used in this code, to avoid errors from unexpected user input */
+{
+    int number = 0;
+    printf("Please, enter an integer number:"); scanf("%d", &number);
+
+    int bits = 0;
+    printf("Please, enter the bit order: "); scanf("%d", &bits);
+    if(bits < 0)
     {
-        result = result * user_number;
+        printf("Bit order can not be negative! ");
+        return 0;
     }
-    printf("\n Integer {%d} to the power of {%d} is: {%d}", user_number, power, result);
+    if(bits > 32)
+    {
+        printf("Bit order can not be over 32 bits! ");
+        return 0;
+    }
+
+    int result = number & ~(1 << bits);
+    printf("The input number: {%d} is equal to (when bit order %d is cleared): %d", number, bits, result);
     return 0;
 }

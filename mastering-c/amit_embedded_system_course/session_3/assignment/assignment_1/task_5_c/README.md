@@ -1,7 +1,5 @@
 # Task 5:
 ```
-    (5) Write a program to add two floating numbers.
-    Determine the integer floor of the sum. The floor is the
-    truncated float value, anything after the decimal point is
-    dropped.
+    (5) Write a code that takes 2 numbers and print their
+        summation, subtraction, anding, oring, and Xoring.
 ```

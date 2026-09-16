@@ -1,11 +1,30 @@
 #include <stdio.h>
-int main(void)
+
+
+int main(void)/* conditional control flow is not learned, but used in this code, to avoid errors from unexpected user input */
 {
-    int i = 0;
-    printf("This program prints uppercase alphabetical letters A ~ Z: \n");
-    for(i = 65; i <= 90; ++i)
+    int number = 0;
+    int digit = 0;
+    
+    printf("Please, enter 3-digit number: "); scanf("%d", &number);
+    printf("Number: %d\n", number);
+
+    if(number > 999 || number < 100)
     {
-        printf("%c\n", i);
+        printf("Invalid input, can not proceed!\n");
+        return 0;
     }
-    return 0;
+
+    int temp = number;
+
+    digit = (temp / 100) % 10;
+    printf("%d", digit);
+    temp = number;
+
+    digit = (temp / 10) % 10;
+    printf(" %d", digit);
+    temp = number;
+
+    digit = temp % 10;
+    printf(" %d", digit);    
 }

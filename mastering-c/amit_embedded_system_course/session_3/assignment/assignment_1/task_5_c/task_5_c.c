@@ -1,15 +1,21 @@
 #include <stdio.h>
+
+
 int main(void)
 {
-    float num1 = 0, num2 = 0;
-    int sum_integer = 0;
-    printf("The program receives two float inputs and output the sum as integer\n");
+    int user_num_1 = 0;
+    int user_num_2 = 0;
 
-    printf("Enter the first number: "); scanf("%f", &num1);
-    printf("Enter the second number: "); scanf("%f", &num2);
+    printf("Please, enter the value for the 1st number: "); scanf("%d", &user_num_1);
+    printf("Please, enter the value for the 2nd number: "); scanf("%d", &user_num_2);
 
-    sum_integer = (int)(num1 + num2);
-    printf("The integer sum of (%.2f) and (%.2f) is (%i) ", num1, num2, sum_integer);
+    int summing = user_num_1 + user_num_2;
+    int subtraction = user_num_1 - user_num_2;
+    int anding = user_num_1 & user_num_2;
+    int oring = user_num_1 | user_num_2;
+    int xoring = user_num_1 ^ user_num_2;
 
-    return 0;
+    printf("\n\nNumbers: (%d, %d):\n1) Summation: %d\n2) subtraction: %d\n3) anding: %d\n4) oring: %d\n5) xoring: %d\n\n", user_num_1, user_num_2, summing, subtraction, anding, oring, xoring);
+
+
 }

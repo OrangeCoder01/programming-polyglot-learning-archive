@@ -1,5 +1,5 @@
-# Task (1)
+# Task 1:
 ```
-    (1) Write a program that reads a positive integer and
-        checks if it is a prime number.
+    (1) Write a program to print the ASCII value of a character
+        input by the user.
 ```

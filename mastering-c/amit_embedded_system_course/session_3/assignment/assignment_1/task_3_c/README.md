@@ -1,5 +1,6 @@
 # Task 3:
 ```
-    (3) Write a program that reads two integers and checks
-    if the first is multiple of the second.
+    (3) Write a program for converting temperature from degrees
+        Celsius to degrees Fahrenheit, given the formula:
+        F = Cx 9/5+32
 ```

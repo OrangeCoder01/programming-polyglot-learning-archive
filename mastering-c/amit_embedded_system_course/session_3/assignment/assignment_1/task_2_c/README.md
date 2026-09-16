@@ -1,7 +1,4 @@
 # Task 2:
 ```
-    (2) Write program that converts any letter from
-    lowercase to uppercase.
+    (2) Write a program that print your name and your grade in a new line.
 ```
-
-
