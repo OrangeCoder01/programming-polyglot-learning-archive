@@ -4,9 +4,11 @@ Learned (mixed with personal research):
     (1) Introduction to Embedded Systems:
         (1.1) Computer system:
 
-            It is a large scale general purpose system that acquires:
+            It is a large-scale general purpose system that acquires:
                  (1) High resources.
+
                  (2) Big size.
+
                  (3) High cost.
 
             (1.1.1) Processor sytem:
@@ -101,19 +103,34 @@ Learned (mixed with personal research):
 
 
 
+        (1.2) Microcontroller system:
 
+            It is a small-scale specific purpose system that acquires:
+                (1) Low resources.
 
-        (1.2) Microcontroller:
+                (2) Small Size.
+
+                (3) Low cost.
 
             (1.2.1) Processor system:
-
-
-
-
-
-
-
+                    (1.2.1.1) Control Unit (CU).
+                    (1.2.1.1) Arithmetic Logic Unit (ALU).
+                    (1.2.1.1) Registers.
+            
             (1.2.2) Memory system:
+                (1.2.2.1) RAM.
+                (1.2.2.2) Program memory ( Internal Flash / ROM ( Read only memory ) ):
+
+                    It holds the compiled code and its stored data is non-volatile, equivalent representation for "Secondary storage" in computer system.
+
+                (1.2.2.3) EEPROM (Electrically Erasable Programmable ROM).
+
+                    It holds data about setting, IDs or device's data.
+                
+            (1.2.3) Input/Output (I/O) and Peripheral System:
+
+                GPIO stands for "General purpose Input/Output": these are protruding pins that can receive electrical
+                signal from sensors or send ones to actuators.
 
 
 
@@ -122,20 +139,116 @@ Learned (mixed with personal research):
 
 
 
-            (1.2.3) Input/Output (I/O) system:
+    (2) Introduction to C programming language:
+        (2.1) History of C programminf language:
+
+            1960 -> ALGOL programming language (Father of all programming langauges).
+
+            1967 -> BCPL programming language (Basic combined system programming language).
+
+            1970 -> B programming language by (Unix System) from (Bell Labs) (It is said it is the first letter from "BCPL" or probably from "Bell labs").
+
+            1972 -> C programming language by (Dennis Ritchie) (C is the next letter after B due to its reference of its advancement).
+
+            C is combination of ALGOL, BCPL, B, and many added features in one.
+
+
+
+        (2.2) Official C versions and standards:
+
+            (C89/90), (C95), (C99), (C11), (C17/18), (C23).
+        
+
+
+        (2.3) Applications of C programming language:
+            - Widely used in Embedded System.
+
+            - System application.
+
+            - Operating System (OS) such as (Linux, Windows, and MAC)
+
+            - Database (MySQL)
+
+
+
+        (2.4) Core Toolchain architecture:
+            (2.4.1) What is Toolchain:
+
+                It is a block of softwares that one receives the previous blocks output as its input and
+                process the input to produce an output that the next software will use as input.
+
+                Thus the name "Toolchain" is about chain of tool softwares that cooperate with each other and
+                the final output is presented to the user.
+
+
+            (2.4.2) Compilation Toolchain
+
+                In programming language, there is a toolchain called "Compilation Toolchain":
+
+                    It is the responsible for converting programming language text into machine-readable code that can be compiled.
+                    Vice-versa with showcasing/displaying the result/output.
+                    
+                It is composed of 4 core softwares:
+                    - Preprocessor.
+
+                    - Compiler.
+
+                    - Assembler.
+
+                    - Linker.
+
+
+
+
+
+    
+
+
+    (3) Perplexing details:
+        (3.1) UNIX:
+
+            It is the foundational operating system which established the standards of the modern computing enviroments.
+
+        (3.2) GNU:
+
+            It is an open source (free) project used that focuses in producing efficient software toolchain GCC and debuggers GDB. 
+            It is not founded by UNIX, and GNU stands for "GNU not UNIX" (Recursive acronym).
+
+        (3.3) GCC:
+            
+            It stands for "GNU Compiler Collection"; it is a compilation engine.
+        
+        (3.4) MinGW:
+
+            It stands for "Minimalist GNU for windows"; software combining GNU and GCC.
 
 
 
 
 
 
+    (4) Why section:
+        (4.1) Why learn Embedded System:
+            - Deep Understanding of Computing; understanding small electronics chips' utilities, features
+              and labels in small-scale system as the Microcontroller aids well in designing and implementing
+              real cascaded small-scale systems that get finished as large-scale system as more powerful such as
+              "Microprocessor", then "Computer System". It aids in understandinf the standard electronics internal
+              composition architecture.
 
+            - Optimization; one of the most important skill from developers in general is code optimization,
+              but for embedded system engineer; optimization expands toward limiting opertations for best
+              performance; due to lack of storage space.
+
+            - Ability to develop robotics and automation.
+        
+        (4.2) Why C programming language:
+            - It is modular and structured programming language that focuses in enhancing developers skills in compromising 
+              large problem into manageable pieces.
+
+            - Simplicity and difficulty; there are 32 keywords with no built-in functions; it directs the developer to create
+              modules and solve problem, and understanding binary mathematics all from scratch.
+              It hands the developer all the responsibilities such as memory management without any backup.
+
+            - Fast runtime; due to its simplicity, which makes it demanded in Embedded system.
 
 ```
-
-    (1) Type Specifier:
-        (1.1) int
-        (1.2) char
-        (1.3) float
-
-    (2) <stdio.h> library
