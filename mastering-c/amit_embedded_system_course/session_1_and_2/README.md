@@ -121,11 +121,14 @@ Learned (mixed with personal research):
                 (1.2.2.1) RAM.
                 (1.2.2.2) Program memory ( Internal Flash / ROM ( Read only memory ) ):
 
-                    It holds the compiled code and its stored data is non-volatile, equivalent representation for "Secondary storage" in computer system.
+                    It holds the compiled code and its stored data is non-volatile, equivalent representation for "Secondary storage" in computer system. ROM is only written once by manufacturers and can not be edited by
+                    the developer. While Flash can erased and be rewritten, it is large in size and stores infrequently
+                    written data.
 
                 (1.2.2.3) EEPROM (Electrically Erasable Programmable ROM).
 
-                    It holds data about setting, IDs or device's data.
+                    It holds data about setting, IDs or device's data. Unlike Internal Flash: it is small in size and
+                    stores data that is frequently written.
                 
             (1.2.3) Input/Output (I/O) and Peripheral System:
 
@@ -232,8 +235,9 @@ Learned (mixed with personal research):
             - Deep Understanding of Computing; understanding small electronics chips' utilities, features
               and labels in small-scale system as the Microcontroller aids well in designing and implementing
               real cascaded small-scale systems that get finished as large-scale system as more powerful such as
-              "Microprocessor", then "Computer System". It aids in understandinf the standard electronics internal
-              composition architecture.
+              "Microprocessor", then "Computer System". 
+
+              It aids in understanding the standard electronics internal composition architecture.
 
             - Optimization; one of the most important skill from developers in general is code optimization,
               but for embedded system engineer; optimization expands toward limiting opertations for best
