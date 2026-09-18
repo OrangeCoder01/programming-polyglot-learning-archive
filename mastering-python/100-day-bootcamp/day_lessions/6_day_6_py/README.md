@@ -1,4 +1,6 @@
 # Day 6:
+## ${\color{orange}\text{Concept explanation}}$:
+
 Learned
 ```
     (1) Functions

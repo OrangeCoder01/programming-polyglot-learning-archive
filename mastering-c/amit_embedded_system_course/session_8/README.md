@@ -1,22 +1,22 @@
-# Session (7):
-Learned:
+# Session (8):
+Learned (mixed with personal research):
 ```
-    (1) Details on functions:
+    (1) Details on functions and arrays:
         (1.1) Passing Array and size in a function:
-            For example:
-            """"
-                void print_array(int arr[], int size)
-                {
-                    /* Let: size = 6, arr[] = {-1, 4, 3, 6, -19, 4}*/
+        For example:
 
-                    int i = 0;
-                    printf("Array: ");
+            void print_array(int arr[], int size)
+            {
+                /* Let: size = 6, arr[] = {-1, 4, 3, 6, -19, 4}*/
 
-                    for(i; i < size; i++) { printf(" %d", arr[i]); }
+                int i = 0;
+                printf("Array: ");
 
-                    /* Output = Array: -1 4 3 6 -19 4 */
-                }
-            """
+                for(i; i < size; i++) { printf(" %d", arr[i]); }
+
+                /* Output = Array: -1 4 3 6 -19 4 */
+            }
+
 
 
         (1.2) Passing value methods:
@@ -30,7 +30,7 @@ Learned:
                 throughout the function and then returns the value.
 
                 For example:
-                """
+
                     int set_to_zero(int number)
                     {
                         /* Was 11234*/
@@ -45,7 +45,7 @@ Learned:
                         
                         return 0;
                     }
-                """
+
 
             (1.2.2) Pass by reference:
 
@@ -54,7 +54,7 @@ Learned:
                 inside a function that receives the variable as input parameter.
 
                 For example:
-                """
+
                     void set_to_zero(int *number) /* The return type is: "void" and  */
                     {
                         /* Was 11234*/
@@ -69,5 +69,16 @@ Learned:
                         
                         return 0;
                     }
-                """
+
+
+
+
+    (2) Introduction to data structures and algorithms:
+        (2.1) Data structures:
+        (2.2) Algorithms:
+            (2.2.1) Measuring running time of an alogrithm:
+                (2.2.1.1) Experimental method:
+                (2.2.1.2) Asymptotic analysis:
+
+
 ```

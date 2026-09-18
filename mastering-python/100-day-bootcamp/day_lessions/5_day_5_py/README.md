@@ -1,4 +1,5 @@
 # Day 5:
+## ${\color{orange}\text{Concept explanation}}$:
 
 Learned:
 ```

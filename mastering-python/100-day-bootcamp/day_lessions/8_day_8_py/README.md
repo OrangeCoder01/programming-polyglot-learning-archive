@@ -1,4 +1,6 @@
 # Day (8):
+## ${\color{orange}\text{Concept explanation}}$:
+
 Learned:
 ```
     (1) Dictionaries:

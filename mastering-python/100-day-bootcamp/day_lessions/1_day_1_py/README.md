@@ -1,4 +1,5 @@
 # Day 1:
+## ${\color{orange}\text{Concept explanation}}$:
 Learned:
 ```
     (1) String data type:

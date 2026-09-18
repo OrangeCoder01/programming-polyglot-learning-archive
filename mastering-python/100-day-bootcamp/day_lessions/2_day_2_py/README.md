@@ -1,4 +1,5 @@
 # Day 2:
+## ${\color{orange}\text{Concept explanation}}$:
 Learned:
 ```
     (1) Data types:

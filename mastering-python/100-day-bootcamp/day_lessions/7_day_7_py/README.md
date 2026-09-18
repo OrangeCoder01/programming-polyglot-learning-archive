@@ -1,4 +1,6 @@
 # Day 7:
+## ${\color{orange}\text{Concept explanation}}$:
+
 Learned
 ```
     (1) Argument types:

@@ -1,4 +1,6 @@
 # Day 16:
+## ${\color{orange}\text{Concept explanation}}$:
+
 Learned:
 ```
     (1) Procedural oriented programming (POP):

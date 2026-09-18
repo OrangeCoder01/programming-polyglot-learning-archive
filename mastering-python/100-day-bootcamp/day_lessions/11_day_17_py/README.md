@@ -1,4 +1,6 @@
 # Day 17:
+## ${\color{orange}\text{Concept explanation}}$:
+
 Learned
 ```
     (1) Deeper understanding of OOP and its concepts:

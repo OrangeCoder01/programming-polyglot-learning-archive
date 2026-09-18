@@ -1,4 +1,5 @@
-# Day 19:
+# Day 21:
+## ${\color{orange}\text{Concept explanation}}$:
 Learned:
 ```
     (1) OOP details:
