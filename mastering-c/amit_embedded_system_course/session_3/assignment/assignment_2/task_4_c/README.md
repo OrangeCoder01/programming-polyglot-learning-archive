@@ -1,4 +1,5 @@
 # Task 4:
+Question:
 ```
 (4) Clear a bit by making a bit of a bit order be zeroed
 ```
@@ -15,3 +16,21 @@ ${\color{red}\text{Note}}$: bit order start from 0.
 <br>step (1): make a bitmask reaching the specifc of 1 reach position 4 ---> [zeros]10000
 <br>step (2): Bitwise NOT of [zeros]10000 resulting into [ones]01111
 <br>step (3): Bitwise AND between [ones]00111 and [zeros]10111 resulting into: [zeros]111 which is 7
+
+Explanation:
+```
+    The program clear a used specific bit order to be cleared ( to be zeroed ).
+```
+Input:
+```
+    (1) The integer number:
+    (2) The bit order.
+```
+Output:
+```
+    The printing the number after the bit with respect to user selected bit order being cleared.
+```
+Why is this program important:
+```
+    Implementing clear bit digit manipulation.
+```

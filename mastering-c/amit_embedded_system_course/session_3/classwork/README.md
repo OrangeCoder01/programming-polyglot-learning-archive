@@ -14,7 +14,7 @@ Implemented:
 
     2) I/O :
         2.1) printf().
-        2.2) scangf().
+        2.2) scanf().
         2.3) Format specifiers.
 
     3) Arithmatics:

@@ -11,4 +11,6 @@ int main(void)
 
     degree_fahrenheit = (degree_celsius * 9.0/5.0) + 32.0;
     printf("\nThe corresponding value of: {%f celsius} is {%f fahrenheit}\n", degree_celsius, degree_fahrenheit);
+
+    return 0;
 }

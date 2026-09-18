@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main(void)/*Conditional control flow  */
 {
 
     // Setting (Set bit)
@@ -21,7 +21,7 @@ int main(void)
         printf("Bit order can not be negative! ");
         return 0;
     }
-    if(user_bit > 32)
+    if(bit > 32)
     {
         printf("Bit order can not be over 32 bits! ");
         return 0;

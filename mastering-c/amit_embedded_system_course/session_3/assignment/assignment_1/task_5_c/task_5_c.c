@@ -17,5 +17,6 @@ int main(void)
 
     printf("\n\nNumbers: (%d, %d):\n1) Summation: %d\n2) subtraction: %d\n3) anding: %d\n4) oring: %d\n5) xoring: %d\n\n", user_num_1, user_num_2, summing, subtraction, anding, oring, xoring);
 
+    return 0;
 
 }

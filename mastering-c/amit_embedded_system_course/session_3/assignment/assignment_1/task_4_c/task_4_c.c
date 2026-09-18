@@ -9,4 +9,6 @@ int main(void)
     float area = pi*radius*radius;
     printf("the area of a %.2f-radius circle is: %.2f", radius, area);
     
+    return 0;
+    
 }

@@ -12,4 +12,5 @@ int main(void)
     int result = ((user_num_1 + user_num_2) * 3) - 10;
     printf("The result is: %d", result);
 
+    return 0;
 }
