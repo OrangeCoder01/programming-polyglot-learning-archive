@@ -41,7 +41,8 @@ Implemented:
         (4.3)  Arithmetics:
 
             Core operators in C and many other programming languages that contribute in data manipulation in the decimal form
-            and a tool for algorithmic programs or a rudementary tool building a more sophisticated tool as exponential power, radical, or other advanced mathematical operators.
+            and a tool for algorithmic programs or a rudementary tool building a more sophisticated tool as exponential power,
+            radical, or other advanced mathematical operators.
 
 ```
 <br>
@@ -56,4 +57,4 @@ Programs & links:
 
 &emsp;&emsp; `(1.4) Printing the variables undergoing post and pre-incrementation for visual difference between the two operators`: [code_4_c.c](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_3/classwork/code_4_c)<br>
 
-&emsp;&emsp; `(1.5) `: [lab_1_c.c](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_3/classwork/lab_1_c)<br>
+&emsp;&emsp; `(1.5) Set bit (intermediate bit manipulation) of a user defined bit order in an input integer to 1. `: [lab_1_c.c](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_3/classwork/lab_1_c)<br>
