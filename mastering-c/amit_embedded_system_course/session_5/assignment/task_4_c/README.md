@@ -1,4 +1,5 @@
 # Task 4:
+Question:
 ```
     (4) You are designing a poster which prints out numbers with a
         unique style applied to each of them. The styling is based on
@@ -19,16 +20,19 @@
         Make the function countHoles. The function must return an
         integer denoting the total number of holes in num.
 ```
-Question:
 Explanation:
 ```
+
 ```
 Input:
 ```
+
 ```
 Output:
 ```
+
 ```
 Why building this program:
 ```
+
 ```

@@ -257,7 +257,7 @@ Learned (mixed with personal research):
 
 
 
-        (1.4) Why section:
+        (1.4) Why is the following important:
             (1.4.1) Why learn Embedded System:
                 - Deep Understanding of Computing; understanding small electronics chips' utilities, features
                   and labels in small-scale system as the Microcontroller aids well in designing and implementing
@@ -277,7 +277,7 @@ Learned (mixed with personal research):
                   large problem into manageable pieces.
 
                 - Simplicity and difficulty; there are 32 keywords with no built-in functions; it directs the developer to create
-                  modules and solve problem, and understanding binary mathematics all from scratch.
+                  modules and solve problem, and understand binary mathematics all from scratch.
                   It hands the developer all the responsibilities such as memory management without any backup.
 
                 - Fast runtime; due to its simplicity, which makes it demanded in Embedded system.
@@ -511,6 +511,4 @@ Learned (mixed with personal research):
 
                 Understanding how the compiler stores the variables by storing a specific
                 data type and its value as a set of stream of binary data.
-
-
 ```

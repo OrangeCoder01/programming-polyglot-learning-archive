@@ -1,4 +1,5 @@
 # Task 2:
+Question:
 ```
     (2) Write a C Function that returns the addition or subtraction
         or multiplication or division for two numbers.
@@ -12,16 +13,19 @@
 
         The function should be implemented using switch case.
 ```
-Question:
 Explanation:
 ```
+
 ```
 Input:
 ```
+
 ```
 Output:
 ```
+
 ```
 Why building this program:
 ```
+
 ```
