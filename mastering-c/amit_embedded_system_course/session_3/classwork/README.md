@@ -23,5 +23,4 @@ Implemented:
         3.3) Multiplication (*).
         3.4) Division (/).
         3.5) Modulo (%).
-
 ```
