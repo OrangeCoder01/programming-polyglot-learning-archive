@@ -18,5 +18,5 @@ Output:
 ```
 Why is this program important:
 ```
-    Implemented char data type placeholder in the printf() function.
+    Implemented char data type format specifier in the printf() function '%c'.
 ```

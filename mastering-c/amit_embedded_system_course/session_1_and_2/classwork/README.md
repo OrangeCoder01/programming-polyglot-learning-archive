@@ -1,5 +1,5 @@
 # Classwork session (1) and (2):
-Implemented
+Implemented:
 ```
     (1) String printing by using printf() function from <stdio.h> library.
 
@@ -11,5 +11,5 @@ Implemented
 
 Programs & links:<br>
 
-&emsp; `Assignment (1)`:<br>
+&emsp; `Classwork`:<br>
 &emsp;&emsp; `Printing person's name, age and University's name`: [code_1_c.c](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/blob/main/mastering-c/amit_embedded_system_course/session_1_and_2/classwork/code_1_c/code_1_c.c).
