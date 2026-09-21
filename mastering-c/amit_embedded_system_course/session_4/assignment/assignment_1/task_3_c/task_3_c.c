@@ -4,7 +4,7 @@ int main(void)
 {
     int num1 = 0, num2 = 0;
 
-    printf("The program receives two input numbers, checks if the first number is a muiple of the latter.\n");
+    printf("The program receives two input numbers, checks if the first number is a multiple of the latter.\n");
     printf("Enter the first number: "); scanf("%d", &num1);
     printf("Enter the second number: "); scanf("%d", &num2);
 

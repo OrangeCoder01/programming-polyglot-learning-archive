@@ -19,3 +19,16 @@
         Make the function countHoles. The function must return an
         integer denoting the total number of holes in num.
 ```
+Question:
+Explanation:
+```
+```
+Input:
+```
+```
+Output:
+```
+```
+Why building this program:
+```
+```

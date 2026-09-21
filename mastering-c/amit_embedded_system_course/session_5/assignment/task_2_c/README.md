@@ -12,3 +12,16 @@
 
         The function should be implemented using switch case.
 ```
+Question:
+Explanation:
+```
+```
+Input:
+```
+```
+Output:
+```
+```
+Why building this program:
+```
+```

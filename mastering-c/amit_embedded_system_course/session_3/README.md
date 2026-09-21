@@ -387,21 +387,9 @@ Learned (mixed with personal research):
 
 
 
-            (2.3.9) Bitwise NOT and equate "~=":
-                For example:
-
-                    int x = -83;
-                    For visualization:
-
-                        x:      1 0 1 0  1 1 0 1
-                        new x:  0 1 0 1  0 0 1 0
-
-                    printf("x = %d", x); -> x = 82
 
 
-
-
-            (2.3.10) Bitwise XOR and equate "^=":
+            (2.3.9) Bitwise XOR and equate "^=":
                 For example:
 
                     int x = 10;
@@ -416,7 +404,7 @@ Learned (mixed with personal research):
 
 
 
-            (2.3.11) Shift right and equate ">>=":
+            (2.3.10) Shift right and equate ">>=":
                 For example:
 
                 Note: shifting Negative number, means adding 1s with crossed bit places.
@@ -433,7 +421,7 @@ Learned (mixed with personal research):
 
 
 
-            (2.3.12) Shift left and equate "<<=":
+            (2.3.11) Shift left and equate "<<=":
                 For example:
 
                     int x = 1;

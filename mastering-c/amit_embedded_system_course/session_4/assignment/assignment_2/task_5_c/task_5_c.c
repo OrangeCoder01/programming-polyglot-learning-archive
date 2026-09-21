@@ -23,7 +23,7 @@ int main(void)
         digit = temp % 10;
         rev_user_number += digit * multiplier;
 
-    /*  printf("temp = %d, rev_user_number = %d, digit = %d, multiplier = %d\n", temp, rev_user_number, digit, multiplier);*/   /*for debugging*/
+       /* printf("temp = %d, rev_user_number = %d, digit = %d, multiplier = %d\n", temp, rev_user_number, digit, multiplier); */
         temp /= 10;
         multiplier /= 10;
         i += 1;

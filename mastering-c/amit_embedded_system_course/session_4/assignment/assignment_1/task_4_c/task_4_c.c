@@ -2,7 +2,7 @@
 int main(void)
 {
     int heating_time = 0, temperature = 0;
-    printf("The program receives the temperature input in celsius and output the corresponding heating time: \n");
+    printf("The program receives the temperature input in celsius and outputs with the corresponding heating time: \n");
     printf("Temperature: "); scanf("%d", &temperature);
     if(temperature >= 0 && temperature <= 100)
     {

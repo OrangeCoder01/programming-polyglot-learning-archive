@@ -1,5 +1,5 @@
 # Task 4:
-
+Question:
 ```
     (4) The sequence of numbers 1, 1, 2, 3, 5, 8, 13, ... is called
         "Fibonacci numbers", each is the sum of the preceding 2.
@@ -9,4 +9,16 @@
 
         - with for/while
         - with recursion
+```
+Explanation:
+```
+```
+Input:
+```
+```
+Output:
+```
+```
+Why building this program:
+```
 ```

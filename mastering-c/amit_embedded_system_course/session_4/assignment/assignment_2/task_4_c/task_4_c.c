@@ -9,7 +9,7 @@ int main(void)
     result = user_number;
     for (i; i < power; ++i)
     {
-        result = result * user_number;
+        result *= user_number;
     }
     printf("\n Integer {%d} to the power of {%d} is: {%d}", user_number, power, result);
     return 0;

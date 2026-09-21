@@ -28,6 +28,7 @@ Output
     Your input name: Tchiencko
 ```
 
+
 Answer:
 ```
     The issue is located at how "scanf()" function functions, "scanf()" proceeds storing the characters
@@ -35,4 +36,9 @@ Answer:
     at its corresonding buffer index.
 
     "scanf()" function is designed to deal with spaces as word seperator, and its purpose to retrieve words not sentences.
+```
+Why is this question important:
+```
+    It reflects a flaw with function "scanf()" from <stdio.h> library, as it 
+    is not optimized for long strings.
 ```

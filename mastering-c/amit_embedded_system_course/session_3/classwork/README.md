@@ -17,7 +17,7 @@ Implemented:
         2.2) scanf().
         2.3) Format specifiers.
 
-    3) Arithmatics:
+    3) Arithmetics:
         3.1) Addition (+).
         3.2) Subtraction (-).
         3.3) Multiplication (*).

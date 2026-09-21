@@ -6,12 +6,12 @@ Question:
 ```
 Explanation:
 ```
-    The program perform seqquence od arithmetic and bitwise operations from two
-    input integer numbers from the user.
+    The program perform sequence of arithmetic and bitwise operations from two
+    input integers inputted by the user.
 ```
 Input:
 ```
-    (1) 2 input integer numbers from the user.
+    (1) 2 input integers inputted by the user.
 ```
 Output:
 ```

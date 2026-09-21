@@ -3,3 +3,16 @@
     (3) write a C Function that display Prime Numbers between
         intervals (two numbers).
 ```
+Question:
+Explanation:
+```
+```
+Input:
+```
+```
+Output:
+```
+```
+Why building this program:
+```
+```
