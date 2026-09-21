@@ -17,12 +17,31 @@ Implemented:
         (1.3) Conditional and interative control flow combined:
             (1.3.1) Building algorithms.
     
+
+
     (2) Typecasting.
 
+        Temporarily converting one data type to another during operations.
+    
+
+
+
+    (3) Why learn:
+        (3.1) Conditional & iterative control flow:
+
+            To control the compiler to read and execute code in developer's defined path; the compiler
+            reads code from the sequential method (top to bottom), but with conditional loops; the compiler
+            read specific code and ignores others due to accessing only true statement in conditions.
+
+            Inasmuch as it repeats code execution using iterative control flow until the statement is false,
+            hereon; the compiler exits the loop.
+        
+        (3.2) Typecasting:
+
+            To facillitate operations done with variables each with different data type.
 ```
 
 Programs & links:<br>
-<br>
 
 &emsp;`(1) Assignment (1):`<br>
 &emsp;&emsp;`(1.1) English alphabet character checker for input character.`[task_1_c.c](C:\Users\Yassin\Documents\programming-polyglot-learning-archive\mastering-c\amit_embedded_system_course\session_4\assignment\assignment_1\task_1_c\task_1_c.c)<br>
