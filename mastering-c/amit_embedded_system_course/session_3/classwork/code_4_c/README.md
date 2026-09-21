@@ -9,7 +9,7 @@ Input:
 ```
 Output:
 ```
-    (1) Pritning integer numbers after post-incrementation and pre-incrementation for comparision.
+    (1) Printing integer numbers after post-incrementation and pre-incrementation for comparision.
 ```
 Why is this program important:
 ```
