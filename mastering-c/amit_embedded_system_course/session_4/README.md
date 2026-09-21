@@ -15,14 +15,14 @@ Learned (with mixed research):
 
             For example:
 
-                if(), else if(), else(), and switch() keywords.
+                if(){}, else if(){}, else(){}, and switch()case{} keywords.
 
-                (1.2.1) Rules of if(), else(), and else if() keywords:
-                    (1.2.1.1) No code between if(), else if(), and else()
+                (1.2.1) Rules of if(), else(), and else if(){} keywords:
+                    (1.2.1.1) No code between if(), else if(){}, and else(){}
 
-                    (1.2.1.2) else() is optional but can not be repeated.
+                    (1.2.1.2) else(){} is optional but can not be repeated.
 
-                    (1.2.1.3) else if() is optional but can be repeated.
+                    (1.2.1.3) else if(){} is optional but can be repeated.
 
                     (1.2.1.4)  Round brackets are used for compound conditional statements:
                     For example:
@@ -70,9 +70,9 @@ Learned (with mixed research):
 
             For example:
 
-                for(), while(), and do{}while() loops.
+                for(){}, while(){}, and do{}while() loops.
 
-                (1.3.1) for() loop:
+                (1.3.1) for(){} loop:
 
                     It is the "finite iterative loop" where the compiler reads the code in
                     numbers of repetitions.
@@ -99,7 +99,7 @@ Learned (with mixed research):
 
 
 
-            (1.3.2) while() loop:
+            (1.3.2) while(){} loop:
 
                 It is "infinite iterative loop" where the compiler will read the code infintely
                 until either, the conditon set is false or reaching disruptive control flow keywords: break or return for exiting the loop.
@@ -147,8 +147,7 @@ Learned (with mixed research):
     (2) Why learn control flow:
         
         Because it is the block of code that directs the compiler to read data in specific manner;
-        ad by this direction, the compiler compute and manage data as to how the developer orchestrated the
+        and by this direction, the compiler computes and manages data as to how the developer orchestrated the
         code instructions (control flow) across the code; yielding to expected results.
-
         
 ```
