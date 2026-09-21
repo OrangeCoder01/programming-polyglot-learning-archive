@@ -58,10 +58,10 @@ Programs & links:
 
 &emsp;`Assignment (2)`<br>
 
-&emsp;&emsp;`Printing the ASCII decimal representation of an input character`: [task_1_c]()<br>
+&emsp;&emsp;`Printing the ASCII decimal representation of an input character`: [task_1_c](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/blob/main/mastering-c/amit_embedded_system_course/session_3/assignment/assignment_2/task_1_c/task_1_c.c)<br>
 
-&emsp;&emsp;`Get bit program, that retrieves the boolean state of user selected bit order from an integer input`: [task_2_c]()<br>
+&emsp;&emsp;`Get bit program, that retrieves the boolean state of user selected bit order from an integer input`: [task_2_c](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/blob/main/mastering-c/amit_embedded_system_course/session_3/assignment/assignment_2/task_2_c/task_2_c.c)<br>
 
-&emsp;&emsp;`Simple three digit seperation of an integer input ranging from (100 to 999)`[task_3_c]()<br>
+&emsp;&emsp;`Simple three digit seperation of an integer input ranging from (100 to 999)`[task_3_c](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/blob/main/mastering-c/amit_embedded_system_course/session_3/assignment/assignment_2/task_3_c/task_3_c.c)<br>
 
-&emsp;&emsp;`Clear bit program, that set a bit to zero (cleared) in a user selected bit order from an input integer`: [task_4_c]()<br>
+&emsp;&emsp;`Clear bit program, that set a bit to zero (cleared) in a user selected bit order from an input integer`: [task_4_c](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/blob/main/mastering-c/amit_embedded_system_course/session_3/assignment/assignment_2/task_4_c/task_4_c.c)<br>
