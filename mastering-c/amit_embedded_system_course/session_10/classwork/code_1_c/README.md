@@ -17,5 +17,5 @@ Output:
 ```
 Why building this program:
 ```
-
+    Proving the address of the array is equal to its first element.
 ```
