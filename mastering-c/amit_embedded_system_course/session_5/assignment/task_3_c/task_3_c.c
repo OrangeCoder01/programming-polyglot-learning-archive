@@ -22,7 +22,7 @@ int main(void)
 {
     int user_bound_1 = 0, user_bound_2 = 0, i = 0;
 
-    printf("This program receives two boundary integer numbesr and it outputs the primes within the range\n");
+    printf("This program receives two boundary integer numbers and it outputs the primes within the range\n");
     printf("Please, enter the first integer: "); scanf(" %d", &user_bound_1);
     printf("Please, enter the second integer: "); scanf(" %d", &user_bound_2);
 
