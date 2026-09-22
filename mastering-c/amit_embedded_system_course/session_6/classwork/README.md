@@ -4,6 +4,8 @@ Implemented
     (1) Modular programming:
         (1.1) Header files and cross-file calling.
 
+            Files ending with '.h' are header files that are callable using "#include "" "
+
     (2) Function Recursion, and learning stack and stack overflow issues:
         (2.1) Disadvantages of recursion
             (2.2.1) High stack memory consumption.
