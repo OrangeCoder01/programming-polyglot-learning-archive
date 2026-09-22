@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../utility_function_c.h"
+#include "../helper_library/utility_functions_c.h"
 
 void reverse_array(int arr[], int size)
 {

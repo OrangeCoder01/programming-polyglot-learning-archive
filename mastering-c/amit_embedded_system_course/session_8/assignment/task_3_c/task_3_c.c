@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../utility_function_c.h"
+#include "../helper_library/utility_functions_c.h"
 
 void array_swap(int array_1[], int array_2[], int size)
 {

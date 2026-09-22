@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "valuable_functions_c.h"
+#include "../helper_library/utility_functions_c.h"
 
 void element_shifter_in_array(int arr[], int size, int removed_index)
 {

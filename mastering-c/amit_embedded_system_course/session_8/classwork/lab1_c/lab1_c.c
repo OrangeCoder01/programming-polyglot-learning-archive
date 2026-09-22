@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "valuable_functions_c.h"
+#include "../helper_library/utility_functions_c.h"
 
 int sum_arr(int arr[], int size)
 {

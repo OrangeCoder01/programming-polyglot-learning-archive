@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../utility_functions_c.h"
+#include "../helper_library/utility_functions_c.h"
 
 int find_the_nth_element_in_arithmetic_series(int n, int iteration)
 {

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../utility_functions_c.h"
+#include "../helper_library/utility_functions_c.h"
 
 int looping_fibonacci(int order)
 {
