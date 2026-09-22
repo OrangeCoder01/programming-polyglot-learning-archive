@@ -22,17 +22,18 @@ Question:
 ```
 Explanation:
 ```
-    
+    The program calculates the sum of holes in each digit in an input number.
 ```
 Input:
 ```
-
+    (1) A number from the user (integer).
 ```
 Output:
 ```
-
+    (1) Printing the number of holes (text + integer).
 ```
 Why building this program:
 ```
-
+    Implementing modular method in solving coding problems and puzzles by separating functions
+    for specific purposes, and utilizing them in the main function.
 ```
