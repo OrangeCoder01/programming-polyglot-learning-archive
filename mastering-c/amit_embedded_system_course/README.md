@@ -157,7 +157,7 @@ What will be learned at the end of the course:
             (2.2.1) Big O Notation:
                 (2.2.1.1) Time Complexity.
                 (2.2.1.2) Space Complexity.
-                (2.2.1.3) Estimating Algorithm
+                (2.2.1.3) Estimating Algorithm.
                 (2.2.1.4) Algorithm designs implementation:
                     (2.2.1.4.1) Sorting algorithm:
                         (2.2.1.4.1.1) Bubble Sort O(n^2).
@@ -174,7 +174,7 @@ What will be learned at the end of the course:
 
             (2.3.2) Types of data storaging:
                 (2.3.2.1) Single variable.
-                (2.3.2.2) Array (multi-variables);
+                (2.3.2.2) Array (multi-variables):
                     (2.3.2.2.1) Static allocated array.
                 (2.3.2.3) Pointers.
             
