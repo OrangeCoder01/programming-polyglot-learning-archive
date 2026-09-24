@@ -28,6 +28,7 @@ Learned:
     (2) Why learn recursions:
 
         It is a method for solving a problem, through which one gained insight on the stack memory,
-        and the possible issue of encountering a stack overflow when over exceeding the use of recursion.
+        and the possible issue of encountering a stack overflow when over exceeding the use of recursion
+        or relating programming methods that can cause the same risk.
 
     ```
