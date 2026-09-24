@@ -135,6 +135,6 @@ Output:
 Why building this library:
 ```
     This library holds intermediate bit manipulation operators that are essential in electronic due to the
-    fact that the electronic device have internal instruction written in bitstream where the bit position
+    fact that the electronic devices have internal instruction written in bitstream where the bit position
     have a hardware meaning.
 ```
