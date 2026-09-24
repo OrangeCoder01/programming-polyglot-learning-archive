@@ -9,7 +9,7 @@ Question:
 ```
 Explanation:
 ```
-    Main concpts:
+    Main concepts:
         
         An integer type is a 4 byte, a byte is 4 bits, and a bit is a boolean 1 or 0, composing a total of 16 bits.
         A bitstream is a combination of bits.
