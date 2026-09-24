@@ -75,7 +75,7 @@ Learned (mixed with personal research):
                 using the #define directive.
 
                 For example:
-                
+
                     #define PI = 3.14
                     int main(void)
                     {
@@ -181,52 +181,62 @@ Learned (mixed with personal research):
 
                     It binds the source code file (with extensions ".c" or ".cpp") with a referenced library that ends with (".h" or ".hpp").
 
+
                 (1.2.2.2) Macro Expansion ("#define"):
 
                     Macros replace identifiers with target string tokens throughout the file.
 
                     (1.2.2.2.1) Object-like Macros (Constants):
                     
-                        " #define e  2.71828 "
+                        """
+                        #define e  2.71828 
+                        """
                         Every occurrence of e (Euler's constant) is directly swapped with 2.71828.
 
 
 
                     (1.2.2.2.2) Function-like Macros & Special Operators:
 
-                        " #define SQUARE(x) ((x) * (x)) "
+                        """
+                        #define SQUARE(x) ((x) * (x)) 
+                        """ 
                         The preprocessor also supports two special macro operators:
 
-                    Stringification (#): Converts a macro parameter into a string literal.
+
+                        (1.2.2.2.2.1) Stringification (#): Converts a macro parameter into a string literal.
+
+                            """
+                            #define TO_STR(x) #x
+                            TO_STR(123) /* (Expands to "123") */
+                            """
+
+                        (1.2.2.2.2.2) Token pasting / Concatenation (##): Glues two tokens together to form a new single token.
+
+                            """
+                                #define MAKE_VAR(name, id) name##_##id
+                            """
+                            int MAKE_VAR(user, 10) = 5; /*Expands to: int user_10 = 5;
 
 
-                    
-                    #define TO_STR(x) #x
-                    TO_STR(123)  // Expands to "123"
-                    Token Pasting / Concatenation (##): Glues two tokens together to form a new single token.
 
-                    
-                    #define MAKE_VAR(name, id) name##_##id
-                    int MAKE_VAR(user, 10) = 5; // Expands to: int user_10 = 5;
-                    Critical Macro Pitfalls (Must-Know for Documentation)
+                    (1.2.2.2.3) Critical Macro Pitfalls:
+
                     Because macros do string substitution rather than evaluation, they can introduce subtle bugs:
 
-                    Precedence Bugs (Missing Parentheses):
+                        (1.2.2.2.3.1) Precedence Bugs (Missing Parentheses):
+                            """
+                            #define MULTIPLY(a, b) a * b
+                            int result = MULTIPLY(1 + 2, 3 + 4); /* Expands to: 1 + 2 * 3 + 4  --> Evaluates to 11 (Not 21!) */
+                            """
+                        Fix: Always wrap every parameter and the entire expansion in parentheses: #define MULTIPLY(a, b) ((a) * (b))
 
-                    
-                    #define MULTIPLY(a, b) a * b
-                    int result = MULTIPLY(1 + 2, 3 + 4); 
-                    // Expands to: 1 + 2 * 3 + 4  --> Evaluates to 11 (Not 21!)
-                    Fix: Always wrap every parameter and the entire expansion in parentheses: #define MULTIPLY(a, b) ((a) * (b))
+                        (1.2.2.3.2) Double Evaluation Side Effects:
+                            """
+                            #define MAX(a, b) ((a) > (b) ? (a) : (b)) /* Ternary operation */
+                            int x = 5, y = 2;
+                            int m = MAX(x++, y);
+                            """
 
-                    Double Evaluation Side Effects:
-
-                    
-                    #define MAX(a, b) ((a) > (b) ? (a) : (b))
-                    int x = 5, y = 2;
-                    int m = MAX(x++, y);
-                    // Expands to: ((x++) > (y) ? (x++) : (y))
-                    // Result: x is incremented TWICE!
 
 
 
@@ -235,10 +245,13 @@ Learned (mixed with personal research):
 
                 (1.2.2.4) Source code cleanup and line marking:
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         (1.3) Compiler:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
         (1.4) Assembler:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
         (1.5) Linker:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
     
     (2) Introduction to array:
 
