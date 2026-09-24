@@ -525,7 +525,7 @@ Learned (mixed with personal research):
         (2.2) Core Characteristics:
             - Uniform Type: All elements must share the exact same data type (e.g., all `int`, all `char`).
             - Fixed Size: Array size must be specified at definition (or dynamically allocated on heap) 
-              and cannot grow or shrink automatically in standard C.
+                          and cannot grow or shrink automatically in standard C.
             - Contiguous Memory Allocation: Elements sit in adjacent byte addresses without gaps.
 
         (2.3) Zero-Based Indexing & Offset Mathematics:
