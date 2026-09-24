@@ -10,13 +10,16 @@ Explanation:
         The reversed array = [-12, 20, 12]
 
 ```
+<br>
 
 | Input:                             | Output:                                               |Obligation:                                          |
-|------------------------------------|-------------------------------------------------------|--------------------                                 |
-|(1) Integer elements (integer)      | (1) Printing of the reversed array (string + integer) |  (1) The elements must be between -60,000 to 60,000 |
+|------------------------------------|-------------------------------------------------------|-----------------------------------------------------|
+|(1) Integer elements (integer)      | (1) Printing of the reversed array (string + integer) |  (1) The elements must be between -60,000 to 60,000 | 
 |(2) The size of the array (integer) |                                                       |  (2) The size of the array must be between 1 to 100 |
 
 <br>
+<br>
+
 Why building this program:
 
 ```
