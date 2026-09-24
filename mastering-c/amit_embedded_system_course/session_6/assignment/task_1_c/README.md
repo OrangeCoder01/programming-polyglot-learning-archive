@@ -9,7 +9,7 @@ Question:
 ```
 Explanation:
 ```
-    Main concpts:
+    Main concepts:
         
         An integer type is a 4 byte, a byte is 4 bits, and a bit is a boolean 1 or 0, composing a total of 16 bits.
         A bitstream is a combination of bits.
@@ -135,6 +135,6 @@ Output:
 Why building this library:
 ```
     This library holds intermediate bit manipulation operators that are essential in electronic due to the
-    fact that the electronic device have internal instruction written in bitstream where the bit position
+    fact that the electronic devices have internal instruction written in bitstream where the bit position
     have a hardware meaning.
 ```
