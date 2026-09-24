@@ -162,7 +162,7 @@ Learned (mixed with personal research):
                 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
         (1.2) Preprocessor:
 
@@ -374,12 +374,12 @@ Learned (mixed with personal research):
 
 
         (1.2.3) The output:
-        
+
                 (.i/.ii) file.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-        (1.3) Compiler (e.g., `cc1` / `cc1plus`):
+
+        (1.3) Compiler:
 
             (1.3.1) What is the Compiler:
 
@@ -411,48 +411,61 @@ Learned (mixed with personal research):
                     - Performs Register Allocation: Decides which variables live in fast hardware registers vs. RAM stack memory.
                     - Performs Instruction Scheduling: Reorders assembly instructions to maximize CPU pipeline efficiency.
 
+
             (1.3.3) Command-Line Controls:
+
                 - Generate Assembly text file:
                     {gcc -S main.c -o main.s}
-                - Optimization Levels:
-                    {-O0}: No optimization (fast compile time, easiest debugging).
-                    {-O2}: Standard production optimization (balanced speed and size).
-                    {-O3}: Aggressive optimization (enables loop vectorization, may enlarge binary size).
-                    {-Os}: Optimizes strictly for smallest binary size.
+        
+
+            (1.3.4) The Output:
+
+                Assmebly file with extension ".s/.asm".
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         (1.4) Assembler (e.g., `as`):
 
             (1.4.1) What is the Assembler:
-                The Assembler converts target-specific Assembly code (.s) into unlinked, relocatable 
+            
+                The Assembler is a software converts target-specific Assembly code (.s/.asm) into unlinked, relocatable 
                 binary Machine Code stored inside Object files (.o / .obj).
 
+
             (1.4.2) Key Responsibilities:
-                - Opcode Translation: Converts human-readable mnemonics (`mov`, `add`, `push`, `jmp`) 
-                  directly into binary byte streams (0s and 1s) understood by CPU microarchitecture.
-                - Organizes Memory Sections: Splits code and data into standard object sections:
+
+                - Translation: Converts human-readable mnemonics (`mov`, `add`, `push`, `jmp`) 
+                  directly into binary bitstreams (0s and 1s) understood by the CPU.
+
+                - Organizes Memory Sections: Splits code and data into RAM (Random Access Memory):
+
                     * .text   : Binary machine code instructions.
                     * .data   : Initialized global and static variables.
                     * .bss    : Uninitialized global/static variables (zero-initialized at runtime startup).
                     * .rodata : Read-only constants and string literals.
+
                 - Symbol & Relocation Table Generation:
+
                     * Creates a Symbol Table listing all internal/external functions and variables.
                     * Creates a Relocation Table marking memory addresses that cannot be calculated 
                       yet (e.g., calls to external functions like `printf` or variables defined in other files).
 
+
             (1.4.3) Command-Line Controls:
                 - Stop after assembly stage (Output relocatable object file):
+
                     {gcc -c main.c -o main.o}
+
                 - Inspect object file details (using binary utility tools):
+
                     {objdump -d main.o} (Disassembles binary machine code back to assembly)
-                    {nm main.o}      (Inspects the Symbol Table)
+                    {nm main.o} (Inspects the Symbol Table)
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
         (1.5) Linker (e.g., `ld`):
 
             (1.5.1) What is the Linker:
+
                 The Linker is the final stage of the toolchain. It combines one or more relocatable 
                 object files (.o) and compiled libraries (.a / .so) into a single executable binary 
                 file (ELF on Linux, PE on Windows, Mach-O on macOS).
@@ -460,37 +473,48 @@ Learned (mixed with personal research):
             (1.5.2) Primary Responsibilities:
 
                 (1.5.2.1) Symbol Resolution:
+
                     Matches every identifier call/reference with its matching definition.
                     * If a reference is missing across all files/libraries -> Throws `Linker Error: Undefined reference to 'X'`.
                     * If multiple definitions exist for the same symbol -> Throws `Linker Error: Multiple definition of 'X'`.
 
+
                 (1.5.2.2) Relocation & Address Patching:
-                    Merges matching sections from all input `.o` files (e.g., concatenates all `.text` 
+
+                    Merges matching sections from all input `.o` files (e.g., concatenates all `.text`.
+
                     sections into one master `.text` block) and assigns absolute/relative memory addresses to every instruction, 
                     patching placeholder jump addresses created by the assembler.
+
 
             (1.5.3) Linking Strategies:
 
                 (1.5.3.1) Static Linking (.a / .lib):
+
                     Extracts required machine code directly from static archive libraries and copies it 
                     into the final executable.
+
                     * Advantage: Binary is completely standalone; requires no external dependencies.
                     * Disadvantage: Larger binary size; requires recompilation to update library bugs.
 
                 (1.5.3.2) Dynamic/Shared Linking (.so / .dll):
+
                     Inserts stub lookup tables (PLT/GOT) into the binary instead of full library code. 
                     The Operating System's Dynamic Loader loads the shared library into RAM at runtime.
+
                     * Advantage: Smaller binary size; multiple running applications share a single library in RAM.
                     * Disadvantage: Program fails to run if required `.so`/`.dll` files are missing from target system.
 
             (1.5.4) Command-Line Controls:
+
                 - Link multiple object files into executable:
                     {gcc main.o math_utils.o -o my_program}
+
                 - Link against an external library (e.g., math library `libm`):
                     {gcc main.o -lm -o my_program}
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
     (2) Introduction to Arrays:
 
@@ -506,4 +530,26 @@ Learned (mixed with personal research):
 
         (2.3) Zero-Based Indexing & Offset Mathematics:
             Array indices start at 0 because the index number represents an offset multiplier from the base address:
+
+
+
+    (3) Data types:
+        (3.1) Primitive data type:
+            (3.2.1) int.
+            (3.2.2) float.
+            (3.2.3) char.
+            (3.2.4) double.
+            (3.2.5) void.
+
+
+        (3.2) Derived data type:
+            (3.2.1) Array.
+            (3.2.2) pointer.
+            (3.2.3) functions.
+
+
+        (3.3) User defined data type:
+            (3.3.1) struct.
+            (3.3.2) union.
+            (3.3.3) enum.
 ```
