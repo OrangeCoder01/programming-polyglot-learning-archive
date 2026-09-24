@@ -79,7 +79,7 @@ Learned (mixed with personal research):
 
                 For example:
 
-                    #define PI = 3.14
+                    #define PI  3.14
                     int main(void)
                     {
                         float r = 5; /* In units of centimeter */
@@ -163,8 +163,6 @@ Learned (mixed with personal research):
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-
         (1.2) Preprocessor:
 
             (1.2.1) What is a preprocessor:
@@ -200,7 +198,6 @@ Learned (mixed with personal research):
                         Every occurrence of e (Euler's constant) is directly swapped with 2.71828.
 
 
-
                     (1.2.2.2.2) Function-like Macros & Special Operators:
 
                         """
@@ -208,21 +205,18 @@ Learned (mixed with personal research):
                         """ 
                         The preprocessor also supports two special macro operators:
 
-
                         (1.2.2.2.2.1) Stringification (#): Converts a macro parameter into a string literal.
 
                             """
                                 #define TO_STR(x) #x
                                 TO_STR(123) /* (Expands to "123") */
                             """
-
                         (1.2.2.2.2.2) Token pasting / Concatenation (##): Glues two tokens together to form a new single token.
 
                             """
                                 #define MAKE_VAR(name, id) name##_##id
                             """
                             int MAKE_VAR(user, 10) = 5; /*Expands to: int user_10 = 5;
-
 
 
                     (1.2.2.2.3) Critical Macro Pitfalls:
@@ -232,28 +226,91 @@ Learned (mixed with personal research):
                         (1.2.2.2.3.1) Precedence Bugs (Missing Parentheses):
                         
                             """
-                            #define MULTIPLY(a, b) a * b
-                            int result = MULTIPLY(1 + 2, 3 + 4); /* Expands to: 1 + 2 * 3 + 4  --> Evaluates to 11 (Not 21!) */
+                                #define MULTIPLY(a, b) a * b
+                                int result = MULTIPLY(1 + 2, 3 + 4); /* Expands to: 1 + 2 * 3 + 4  --> Evaluates to 11 (Not 21!) */
                             """
-                        Fix: Always wrap every parameter and the entire expansion in parentheses: #define MULTIPLY(a, b) ((a) * (b))
+
+                        Fix: Always wrap every parameter and the entire expansion in parentheses: 
+                            """
+                                #define MULTIPLY(a, b) ((a) * (b))
+                            """
 
                         (1.2.2.3.2) Double Evaluation Side Effects:
 
                             """
-                            #define MAX(a, b) ((a) > (b) ? (a) : (b)) /* Ternary operation */
-                            int x = 5, y = 2;
-                            int m = MAX(x++, y);
+                                #define MAX(a, b) ((a) > (b) ? (a) : (b)) /* Ternary operation */
+                                int x = 5, y = 2;
+                                int m = MAX(x++, y);
                             """
-
-
-
-
 
 
 
                 (1.2.2.3) Conditional compilation:
 
+                    Conditional compilation allows parts of the code to be included or excluded based on macro definitions or
+                    environment flags.
+
+                    (1.2.2.3.1) Guarding Platforms:
+                        #define NUMBER 1
+                        """
+                        #if defined(NUMBER == 1) printf("One");
+                        #elif (NUMBER == 2) printf("Two");
+                        #endif
+                        """
+
+                    (1.2.2.3.2) Header Guards vs #pragma once:
+
+                    Traditional Guard: Uses conditional directives.
+
+                        A non-standard but universally supported preprocessor directive that tells the compiler driver
+                        to open and include the header file only once per compilation:
+
+                            """
+                                - #ifndef MY_HEADER_H
+                                - #define MY_HEADER_H
+                                - #endif
+                                - #paragma 
+                            """
+
+
+                    (1.2.2.3.3) Diagnostic Directives & Predefined Macros:
+
+                            Halts preprocessing immediately and issues a fatal error. 
+                            Often used to enforce compilation requirements.
+                            For example:
+                                
+                                #error "Sementation error":
+                                #error "Stack overflow"
+                        
+                    (1.2.2.3.4) Built-in Predefined Macros
+
+                        The preprocessor automatically injects several runtime/compile-time diagnostic variables:
+
+                            __FILE__: Name of the current source file (string).
+                            __LINE__: Current line number in the source file (integer).
+                            __DATE__: Date compilation started ("Mmm dd yyyy").
+                            __TIME__: Time compilation started ("hh:mm:ss").
+
+
+                    (1.2.2.3.5) Command-Line Preprocessor Controls
+                        You can inject preprocessor directives directly from your build command:
+
+                        Define a macro via CLI (-D):
+                            {gcc -DDEBUG -DMAX_VAL=100 main.c} (Acts as if #define DEBUG and #define MAX_VAL 100 were written at the top of the file).
+
+                        Inspect preprocessed output (-E):
+                            {gcc -E main.c -o main.i}
+
+                        Dump all active macros (-dM -E):
+                            {gcc -dM -E main.c} (Lists all internal and user-defined macros).
+
+
+
+
                 (1.2.2.4) Source code cleanup and line marking:
+
+                    Comment Removal: Every comment (// or /* ... */) is removed and replaced with a single space character.
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         (1.3) Compiler:
