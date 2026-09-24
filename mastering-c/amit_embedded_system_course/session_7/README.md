@@ -8,7 +8,7 @@ Learned (mixed with personal research):
                 in a sequential order (pipeline) where the output of a software is the input of the next
                 software; thus given name "toolchain".
 
-                Its objective is to transform human-readable code into machine code that the device
+                Its objective is to transform human-readable code into Machine code that the devices
                 can comprehend, whereas making a connection between human made instructions and the
                 device's execution.
 
@@ -45,17 +45,17 @@ Learned (mixed with personal research):
 
                     The third-party translator {Compilation toolchain} has specific skills:
                         - Ability to concisely translate without affecting the meaning or the narrative:
-                            {Converts human-oriented programming structures (if statements, functions, classes, loops) into raw
-                            architecture-specific instructions}.
+                          {Converts human-oriented programming structures (if statements, functions, classes, loops) into raw
+                          architecture-specific instructions}.
 
                         - Explains some cultural referals that the other might not understand:
-                            {Resolves dependencies: connecting libraries called in the source code that is outside of it
-                            #include "LIBRARY_NAME"}.
+                          {Resolves dependencies: connecting libraries called in the source code that is outside of it
+                          #include "LIBRARY_NAME"}.
 
                         - Optimizes the sender's message/letter for removing unnecessary and overly abundant
-                        remarks without affecting the context.
-                        {Analyzes the logical structure of your program to make it run faster, consume less memory, or use less battery power without altering its
-                        intended behavior: (if (false) or replaces 24 * 60 * 60 directly with 86400)}.
+                          remarks without affecting the context.
+                          {Analyzes the logical structure of your program to make it run faster, consume less memory, or use less battery power without altering its
+                          intended behavior: (if (false) or replaces 24 * 60 * 60 directly with 86400)}.
         
                 
             (1.1.3) The composition:
@@ -75,6 +75,7 @@ Learned (mixed with personal research):
                 using the #define directive.
 
                 For example:
+                
                     #define PI = 3.14
                     int main(void)
                     {
@@ -165,7 +166,74 @@ Learned (mixed with personal research):
 
             (1.2.1) What is a preprocessor:
 
+                The Preprocessor is the first software tool executed in the compilation pipeline.
+                It is a text-manipulation utility that processes special instructions (called directives) in the source code before the actual compilation begins.
+                
+                It does prepare the code before being compiled such as removing comments: " /* Hello, World! */ ", macros definitions: " #define PI = 3.14 ", or
+                references to external files binding: " #include "Library.h" ".
 
+            Note:
+                The preprocessor does not understand programming language syntax, data types, or logic.
+                It operates purely as a text parser, expander, and cleaner.
+            
+            (1.2.2) What does it do:
+                (1.2.2.1) Header inclusion:
+
+                    It binds the source code file (with extensions ".c" or ".cpp") with a referenced library that ends with (".h" or ".hpp").
+
+                (1.2.2.2) Macro Expansion ("#define"):
+
+                    Macros replace identifiers with target string tokens throughout the file.
+
+                    (1.2.2.2.1) Object-like Macros (Constants):
+                    
+                        " #define e  2.71828 "
+                        Every occurrence of e (Euler's constant) is directly swapped with 2.71828.
+
+
+
+                    (1.2.2.2.2) Function-like Macros & Special Operators:
+
+                        " #define SQUARE(x) ((x) * (x)) "
+                        The preprocessor also supports two special macro operators:
+
+                    Stringification (#): Converts a macro parameter into a string literal.
+
+
+                    
+                    #define TO_STR(x) #x
+                    TO_STR(123)  // Expands to "123"
+                    Token Pasting / Concatenation (##): Glues two tokens together to form a new single token.
+
+                    
+                    #define MAKE_VAR(name, id) name##_##id
+                    int MAKE_VAR(user, 10) = 5; // Expands to: int user_10 = 5;
+                    Critical Macro Pitfalls (Must-Know for Documentation)
+                    Because macros do string substitution rather than evaluation, they can introduce subtle bugs:
+
+                    Precedence Bugs (Missing Parentheses):
+
+                    
+                    #define MULTIPLY(a, b) a * b
+                    int result = MULTIPLY(1 + 2, 3 + 4); 
+                    // Expands to: 1 + 2 * 3 + 4  --> Evaluates to 11 (Not 21!)
+                    Fix: Always wrap every parameter and the entire expansion in parentheses: #define MULTIPLY(a, b) ((a) * (b))
+
+                    Double Evaluation Side Effects:
+
+                    
+                    #define MAX(a, b) ((a) > (b) ? (a) : (b))
+                    int x = 5, y = 2;
+                    int m = MAX(x++, y);
+                    // Expands to: ((x++) > (y) ? (x++) : (y))
+                    // Result: x is incremented TWICE!
+
+
+
+
+                (1.2.2.3) Conditional compilation:
+
+                (1.2.2.4) Source code cleanup and line marking:
 
 
         (1.3) Compiler:
