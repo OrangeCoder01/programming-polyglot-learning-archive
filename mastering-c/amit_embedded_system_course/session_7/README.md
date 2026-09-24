@@ -54,7 +54,8 @@ Learned (mixed with personal research):
 
                         - Optimizes the sender's message/letter for removing unnecessary and overly abundant
                           remarks without affecting the context.
-                          {Analyzes the logical structure of your program to make it run faster, consume less memory, or use less battery power without altering its
+                          {Analyzes the logical structure of your program to make it run faster, consume less memory, or use
+                          less battery power without altering its
                           intended behavior: (if (false) or replaces 24 * 60 * 60 directly with 86400)}.
         
                 
@@ -66,12 +67,14 @@ Learned (mixed with personal research):
 
 
             Note: Explaining what is a macro:
-                In programming (specifically C/C++), a macro is a rule that tells the Preprocessor to replace a specific name or keyword with a block of text before
+                In programming (specifically C/C++), a macro is a rule that tells the Preprocessor to replace a specific name or
+                keyword with a block of text before
                 the compiler ever reads the code.
                 
                 It is essentially a smart text search-and-replace mechanism.
 
-                The preprocessor does not understand language rules, data types, or mathematics—it simply swaps string A withstring B.In C/C++, macros are declared
+                The preprocessor does not understand language rules, data types, or mathematics—it simply swaps string A
+                withstring B.In C/C++, macros are declared
                 using the #define directive.
 
                 For example:
@@ -167,9 +170,11 @@ Learned (mixed with personal research):
             (1.2.1) What is a preprocessor:
 
                 The Preprocessor is the first software tool executed in the compilation pipeline.
-                It is a text-manipulation utility that processes special instructions (called directives) in the source code before the actual compilation begins.
+                It is a text-manipulation utility that processes special instructions (called directives) in the source code 
+                before the actual compilation begins.
                 
-                It does prepare the code before being compiled such as removing comments: " /* Hello, World! */ ", macros definitions: " #define PI = 3.14 ", or
+                It does prepare the code before being compiled such as removing comments: " /* Hello, World! */ ", macros 
+                definitions: " #define PI = 3.14 ", or
                 references to external files binding: " #include "Library.h" ".
 
             Note:
@@ -179,7 +184,8 @@ Learned (mixed with personal research):
             (1.2.2) What does it do:
                 (1.2.2.1) Header inclusion:
 
-                    It binds the source code file (with extensions ".c" or ".cpp") with a referenced library that ends with (".h" or ".hpp").
+                    It binds the source code file (with extensions ".c" or ".cpp") with a referenced library that ends with 
+                    (".h" or ".hpp").
 
 
                 (1.2.2.2) Macro Expansion ("#define"):
@@ -189,7 +195,7 @@ Learned (mixed with personal research):
                     (1.2.2.2.1) Object-like Macros (Constants):
                     
                         """
-                        #define e  2.71828 
+                            #define e  2.71828 
                         """
                         Every occurrence of e (Euler's constant) is directly swapped with 2.71828.
 
@@ -198,7 +204,7 @@ Learned (mixed with personal research):
                     (1.2.2.2.2) Function-like Macros & Special Operators:
 
                         """
-                        #define SQUARE(x) ((x) * (x)) 
+                            #define SQUARE(x) ((x) * (x)) 
                         """ 
                         The preprocessor also supports two special macro operators:
 
@@ -206,8 +212,8 @@ Learned (mixed with personal research):
                         (1.2.2.2.2.1) Stringification (#): Converts a macro parameter into a string literal.
 
                             """
-                            #define TO_STR(x) #x
-                            TO_STR(123) /* (Expands to "123") */
+                                #define TO_STR(x) #x
+                                TO_STR(123) /* (Expands to "123") */
                             """
 
                         (1.2.2.2.2.2) Token pasting / Concatenation (##): Glues two tokens together to form a new single token.
@@ -224,6 +230,7 @@ Learned (mixed with personal research):
                     Because macros do string substitution rather than evaluation, they can introduce subtle bugs:
 
                         (1.2.2.2.3.1) Precedence Bugs (Missing Parentheses):
+                        
                             """
                             #define MULTIPLY(a, b) a * b
                             int result = MULTIPLY(1 + 2, 3 + 4); /* Expands to: 1 + 2 * 3 + 4  --> Evaluates to 11 (Not 21!) */
@@ -231,11 +238,14 @@ Learned (mixed with personal research):
                         Fix: Always wrap every parameter and the entire expansion in parentheses: #define MULTIPLY(a, b) ((a) * (b))
 
                         (1.2.2.3.2) Double Evaluation Side Effects:
+
                             """
                             #define MAX(a, b) ((a) > (b) ? (a) : (b)) /* Ternary operation */
                             int x = 5, y = 2;
                             int m = MAX(x++, y);
                             """
+
+
 
 
 
