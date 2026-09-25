@@ -8,18 +8,20 @@ Question:
         Let the second parameter to the function be an integer which contains the
         number of elements of the array.
 ```
+
 Explanation:
 ```
 
 ```
-Input:
-```
+<br>
 
-```
-Output:
-```
+|Input:         |Output:        |Obligation:|
+|---------------|---------------|-----------|
+|               |               |           |
 
-```
+<br>
+<br>
+
 Why building this program:
 ```
 
