@@ -1,0 +1,4 @@
+0 Motor
+1 Sensor
+2 Fire
+3 Person
