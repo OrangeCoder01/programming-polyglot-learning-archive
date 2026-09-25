@@ -1,10 +1,11 @@
 # Session (8):
 Learned (mixed with personal research):
-```
+````
     (1) Details on functions and arrays:
         (1.1) Passing Array and size in a function:
         For example:
-
+````
+```C
             void print_array(int arr[], int size)
             {
                 /* Let: size = 6, arr[] = {-1, 4, 3, 6, -19, 4}*/
@@ -16,9 +17,8 @@ Learned (mixed with personal research):
 
                 /* Output = Array: -1 4 3 6 -19 4 */
             }
-
-
-
+```
+````
         (1.2) Passing value methods:
 
             (1.2.1) Pass by value:
@@ -28,9 +28,9 @@ Learned (mixed with personal research):
 
                 Undergone series of operations
                 throughout the function and then returns the value.
-
                 For example:
-
+````
+```C                
                     int set_to_zero(int number)
                     {
                         /* Was 11234*/
@@ -45,8 +45,8 @@ Learned (mixed with personal research):
                         
                         return 0;
                     }
-
-
+```
+````                    
             (1.2.2) Pass by reference:
 
                 It is updating the value of the reference variable because it does receive the variable's value
@@ -54,7 +54,8 @@ Learned (mixed with personal research):
                 inside a function that receives the variable as input parameter.
 
                 For example:
-
+````
+```C                
                     void set_to_zero(int *number) /* The return type is: "void" and  */
                     {
                         /* Was 11234*/
@@ -69,10 +70,8 @@ Learned (mixed with personal research):
                         
                         return 0;
                     }
-
-
-
-
+```
+````
     (2) Introduction to data structures and algorithms:
         (2.1) Data structures:
         (2.2) Algorithms:
@@ -81,4 +80,11 @@ Learned (mixed with personal research):
                 (2.2.1.2) Asymptotic analysis:
 
 
-```
+
+    (3) Why learn:
+        (3.1) Pass by reference and pass by value:
+
+        (3.2) Array as a parametric input of a function:
+        
+        (3.3) Data Structure and Algorithms:
+``` 
