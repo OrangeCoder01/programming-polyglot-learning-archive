@@ -21,7 +21,7 @@ int main(void)
 {
     int size = 0, removed_index = 0;
 
-    printf("Enter the array's size (0 to 100): ");
+    printf("Enter the array's size (1 to 100): ");
     size = number_validator(1, 100);
 
     printf("Enter the array's elemets' value: \n");
