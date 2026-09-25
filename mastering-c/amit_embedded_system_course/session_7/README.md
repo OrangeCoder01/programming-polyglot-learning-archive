@@ -28,9 +28,6 @@ Learned (mixed with personal research):
                     - Explains some cultural referals that the other might not understand such as:
                     "Go, break a leg", the translator must explain that means "Be quick".
 
-                    - Optimizes the sender's message/letter for removing unnecessary and overly abundant
-                    remarks without affecting the context.
-
 
                 The representations of the analogy:
 
@@ -50,13 +47,7 @@ Learned (mixed with personal research):
 
                         - Explains some cultural referals that the other might not understand:
                           {Resolves dependencies: connecting libraries called in the source code that is outside of it
-                          #include "LIBRARY_NAME"}.
-
-                        - Optimizes the sender's message/letter for removing unnecessary and overly abundant
-                          remarks without affecting the context.
-                          {Analyzes the logical structure of your program to make it run faster, consume less memory, or use
-                          less battery power without altering its
-                          intended behavior: (if (false) or replaces 24 * 60 * 60 directly with 86400)}.
+                          #include "LIBRARY_NAME"}..
         
                 
             (1.1.3) The composition:
