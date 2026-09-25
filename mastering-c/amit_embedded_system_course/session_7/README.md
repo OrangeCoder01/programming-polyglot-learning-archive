@@ -545,5 +545,43 @@ Learned (mixed with personal research):
             (3.3.3) enum.
 
 
-    (4) Why learn:            
+    (4) Why learn:    
+        (4.1) Compilation Toolchain:
+
+            Because understanding the system that produces the output for example printing result in the terminal
+            processing operations, calling function, or storing data will fundamentally shape an insight
+            of how the product is made and not just what is the product.
+
+            The shift in the mentality, faciliates the debugging and toubleshooting by granting a profound understanding of the
+            underlying product, and it is the job of every developer or Engineer to understand mechanisms and
+            dynamics from start to finish.
+            
+            Another important key:
+                It is crucial to know when operating on a large scale modular projects where optimization and
+                system integration without the Compilation Toolchain error such as "segmentation error", "Stack Overflow",
+                "integer overflow", and other are the bottleneck qualities for producing an efficient and successful product.
+
+            
+
+        (4.2) Arrays:
+
+            For storing multiple variables by using indexing method to call for the variable's value but systematically.
+            Analogy:
+
+                In military service, soldiers are not called by their names but by a specific peronel number tag refering to
+                the team, unit, battalion, ...., and finally army.
+            
+            Array uses same methodology when ranking the elements inside it.
+
+
+
+
+        (4.3) Data types:  
+
+            Understanding the data types and their distinction in their functionality is to 
+            understand the essence of a programming language: C programming language is a Procedural Oriented Programming
+            languages which seperating variable data from function methods, which lie in complete opposition
+            to other many advanced programming languages such as C++, and Python for their adoption
+            Procedural Oriented programming (POP) and Object Oriented Programming (OOP)
+
 ```

@@ -2,6 +2,11 @@
 Implemented
 ```
     (1) Practising exercises for solving mathematical algorithms.
+
+    (2) Why practise solving algorithmic puzzle:
+        
+        To enhance algorithmic thinking when dealing with the realm of mathematics
+        such as Fibonnaci, Geometric, and Arithmetic series.
 ```
 <br>
 Program & links:
