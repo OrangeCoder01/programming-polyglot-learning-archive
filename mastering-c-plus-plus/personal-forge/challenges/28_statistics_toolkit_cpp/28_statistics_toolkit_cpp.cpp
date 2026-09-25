@@ -9,7 +9,7 @@ float user_input_validation(float num, int integer, char choice)
         while(!(cin >> num) || (-1048575.0 > num || num > 1048575.0))
         {
             if(!cin){printf("Illegitimate float Input, enter again: ");}
-            else{printf("Your number: {%f} is out of range {-1048575 to 1048575}, enter again: ", num);}
+            else{printf("Your number: {%.3f} is out of range {-1048575 to 1048575}, enter again: ", num);}
             cin.clear();
             cin.ignore(1000, '\n');
         }
@@ -46,7 +46,7 @@ void print_array(float array[], unsigned const int size)
     printf("[");
     for(unsigned int i = 0; i < size; i++)
     {  
-         printf("%f", array[i]);
+         printf("%.3f", array[i]);
         if(i < (size - 1))
         {
             printf(", ");
@@ -228,7 +228,11 @@ float variance(float arr[], unsigned const int n, float mean)
     float squared_diff_arr[n];
 
     for(unsigned int i = 0; i < n; i ++)
-    {squared_diff_arr[i] = float_pow(abs(arr[i] - mean), 2);}
+    {
+        float result = arr[i] - mean;
+        if(result < 0) {result *= -1;}
+        squared_diff_arr[i] = float_pow(result, 2);
+    }
     
     // Time to sum
     for(int i = 0; i < n; i++)
@@ -276,14 +280,14 @@ void stat_disp()
     bubble_sort_array(array, constant_size);
     print_array(array, constant_size);
     printf("\n");
-    printf("Minimum: %f\n", minimum);
-    printf("Maximum: %f\n", maximum);
-    printf("Mean: %f\n", mean_variable);
-    printf("Mode: %f\n", mode(array, constant_size));
-    printf("Median: %f\n", median(array, constant_size));
-    printf("Range: %f\n", range(maximum, minimum));
-    printf("Variance: %f\n", var_val);
-    printf("Standard deviation: %f\n", standard_deviation(var_val));
+    printf("Minimum: %.3f\n", minimum);
+    printf("Maximum: %.3f\n", maximum);
+    printf("Mean: %.3f\n", mean_variable);
+    printf("Mode: %.3f\n", mode(array, constant_size));
+    printf("Median: %.3f\n", median(array, constant_size));
+    printf("Range: %.3f\n", range(maximum, minimum));
+    printf("Variance: %.3f\n", var_val);
+    printf("Standard deviation: %.3f\n", standard_deviation(var_val));
 }
 
 int main()

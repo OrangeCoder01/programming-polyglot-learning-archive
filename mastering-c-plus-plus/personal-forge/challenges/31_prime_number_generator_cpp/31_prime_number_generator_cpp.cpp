@@ -33,7 +33,7 @@ bool is_prime(int input_int)
     if (input_int < 2 || input_int % 2 == 0) return false;
     if (input_int == 2) return true;
     
-    for (int i = 3; pow(i, 2)<= input_int; i += 2) // using the pow(float element, int power) function
+    for (int i = 3; exp_pow(i, 2)<= input_int; i += 2) // using the pow(float element, int power) function
     {
         if (input_int % i == 0) return false;
     }

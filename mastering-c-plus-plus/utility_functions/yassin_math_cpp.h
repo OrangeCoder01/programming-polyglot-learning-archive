@@ -1,5 +1,13 @@
+/*
+    exp_pow = exponential power (base)^(exp_pow), for example: exp_pow(2,3) = 8
+    root_pow = root power
 
-float pow(float element, int power)
+                        (root_pow)
+                           _   _________        for example: root_pow(4,2) = 2
+                            \ |
+                             \|  (base)
+*/
+float exp_pow(float element, int power)
 {
     if(power > 0)
     {
@@ -21,10 +29,10 @@ float pow(float element, int power)
     }
 }
 
-float sqrt(float element, int root)
+float root_pow(float element, int root)
 {
     int integer_part  = 0;
-    for(int i = 0; pow((float)(i), root) <= element; i++){integer_part = i;}
+    for(int i = 0; exp_pow((float)(i), root) <= element; i++){integer_part = i;}
     
     float value = integer_part;
     if(root > 0 )
@@ -37,7 +45,7 @@ float sqrt(float element, int root)
             for(int j = 0; j <= 9; j++)
             {
                 float possible_value = value + (j * decimal_point);
-                if(pow(possible_value, root) <= element){value = possible_value;}
+                if(exp_pow(possible_value, root) <= element){value = possible_value;}
                 else{break;}
             }
         }
@@ -46,15 +54,15 @@ float sqrt(float element, int root)
 }
 
 
-float round(float input, int decimal_point)
+float rounding(float input, int decimal_point)
 {
-    float val_before_round_point = (input * pow(10.0f, decimal_point));
+    float val_before_round_point = (input * exp_pow(10.0f, decimal_point));
     int val_after_round_point_by_a_decimal_place = (int)(val_before_round_point * 10.0f) % 10;
     
     if(val_after_round_point_by_a_decimal_place >= 5){val_before_round_point += 1.0f;}
     val_before_round_point = (float)((int)(val_before_round_point));
     
-    return (val_before_round_point * pow(10.0f, -decimal_point));
+    return (val_before_round_point * exp_pow(10.0f, -decimal_point));
 }
 
 // Added 31/7/2026 1:10 AM after {33_lcd_finder_cpp} challenge.
