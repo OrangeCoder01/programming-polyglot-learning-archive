@@ -1,7 +1,7 @@
 # Classwork session (7):
 Learned:
 ```
-    
+    (1)
 ```
 
 Programs & links:<br>
