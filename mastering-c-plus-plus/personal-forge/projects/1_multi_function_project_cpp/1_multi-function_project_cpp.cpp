@@ -1,6 +1,6 @@
 #include <iostream>
 using std::cin;
-#include "../../utility_functions/yassin_math.h"//new stuff
+#include "../../../utility_functions/yassin_math_cpp.h"//new stuff
 
 unsigned const int MAX_ELEMENTS = 500;
 float data_arr[MAX_ELEMENTS];
@@ -68,7 +68,7 @@ long long int reverse_number(long long int input)
     int n = calculate_number_of_digits(input);
     for(int i = 1; i < n + 1; i++)
     {
-        int digit = ((int)(input) % 10) * (int)(pow(10.0f, (n) - i));
+        int digit = ((int)(input) % 10) * (int)(exp_pow(10.0f, (n) - i));
         input /= 10;
         output_rev += (long long int)(digit);
     }
@@ -125,7 +125,7 @@ bool prime_checker(int input_int)
     if (input_int < 2 || input_int % 2 == 0) return false;
     if (input_int == 2) return true;
     
-    for (int i = 3; pow(i, 2)<= input_int; i += 2)
+    for (int i = 3; exp_pow(i, 2)<= input_int; i += 2)
     {
         if (input_int % i == 0) return false;
     }
@@ -191,7 +191,7 @@ float variance(float arr[], unsigned const int n, float mean)
     float var_val = 0;
     float squared_diff_arr[n];
 
-    for(unsigned int i = 0; i < n; i ++){squared_diff_arr[i] = pow(abs(arr[i] - mean), 2);}
+    for(unsigned int i = 0; i < n; i ++){squared_diff_arr[i] = exp_pow(abs(arr[i] - mean), 2);}
     
     for(int i = 0; i < n; i++){var_val += squared_diff_arr[i];}
     var_val /= n;
@@ -199,7 +199,7 @@ float variance(float arr[], unsigned const int n, float mean)
 }
 
 float standard_deviation(float variance)
-{return sqrt(variance, 2);}
+{return root_pow(variance, 2);}
 
 void input_array(float array[], unsigned const int size)
 {
@@ -392,7 +392,7 @@ void armstrong_checker()
     while(temp > 0)
     {
         int digit = temp % 10;
-        new_number += (long long int)(pow(digit, n));
+        new_number += (long long int)(exp_pow(digit, n));
         temp /= 10;
     }
     (lli_input == new_number)?(printf("%lli is an Armstrong Number\n", lli_input)):(printf("%lli is {not} an Armstrong Number\n", lli_input));
