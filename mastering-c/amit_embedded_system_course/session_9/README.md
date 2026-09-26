@@ -431,3 +431,33 @@ void bubbleSort(int arr[], int size)
         - An optimized Bubble Sort utilizes a flag variable to detect early completion, improving best-case complexity to O(n).
         - Merge Sort achieves O(n log n) time complexity, offering significantly better scaling than O(n^2) sorting algorithms.
 ````
+````
+
+
+    (3) Why learn:
+        (3.1) Storage classes, memory types, storage duration, linkage, and scope
+              and their corresponding keywords (register, auto, static, extern).
+
+                Program adopt variables with discrepancy in utility:
+                    - Sensor reading require static storage duration for keeping the data updated. (static)
+
+                    - Temporary variables that are meant to be used and deleted after executing its function
+                      such as swapping two elements in an array. (auto)
+
+                    - Overly used variables are better to be installed in the register for speeding
+                      the runtime process. (register)
+
+                    - Calling an external to file scope variable is crucial in modulaer project.
+            
+
+            Understanding the four keywords and their functionality, hence improves understanding of the
+            computer and microcontroller systems' internal hardware features and dynamics.
+
+
+        (3.2) Alogrithm and Big O Notation calculation:
+
+            It is one of the most crucial skill of a developer to optimize his/her
+            program based on a mathematical calculation (asymptotic analysis)
+            in order to bring the fastest possibly produced outcome a program
+            can produce without crashing.
+````
