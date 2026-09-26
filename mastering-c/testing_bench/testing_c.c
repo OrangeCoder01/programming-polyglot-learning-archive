@@ -9,7 +9,7 @@ int func(int c, float d, char e) /* (Block scope) Function Prototype scope */
 } 
 int main(void)
 {
-    register int g; /* This variable is local scope  */
+    register int  g; /* This variable is local scope  */
     int h1; /* An {auto} variable by default*/
     int h2; /* An {auto} variable */
 

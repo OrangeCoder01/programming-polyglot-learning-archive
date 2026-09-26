@@ -182,9 +182,18 @@ Learned (mixed with personal search):
 
                     -  Function scope:
                         Applies exclusively to labels used for flow control:
+                        Example:
 ````
 ```c
-                            for(int i = 0; i < 10; i++ ) { /* Code */ } /* "i" is a "Function Scope" declared variable */
+                            void example() 
+                            {
+                                goto my_label;
+                                my_label: return; /* "my_label" has Function Scope */
+                            }
+
+```
+```c
+                            for(int i = 0; i < 10; i++ ) { /* Code */ } /* "i" is a "Block Scope" declared variable */
 ```
 
 ````
@@ -192,7 +201,11 @@ Learned (mixed with personal search):
                         Applies to parameter input of a function:
 ````
 ```c
-                            void func(int a, float b, char c) { /* Code */ } /* ["a", "b", "c"] are Function Prototype Scope */
+                            void func(int a, float b, char c); /* ["a", "b", "c"] parameters of Function Prototype Scope */
+                            /* 
+                                "Declared" before int main(void){} fuction and its "definition" is after the int main)(void){}
+                                function
+                            */
 ```
 
 ````
@@ -202,13 +215,11 @@ Learned (mixed with personal search):
                         - Scope:                    Block Scope.
                         - Storage Duration:         Static storage duration.
                         - Location:                 RAM .bss/.data segment.
-                        - Linkage:                  Internal Linkage
 
                     In Global scope:
                         - Scope:                    File Scope.
                         - Storage Duration:         Static storage duration.
                         - Location:                 RAM .bss/.data segment.
-                        - Linkage:                  Internal Linkage.
 
 
                 (1.3.2.2) auto:
@@ -237,21 +248,17 @@ ${\color{red}\text{VERY IMPORTANT NOTE}}$:
 ````
     static type:
         in local scope:
-            In functions:
-                It does not get deleted after the function ends
-            
-            In loop:
-                It does not get deleted after each new iteration but gets terminated after the loop ends.
+            In functions or Iterative Control Flow:
+                It does not get deleted after the function/loop ends.
 
         In file scope:
             It indicates that specific variable must and only be accessed inside the file and can not be used outside.
-            That mean it is an "auto" type but belongs to the file scope and never be called outside
 ````
 
 ```c
                     #include <stdio.h>
-                    static int a; /* This variable is {global} (file scope) {static} (can not be accessed outside the source code file) */
-                    int b; /* This variable is {global} (file scope) {auto} */
+                    static int a; /* This variable is {global} (File scope) {Static Storage Duration} (can not be accessed outside the source code fILE) */
+                    int b; /* This variable is {global} (File scope} {Static Storage Duration} */
                     int func(int c, float d, char e) /* (Block scope) Function Prototype scope */
                     {
                         static int f = 0;
@@ -260,7 +267,7 @@ ${\color{red}\text{VERY IMPORTANT NOTE}}$:
                     } 
                     int main(void)
                     {
-                        register int g; /* This variable is local scope  */
+                        register int g; /* This variable is Local Scope  */
                         int h1; /* An {auto} variable by default*/
                         int h2; /* An {auto} variable */
 
@@ -278,6 +285,9 @@ ${\color{red}\text{VERY IMPORTANT NOTE}}$:
                 (1.3.2.4) extern:
 
                     It is opposite from "file scope static".
+                    It command to fetch a variable outside its file scope
+                    (a global variable in same-folder files).
+                    
                         - Scope:                File Scope.
                         - Storage Duration:     static storage duration.
                         - Location:             (.data/.bss) segment. 
@@ -295,3 +305,6 @@ ${\color{red}\text{VERY IMPORTANT NOTE}}$:
 | `extern` | `.data` / `.bss` | Static (Permanent) | File | **External** | Yes |
 
 ---
+````
+    (2) Algorithms:
+````
