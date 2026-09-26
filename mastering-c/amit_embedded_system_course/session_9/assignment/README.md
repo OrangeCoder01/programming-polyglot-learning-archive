@@ -4,6 +4,10 @@ Implemented:
     (1) Understood other aspect of practical importance of 
         static linkage when operating in a large-scale modular multi-source code and header
         files project.
+    
+    (2) Why learn about Flip-linking and the practicality of static linkage:
+
+        For avoiding identically-named variables in different source code files collision in a modular project.
 ````
 <br>
 
