@@ -26,7 +26,7 @@ Notes:
 <br>
 
 What will be learned at the end of the course:
-```
+````
     (1) Electronics basics:
         (1.1) Communication protocols.
             (1.1.1) CAN (Control Area Network) protocol. 
@@ -47,6 +47,8 @@ What will be learned at the end of the course:
 
                 (1.3.1.2) Core software compositions of compilation toolchain:
                     (1.3.1.2.1) Pre-processor.
+                        (1.3.1.2.1.1) macros.
+                        
                     (1.3.1.2.2) Compiler.
                     (1.3.1.2.3) Assembler.
                     (1.3.1.2.4) Linker.
@@ -61,25 +63,32 @@ What will be learned at the end of the course:
                         {Rename-Item}
 
 
+
             (1.3.2) Computer system:
                 (1.3.2.1) Types of memory:
                     (1.3.2.1.1) RAM's memory sectioning:
                         (1.3.2.1.1.1) Static memory.
-                        (1.3.2.1.1.2) Bss memory.
-                        (1.3.2.1.1.3) Stack memory.
-                        (1.3.2.1.1.4) Heap memory.
+                            (1.3.2.1.1.1.1) .bss segment.
+                            (1.3.2.1.1.1.2) .data segment.
+
+                        (1.3.2.1.1.2) Stack memory.
+                        (1.3.2.1.1.3) Heap memory.
                     
                     (1.3.2.1.2) CPU register.
                     (1.3.2.1.3) Second storaging (HDD/SSD).
                 
+
                 (1.3.2.2) File I/O.
             
+
+
             (1.3.3) Microcontroller system:
                 (1.3.3.1) Types of memory.
                     (1.3.3.1.1) EEPROM memory
                     (1.3.3.1.2) Flash memory
 
-
+````
+````
 
     (2) C/C++ programming languages:
 

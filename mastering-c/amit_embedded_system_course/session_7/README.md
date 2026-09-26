@@ -496,6 +496,8 @@ Learned (mixed with personal research):
                     * Advantage: Smaller binary size; multiple running applications share a single library in RAM.
                     * Disadvantage: Program fails to run if required `.so`/`.dll` files are missing from target system.
 
+
+
             (1.5.4) Command-Line Controls:
 
                 - Link multiple object files into executable:
@@ -503,6 +505,7 @@ Learned (mixed with personal research):
 
                 - Link against an external library (e.g., math library `libm`):
                     {gcc main.o -lm -o my_program}
+
 
 
 
@@ -521,6 +524,8 @@ Learned (mixed with personal research):
 
         (2.3) Zero-Based Indexing & Offset Mathematics:
             Array indices start at 0 because the index number represents an offset multiplier from the base address:
+
+
 
 
 
@@ -543,6 +548,9 @@ Learned (mixed with personal research):
             (3.3.1) struct.
             (3.3.2) union.
             (3.3.3) enum.
+
+
+
 
 
     (4) Why learn:    
