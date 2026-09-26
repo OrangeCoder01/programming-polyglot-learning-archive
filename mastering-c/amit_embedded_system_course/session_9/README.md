@@ -345,7 +345,7 @@ ${\color{red}\text{VERY IMPORTANT NOTE}}$:
 
 ````
                 - Running Time Equation:
-                    T(n) = C1 + C2 + n * C3 + C4
+                    T(n) = C1 + C2 + n * C3 + C4  (C4 is the conditional statement in the loop overhead {i = 0; i < n; i++})
                     T(n) = C3 * n + (C1 + C2 + C4)
 
                 - Dominant Term: n
@@ -362,7 +362,7 @@ ${\color{red}\text{VERY IMPORTANT NOTE}}$:
                     {
                         for (j = 0; j < n; j++)      /* Inner loop runs n times for each outer iteration */
                         {
-                            count++;                 /* Comparison & Arithmetic: C3 */
+                            count++;                 /* Arithmetic and Assignment: C3 */
                         }
                     }
                 }
@@ -386,7 +386,7 @@ void bubbleSort(int arr[], int size)
     for (i = 0; i < size - 1; i++) 
     {
         int j;
-        for (j = 0; j < size - 1 - i; j++) 
+        for (j = 0; j < size - 1 - i; j++) /* Overhead comparision C1 for first loop and C5 for second loop  */
         {
             if (arr[j + 1] < arr[j]) 
             {
