@@ -28,7 +28,10 @@ Learned (mixed with personal search):
 
                             - char: 1 byte
                             - int: 4 bytes
-                            - float: 4 bytes.
+                            - float: 4 bytes. 
+                            
+                            Note: int and float bytes are not guaranteed to be always 4 byte, some
+                                  standard might implement different type for that variable.
 
                         For example:
 ````
@@ -72,7 +75,7 @@ Learned (mixed with personal search):
                                 {
                                     static int i = 0; /* It is initilized one time then this code line is as if removed */
                                     i += 1;
-                                    return
+                                    return i;
                                 }
                                 int main(void)
                                 {
@@ -137,10 +140,13 @@ Learned (mixed with personal search):
 
 
 
-            (1.2.2) Advantages of CPU register over RAM:
-                - Instantaneous Access.
-                - Limited capacity.
-                - No Memory Address.
+            (1.2.2) Advantages/Disadvantages of CPU register over RAM:
+                (1.2.2.1) Advantages: 
+                    - Instantaneous Access (higher processing speed).
+
+                (1.2.2.2) Disadvantages:
+                    - Limited capacity.
+                    - No Memory Address.
 ````  
 ````
 
@@ -192,11 +198,26 @@ Learned (mixed with personal search):
 ````
             (1.3.2) Keywords:
                 (1.3.2.1) static:
+                    In Local scope: 
+                        - Scope:                    Block Scope.
+                        - Storage Duration:         Static storage duration.
+                        - Location:                 RAM .bss/.data segment.
+                        - Linkage:                  Internal Linkage
+
+                    In Global scope:
+                        - Scope:                    File Scope.
+                        - Storage Duration:         Static storage duration.
+                        - Location:                 RAM .bss/.data segment.
+                        - Linkage:                  Internal Linkage.
+
 
                 (1.3.2.2) auto:
+                    It is the default condition for every declared variable to be "auto".
+                        In Local scope:
+                            - Scope:                Block Scope.
+                            - Storage Duration:     Automatic storage duration.
+                            - Location:             RAM Stack Segment.
 
-                    It is the default condition for every declared variable to be "auto",
-                    it is found in Block Scope, saved Automatic Memory
 
                 (1.3.2.3) register:  
 
@@ -206,13 +227,12 @@ Learned (mixed with personal search):
                     is a hefty cost, the CPU might refuse at any time without alerting and
                     it is instructed to be very strict on accepting user's request for variable storaging inside the CPU.
 
+                        - Scope:                Block Scope.
+                        - Storage Duration:     Automatic storage duration.
+                        - Location:             CPU register. 
+
                 For example:
 ````
-
-```c
-
-```
-
 ${\color{red}\text{VERY IMPORTANT NOTE}}$:
 ````
     static type:
@@ -225,31 +245,53 @@ ${\color{red}\text{VERY IMPORTANT NOTE}}$:
 
         In file scope:
             It indicates that specific variable must and only be accessed inside the file and can not be used outside.
+            That mean it is an "auto" type but belongs to the file scope and never be called outside
 ````
 
+```c
+                    #include <stdio.h>
+                    static int a; /* This variable is {global} (file scope) {static} (can not be accessed outside the source code file) */
+                    int b; /* This variable is {global} (file scope) {auto} */
+                    int func(int c, float d, char e) /* (Block scope) Function Prototype scope */
+                    {
+                        static int f = 0;
+                        f += c + (int)(d) + (int)(e);
+                        return f;
+                    } 
+                    int main(void)
+                    {
+                        register int g; /* This variable is local scope  */
+                        int h1; /* An {auto} variable by default*/
+                        int h2; /* An {auto} variable */
 
+                        h2 = func(1, 1.0, 'a'); /* f = 0 + 1 + 1 + 97 = 99*/
+                        h1 = func(0, 11.0, 'A'); /* f = 99 + 0 + 11 + 65 = 175*/ /* h2 is 99 and h1 = 175*/
+                        printf("h2 = %d, h1 = %d", h2, h1);
+                        return 0;
+                    }
+                    /* In order to run properly:
+                        (1) gcc EXACT_CODE_FILE_NAME
+                        (2) .\a.exe
+                    */
+```
 ````
-    (1) Big O notation:
-        (1.1) Time complexity:
-    
-    (2) Storage duration:
-        (2.1) Automatic S.D
-            (2.1.1) auto
-            (2.1.2) register
-            (2.1.3) stack block:
-                (2.1.3.1) static storage:
-                    (2.1.3.1.1) data layer
-                    (2.1.3.1.2) bss layer
+                (1.3.2.4) extern:
 
-                (2.1.3.2) Automatic layer:
-                    (2.1.3.2.1) Stack layer
-
-                (2.1.3.3) Dynamic Memory Allocation:
-                    Heap layer.
-
-        (2.2) Static S.D:
-            (2.2.1) static scope:
-            (2.2.2) extern:
-
-    (3) Surface understanding of pointers
+                    It is opposite from "file scope static".
+                        - Scope:                File Scope.
+                        - Storage Duration:     static storage duration.
+                        - Location:             (.data/.bss) segment. 
+                        - Linkage:              External linkage.
 ````
+
+### Storage Classes & Keywords Comparison Table
+
+| Keyword | Storage Location | Storage Duration | Scope | Linkage | `&` Addressable? |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `auto` | Stack Segment | Automatic (Temporary) | Block | None | Yes |
+| `register` | CPU GPRs | Automatic (Temporary) | Block | None | **No** (Compiler Error) |
+| `static` (Local) | `.data` / `.bss` | Static (Permanent) | Block | None | Yes |
+| `static` (Global) | `.data` / `.bss` | Static (Permanent) | File | **Internal** | Yes |
+| `extern` | `.data` / `.bss` | Static (Permanent) | File | **External** | Yes |
+
+---
