@@ -306,5 +306,128 @@ ${\color{red}\text{VERY IMPORTANT NOTE}}$:
 
 ---
 ````
-    (2) Algorithms:
+(2) Algorithms and Big O Calculation:
+        (2.1) Core Principles of Big O Notation:
+            (2.1.1) Definition:
+                Big O notation describes the upper bound (worst-case scenario) of an algorithm's 
+                execution time or space requirements as the input size "n" approaches infinity.
+
+            (2.1.2) Steps to Calculate Time Complexity T(n):
+                1. Express the running time T(n) as a function of input size "n" by counting primitive operations 
+                   (assignments, arithmetic operations, comparisons, array accesses, loop iterations).
+
+                2. Assign a constant execution cost (C1, C2, C3, ...) to each basic operation.
+
+                3. Apply asymptotic simplification rules:
+
+                    - Drop Constant Multipliers: c * f(n) -> O(f(n)) (e.g., 3n -> O(n))
+                    - Drop Non-Dominant Terms: n^2 + n + 5 -> O(n^2)
+                    - Additive Rule: T(n) = T1(n) + T2(n) -> O(max(f1(n), f2(n)))
+                    - Multiplicative Rule (Nested Loops): O(f(n) * g(n))
+
+
+        (2.2) Code Examples & Derivations:
+
+            (2.2.1) Single Loop Example (Linear Time - O(n)):
+````
+```c
+                void LinearExample(int n) 
+                {
+                    int i;                  /* Assignment: C1 */
+                    int sum = 0;            /* Assignment: C2 */
+                    
+                    for (i = 0; i < n; i++) /* Loop runs n times */
+                    {
+                        sum += i;           /* Arithmetic & Assignment: C3 */
+                    }
+                }
+```
+
+````
+                - Running Time Equation:
+                    T(n) = C1 + C2 + n * C3 + C4
+                    T(n) = C3 * n + (C1 + C2 + C4)
+
+                - Dominant Term: n
+                - Time Complexity: O(n) [Linear Time Complexity]
+
+            (2.2.2) Nested Loops Example (Quadratic Time - O(n^2)):
+````
+```c
+                void QuadraticExample(int n) {
+                    int i, j;
+                    int count = 0;                   /* Assignment: C1 */
+                    
+                    for (i = 0; i < n; i++)          /* Outer loop runs n times */
+                    {
+                        for (j = 0; j < n; j++)      /* Inner loop runs n times for each outer iteration */
+                        {
+                            count++;                 /* Comparison & Arithmetic: C3 */
+                        }
+                    }
+                }
+```
+
+````
+                - Running Time Equation:
+                    T(n) = C1 + n * (n * C3)
+                    T(n) = C3 * n^2 + C1
+
+                - Dominant Term: n^2
+                - Time Complexity: O(n^2) [Quadratic Time Complexity]
+
+
+            (2.2.3) Bubble Sort Algorithm Analysis (Quadratic Time - O(n^2)):
+````
+```c
+void bubbleSort(int arr[], int size) 
+{
+    int i;
+    for (i = 0; i < size - 1; i++) 
+    {
+        int j;
+        for (j = 0; j < size - 1 - i; j++) 
+        {
+            if (arr[j + 1] < arr[j]) 
+            {
+                int temp = arr[j];   /* Swap operation: C2 */
+                arr[j] = arr[j + 1]; /* Swap operation: C3 */
+                arr[j + 1] = temp;   /* Swap operation: C4 */
+            }
+        }
+    }
+}
+```
+````
+            - Iteration Derivation:
+                - Pass i = 0   -> Inner loop runs (n - 1) times
+                - Pass i = 1   -> Inner loop runs (n - 2) times
+                - Pass i = n-2 -> Inner loop runs 1 time
+                
+                Total Operations = (n - 1) + (n - 2) + ... + 2 + 1
+                                 = [n * (n - 1)] / 2
+                                 = (1/2) * n^2 - (1/2) * n
+
+            - Simplification:
+                Drop constant factor (1/2) and lower-order term (-(1/2)n).
+            - Time Complexity: O(n^2) [Quadratic Time Complexity]
+
+
+    (2.3) Time Complexity Spectrum:
+````
+
+| Big O Notation | Name | Growth Rate Description | Common Examples |
+| :--- | :--- | :--- | :--- |
+| O(1) | Constant | Execution time is independent of input size n | Array lookup, direct pointer dereference |
+| O(log n) | Logarithmic | Problem size is halved at each step | Binary Search |
+| O(n) | Linear | Directly proportional to input size n | Single loop, Linear Search |
+| O(n log n) | Linearithmic | Logarithmic passes over linear input | Merge Sort, Quick Sort (average case) |
+| O(n^2) | Quadratic | Proportional to the square of input size n | Bubble Sort, Selection Sort, Insertion Sort |
+| O(2^n) | Exponential | Execution time doubles with each additional element | Recursive Fibonacci (unoptimized), Power set generation |
+
+````
+    Note / Key Takeaways:
+        - Standard Bubble Sort always runs in O(n^2) time regardless of initial array ordering.
+        - An optimized Bubble Sort utilizes a flag variable to detect early completion, improving best-case complexity to O(n).
+        - Merge Sort achieves O(n log n) time complexity, offering significantly better scaling than O(n^2) sorting algorithms.
 ````
