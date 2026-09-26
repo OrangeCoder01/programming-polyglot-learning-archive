@@ -1,5 +1,9 @@
 # Assignment (1):
+Implemented:
 ````
+    (1) Understood other aspect of practical importance of 
+        static linkage when operating in a large-scale modular multi-source code and header
+        files project.
 ````
 <br>
 
