@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int bubble_sort(int arr[], int size)
+void bubble_sort(int arr[], int size)
 {
     int i = 0, j = 0, temp = 0;
     for(i; i < size; i++)

@@ -1,20 +1,31 @@
 #include <stdio.h>
-static int a; /* This variable is {global} (file scope) {static} (can not be accessed outside the source code file) */
-int b; /* This variable is {global} (file scope) {auto} */
-int func(int c, float d, char e) /* (Block scope) Function Prototype scope */
+#include "helper_library_c.h"
+
+void bubble_sort(int arr[], int size)
 {
-    static int f = 0;
-    f += c + (int)(d) + (int)(e);
-    return f;
-} 
+    int i = 0, j = 0, temp = 0;
+    for(i; i < size; i++)
+    {
+        j = i + 1;
+        for(j; j < size; j++)
+        {
+            if(arr[j - 1] > arr[j])
+            {
+                temp = arr[j - 1];
+                arr[j - 1] = arr[j];
+                arr[j] = temp;
+            }
+            print_array(arr, size);
+        }
+        printf("\n\n");
+    }
+}
+
+
+
 int main(void)
 {
-    register int  g; /* This variable is local scope  */
-    int h1; /* An {auto} variable by default*/
-    int h2; /* An {auto} variable */
-
-    h2 = func(1, 1.0, 'a'); /* f = 0 + 1 + 1 + 97 = 99*/
-    h1 = func(0, 11.0, 'A'); /* f = 99 + 0 + 11 + 65 = 175*/ /* h2 is 99 and h1 = 175*/
-    printf("h2 = %d, h1 = %d", h2, h1);
+    int arr[7] = {-1, -3, 3, -2, 1, 2, 0};
+    bubble_sort(arr, 7);
     return 0;
 }
