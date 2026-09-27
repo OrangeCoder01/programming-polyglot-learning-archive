@@ -1,5 +1,5 @@
 # Session (10) and Session (11):
-Learned
+Learned(mixed with personal research)
 ````    
     Note:
         Learned about Pointers and<macros (and preprocessor directive).
