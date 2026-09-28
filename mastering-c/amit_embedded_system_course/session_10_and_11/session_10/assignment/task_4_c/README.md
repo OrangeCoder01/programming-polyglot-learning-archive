@@ -1,4 +1,4 @@
-# Task 3:
+# Task 4:
 Problem:
 ````
     (4) C function to get the value of the smallest element in array
@@ -16,5 +16,5 @@ Explanation:
 
 Why building this program:
 ````
-    Implementing conditional control flow with pointers
+    Implementing conditional control flow with pointers.
 ````
