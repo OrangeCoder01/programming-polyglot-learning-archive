@@ -183,6 +183,8 @@ ${\color{red}\text{Note}}$:
                 {
                     /* wild Pointer  */
                     int *ptr; /* Uninitialized: holds a garbage address */
+
+                    /* Null Pointer */
                     int *safe_ptr = NULL; /* Explicitly points to address 0 (Safe) */   
                     int num = 50;
                     ptr = &num; /* Now ptr holds a valid address and is no longer wild */
