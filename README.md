@@ -73,7 +73,7 @@ programming-polyglot-learning-archive/
 | **Goal** | Solve one well-defined problem | Solve a larger, real-world-shaped problem |
 | **Trains** | Clean code, algorithmic intuition, time/space efficiency | Modularity, data integrity across state, program coherence |
 | **Volume** | The majority of the archive | Fewer, and slower to produce |
-| **Examples** | `Armstrong Number`, `GCD/LCM finders`, `Bubble Sort` (C++); `Caesar Cipher`, `Hangman` (Python) | `Student Management System`, `Bank Simulator` (C++); `Water Dispenser`, `Laser Trip-Wire + Object Counter` (Arduino) |
+| **Examples** | `Armstrong Number`, `GCD/LCM finders`, `Bubble Sort` (C++);| `Student Management System`, `Bank Simulator` (C++); `Water Dispenser`, `Laser Trip-Wire + Object Counter` (Arduino) |
 
 A few challenges reappear under the same label with a different implementation — that's intentional, revisiting a problem with a new algorithmic approach as skills grow.
 
