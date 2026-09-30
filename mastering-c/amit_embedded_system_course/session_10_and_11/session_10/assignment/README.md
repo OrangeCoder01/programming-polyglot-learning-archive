@@ -25,20 +25,20 @@ Implemented
             For example:
 ````
 ```c
-    #include <stdio.h>
-    int main(void)
-    {
-        char name[18] = {'H','E','L','L','O',' ','W','O','R','L','D','!','\0','e','d','_','>','@'};
-        int i = 0;                                                     /* >< */
-        printf("name: ");
-        while(*(name + i) != '\0')
-        {
-            printf("%c", *(name+ i));
-            i += 1;
-        }
-        /* The final print: HELLO WORLD! */
-        return 0;
-    }
+                #include <stdio.h>
+                int main(void)
+                {
+                    char name[18] = {'H','E','L','L','O',' ','W','O','R','L','D','!','\0','e','d','_','>','@'};
+                    int i = 0;                                                     /* >< */
+                    printf("name: ");
+                    while(*(name + i) != '\0')
+                    {
+                        printf("%c", *(name+ i));
+                        i += 1;
+                    }
+                    /* The final print: HELLO WORLD! */
+                    return 0;
+                }
 ```
 <br>
 Programs & links:
