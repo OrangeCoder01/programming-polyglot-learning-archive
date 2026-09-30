@@ -12,7 +12,7 @@ Note:
 &emsp; ${\color{red}\text{(1)}}$: **Important Keywords**
 <br>
 
-&emsp;&emsp; ${\color{blue}\text{(1.1)}}$ **typedef**  
+&emsp;&emsp; ${\color{blue}\text{(1.1)}}$: **typedef**  
 ````
             The typedef keyword creates a user-defined alias or nickname for an existing data type.
             It does not create a new type or allocate memory; it simply improves code readability, portability,
@@ -45,7 +45,7 @@ Note:
 ```
 <br>
 
-&emsp;&emsp; ${\color{blue}\text{(1.2)}}$ **inline**  
+&emsp;&emsp; ${\color{blue}\text{(1.2)}}$: **inline**  
 
 ````            
             The inline keyword is a function specifier in C used to optimize program execution speed.
@@ -112,7 +112,7 @@ Note:
 
 <br>
 
-&emsp;&emsp;&emsp; ${\color{blue}\text{(1.3)}}$ **union**:
+&emsp;&emsp;&emsp; ${\color{blue}\text{(1.3)}}$: **union**:
 ````
             A union is a user-defined data type that is syntactically very similar to a struct.
             However, the critical difference lies in how they handle memory: while a structure allocates
@@ -124,48 +124,212 @@ Note:
             largest member inside the union.
 
             It searches for the highest size data type, and apply it as the default data type
-            for the rest of the data type, by padding space 
+            for the rest of the data type, by padding space.
+            For example:
 ````
-&emsp;&emsp;&emsp;&emsp; **${\color{red}\text{(Note)}}$**:<br>
+```c
+                    typedef union 
+                    {
+                        int X;        // 4 Bytes
+                        short int Y;  // 2 Bytes
+                        char Z;       // 1 Byte
+                    } My_union;
+```
+````
+    
+        int X: 4 bytes.
+        short int Y: 2 bytes.
+        char Z: 1 byte.
+
+        +---------------+---------------+---------------+---------------+
+        |               |               |               |               |    
+        |       X       |      X        |        X      |         X     |    Integer
+        |               |               |               |               |  
+        +---------------+---------------+---------------+---------------+
+        |               |               |               |               |    
+        |       Y       |      Y        |   pading      |     pading    |    Short Integer
+        |               |               |               |               |  
+        +---------------+---------------+---------------+---------------+    
+        |               |               |               |               |    
+        |       Z       |   pading      |    pading     |    pading     |    Char
+        |               |               |               |               |    
+        +---------------+---------------+---------------+---------------+   
+
+````
+````
+            Another example:
+````
+```c
+                #include <stdio.h>
+
+                typedef union {
+                    int var1; /* 4 bytes */ 
+                    int var2; /* 4 bytes */ 
+                } SharedMemory;
+
+                int main(void) 
+                {
+                    SharedMemory my_union;
+
+                    printf("Size of union: %zu bytes\n\n", sizeof(my_union)); /* The size will be exactly 4 bytes, not 8 bytes! */ 
+                    my_union.var1 = 10; /* Assign a value to var1 */ 
+                    
+                    printf("--- Assigned 10 to var1 ---\n"); /* Both will print 10 because they look at the exact same 4 bytes of memory */ 
+                    printf("var1 = %d\n", my_union.var1);
+                    printf("var2 = %d\n\n", my_union.var2);
+
+                    my_union.var2 = 99; /* Assign a value to var2 */
+                    
+                    printf("--- Assigned 99 to var2 ---\n");/* Both will print 99 because var2 overwrote the shared memory */ 
+                    printf("var1 = %d\n", my_union.var1);
+                    printf("var2 = %d\n", my_union.var2);
+
+                    return 0;
+                }
+```
+&emsp;&emsp;&emsp;&emsp;&emsp; ${\color{red}\text{(Note)}}$:<br>
 ````
                 that does not affect the data types 
                 (int, float, etc...) outside the defined union,
                 inside the user-defined union only 
 
+````
+<br>
+
+&emsp;&emsp;&emsp; ${\color{blue}\text{(1.4)}}$: **enum** <br>
+````
+            An enumeration (enum) is a user-defined data type that assigns readable text names to integer constants. 
+            It replaces meaningless "magic numbers" (like 0, 1, or 2) in code with descriptive words, making developer's code's logic
+            much easier to read and maintain.
+
+            Default Numbering: If you do not assign a number, the compiler automatically assigns 0 to the first name, 1 to the second, 2 to the third, and so on.
+            Explicit Numbering: You can manually assign specific integer values. Any unassigned names that follow will just increment by 1 from the previous value.
+
+            To the CPU, an enum is just a standard integer. 
+            The text names only exist to help the programmer.
+            For example:
+```` 
+```c
+                #include <stdio.h>
+
+                /* Define a generic enum for Days */ 
+                typedef enum {
+                    SUNDAY,     /* Auto: 0 */
+                    MONDAY,     /* Auto: 1 */
+                    TUESDAY,    /* Auto: 2 */
+                    WEDNESDAY,  /* Auto: 3 */
+                    Friday = 6, /* Explicitly 5*/
+                    THURSDAY,   /* Auto: 4 */
+                    Saturday    /* Auto: 6 */
+                } DayOfWeek;
+
+                int main(void) 
+                {
+                    DayOfWeek today = MONDAY;
+
+                    printf("Today is day number: %d\n", today);
+                    if (today == MONDAY)  { printf("It is Monday, back to work!\n"); } /* readable name */
+                    return 0;
+                }
+```
+
+````
+        (1.5) goto: (used in session (9) code example but was not explained)
+        (1.6) struct
+
+````
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&emsp;&emsp;&emsp;&emsp; **${\color{red}\text{(Note)}}$**:<br>
+````
+                The chronological datatype has impact on the overall
+                frame size.
+
                 For example:
 ````
 ```c
-                    typedef union 
+                    typedef union
                     {
-                        char X;       // 1 Byte
-                        short int Y;  // 2 Bytes
-                        int Z;        // 4 Bytes
-                    } My_union;
+                        int x;
+                        char y;
+                        int z;
+                        char A;
+                    }non_optimized_union;
+
+                    typedef union
+                    {
+                        int x;
+                        char y;
+                        char A;
+                        int z;
+                    }optimized_union;
 ```
 ````
+        For non_optimized_union:
+
+            int x: 4 bytes.
+            char y: 1 bytes.
+            int z: 4 bytes.
+            char A: 1 bytes.
+
+        +---------------+---------------+---------------+---------------+
+        |               |               |               |               |    
+        |       x       |      x        |        x      |         x     |    Integer
+        |               |               |               |               |  
+        +---------------+---------------+---------------+---------------+
+        |               |               |               |               |    
+        |       Y       |   pading      |   pading      |     pading    |    Char
+        |               |               |               |               |  
+        +---------------+---------------+---------------+---------------+    
+        |               |               |               |               |    
+        |       z       |       z       |        z      |        z      |    Integer
+        |               |               |               |               |     
+        +---------------+---------------+---------------+---------------+    
+        |               |               |               |               |    
+        |       A       |   pading      |    pading     |    pading     |    Char
+        |               |               |               |               |    
+        +---------------+---------------+---------------+---------------+   
+
+        That cost 16 bytes --> 4 + 4 + 4 + 4 = 16
+
+
+    For optimized_union:
     
-        integer: 4 bytes.
-        short int: 2 bytes
-        char: 1 byte.
+            int x: 4 bytes.
+            char y: 1 bytes.
+            int z: 4 bytes.
+            char A: 1 bytes.
 
-        +---------------------------------------------------------------+
+        +---------------+---------------+---------------+---------------+
         |               |               |               |               |    
-        |  1 byte       |  1 byte       |  1 byte       |  1 byte       |    Integer
+        |       x       |      x        |        x      |         x     |    Integer
         |               |               |               |               |  
-        +---------------------------------------------------------------+
+        +---------------+---------------+---------------+---------------+
         |               |               |               |               |    
-        |  1 byte       |  1 byte       |  pading       |  pading       |    Short Integer
+        |       y       |       A       |   pading      |     pading    |    Char
         |               |               |               |               |  
-        |_______________|_______________|_______________|_______________|    
+        +---------------+---------------+---------------+---------------+    
         |               |               |               |               |    
-        | 1 byte        |   pading      |  pading       |    pading     |    Char
+        |       z       |      z        |       z       |       z       |    Integer
         |               |               |               |               |    
-        +---------------------------------------------------------------+   
+        +---------------+---------------+---------------+---------------+   
 
-````
-````
-        (1.4) enum:
-        (1.5) goto: (used in session (9) code example but was not explained)
-        (1.6) struct
+        That cost 12 bytes --> 4 + 4 + 4
 
 ````
