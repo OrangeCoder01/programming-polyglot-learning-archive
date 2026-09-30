@@ -53,6 +53,7 @@ Learned (mixed with personal search):
 
                         It is the segment where the binary machine code (assembly instructions) of a program is stored,
                         it is marked as read-only to prevent accidental modification of program code.
+
                         Remember: Assembly file resulting from the compiler in the compilation toolchain with extension ".s"/".asm".
                     
 
@@ -149,7 +150,6 @@ Learned (mixed with personal search):
                     - No Memory Address.
 ````  
 ````
-
         (1.3) Storage classes:
             (1.3.1) Attributes of storage class:
                 - Storage Duration (Lifetime): It is where and how long does the variable exist in memory (RAM or CPU Registers).
