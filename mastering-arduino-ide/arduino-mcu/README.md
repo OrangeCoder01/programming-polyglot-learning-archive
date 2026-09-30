@@ -7,6 +7,12 @@ ${\color{turquoise}\text{Arduino}}$ brand is famous for being `beginner friendly
 <br>
 <br>The ${\color{turquoise}\text{Arduino}}$ families and their sub-families taxonomy (`personally categorized taxonomy`) visually explained using **Mindmup**:
 <br>
+<br> ${\color{red}\text{Note}}$:
+
+```
+  The Boards present are officially recognized boards by the Arduino Brand.
+```
+
 <br><img width="18273" height="995" alt="Arduino Family" src="https://github.com/user-attachments/assets/4220e197-4931-4b4f-abdf-5d87f54d1f08" />
 <br>
 <br>For better view, Download the map: [Arduino Family.pdf](https://github.com/user-attachments/files/30879559/Arduino.Family.pdf)
