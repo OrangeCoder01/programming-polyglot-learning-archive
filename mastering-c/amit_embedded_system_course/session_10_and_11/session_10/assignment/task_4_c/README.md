@@ -1,5 +1,5 @@
 # Task 4:
-Problem:
+Question:
 ````
     (4) C function to get the value of the smallest element in array
         using pointers.

@@ -1,5 +1,5 @@
 # Task 6:
-Problem:
+Question:
 ````
     (6) Write a C function to swap the contents of two arrays with
         the same length using pointers.

@@ -1,5 +1,5 @@
 # Task 2:
-Problem:
+Question:
 ````
     (2) C Function to find length of a given string using pointer.
 ````

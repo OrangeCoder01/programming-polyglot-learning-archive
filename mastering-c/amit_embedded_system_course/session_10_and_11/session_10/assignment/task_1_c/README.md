@@ -1,5 +1,5 @@
 # Task 1:
-Problem:
+Question:
 ````
     (1) C Function to compute sum of the array elements using
         pointers.

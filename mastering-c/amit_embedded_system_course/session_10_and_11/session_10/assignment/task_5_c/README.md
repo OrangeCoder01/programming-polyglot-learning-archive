@@ -1,5 +1,5 @@
 # Task 5:
-Problem:
+Question:
 ````
     (5) C function to copy all elements of an array into another
         array using pointers. The two arrays have the same length and

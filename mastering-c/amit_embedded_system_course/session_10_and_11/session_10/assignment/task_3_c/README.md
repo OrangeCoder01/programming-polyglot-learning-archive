@@ -1,5 +1,5 @@
 # Task 3:
-Problem:
+Question:
 ````
     (3) C Function to read 10 integers into an array from user and
         print them in reversing order using pointers.

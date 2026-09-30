@@ -103,6 +103,72 @@ What will be learned at the end of the course:
                         (2.1.1.1.1.5) Bit shift:
                             (2.1.1.1.1.5.1) Left shift '<<'.
                             (2.1.1.1.1.5.2) Right shift '>>'.
+
+            For example:
+````
+${\color{red}\text{text}}$ Check about `Two Complement integer representation`:<br>
+Also the left shift pads with 0s while the right shift will pad with 0s if the data type<br>
+is unsigned integer (only positive) otherwise it will pad with 1s.
+```c
+                #include <stdio.h>
+                
+                int main(void)
+                {
+                    int a, b, c, d, e, f;
+                    a = 16 & 8; 
+                    /* ([zeros] 0001 0000) & ([zeros] 1000) = {0}  */ 
+                    /* a = 0 */
+
+                    b = a | 2; 
+                    /* {0} | ([zeros] 0010) = {[zeros] 0010} */ 
+                    /* b = 2 */
+
+                    c = b ^ 32 
+                    /* ([zeros] 0010) ^ ([zeros] 0010 0000) = {[zeros] 0010 0010} */ 
+                    /* c = 34 */
+
+                    d = ~c; 
+                    /* ~([zeros] 0010 0010) = ([ones] 1101 1101)*/ 
+                    /* d = -4294967296 + (2^31) + (2^30) + (2^29)
+                                    + (2^28) + (2^27) + (2^26)
+                                    + (2^25) + (2^24) + (2^22)
+                                    + (2^21) + (2^20) + (2^19)
+                                    + (2^18) + (2^17) + (2^16)
+                                    + (2^15) + (2^14) + (2^13)
+                                    + (2^12) + (2^11) + (2^10)
+                                    + (2^9)  + (2^8)  + (2^7)
+                                    + (2^6)  +   0    + (2^4)
+                                    + (2^3)  + (2^2)  +   0
+                                    + (2^0)
+                                    */
+                    /* d = -35 */
+
+
+                    e  = d >> 4;
+                    /* [ones] 1101 1101 >> 4  
+                        =
+                        (1111 1111 1111 1111 1111 1111 1111 1101) 
+
+                        n starts from 28 and stops at 4:
+                        e = [(∑(2^n)) - (2^3 + 2^2 + 2^1) + (2^0)] 
+                        =
+                        (2^28 + 2^27 + .... + 2^4 ) - (2^3 + 2^2 + 2^1) + 2^0
+                    */
+                    /* e =  -3 */
+
+                    f = e << 8;
+                    /*
+                        (0000 1111 1111 1111   1111 1111 1111 0001) << 8
+                        =
+                        (1111 1111 1111 1111 1111 1101 0000 0000)
+
+                        n starts from 31 and stops at 13:
+                        f = -4294967296 + [(∑(2^n)) + 2^8)]
+                    */
+                    /* f =  -768 */
+                }
+```
+````
                     
 
                 (2.1.1.2) specific purpose bit operations:
