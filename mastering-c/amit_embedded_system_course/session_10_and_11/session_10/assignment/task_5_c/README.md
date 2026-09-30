@@ -13,7 +13,7 @@ Explanation:
 ````
 |Input|Output|Rule|
 |:--- |  :---|:---|
-|(1) Size (integer).|(1) Printing original and swapped arrays (array)|(1) Size must be between ( 1 ~ 100 )|
+|(1) Size (integer).|(1) Printing original and copying array (array)|(1) Size must be between ( 1 ~ 100 )|
 |(2) Elements value (integer)||(2) Elements' value must be between (-60,000 ~ 60,000)|
 ||||
 

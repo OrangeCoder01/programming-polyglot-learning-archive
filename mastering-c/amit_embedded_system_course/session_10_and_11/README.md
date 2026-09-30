@@ -250,7 +250,7 @@ ${\color{red}\text{Note}}$:
 
             - Efficient Function Call Overhead: 
 
-                Pass large structures and arrays by reference (`address`) using
+                Pass large structures and arrays by reference (address) using
                 lightweight pointers rather than copying large chunks of data across stack frames.
 
             - Advanced Data Structures: 

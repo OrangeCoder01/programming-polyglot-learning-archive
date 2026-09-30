@@ -9,6 +9,7 @@ Explanation:
 ````
     Adopting two array, one array that handles the large input string and the other holds
     the filtered strings.
+    
     Validating the actual size of the array by iterating over
 ````
 |Input|Output|Rule|
