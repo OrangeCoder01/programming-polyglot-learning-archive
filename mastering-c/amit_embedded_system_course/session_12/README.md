@@ -1,4 +1,4 @@
-# Session (12)
+# Session (12):
 Learned (mixed with personal research):
 Note:
 ````
@@ -9,10 +9,11 @@ Note:
     and derived data types:
     [functions, arrays, pointers]
 ````
-````
-    (1) Important Keywords:
-        (1.1) typedef:
+&emsp; ${\color{red}\text{(1)}}$: **Important Keywords**
+<br>
 
+&emsp;&emsp; ${\color{blue}\text{(1.1)}}$ **typedef**  
+````
             The typedef keyword creates a user-defined alias or nickname for an existing data type.
             It does not create a new type or allocate memory; it simply improves code readability, portability,
             and abstraction—especially when working with complex types like struct, union, or function pointers.
@@ -42,17 +43,19 @@ Note:
                     return 0;
                 }
 ```
+<br>
+
+&emsp;&emsp; ${\color{blue}\text{(1.2)}}$ **inline**  
 
 ````            
-
-        (1.2) inline:
-
             The inline keyword is a function specifier in C used to optimize program execution speed.
             When declaring a function as inline, the compiler is requested to replace every
             call to that function with the actual body of the function's code.
 
             For very small, frequently executed functions, this overhead takes more time than executing 
-            the function's actual logic. The inline keyword removes this overhead by pasting the function's code
+            the function's actual logic. 
+
+            The inline keyword removes this overhead by pasting the function's code
             directly into the calling function during compilation.
 
             But VERY IMPORTANT REMARK:
@@ -87,25 +90,30 @@ Note:
 <br>
 
 ````
-    For example:
+            For example:
 ````
-
 ```c
-                static inline int SetBit(bitstream, bit_order) (bitstream |( 1 << bit_order))
-                static inline int ClrBit(bitstream, bit_order) (bitstream & (~(1 << bit_order)))
-                static inline int GetBit(bitstream, bit_order) ((bitstream >> bit_order) & 1)
-                static inline int Togbit(bitstream, bit_order) (bitstream ^ (1 << bit_order))
+                #include <stdio.h>
+                static inline int SetBit(int bitstream, int bit_order) {return (bitstream |( 1 << bit_order));}
+                static inline int ClrBit(int bitstream, int bit_order) {return (bitstream & (~(1 << bit_order)));}
+                static inline int GetBit(int bitstream, int bit_order) {return ((bitstream >> bit_order) & 1);}
+                static inline int Togbit(int bitstream, int bit_order) {return (bitstream ^ (1 << bit_order));}
+
 
                 int main(void)
                 {
-                    
+                    printf("SetBit(8, 4) = %d\n", SetBit(8, 4));
+                    printf("ClrBit(16, 4) = %d\n", ClrBit(16, 4));
+                    printf("GetBit(34, 5) = %d, GetBit(34, 3) = %d\n",GetBit(34,5), GetBit(34, 3));
+                    printf("TogBit(128, 7) = %d, TogBit(128, 0) = %d\n", Togbit(128, 7), Togbit(128, 0));
                     return 0;
                 }
 ```
+
+<br>
+
+&emsp;&emsp;&emsp; ${\color{blue}\text{(1.3)}}$ **union**:
 ````
-
-
-        (1.3) union:
         (1.4) enum:
         (1.5) goto: (used in session (9) code example but was not explained)
         (1.6) struct
