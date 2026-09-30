@@ -109,9 +109,7 @@ What will be learned at the end of the course:
 ${\color{red}\text{Note}}$: Check about `Two Complement integer representation`:<br>
 Also the left shift pads with 0s while the right shift will pad with 0s if the data type<br>
 is unsigned integer (only positive) otherwise it will pad with 1s.
-```c
-                #include <stdio.h>
-                
+```c  
                 int main(void)
                 {
                     int a, b, c, d, e, f;
