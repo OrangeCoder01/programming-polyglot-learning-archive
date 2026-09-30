@@ -1,3 +1,4 @@
+# Code (1):
 Explanation:
 ```
     The program prints an integer number from  1 to 10 using 

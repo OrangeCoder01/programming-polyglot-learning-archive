@@ -1,4 +1,4 @@
-# lab (1):
+# Lab (1):
 Question:
 ```
     Let the user insert a number, and the program prints the number whole numbers ending in that number.

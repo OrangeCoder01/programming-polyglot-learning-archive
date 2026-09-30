@@ -1,3 +1,4 @@
+# Lab (1):
 Explanation:
 ````
     The program uses macro function:

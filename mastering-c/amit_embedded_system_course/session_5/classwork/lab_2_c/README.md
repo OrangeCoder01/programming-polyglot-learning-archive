@@ -1,4 +1,4 @@
-# lab (2):
+# Lab (2):
 Question:
 ```
     Create an arbitrary password, let the user insert the password; giving 3 trial,

@@ -1,3 +1,4 @@
+# Code (3):
 Explanation:
 ```
     Applying the bubble sort algorithm that sorts an array.
