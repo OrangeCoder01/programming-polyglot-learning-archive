@@ -5,10 +5,43 @@ Implemented
         (1.1) Pointer's array arithmetics.
 
     (2) Null terminator in char array ('\0').
+
+    (3) Why learn:
+        (3.1) Pointers:
+
+            It is very helpful in managing large set of data without the
+            extra processing of copy-pasting the value of an address of a stored variable
+            inside a memory in RAM.
+
+            Whereas there is no need to copy-paste the memory of an array inside the
+            function stack frame, as the pointer resolve this extra processing power,
+            by pointing towards each of the array's element's address.
+        
+
+        (3.2) Null terminator:
+
+            It is the edge limiter in char array, which helps in detecting the end of the
+            string input.
+            For example:
 ````
+```c
+    #include <stdio.h>
+    int main(void)
+    {
+        char name[18] = {'H','E','L','L','O',' ','W','O','R','L','D','!','\0','e','d','_','>','@'};
+        int i = 0;                                                     /* >< */
+        printf("name: ");
+        while(*(name + i) != '\0')
+        {
+            printf("%c", *(name+ i));
+            i += 1;
+        }
+        /* The final print: HELLO WORLD! */
+        return 0;
+    }
+```
 <br>
 Programs & links:
-<br>
 <br>
 
 &emsp;`(1) Assignment:`<br>
