@@ -106,7 +106,7 @@ What will be learned at the end of the course:
 
             For example:
 ````
-${\color{red}\text{text}}$ Check about `Two Complement integer representation`:<br>
+${\color{red}\text{Note}}$: Check about `Two Complement integer representation`:<br>
 Also the left shift pads with 0s while the right shift will pad with 0s if the data type<br>
 is unsigned integer (only positive) otherwise it will pad with 1s.
 ```c
