@@ -21,6 +21,5 @@ Programs & links:
 &emsp;&emsp; `(1.5) `: [task_5_c](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_12/assignment/task_5_c) <br> 
 
 &emsp;&emsp; `(1.6) `: [task_6_c](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_12/assignment/task_6_c) <br> 
-
-&emsp;&emsp; `(1.7) `: [task_7_c](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_12/assignment/task_7_c) <br> 
+ 
 
