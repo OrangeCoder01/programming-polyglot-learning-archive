@@ -45,6 +45,5 @@ int main(void)
     insert_std_data(&roll, &mark, std_name);
     print_std_data(&roll, &mark, std_name);
 
-
     return 0;
 }
