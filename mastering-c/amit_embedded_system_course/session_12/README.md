@@ -157,24 +157,24 @@ Note:
                 } My_union;
 ```
 ````
-    
-        int X: 4 bytes.
-        short int Y: 2 bytes.
-        char Z: 1 byte.
+        
+            int X: 4 bytes.
+            short int Y: 2 bytes.
+            char Z: 1 byte.
 
-        +---------------+---------------+---------------+---------------+
-        |               |               |               |               |    
-        |       X       |      X        |        X      |         X     |    Integer
-        |               |               |               |               |  
-        +---------------+---------------+---------------+---------------+
-        |               |               |               |               |    
-        |       Y       |      Y        |   pading      |     pading    |    Short Integer
-        |               |               |               |               |  
-        +---------------+---------------+---------------+---------------+    
-        |               |               |               |               |    
-        |       Z       |   pading      |    pading     |    pading     |    Char
-        |               |               |               |               |    
-        +---------------+---------------+---------------+---------------+   
+            +---------------+---------------+---------------+---------------+
+            |               |               |               |               |    
+            |       X       |      X        |        X      |         X     |    Integer
+            |               |               |               |               |  
+            +---------------+---------------+---------------+---------------+
+            |               |               |               |               |    
+            |       Y       |      Y        |   pading      |     pading    |    Short Integer
+            |               |               |               |               |  
+            +---------------+---------------+---------------+---------------+    
+            |               |               |               |               |    
+            |       Z       |   pading      |    pading     |    pading     |    Char
+            |               |               |               |               |    
+            +---------------+---------------+---------------+---------------+   
 
 ````
 ````
@@ -306,38 +306,61 @@ Note:
                 For example:
 ````
 ```c
-                #include <stdio.h>
-                #include <string.h>
-
-                
-                struct Person /* Define the struct blueprint */
-                {
-                    char name[20]; /* 20 bytes */
-                    int age;       /* 4 bytes */
-                    float height;  /* 4 bytes */
-                };
-
-                int main(void) 
-                {
-                    struct Person person1;
-
-                    /* Assign values to the individual members using the dot (.) operator */
-                    strcpy(person1.name, "Alice");
-                    person1.age = 25;
-                    person1.height = 1.68;
-             
-                    printf("--- Person Profile ---\n");    
-                    printf("Name: %s\n", person1.name);
-                    printf("Age : %d years old\n", person1.age);
-                    printf("Tall: %.2f meters\n\n", person1.height);
+                    #include <stdio.h>
+                    #include <string.h>
 
                     
-                    printf("Total size of struct: %zu bytes\n", sizeof(person1)); 
-                    return 0;
-                }
+                    struct Person /* Define the struct blueprint */
+                    {
+                        char name[20]; /* 20 bytes */
+                        int age;       /* 4 bytes */
+                        float height;  /* 4 bytes */
+                    };
+
+                    int main(void) 
+                    {
+                        struct Person person1;
+
+                        /* Assign values to the individual members using the dot (.) operator */
+                        strcpy(person1.name, "Alice");
+                        person1.age = 25;
+                        person1.height = 1.68;
+                
+                        printf("--- Person Profile ---\n");    
+                        printf("Name: %s\n", person1.name);
+                        printf("Age : %d years old\n", person1.age);
+                        printf("Tall: %.2f meters\n\n", person1.height);
+
+                        
+                        printf("Total size of struct: %zu bytes\n", sizeof(person1)); 
+                        return 0;
+                    }
 ```
+<br>
+
+&emsp;&emsp;&emsp;&emsp;&emsp; ${\color{red}\text{Note}}$:<br>
 ````
-        For non_optimized_union:
+        The chronology matters of variable declaration with its specific data type matters:
+````
+```c
+            struct non_optimized_struct
+            {
+                int x;
+                char y;
+                int z;
+                char A;
+            }
+            struct optimized_struct
+            {
+                int x;
+                char y;
+                char A;
+                int z;
+            }
+```
+
+````
+        For non_optimized_struct:
 
             int x: 4 bytes.
             char y: 1 bytes.
@@ -365,12 +388,12 @@ Note:
         That cost 16 bytes --> 4 + 4 + 4 + 4 = 16
 
 
-    For optimized_union:
+    For optimized_struct:
     
             int x: 4 bytes.
             char y: 1 bytes.
-            int z: 4 bytes.
             char A: 1 bytes.
+            int z: 4 bytes.
 
         +---------------+---------------+---------------+---------------+
         |               |               |               |               |    
