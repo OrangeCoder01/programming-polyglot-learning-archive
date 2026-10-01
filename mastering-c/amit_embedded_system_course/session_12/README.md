@@ -21,7 +21,7 @@ Note:
 ````
 ```c
                 #include <stdio.h>
-                typedef unsigned char u_i_8; /* 'u' for unsigned (positive integer representation), 'i' for integer, and '8' for the number of bits (1 bytes) */
+                typedef unsigned char u_i_8; /* 'u' for unsigned (positive integer representation), 'i' for integer, and '8' for the number of bits (1 byte) */
                 /* Note: chars are integers but require 1 byte, 8 bits.*/
                 typedef unsigned int u_i_32; /* containing 32 bits*/
                 typedef float s_f_32;
@@ -39,7 +39,7 @@ Note:
                     s_f_64 z = 0;
 
                     z = (s_f_64)x + (s_f_64)y;
-                    printf("z = %.2f", z); /* z = 8.0 */
+                    printf("z = %.2f", z); /* z = 8.00 */
                     return 0;
                 }
 ```
@@ -62,7 +62,7 @@ Note:
 
                 It is not a command the compiler will execute,
                 it is the scenario as requesting the CPU to consider a variable inside its register,
-                the compiler can refuse using the inline function if the function is too larger.
+                the compiler can refuse using the inline function if the function is too large.
 
 
             Benefits:
@@ -168,11 +168,11 @@ Note:
             |               |               |               |               |  
             +---------------+---------------+---------------+---------------+
             |               |               |               |               |    
-            |       Y       |      Y        |   pading      |     pading    |    Short Integer
+            |       Y       |      Y        |   padding     |     padding   |    Short Integer
             |               |               |               |               |  
             +---------------+---------------+---------------+---------------+    
             |               |               |               |               |    
-            |       Z       |   pading      |    pading     |    pading     |    Char
+            |       Z       |   padding     |    padding    |    padding    |    Char
             |               |               |               |               |    
             +---------------+---------------+---------------+---------------+   
 
@@ -234,8 +234,8 @@ Note:
                     MONDAY,     /* Auto: 1 */
                     TUESDAY,    /* Auto: 2 */
                     WEDNESDAY,  /* Auto: 3 */
-                    Friday = 6, /* Explicitly 5*/
                     THURSDAY,   /* Auto: 4 */
+                    Friday = 5, /* Explicitly 5*/
                     Saturday    /* Auto: 6 */
                 } DayOfWeek;
 
@@ -258,9 +258,9 @@ Note:
             It tells the CPU to instantly jump to a specific labeled line of code within the same function,
             skipping everything in between.
 
-            It is heavily discouraged using "goto" due to renders code less readable
-            and introduce desultories in the sequential control flow causing confusion
-            and that confusion remarks that code as "Spaghetti Code".
+            It is heavily discouraged using "goto" due to rendering code less readable;
+            introducing erratic jumps between lines, causing confusion in debugging or code reviewing,
+            and that confusion remarks the code as "Spaghetti Code".
 
             For example:
 ````
@@ -349,23 +349,23 @@ Note:
                 char y;
                 int z;
                 char A;
-            }
+            };
             struct optimized_struct
             {
                 int x;
                 char y;
                 char A;
                 int z;
-            }
+            };
 ```
 
 ````
         For non_optimized_struct:
 
             int x: 4 bytes.
-            char y: 1 bytes.
+            char y: 1 byte.
             int z: 4 bytes.
-            char A: 1 bytes.
+            char A: 1 byte.
 
         +---------------+---------------+---------------+---------------+
         |               |               |               |               |    
@@ -373,7 +373,7 @@ Note:
         |               |               |               |               |  
         +---------------+---------------+---------------+---------------+
         |               |               |               |               |    
-        |       Y       |   pading      |   pading      |     pading    |    Char
+        |       y       |   padding     |   padding     |     padding   |    Char
         |               |               |               |               |  
         +---------------+---------------+---------------+---------------+    
         |               |               |               |               |    
@@ -381,7 +381,7 @@ Note:
         |               |               |               |               |     
         +---------------+---------------+---------------+---------------+    
         |               |               |               |               |    
-        |       A       |   pading      |    pading     |    pading     |    Char
+        |       A       |   padding     |    padding    |    padding    |    Char
         |               |               |               |               |    
         +---------------+---------------+---------------+---------------+   
 
@@ -391,8 +391,8 @@ Note:
     For optimized_struct:
     
             int x: 4 bytes.
-            char y: 1 bytes.
-            char A: 1 bytes.
+            char y: 1 byte.
+            char A: 1 byte.
             int z: 4 bytes.
 
         +---------------+---------------+---------------+---------------+
@@ -401,7 +401,7 @@ Note:
         |               |               |               |               |  
         +---------------+---------------+---------------+---------------+
         |               |               |               |               |    
-        |       y       |       A       |   pading      |     pading    |    Char
+        |       y       |       A       |   padding     |     padding   |    Char
         |               |               |               |               |  
         +---------------+---------------+---------------+---------------+    
         |               |               |               |               |    
