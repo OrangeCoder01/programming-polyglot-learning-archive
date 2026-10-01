@@ -113,7 +113,7 @@ Note:
 
 <br>
 
-&emsp;&emsp;&emsp; ${\color{blue}\text{(1.3)}}$: **union**:
+&emsp;&emsp; ${\color{blue}\text{(1.3)}}$: **union**:
 ````
             A union is a user-defined data type that is syntactically very similar to a struct.
             However, the critical difference lies in how they handle memory: while a structure allocates
@@ -212,7 +212,7 @@ Note:
 ```
 <br>
 
-&emsp;&emsp;&emsp; ${\color{blue}\text{(1.4)}}$: **enum** <br>
+&emsp;&emsp; ${\color{blue}\text{(1.4)}}$: **enum** <br>
 ````
             An enumeration (enum) is a user-defined data type that assigns readable text names to integer constants. 
             It replaces meaningless "magic numbers" (like 0, 1, or 2) in code with descriptive words, making developer's code's logic
@@ -250,7 +250,7 @@ Note:
 ```
 <br>
 
-&emsp;&emsp;&emsp; ${\color{blue}\text{(1.5)}}$: **goto** ${\color{red}\text{(used in session (9) code example but was not explained)}}$ <br>
+&emsp;&emsp; ${\color{blue}\text{(1.5)}}$: **goto** ${\color{red}\text{(used in session (9) code example but was not explained)}}$ <br>
 
 ````
             The goto keyword is a jump statement. 
@@ -283,7 +283,7 @@ Note:
 ```
 <br>
 
-&emsp;&emsp;&emsp; ${\color{blue}\text{(1.6)}}$: **struct** <br>
+&emsp;&emsp; ${\color{blue}\text{(1.6)}}$: **struct** <br>
 ````
             A structure (struct) is a user-defined data type that allows you to group related variables
             of completely different data types together under one single name.
@@ -412,3 +412,145 @@ Note:
         That cost 12 bytes --> 4 + 4 + 4
 
 ````
+<br>
+
+&emsp;&emsp;&emsp; ${\color{green}\text{(1.6.1)}}$: **function returning struct** <br>
+````
+            Functions in C can return a struct directly by value.
+
+            When a function returns a structure, the compiler copies all of its internal members
+            to the variable receiving the result in the calling function.
+
+            This allows functions to return multiple related values encapsulated in a single packet.
+
+
+            Note on Efficiency:
+
+                Returning small structures by value is fast and clean. 
+                However, returning large structures 
+                copies the entire memory block on the stack, which can be inefficient on memory-constrained 
+                microcontrollers. In such cases, passing a pointer to a struct is preferred.
+
+            For example:
+````
+```c
+                    #include <stdio.h>
+
+                    typedef struct 
+                    {
+                        int x;
+                        int y;
+                    } Point;
+
+                    /* Function that constructs and returns a struct by value */
+                    Point create_point(int x_val, int y_val) 
+                    {
+                        Point p;
+                        p.x = x_val;
+                        p.y = y_val;
+                        return p;
+                    }
+
+                    int main(void) 
+                    {
+                        Point p1 = create_point(10, 20);
+
+                        printf("Point coordinates: (%d, %d)\n", p1.x, p1.y);
+                        return 0;
+                    }
+```
+<br>
+<br>
+
+&emsp;&emsp; ${\color{red}\text{(2)}}$ **Why learn**: <br>
+&emsp;&emsp; ${\color{blue}\text{(2.1)}}$ **typedef**:: <br>
+````
+            - Portability Across Architectures: 
+        
+                Primitive data type sizes (like int) vary between 
+                16-bit, 32-bit, and 64-bit microcontrollers.
+
+                Defining explicit aliases (example: u_i_8, u_i_32)
+                ensures code behaves identically regardless of the underlying compiler or target MCU.
+
+            - Code Abstraction & Readability: 
+
+                Simplifies complex type declarations like multi-level 
+                pointers, structures, unions, and function pointers.
+
+````
+
+&emsp;&emsp; ${\color{blue}\text{(2.2)}}$ **inline**: <br>
+````
+            - Eliminating Execution Overhead: 
+
+                Removes push/pop stack operations and jump instruction 
+                latencies for micro-functions (example: bit manipulation, pin toggling).
+
+            - RAM Optimization on Constrained MCUs: 
+
+                Prevents stack frame allocation for small function calls, 
+                saving critical SRAM.
+
+            - Type-Safe Alternative to Macros: 
+            
+                Delivers the speed of preprocessor text replacement while 
+                retaining strict compiler type checking, parameter evaluation safety, and step-by-step debugging support.
+````
+
+&emsp;&emsp; ${\color{blue}\text{(2.3)}}$ **union**: <br>
+````
+            - Critical RAM Conservation: 
+
+                Enables mutually exclusive data payloads to share the exact same memory space.
+
+            - Jack off all trades data type variable:
+
+                A variable can hold multiple data types at once, it 
+                could be integer, float, or char.
+
+                Search for "Fast Inverse Square root algorithm "
+
+
+````
+
+&emsp;&emsp; ${\color{blue}\text{(2.4)}}$ **enum**: <br>
+````
+            - Promotes code readability: 
+
+                Replaces hardcoded numerical state values (0, 1, 2, 99) with 
+                self-documenting symbolic constants (example: MOTOR_OFF, Water_level_Limit).
+````
+
+&emsp;&emsp; ${\color{blue}\text{(2.5)}}$ **goto**: <br>
+````
+            - Centralized Error Handling: 
+
+                Provides a clean, standardized approach in C driver development to jump 
+                to a single cleanup block at the bottom of a function when hardware initialization fails.
+
+            - Preventing Code Duplication: 
+
+                Avoids repeating resource release logic (powering off modules, freeing memory, 
+                resetting pins) inside multiple nested if-condition blocks.
+
+            - Escaping Nested Loops: 
+
+                Enables breaking out of multi-level nested loops instantly when critical conditions occur.
+````
+
+&emsp;&emsp; ${\color{blue}\text{(2.6)}}$ **struct**: <br>
+````
+            - Data Encapsulation:  
+
+                Groups heterogeneous attributes into a single cohesive real-world entity 
+                (example: Sensor Profile, Motor Configuration).
+                
+
+            - Modular Software Architecture: 
+
+                Serves as the foundation for passing organized data packets 
+                between software layers and driver APIs.
+````
+
+
