@@ -187,6 +187,8 @@ Note:
                     return 0;
                 }
 ```
+<br>
+
 &emsp;&emsp;&emsp;&emsp;&emsp; ${\color{red}\text{(Note)}}$:<br>
 ````
                 that does not affect the data types 
@@ -232,11 +234,55 @@ Note:
                     return 0;
                 }
 ```
+<br>
+
+&emsp;&emsp;&emsp; ${\color{blue}\text{(1.5)}}$: **goto** ${\color{red}\text{(used in session (9) code example but was not explained)}}$ <br>
 
 ````
-        (1.5) goto: (used in session (9) code example but was not explained)
-        (1.6) struct
+            The goto keyword is a jump statement. 
 
+            It tells the CPU to instantly jump to a specific labeled line of code within the same function,
+            skipping everything in between.
+
+            It is heavily discouraged using "goto" due to renders code less readable
+            and introduce desultories in the sequential control flow causing confusion
+            and that confusion remarks that code as "Spaghetti Code".
+
+            For example:
+````
+```c
+                #include <stdio.h>
+
+                int main(void) {
+                    printf("Step 1: Program starts.\n");
+                    goto target_destination; /* Instantly jump to 'target_destination' */
+                    
+                    printf("Step 2: You will never see this print.\n"); /* This code is completely skipped */
+                    printf("Step 3: Or this one.\n");
+
+                
+                    target_destination: 
+                    printf("Step 4: Landed at the destination!\n");
+
+                    return 0;
+                }
+```
+<br>
+
+&emsp;&emsp;&emsp; ${\color{blue}\text{(1.6)}}$: **struct** <br>
+````
+            A structure (struct) is a user-defined data type that allows you to group related variables
+            of completely different data types together under one single name.
+
+            It can be thought as a digital filing cabinet for a specific entity.
+            Instead of having three separate variables floating around the code for a 
+            person's name, age, and height as an example, bundling them neatly inside one struct.
+
+            Memory Allocation: Unlike a union (where everyone fights for the exact same spot in memory), 
+            a struct gives every single member its own dedicated memory space lined up one after another.
+
+            The Dot Operator (.): To store or read data inside a specific member of the structure, you use a period (.)
+            between the structure's name and the member's name.
 ````
 
 
