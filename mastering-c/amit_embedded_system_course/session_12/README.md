@@ -289,41 +289,52 @@ Note:
             of completely different data types together under one single name.
 
             It can be thought as a digital filing cabinet for a specific entity.
+
             Instead of having three separate variables floating around the code for a 
             person's name, age, and height as an example, bundling them neatly inside one struct.
 
-            Memory Allocation: Unlike a union (where everyone fights for the exact same spot in memory), 
-            a struct gives every single member its own dedicated memory space lined up one after another.
 
-            The Dot Operator (.): To store or read data inside a specific member of the structure, you use a period (.)
-            between the structure's name and the member's name.
-````
+            Memory Allocation: 
 
-&emsp;&emsp;&emsp;&emsp; **${\color{red}\text{(Note)}}$**:<br>
-````
-                The chronological datatype has impact on the overall
-                frame size.
+                Unlike a union a struct gives every single member
+                its own dedicated memory space lined up one after another.
 
+            The Dot Operator (.): 
+
+                store or read data inside a specific member of the structure, requires using dot (.)
+                operator between the structure's name and the member's name.
                 For example:
 ````
 ```c
-                    union
-                    {
-                        int x;
-                        char y;
-                        int z;
-                        char A;
+                #include <stdio.h>
+                #include <string.h>
 
-                    }non_optimized_union;
+                
+                struct Person /* Define the struct blueprint */
+                {
+                    char name[20]; /* 20 bytes */
+                    int age;       /* 4 bytes */
+                    float height;  /* 4 bytes */
+                };
 
-                    union
-                    {
-                        int x;
-                        char y;
-                        char A;
-                        int z;
+                int main(void) 
+                {
+                    struct Person person1;
 
-                    }optimized_union;
+                    /* Assign values to the individual members using the dot (.) operator */
+                    strcpy(person1.name, "Alice");
+                    person1.age = 25;
+                    person1.height = 1.68;
+             
+                    printf("--- Person Profile ---\n");    
+                    printf("Name: %s\n", person1.name);
+                    printf("Age : %d years old\n", person1.age);
+                    printf("Tall: %.2f meters\n\n", person1.height);
+
+                    
+                    printf("Total size of struct: %zu bytes\n", sizeof(person1)); 
+                    return 0;
+                }
 ```
 ````
         For non_optimized_union:
