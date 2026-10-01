@@ -267,7 +267,8 @@ Note:
 ```c
                 #include <stdio.h>
 
-                int main(void) {
+                int main(void)
+                {
                     printf("Step 1: Program starts.\n");
                     goto target_destination; /* Instantly jump to 'target_destination' */
                     
@@ -462,8 +463,8 @@ Note:
 <br>
 <br>
 
-&emsp;&emsp; ${\color{red}\text{(2)}}$ **Why learn**: <br>
-&emsp;&emsp; ${\color{blue}\text{(2.1)}}$ **typedef**:: <br>
+&emsp; ${\color{red}\text{(2)}}$ **Why learn**: <br>
+&emsp;&emsp; ${\color{blue}\text{(2.1)}}$ **typedef**: <br>
 ````
             - Portability Across Architectures: 
         
