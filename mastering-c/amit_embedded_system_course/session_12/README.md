@@ -64,6 +64,7 @@ Note:
                 it is the scenario as requesting the CPU to consider a variable inside its register,
                 the compiler can refuse using the inline function if the function is too larger.
 
+
             Benefits:
                 Execution Speed: Eliminates function call overhead, making it ideal for time-critical operations
                 (like toggling a GPIO pin or reading a fast sensor).
@@ -119,21 +120,41 @@ Note:
             separate memory for every single member, all members of a union share the exact same memory location.
 
 
-            The primary purpose of a union is memory conservation and flexible data representation.
+            The primary purpose of a union is memory conservation and flexible data representation;
             Because all members overlap in memory, the compiler only allocates enough space for the 
             largest member inside the union.
 
             It searches for the highest size data type, and apply it as the default data type
             for the rest of the data type, by padding space.
+
+            
             For example:
 ````
 ```c
-                    typedef union 
-                    {
-                        int X;        // 4 Bytes
-                        short int Y;  // 2 Bytes
-                        char Z;       // 1 Byte
-                    } My_union;
+                union Payment 
+                {
+                    long long credit_card; /* 8 bytes */ 
+                    char paypal[20];       /* 20 bytes */ 
+                }; /* Total: 20 bytes per customer */
+
+                union SensorData 
+                {
+                    int whole_number; /* Looks at the 4 bytes as one big number */ 
+                    char individual_bytes[4]; /* Looks at the exact same 4 bytes as a list of small pieces */  
+                };
+```
+````
+            There is only one variable "Payment" or "SensorData"
+            where each have the characteristics of both highest size.
+            They can store char string or integers, only one at a time.
+````
+```c
+                union 
+                {
+                    int X;        /* 4 Bytes */ 
+                    short int Y;  /* 2 Bytes */ 
+                    char Z;       /* 1 Byte */ 
+                } My_union;
 ```
 ````
     
@@ -162,9 +183,11 @@ Note:
 ```c
                 #include <stdio.h>
 
-                typedef union {
+                typedef union 
+                {
                     int var1; /* 4 bytes */ 
                     int var2; /* 4 bytes */ 
+
                 } SharedMemory;
 
                 int main(void) 
@@ -187,15 +210,6 @@ Note:
                     return 0;
                 }
 ```
-<br>
-
-&emsp;&emsp;&emsp;&emsp;&emsp; ${\color{red}\text{(Note)}}$:<br>
-````
-                that does not affect the data types 
-                (int, float, etc...) outside the defined union,
-                inside the user-defined union only 
-
-````
 <br>
 
 &emsp;&emsp;&emsp; ${\color{blue}\text{(1.4)}}$: **enum** <br>
@@ -285,23 +299,6 @@ Note:
             between the structure's name and the member's name.
 ````
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 &emsp;&emsp;&emsp;&emsp; **${\color{red}\text{(Note)}}$**:<br>
 ````
                 The chronological datatype has impact on the overall
@@ -310,20 +307,22 @@ Note:
                 For example:
 ````
 ```c
-                    typedef union
+                    union
                     {
                         int x;
                         char y;
                         int z;
                         char A;
+
                     }non_optimized_union;
 
-                    typedef union
+                    union
                     {
                         int x;
                         char y;
                         char A;
                         int z;
+
                     }optimized_union;
 ```
 ````
