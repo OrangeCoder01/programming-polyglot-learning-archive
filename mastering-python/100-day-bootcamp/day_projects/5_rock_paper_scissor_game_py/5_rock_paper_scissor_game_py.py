@@ -46,8 +46,10 @@ user_hand = ""
 
 if user_decision == 0:
     user_hand = "rock"
+    
 elif user_decision == 1:
     user_hand = "paper"
+    
 else:
     user_hand = "scissor"
 
