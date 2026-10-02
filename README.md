@@ -25,9 +25,9 @@ A chronological, personal archive of my programming journey — challenges, proj
 
 This repository documents my path from `Hello World` toward writing cleaner, more modular, better-validated, and more efficient code. It mixes:
 
-- 🟡 **Challenges** — focused exercises that build one concept or algorithmic skill at a time.
-- 🔴 **Projects** — larger, multi-concept builds that demand modularity, data integrity, and system-level thinking.
-- 🟣 **Personal libraries** — reusable code (mostly in C/C++) that keeps later challenges and projects DRY.
+- **Challenges** — focused exercises that build one concept or algorithmic skill at a time.
+- **Projects** — larger, multi-concept builds that demand modularity, data integrity, and system-level thinking.
+- **Personal libraries** — reusable code (mostly in C/C++) that keeps later challenges and projects DRY.
 
 Some work follows a formal syllabus (a paid course, a well-known bootcamp); the rest is self-directed, often shaped through iterative feedback from an AI mentor (ChatGPT). Both paths are represented here, and each language currently mixes them a little differently — see [Language modules](#language-modules) below.
 
@@ -68,7 +68,7 @@ programming-polyglot-learning-archive/
 
 ### Challenges vs. Projects
 
-| | 🟡 Challenges | 🔴 Projects |
+| | Challenges | Projects |
 |---|---|---|
 | **Goal** | Solve one well-defined problem | Solve a larger, real-world-shaped problem |
 | **Trains** | Clean code, algorithmic intuition, time/space efficiency | Modularity, data integrity across state, program coherence |
@@ -79,9 +79,9 @@ A few challenges reappear under the same label with a different implementation �
 
 ### Personal Forge vs. Course Curriculum
 
-**🔴 `personal-forge`** holds work outside any formal syllabus — problems I pose to myself, or tasks set by an AI mentor (ChatGPT) that hands out challenges, reviews my code, and points out mistakes.
+**`personal-forge`** holds work outside any formal syllabus — problems I pose to myself, or tasks set by an AI mentor (ChatGPT) that hands out challenges, reviews my code, and points out mistakes.
 
-**🟠 Course-curriculum folders** are named after the actual course and follow *that instructor's* structure rather than the personal-forge template — which is why the pattern isn't identical across languages:
+**Course-curriculum folders** are named after the actual course and follow *that instructor's* structure rather than the personal-forge template — which is why the pattern isn't identical across languages:
 
 - Python's **100 Day Python Bootcamp** (Dr. Angela Yu) is organized into `day_lessions` and `day_projects`.
 - C's **AMIT Embedded Systems Course** is organized by `session_N`, each with `classwork` and `assignment` subfolders.
@@ -149,23 +149,6 @@ Reusable, well-tested functions live in dedicated library folders (mostly C/C++,
 
 C/C++ work is developed in VS Code — see [`.vscode/`](.vscode) for the IntelliSense (`c_cpp_properties.json`), build/debug (`tasks.json`, `launch.json`), and editor settings used across the archive.
 
-## Color legend
-
-Color-coding is used throughout the archive's READMEs for quick visual scanning:
-
-| Marker | Meaning |
-|---|---|
-| 🔵 Blue | C++ / structural concepts |
-| 🟣 Purple | Repository/archive concepts, programming languages |
-| 🔴 Red | Projects, personal-forge folders |
-| 🟡 Yellow | Challenges folders |
-| 🟠 Orange | Python, course-related concepts, contributor's name |
-| 🩵 Turquoise | Arduino |
-| 🩶 Gray | Debuggers folders |
-| 🩷 Pink | Examples |
-| 🟢 Green | Keywords |
-| 🟤 Tan | README files |
-| *(none)* | Code files and code folders |
 
 ## License
 
