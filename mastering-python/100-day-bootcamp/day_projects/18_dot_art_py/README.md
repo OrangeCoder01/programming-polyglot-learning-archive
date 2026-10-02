@@ -1,5 +1,4 @@
 # Dot art
-## ${\color{orange}\text{Concept explanation:}}$
 The ${\color{red}\text{project}}$ is about using turtle graphics to make a similar Damien Hirst painting by extracting color from one of his works,
 applying an algorithm on which the `Timmy The Artist Turtle` takes charge on leaving randomly selected spectrum of RGB colors ranging from (0 ~ 255)
 spot with width of 5 pace, a distance of 20 paces spacing between each spot and the turtle repositioned again to the original starting point

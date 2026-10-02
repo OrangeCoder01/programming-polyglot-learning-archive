@@ -8,10 +8,10 @@ Implemented:<br>
         
 
         (1.2) Pointers and struct
-            (1.2.1) Arrow operator ('->')
+            (1.2.1) Arrow operator ('->').
 
         
-        (1.3) Field variable (variables inside the struct)
+        (1.3) Field variable (variables inside the struct).
     
 ````
 <br>
