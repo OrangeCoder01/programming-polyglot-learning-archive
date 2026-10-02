@@ -20,7 +20,7 @@ To maintain clarity and consistency across language modules, all task directorie
 
 ### Naming Format
 
-$$\text{\textbf{(order)\_(purpose)\_(language)}}$$
+ $$\text{(order)}$$ `_` $$\text{(purpose)}$$ `_` $$\text{(language)}$$
 
 * **`order`**: A numerical prefix tracking completion sequence chronologically. Lower numbers reflect foundational logic and earlier coding styles, while higher numbers demonstrate evolving proficiency, advanced patterns, and cleaner code standards.
 * **`purpose`**: A concise descriptor of the module's core logic or problem statement.
