@@ -1,65 +1,52 @@
-# Assignment Session (12):
-Implemented:<br>
+# Assignment Session 12
 
-&emsp; ${\color{red}\text{(1)}}$ **struct**:
-````
-        (1.1) Functions managing struct parameter:
-            (1.1.1) struct array as a parameter.
-        
+## Implemented Topics
 
-        (1.2) Pointers and struct
-            (1.2.1) Arrow operator ('->').
+<details>
+<summary><b>1. struct</b></summary>
 
-        
-        (1.3) Field variable (variables inside the struct).
-    
-````
-<br>
+- **(1.1) Functions managing struct parameters**
+  - (1.1.1) Struct array as a parameter
+- **(1.2) Pointers and structs**
+  - (1.2.1) Arrow operator (`->`)
+- **(1.3) Field variables** (variables defined inside a struct)
+</details>
 
-&emsp; ${\color{red}\text{(2)}}$ **typedef**:<br>
-<br>
+- **2. typedef**
+- **3. union**
+- **4. enum**
 
-&emsp; ${\color{red}\text{(3)}}$ **union**:<br>
-<br>
+---
 
-&emsp; ${\color{red}\text{(4)}}$ **enum**:<br>
-<br>
+## Why Use These Data Types?
 
-&emsp; ${\color{red}\text{(5)}}$ **Why**:
-````
-    (5.1) struct:
+| Feature | Primary Purpose |
+| :--- | :--- |
+| **`struct`** | Organizing and storing related heterogeneous data |
+| **`typedef`** | Code simplification and readability |
+| **`union`** | Memory optimization and sharing memory locations |
+| **`enum`** | Improving code readability and maintaining named constants |
 
-        For organizing and storing data.
+---
 
-    (5.2) typedef:
+## Programs & Links
 
-        For simplication and coding ease.
+### Assignments
 
-    (5.3) union:
+- **Task 1.1:** [Student Data Management](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_12/assignment/task_1_c)  
+  *Manages a student's data including name, roll level, and grade.*
 
-        For memory conservatism.
+- **Task 1.2:** [Complex Number Arithmetic](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_12/assignment/task_2_c)  
+  *Performs arithmetic operations using real and imaginary field variables in a struct.*
 
-    (5.4) enum:
+- **Task 1.3:** [Time Difference Calculator](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_12/assignment/task_3_c)  
+  *Calculates the difference between two time sets (`hours:minutes:seconds`).*
 
-        For code readability.
-````
+- **Task 1.4:** [Multi-Student Data System](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_12/assignment/task_4_c)  
+  *Maintains records for multiple students using an array of structures.*
 
-<br>
-Programs & links:
-<br>
+- **Task 1.5:** [Union Limitations Demo](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_12/assignment/task_5_c)  
+  *Demonstrates memory-sharing limitations of the `union` user-defined data type.*
 
-&emsp;`(1) Assignment:`<br>
-
-&emsp;&emsp; `(1.1) Program managing one student's data: name, roll level, and grade`: [task_1_c](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_12/assignment/task_1_c) <br> 
-
-&emsp;&emsp; `(1.2) Complex math arithmetic with real, and imaginary as field variables in a struct`: [task_2_c](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_12/assignment/task_2_c) <br> 
-
-&emsp;&emsp; `(1.3) Time difference between two time set (hours:minutes:seconds)`: [task_3_c](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_12/assignment/task_3_c) <br> 
-
-&emsp;&emsp; `(1.4) Maintaing multi students' data using array of structure`: [task_4_c](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_12/assignment/task_4_c) <br> 
-
-&emsp;&emsp; `(1.5) Demonstrating the limitation of the union user-defined data type`: [task_5_c](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_12/assignment/task_5_c) <br> 
-
-&emsp;&emsp; `(1.6) Implementing enum in a practical example`: [task_6_c](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_12/assignment/task_6_c) <br> 
- 
-
+- **Task 1.6:** [Enum Implementation Example](https://github.com/OrangeCoder01/programming-polyglot-learning-archive/tree/main/mastering-c/amit_embedded_system_course/session_12/assignment/task_6_c)  
+  *Practical application showcasing `enum` usage in C.*
