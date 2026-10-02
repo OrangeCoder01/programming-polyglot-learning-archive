@@ -1,6 +1,7 @@
 # Assignment Session (12):
 Implemented:<br>
-&emsp;${\color{red}\text{(1)}}$ **struct**:
+
+&emsp; ${\color{red}\text{(1)}}$ **struct**:
 ````
         (1.1) Functions managing struct parameter:
             (1.1.1) struct array as a parameter.
@@ -15,16 +16,16 @@ Implemented:<br>
 ````
 <br>
 
-&emsp;${\color{red}\text{(2)}}$ **typedef**:<br>
+&emsp; ${\color{red}\text{(2)}}$ **typedef**:<br>
 <br>
 
-&emsp;${\color{red}\text{(3)}}$ **union**:<br>
+&emsp; ${\color{red}\text{(3)}}$ **union**:<br>
 <br>
 
-&emsp;${\color{red}\text{(4)}}$ **enum**:<br>
+&emsp; ${\color{red}\text{(4)}}$ **enum**:<br>
 <br>
 
-&emsp;${\color{red}\text{(5)}}$ **Why**:
+&emsp; ${\color{red}\text{(5)}}$ **Why**:
 ````
     (5.1) struct:
 
