@@ -18,9 +18,13 @@
 ````
 <br>
 
-|${\color{blue}\text{Input}}$:|${\color{red}\text{Output}}$:|${\color{orange}\text{Rule}}$:|
-|:---|:---|:----|
-||||
+
+|${\color{blue}\text{Input}}$: |${\color{red}\text{Output}}$: |
+|:---|:---|
+|(1) **First name** (string in char array)| (1) **Last name** (string in char array + text)|
+|                                         |(2) **Size** of the "family_name" **union**|
+
+
 <br>
 
 **Why** building this program:

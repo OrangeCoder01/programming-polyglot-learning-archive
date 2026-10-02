@@ -7,16 +7,19 @@ Question:
 ````
 Explanation:
 ````
+    This program showcases the importance of the enum by using the "fan_level"'s
+    field constants [Level1, Level2, Level3] which add context in the switch()case{}
+    rather than absurdly placing for example: "case 1:".
 ````
 <br>
 
-|Input:|Output:|Rule:|
-|:---|:---|:----|
-||||
+|${\color{blue}\text{Input}}$:|${\color{red}\text{Output}}$:|
+|:---|:---|
+|(1) **User** specified **fan level**|(1) printing the **current speed level** of the fan (integer + text)|
 
 <br>
 
 Why building this program:
 ````
-
+    Implemented enum.
 ````
