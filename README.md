@@ -17,9 +17,8 @@ A chronological, personal archive of my programming journey — challenges, proj
 5. [Shared documentation](#shared-documentation)
 6. [Personal libraries](#personal-libraries)
 7. [Development environment](#development-environment)
-8. [Color legend](#color-legend)
-9. [License](#license)
-10. [Author](#author)
+8. [License](#license)
+9. [Author](#author)
 
 ## Overview
 
