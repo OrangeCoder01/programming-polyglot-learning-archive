@@ -12,6 +12,9 @@
 ````
 **Explanation**:
 ````
+    Demonstating that the union user-defined datatype applies the highest size field variable
+    as the standard plus all the field variables share the same memory, meaning overwritting
+    a member field by assigning it nowhere in code, inherently overwritting the other member fields.
 ````
 <br>
 
@@ -22,5 +25,5 @@
 
 **Why** building this program:
 ````
-
+    Implementing union and understanding its limitations.
 ````
