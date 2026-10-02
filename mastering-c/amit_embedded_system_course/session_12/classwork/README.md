@@ -4,6 +4,10 @@ Implemented:
     (1) Struct:
         (1.1) Struct data storaging.
         (1.2) Returning data from defined struct objects.
+    
+    (2) Why learn struct:
+
+        For data storing, it is the C's database keyword.
 ````
 
 <br>
