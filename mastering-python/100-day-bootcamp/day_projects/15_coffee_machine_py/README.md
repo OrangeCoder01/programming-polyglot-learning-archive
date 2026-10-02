@@ -1,5 +1,4 @@
 # Coffee Machine
-## ${\color{orange}\text{Concept explanation}}$:
 "Coffee Machine" project is about programming a virtual coffee machine that asks the user two types of questions:
 <br>1) `Would you like to drink coffee: (espresso, latte or cappuccino)`
 <br>2) `Insert the number of coins: (Quarter, Dime, Nickel or Penny)`

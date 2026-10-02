@@ -6,7 +6,7 @@ x axis but on elevated y axis by 30 paces
 whenever `Timmy` reaches x-axis limit and the programs stops when it reaches y-axis limit
 
 <br>This is the [image](https://drive.google.com/drive/folders/1x5rVsiPULnNrteZX7Y1NgvWipdDRNxvl) used to extract its colors.
-<br>Named it with "damien_hirst_dot_painting", you can name it another name you would like instead.
+<br>Named it "damien_hirst_dot_painting", you can name it another name you would like instead.
 <br>
 
 [YT video](https://youtu.be/P_Jg5na6b7M)

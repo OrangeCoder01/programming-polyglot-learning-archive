@@ -1,5 +1,4 @@
 # Quiz Game:
-## ${\color{orange}\text{Concept explanation}}$:
 Quiz game is importing three code files: two has classes and one contain two data: the quiz's text (statement) and its answer (Boolean)
 <br>
 <br>`Question` class in `question_model` file is responsible for creating an object that takes two inputs: the text and the answer
