@@ -34,6 +34,9 @@ A program that prints a random unsophisiticated password for security measures.
         - `rand_letter`: An unused instance.
         - `rand_symbol`: An unused instance.
         - `rand_number`: An unused instance.
+    
+    - `1` Module:
+        - `random` module:
 
 - **`Plan`**: <br>
 
