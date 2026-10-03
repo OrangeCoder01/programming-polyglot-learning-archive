@@ -60,7 +60,6 @@ selected_word = random.choice(word_list)
 displaying_user_uncovered_word = []
 for char in selected_word:
     displaying_user_uncovered_word += "_"
-    
 
 
 is_man_dead = False
