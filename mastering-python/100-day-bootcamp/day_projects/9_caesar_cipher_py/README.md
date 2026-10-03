@@ -70,7 +70,7 @@ The cipher architecture uses modular functional division to handle input verific
 
 - **Shift Inversion**: Normalize encryption and decryption routines under a single transformation pipeline by negating the shift value ($shifting = -1 \times shifting$) when mode is set to `'decode'`.
 
-- **Boundary Aware ASCII Shifting (`mapping_the_shifting`)**: Convert input characters into an array of ASCII integers[cite: 4- Iterate through the array to modify letter bounds:
+- **Boundary Aware ASCII Shifting (`mapping_the_shifting`)**: Convert input characters into an array of ASCII integers Iterate through the array to modify letter bounds:
    - For uppercase letters ($65 \le x \le 90$): apply shift, wrapping around if $> 90$ (subtract $26$) or $< 65$ (add $26$).
    - For lowercase letters ($97 \le x \le 122$): apply shift, wrapping around if $> 122$ (subtract $26$) or $< 97$ (add $26$).
    - Preserve non-alphabetical symbols and spaces without modification.
