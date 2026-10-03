@@ -20,14 +20,14 @@ Caesar Cipher is an encryption technique where each letter in the plaintext is s
 <br>
 
 - **`Declaration`**:<br>
-    - **`Global Scope`**:
-            - `1` Variable:
-                - `ascii_art`: String containing ASCII art banner displayed at program startup.
-            - `4` Arrays:
-                - `letter_ascii`: List storing ASCII integer values for uppercase (65–90) and lowercase (97–122) letters.
-                - `symbol_ascii`: List storing ASCII integer values for printable symbols and space characters (32–187 excluding letters).
-                - `letter_char`: List storing character conversions of all ASCII values in `letter_ascii`.
-                - `symbol_char`: List storing character conversions of all ASCII values in `symbol_ascii`.
+    - **`Global Scope`**:<br>
+        - `1` Variable:
+            - `ascii_art`: String containing ASCII art banner displayed at program startup.
+        - `4` Arrays:
+            - `letter_ascii`: List storing ASCII integer values for uppercase (65–90) and lowercase (97–122) letters.
+            - `symbol_ascii`: List storing ASCII integer values for printable symbols and space characters (32–187 excluding letters).
+            - `letter_char`: List storing character conversions of all ASCII values in `letter_ascii`.
+            - `symbol_char`: List storing character conversions of all ASCII values in `symbol_ascii`.
 
         - **`Function: user_validation()`**:
             - `Variables`:
