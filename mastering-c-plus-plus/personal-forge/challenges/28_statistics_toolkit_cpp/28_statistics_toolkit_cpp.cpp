@@ -1,6 +1,8 @@
 #include <iostream>
 using std::cin;
 
+typedef const int c_int;
+
 // "Validation and inputing functions" section:
 float user_input_validation(float num, int integer, char choice)
 {   
@@ -28,11 +30,11 @@ float user_input_validation(float num, int integer, char choice)
     }
 }
 
-void input_size(unsigned int &size)
-{size = (unsigned int)(user_input_validation(0, size, '2'));}
+void input_size(int &size)
+{size = (int)(user_input_validation(0, size, '2'));}
 
 
-void input_array(float array[], unsigned const int size)
+void input_array(float array[], const int size)
 {
     for(int i = 0; i < size; i ++)
     {   
@@ -41,10 +43,10 @@ void input_array(float array[], unsigned const int size)
     }
 }
 
-void print_array(float array[], unsigned const int size)
+void print_array(float array[], const int size)
 {
     printf("[");
-    for(unsigned int i = 0; i < size; i++)
+    for(int i = 0; i < size; i++)
     {  
          printf("%.3f", array[i]);
         if(i < (size - 1))
@@ -120,7 +122,7 @@ float float_sqrt(float under_root_num, int root)//Don't not ask me about the Tim
 }
 
 // Techniques:
-void bubble_sort_array(float arr[], unsigned const int n)
+void bubble_sort_array(float arr[], const int n)
 {
     for(int i = 0; i < n - 1; i ++)
     {
@@ -137,7 +139,7 @@ void bubble_sort_array(float arr[], unsigned const int n)
 }
 
 //statistics displaying function
-float find_extremes(float arr[], unsigned const int n, char choice)
+float find_extremes(float arr[], const int n, char choice)
 {
     float max = arr[n-1];
     float min = arr[0];
@@ -152,7 +154,7 @@ float find_extremes(float arr[], unsigned const int n, char choice)
     return 5.3;//Just debugging
 }
 
-float mean(float arr[], unsigned const int n)
+float mean(float arr[], const int n)
 {
     float value = 0;
     for(int i = 0; i < n; i++){value += arr[i];}
@@ -160,74 +162,78 @@ float mean(float arr[], unsigned const int n)
 }
 
 float range(float maximium, float minimum)
-{return maximium - minimum;}
+{ return maximium - minimum; }
 
-float median(float arr[], unsigned const int n)
+float median(float arr[], const int n)
 {
     bool is_even = n % 2 == 0; 
-    if(is_even)
-    {return (arr[n/2] + arr[n/2 -1])/2;}
-    else
-    {return arr[n/2];}
+    if(is_even) { return (arr[n/2] + arr[n/2 -1]) / 2; }
+    else { return arr[n/2]; }
 }
 
-float mode(float arr[], unsigned const int n) 
+
+float mode(float arr[], const int size)
 {
-    if (n == 0) return -1;
+    int i = 0,
+        count = 1,
+        max_count = 0;
 
-    unsigned int max_count = 1;
-    unsigned int current_count = 1;
-    float mode_value = arr[0];
-    bool multiple_modes = false;
+    bool is_multiple = false;
+    float mode_val = arr[i];
 
-    for (unsigned int i = 1; i < n; i++) 
+    
+    if(size <= 0) { return - 1.0f; }
+    if (size == 1) { return arr[0]; } 
+    bubble_sort_array(arr, size);
+
+
+
+    for(i; i < (size - 1); i++)
     {
-        if (arr[i] == arr[i - 1]) 
-        {current_count++;} 
-        else 
+        if(arr[i] == arr[i + 1]) { count ++; }
+        else
         {
-            // Check if the previous streak is the longest
-            if (current_count > max_count) 
+            if(count > max_count)
             {
-                max_count = current_count;
-                mode_value = arr[i - 1];
-                multiple_modes = false;
-            } 
-            else if (current_count == max_count && max_count > 1) 
-            {
-                multiple_modes = true;
+                max_count = count;
+                mode_val = arr[i];
+                is_multiple = false;
             }
-            current_count = 1; // Reset for the next distinct number
+            else if(count == max_count) { is_multiple = true; }
+            count = 1;
         }
     }
 
-    // Final check for the last element group in the array
-    if (current_count > max_count) 
+
+    /* If the last two elements are same, the loop above will iterate "count" but will not check for the last unique integer*/\
+    /* For example: [1, 1, 2, 2, 2] without the below code, the 'mode_val' will be 1 instead of 2 */
+    if (count > max_count)
     {
-        max_count = current_count;
-        mode_value = arr[n - 1];
-        multiple_modes = false;
-    } 
-    else if (current_count == max_count && max_count > 1) 
+        max_count = count;
+        mode_val = arr[size - 1];
+        is_multiple = false;
+    }
+    else if (count == max_count && max_count > 1) { is_multiple = true; }
+
+
+
+    if (max_count == 1 || is_multiple)
     {
-        multiple_modes = true;
+        printf("There are multiple modes or no repeating mode.\n");
+        return -1.0f;
     }
 
-    if (multiple_modes) 
-    {
-        printf("Cannot find a single mode; multiple numbers share the highest frequency.\n");
-        return -1;
-    }
 
-    return mode_value;
+    return mode_val;
 }
 
-float variance(float arr[], unsigned const int n, float mean)
+
+float variance(float arr[], const int n, float mean)
 {
     float var_val = 0;
     float squared_diff_arr[n];
 
-    for(unsigned int i = 0; i < n; i ++)
+    for(int i = 0; i < n; i ++)
     {
         float result = arr[i] - mean;
         if(result < 0) {result *= -1;}
@@ -256,10 +262,10 @@ void stat_disp()
 {
     declaration();
     printf("Please, enter number of elements in array: ");
-    unsigned int size = 0;
+    int size = 0;
     input_size(size);
 
-    unsigned const int constant_size = size;
+    const int constant_size = size;
 
     printf("\n\n");
     printf("Fill the elements in array: \n");
