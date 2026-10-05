@@ -43,7 +43,7 @@ programming-polyglot-learning-archive/
 │   └── utility_functions/             # yassin_math_cpp.h and friends
 ├── mastering-python/
 │   ├── 100-day-bootcamp/              # Dr. Angela Yu's course
-│   │   ├── day_lessions/
+│   │   ├── day_lessons/
 │   │   └── day_projects/
 │   ├── personal-forge/
 │   │   └── challenges/
@@ -82,7 +82,7 @@ A few challenges reappear under the same label with a different implementation �
 
 **Course-curriculum folders** are named after the actual course and follow *that instructor's* structure rather than the personal-forge template — which is why the pattern isn't identical across languages:
 
-- Python's **100 Day Python Bootcamp** (Dr. Angela Yu) is organized into `day_lessions` and `day_projects`.
+- Python's **100 Day Python Bootcamp** (Dr. Angela Yu) is organized into `day_lessons` and `day_projects`.
 - C's **AMIT Embedded Systems Course** is organized by `session_N`, each with `classwork` and `assignment` subfolders.
 
 Rules and naming strategy for repeating folders (like `personal-forge`) live once in [`documents/`](#shared-documentation) rather than being restated in every language folder.
@@ -111,7 +111,7 @@ Order reflects when it was written — earlier folders reflect an earlier coding
 
 ### Python
 
-- **`100-day-bootcamp`** — Dr. Angela Yu's course: lesson code in `day_lessions`, and 21 stand-alone projects in `day_projects` (Hangman, Caesar Cipher, Blackjack, Snake, Pong, and others), spanning bootcamp days 1–22.
+- **`100-day-bootcamp`** — Dr. Angela Yu's course: lesson code in `day_lessons`, and 21 stand-alone projects in `day_projects` (Hangman, Caesar Cipher, Blackjack, Snake, Pong, and others), spanning bootcamp days 1–22.
 - **`personal-forge/challenges`** — early self-directed exercises (string sorting, digit sums, a century identifier). No `projects` subfolder yet.
 - **`testing_bench`** — a scratch file for quick experiments, outside the archive proper.
 
