@@ -3,7 +3,7 @@ using std::cin;
 
 
 /*-------------------------------------------------------------------------------------------*/
-unsigned static const int MAX_TRANSACTIONS = 100;
+static const int MAX_TRANSACTIONS = 100;
 static double deposit_array[MAX_TRANSACTIONS]; // Defining array with static specifier while being in the global-scope is 
 static double withdraw_array[MAX_TRANSACTIONS]; // essential for keeping it to be only processed
 static char trans_array[MAX_TRANSACTIONS]; // by the current code file only, while other external code files can not access it.
@@ -173,7 +173,6 @@ double summing_arr(double arr[], char type)
 /*-------------------------------------------------------------------------------------------*/
 void menu()
 {
-    char choice = 'N';
     int choice_i = 0;
     do
     {

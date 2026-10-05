@@ -2,7 +2,7 @@
 using std::cin;
 #include "../../../utility_functions/yassin_math_cpp.h"//new stuff
 
-unsigned const int MAX_ELEMENTS = 500;
+const int MAX_ELEMENTS = 500;
 float data_arr[MAX_ELEMENTS];
 
 
@@ -133,7 +133,7 @@ bool prime_checker(int input_int)
 }
 
 
-float mean(float arr[], unsigned const int n)
+float mean(float arr[], const int n)
 {
     float value = 0;
     for(int i = 0; i < n; i++){value += arr[i];}
@@ -143,23 +143,23 @@ float mean(float arr[], unsigned const int n)
 float stat_range(float maximium, float minimum)
 {return maximium - minimum;}
 
-float median(float arr[], unsigned const int n)
+float median(float arr[], const int n)
 {
     bool is_even = n % 2 == 0; 
     if(is_even) return (arr[n/2] + arr[n/2 -1])/2;
     else {return arr[n/2];}
 }
 
-float mode(float arr[], unsigned const int n) 
+float mode(float arr[], const int n) 
 {
     if (n == 0) return -1;
 
-    unsigned int max_count = 1;
-    unsigned int current_count = 1;
+    int max_count = 1;
+    int current_count = 1;
     float mode_value = arr[0];
     bool multiple_modes = false;
 
-    for (unsigned int i = 1; i < n; i++) 
+    for (int i = 1; i < n; i++) 
     {
         if (arr[i] == arr[i - 1]) current_count++;
         else 
@@ -186,12 +186,12 @@ float mode(float arr[], unsigned const int n)
     return mode_value;
 }
 
-float variance(float arr[], unsigned const int n, float mean)
+float variance(float arr[], const int n, float mean)
 {
     float var_val = 0;
     float squared_diff_arr[n];
 
-    for(unsigned int i = 0; i < n; i ++){squared_diff_arr[i] = exp_pow(abs(arr[i] - mean), 2);}
+    for(int i = 0; i < n; i ++){squared_diff_arr[i] = exp_pow(abs(arr[i] - mean), 2);}
     
     for(int i = 0; i < n; i++){var_val += squared_diff_arr[i];}
     var_val /= n;
@@ -201,7 +201,7 @@ float variance(float arr[], unsigned const int n, float mean)
 float standard_deviation(float variance)
 {return root_pow(variance, 2);}
 
-void input_array(float array[], unsigned const int size)
+void input_array(float array[], const int size)
 {
     for(int i = 0; i < size; i ++)
     {   
@@ -210,10 +210,10 @@ void input_array(float array[], unsigned const int size)
     }
 }
 
-void print_array(float array[], unsigned const int size)
+void print_array(float array[], const int size)
 {
     printf("[");
-    for(unsigned int i = 0; i < size; i++)
+    for(int i = 0; i < size; i++)
     {  
          printf("%f", array[i]);
         if(i < (size - 1))

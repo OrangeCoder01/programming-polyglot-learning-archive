@@ -33,7 +33,7 @@ void declaration()
     printf("Rules:\n1) The Number of students can not exceed 100\n2) The student's score can not exceed 100\n");
 }
 
-void array_filling(double arr[], unsigned const int n)
+void array_filling(double arr[], const int n)
 {
     for(int i = 0; i < n; i++)
     {
@@ -42,14 +42,14 @@ void array_filling(double arr[], unsigned const int n)
     }
 }
 
-double calculate_average(double arr[], unsigned const int n)
+double calculate_average(double arr[], const int n)
 {
     double mean = 0;
     for(int i = 0; i < n; i ++)
     {mean += arr[i];}
     return mean/n;
 }
-double find_highest(double arr[], unsigned const int n , unsigned int &index)
+double find_highest(double arr[], const int n , int &index)
 {
     double high_score = arr[0];
     index = 0;
@@ -63,7 +63,7 @@ double find_highest(double arr[], unsigned const int n , unsigned int &index)
     }
     return high_score;
 }
-double find_lowest(double arr[], unsigned const int n , unsigned int &index)
+double find_lowest(double arr[], const int n , int &index)
 {
     double low_score = arr[0];
     index = 0;
@@ -87,20 +87,20 @@ char grade_analyzer(double number)
     else{return 'F';}
 }
 
-void pass_fail_checker(char grade, unsigned int &pass_count)
+void pass_fail_checker(char grade, int &pass_count)
 {
     if(grade == 'F'){printf("Fail "); return;}
     printf("Pass");
     pass_count ++;
 }
 
-void print_report(double arr[], unsigned const int n)
+void print_report(double arr[], const int n)
 {
-    unsigned int index = 0;
+    int index = 0;
     printf("\n\n");
     printf("Student data table: \n");
     printf("Name:\t\tScore:\tGrade:\tStatus:\n");
-    unsigned int pass_count = 0;
+    int pass_count = 0;
     for(int i = 0; i < n; i++)
     {
         char grade = grade_analyzer(arr[i]);
@@ -129,8 +129,8 @@ void grade_system()
 {
     printf("\n\n");
     printf("Enter number of students: ");
-    unsigned int int_size = user_input_validation(0, int_size, '2');
-    unsigned const int student_count = int_size;
+    int int_size = user_input_validation(0, int_size, '2');
+    const int student_count = int_size;
     double arr[student_count];
 
     array_filling(arr, student_count);

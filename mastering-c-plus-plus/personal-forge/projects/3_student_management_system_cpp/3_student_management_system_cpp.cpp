@@ -1,8 +1,8 @@
 #include <iostream>
 using std::cin;
 
-unsigned const int MAX_NAME_CAPACITY = 1000;
-unsigned const int MAX_NUMBER_OF_STUDENTS = 100;
+const int MAX_NAME_CAPACITY = 1000;
+const int MAX_NUMBER_OF_STUDENTS = 100;
 
 static char stud_names_matrix[MAX_NUMBER_OF_STUDENTS][MAX_NAME_CAPACITY] = {'\0'}; // Lets do some matrix, baby
 static long long int stud_ids[MAX_NUMBER_OF_STUDENTS] = {-1};
@@ -135,7 +135,6 @@ int count_number_of_characters_till_null_terminator(int target_row)
 void readjusting_data(int removed_data_indx) // Data Manipulation function after the student omission.
 {
     int i = removed_data_indx;
-    bool is_there_another_student = false;
 
     while(last_indx_tracker - 1 > i)
     {
