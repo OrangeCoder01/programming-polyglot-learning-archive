@@ -1,10 +1,6 @@
 #include <iostream>
 #include "../../../utility_functions/yassin_math_cpp.h" // Implemeting the library for first time
 using std::cin;
-/*
-Concept Explanation:
-    The 'Prime Number Generator' is about genetrating the number of primes found until reaching user's limit
-*/
 
 void user_input_validation(int &user_input_integer)
 {
