@@ -36,6 +36,7 @@ void bubble_sort(int arr[], int size)
                 *(arr + j + 1) = temp;
             }
         }
+        j = 0;
     } 
 }
 
