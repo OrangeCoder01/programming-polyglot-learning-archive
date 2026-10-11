@@ -1,7 +1,7 @@
 # Programming Polyglot Learning Archive
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-FF9248?logo=python&logoColor=blue)
+![Python](https://img.shields.io/badge/Python-FF9248?logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino--IDE-00979D?logo=arduino&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
