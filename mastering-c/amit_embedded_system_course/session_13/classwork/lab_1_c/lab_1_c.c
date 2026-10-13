@@ -31,7 +31,8 @@ void bubbleSort(int *arr, int size)
     }
 }
 
-int main() {
+int main() 
+{
     int size;
 
     printf("Enter the number of elements: ");

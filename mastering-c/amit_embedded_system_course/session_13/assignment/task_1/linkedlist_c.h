@@ -118,7 +118,7 @@ void insert_node_beginning(Node_t **head_double_ptr, float value) /* Task (5) */
 
 
 
-void insert_node_ending(Node_t **head_ptr, float value)  /* Task (6) */
+void insert_node_ending(Node_t **head_ptr, float value) /* Task (6) */
 {
     Node_t *new_node = (Node_t *) malloc(sizeof(Node_t));
     
@@ -136,7 +136,7 @@ void insert_node_ending(Node_t **head_ptr, float value)  /* Task (6) */
         *head_ptr = new_node; 
         return;
     }
-    
+
     Node_t *temp_ptr = *head_ptr;
     while(temp_ptr != NULL)
     {
@@ -152,3 +152,84 @@ void insert_node_ending(Node_t **head_ptr, float value)  /* Task (6) */
 
 
 
+void insert_node_position(Node_t **head_ptr, int position, float value) /* Task (7) */
+{
+    Node_t *new_node = (Node_t *)malloc(sizeof(Node_t));
+    if (new_node == NULL) 
+    {
+        printf("Error: Heap Memory Allocation failed (probably heap memory insufficiency).");
+        return;
+    }
+    
+    new_node->data = value;
+
+    if (position == 0 || *head_ptr == NULL) 
+    {
+        new_node->link = *head_ptr;
+        *head_ptr = new_node;
+        return;
+    }
+
+    Node_t *temp_ptr = *head_ptr;
+    for (int i = 0; i < position - 1 && temp_ptr->link != NULL; i++) 
+    {
+        temp_ptr = temp_ptr->link;
+    }
+
+    new_node->link = temp_ptr->link;
+    temp_ptr->link = new_node;
+}
+
+
+
+void delete_node(Node_t **head_ptr, float target) /* Task (8) */
+{
+    if (*head_ptr == NULL) 
+    {
+        return;
+    }
+
+    Node_t *temp_ptr = *head_ptr;
+    Node_t *prev_ptr = NULL;
+
+    if (temp_ptr != NULL && temp_ptr->data == target) 
+    {
+        *head_ptr = temp_ptr->link;
+        free(temp_ptr);
+        return;
+    }
+
+    while (temp_ptr != NULL && temp_ptr->data != target) 
+    {
+        prev_ptr = temp_ptr;
+        temp_ptr = temp_ptr->link;
+    }
+
+    if (temp_ptr == NULL) 
+    {
+        return;
+    }
+
+    prev_ptr->link = temp_ptr->link;
+    free(temp_ptr);
+}
+
+
+
+
+void reverse_list(Node_t **head_ptr) /* Task (9) */
+{
+    Node_t *prev_ptr = NULL;
+    Node_t *current_ptr = *head_ptr;
+    Node_t *next_ptr = NULL;
+
+    while (current_ptr != NULL) 
+    {
+        next_ptr = current_ptr->link;
+        current_ptr->link = prev_ptr;
+        prev_ptr = current_ptr;
+        current_ptr = next_ptr;
+    }
+
+    *head_ptr = prev_ptr;
+}
