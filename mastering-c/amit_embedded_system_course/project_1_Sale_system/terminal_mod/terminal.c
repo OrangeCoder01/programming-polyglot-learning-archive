@@ -18,8 +18,6 @@ u8 isCardExpired(CardDataTempStoring *cardData, TerminalDataTempStoring *termDat
     if(trans_year > card_year) { return True; }
     if(trans_year == card_year && trans_month > card_month) { return True; }
     return False;
-
-
 }
 
 u8 getTransactionAmount(TerminalDataTempStoring *term_data)
