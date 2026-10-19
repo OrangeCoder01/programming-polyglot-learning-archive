@@ -5,9 +5,9 @@
 
 typedef struct
 {
-char card_holder_name[51];
-char card_expiratory_date[6];
-char primary_account_number[17];
+    char card_holder_name[51];
+    char card_expiratory_date[6];
+    char primary_account_number[17];
 } CardDataTempStoring;
 
 u8 getCardHolderName(CardDataTempStoring *cardData);

@@ -3,7 +3,6 @@
 #include "../card_mod/card.h"
 #include "../terminal_mod/terminal.h"
 #include "../server_mod/server.h"
-#include "../toolkit/lib/generic_functionality/general_functions.h"
 
 u8 appInit(void) { return serverInit(); }
 
@@ -11,14 +10,11 @@ void appClose(void) { serverClose(); }
 
 void appStart(void)
 {
-    CardDataTempStoring     card;
-    TerminalDataTempStoring terminal;
-    BigDataStorage          transaction;
+    /* Zero-initializing the structs directly replaces the need for memset */
+    CardDataTempStoring     card = {0};
+    TerminalDataTempStoring terminal = {0};
+    BigDataStorage          transaction = {0};
     f64                     balance = 0.0;
-
-    my_memset(&card, sizeof(card));
-    my_memset(&terminal, sizeof(terminal));
-    my_memset(&transaction, sizeof(transaction));
 
     printf("\n========== NEW SALE TRANSACTION ==========\n");
 
