@@ -6,19 +6,19 @@
 #include "../terminal_mod/terminal.h"
 
 typedef enum
-{
-APPROVED,
-DECLINED_INSUFFICIENT_FUND,
-DECLINED_INVALID_ACCOUNT,
-INTERNAL_SERVER_ERROR
+{  
+  APPROVED,
+  DECLINED_INSUFFICIENT_FUND,
+  DECLINED_INVALID_ACCOUNT,
+  INTERNAL_SERVER_ERROR
 } EnumTransState;
 
 typedef struct
 {
-CardDataTempStoring         card_holder_data;
-TerminalDataTempStoring     terminal_data;
-EnumTransState              trans_state;
-u32                         transaction_sequence_number;
+  CardDataTempStoring         card_holder_data;
+  TerminalDataTempStoring     terminal_data;
+  EnumTransState              trans_state;
+  u32                         transaction_sequence_number;
 } BigDataStorage;
 
 u8 serverInit(void);
