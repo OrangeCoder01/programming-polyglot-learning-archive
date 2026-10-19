@@ -1,3 +1,4 @@
+#include <stddef.h>
 #include "validator.h"
 
 u8 RangeValidator(const _Generic_ *input_num_ptr, _Generic_ lower_limit, _Generic_ upper_limit)

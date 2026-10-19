@@ -31,7 +31,7 @@ void appStart(void)
     /* Terminal module */
     setMaxAmount(&terminal, MAX_AMOUNT);
 
-    getTransactionDate(&terminal);
+    if(getTransactionDate(&terminal) == False) { printf("\nDECLINED: could not read transaction date\n"); return; }
     printf("Transaction date: %s\n", terminal.transaction_date);
 
     if(isCardExpired(&card, &terminal) == True) { printf("\nDECLINED: expired card\n"); return; }

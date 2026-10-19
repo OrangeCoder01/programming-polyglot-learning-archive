@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <string.h>
 #include <time.h>
 #include "terminal.h"
 
-u8 gettransaction_date(TerminalDataTempStoring *termData)
+u8 getTransactionDate(TerminalDataTempStoring *termData)
 {
     time_t now = time(NULL);
     struct tm *local = localtime(&now);

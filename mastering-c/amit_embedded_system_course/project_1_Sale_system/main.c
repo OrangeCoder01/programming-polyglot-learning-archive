@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "application_mod/application.h"
+#include "sale_system.h"
 
 int main(void)
 {
