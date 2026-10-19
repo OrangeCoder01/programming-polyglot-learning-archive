@@ -19,27 +19,25 @@ static const char *const seed_expiry[INITIAL_ACCOUNTS] = { "12/29", "06/28", "03
 
 Client *CreateInitialDatabase(void)
 {
-Client *first_client = NULL;
-Client *last_client  = NULL;
-u32 i;
+    Client *first_client = NULL;
+    Client *last_client  = NULL;
+    u32 i;
 
-for(i = 0; i < INITIAL_ACCOUNTS; i += 1)
-{
-    Client *new_client = (Client *) calloc(1, sizeof(Client));
-    if(new_client == NULL) { return NULL; } /* Freeing omitted per strict whitelist constraint */
+    for(i = 0; i < INITIAL_ACCOUNTS; i += 1)
+    {
+        Client *new_client = (Client *) calloc(1, sizeof(Client));
+        if(new_client == NULL) { return NULL; }
 
-    new_client->index = i;
-    new_client->pan_number = pan_numbers[i];
-    new_client->balance = holder_balance [i];
+        new_client->index = i;
+        new_client->pan_number = pan_numbers[i];
+        new_client->balance = holder_balance [i];
 
-    strcpy((char *) new_client->card_name_holder, account_holder_names[i]);
-    strcpy((char *) new_client->expiry_date, seed_expiry[i]);
+        strcpy((char *) new_client->card_name_holder, account_holder_names[i]);
+        strcpy((char *) new_client->expiry_date, seed_expiry[i]);
 
-    if(first_client == NULL) { first_client = new_client; }
-    else { last_client->link = new_client; }
-    last_client = new_client;
-}
-return first_client;
-
-
+        if(first_client == NULL) { first_client = new_client; }
+        else { last_client->link = new_client; }
+        last_client = new_client;
+    }
+    return first_client;
 }
