@@ -10,7 +10,6 @@ void appClose(void) { serverClose(); }
 
 void appStart(void)
 {
-    /* Zero-initializing the structs directly replaces the need for memset */
     CardDataTempStoring     card = {0};
     TerminalDataTempStoring terminal = {0};
     BigDataStorage          transaction = {0};
