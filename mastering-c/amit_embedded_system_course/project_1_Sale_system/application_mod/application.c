@@ -1,25 +1,24 @@
 #include <stdio.h>
-#include <string.h>
 #include "application.h"
 #include "../card_mod/card.h"
 #include "../terminal_mod/terminal.h"
 #include "../server_mod/server.h"
+#include "../toolkit/lib/generic_functionality/general_functions.h"
 
 u8 appInit(void) { return serverInit(); }
 
 void appClose(void) { serverClose(); }
 
-
 void appStart(void)
 {
     CardDataTempStoring     card;
     TerminalDataTempStoring terminal;
-    BigDataStorage  transaction;
-    f64               balance = 0.0;
+    BigDataStorage          transaction;
+    f64                     balance = 0.0;
 
-    memset(&card, 0, sizeof(card));
-    memset(&terminal, 0, sizeof(terminal));
-    memset(&transaction, 0, sizeof(transaction));
+    my_memset(&card, sizeof(card));
+    my_memset(&terminal, sizeof(terminal));
+    my_memset(&transaction, sizeof(transaction));
 
     printf("\n========== NEW SALE TRANSACTION ==========\n");
 
@@ -49,7 +48,7 @@ void appStart(void)
         {
             getAccountBalance(&card, &balance);
             printf("\nAPPROVED\n");
-            printf("    Card   : ************%s\n", card.primary_account_number + 12); /* only the last 4 digits */
+            printf("    Card   : ************%s\n", card.primary_account_number + 12);
             printf("    Amount : %.2f\n", terminal.trans_amount);
             printf("    Balance: %.2f\n", balance);
             break;

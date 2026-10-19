@@ -7,25 +7,26 @@
 
 typedef enum
 {
-    APPROVED,
-    DECLINED_INSUFFICIENT_FUND,
-    DECLINED_INVALID_ACCOUNT,
-    INTERNAL_SERVER_ERROR
+APPROVED,
+DECLINED_INSUFFICIENT_FUND,
+DECLINED_INVALID_ACCOUNT,
+INTERNAL_SERVER_ERROR
 } EnumTransState;
 
 typedef struct
 {
-    CardDataTempStoring         card_holder_data;
-    TerminalDataTempStoring     terminal_data;
-    EnumTransState              trans_state;
-    u32                         transaction_sequence_number;
+CardDataTempStoring         card_holder_data;
+TerminalDataTempStoring     terminal_data;
+EnumTransState              trans_state;
+u32                         transaction_sequence_number;
 } BigDataStorage;
-u8 serverInit(void);   /* creates the accounts database */
+
+u8 serverInit(void);
 void serverClose(void);
 
 EnumTransState receiveTransactionData(BigDataStorage *transData);
-u8 isValidAccount(CardDataTempStoring *cardData);                                   /* True = account exists */
-u8 isAmountAvailable(TerminalDataTempStoring *termData, CardDataTempStoring *cardData);   /* True = balance is enough */
+u8 isValidAccount(CardDataTempStoring *cardData);
+u8 isAmountAvailable(TerminalDataTempStoring *termData, CardDataTempStoring *cardData);
 u8 saveTransaction(BigDataStorage *transData);
 u8 getAccountBalance(CardDataTempStoring *cardData, f64 *balance);
 

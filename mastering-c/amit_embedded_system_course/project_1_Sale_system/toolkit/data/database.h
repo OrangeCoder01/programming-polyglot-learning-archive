@@ -6,6 +6,5 @@
 #define INITIAL_ACCOUNTS 8
 
 Client *CreateInitialDatabase(void);
-void FreeDatabase(Client *first_client);
 
 #endif

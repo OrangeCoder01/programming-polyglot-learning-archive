@@ -3,10 +3,10 @@
 
 #include "../toolkit/data/data_suite.h"
 
-#define MAX_AMOUNT 20000.0 /* the most the terminal accepts in one transaction */
+#define MAX_AMOUNT 20000.0
 
 u8 appInit(void);
-void appStart(void);   /* ONE complete SALE transaction */
+void appStart(void);
 void appClose(void);
 
 #endif
