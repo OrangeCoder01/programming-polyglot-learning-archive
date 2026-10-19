@@ -5,14 +5,14 @@
 
 typedef struct
 {
-    char cardHolderName[51];
-    char cardExpirationDate[6];    /* MM/YY + '\0' */
-    char primaryAccountNumber[17]; /* 16 digits + '\0' */
-} ST_cardData_t;
+    char card_holder_name[51];
+    char card_expiratory_date[6];    /* MM/YY + '\0' */
+    char primary_account_number[17]; /* 16 digits + '\0' */
+} CardDataTempStoring;
 
 
-u8 getCardHolderName(ST_cardData_t *cardData);
-u8 getCardExpiryDate(ST_cardData_t *cardData);
-u8 getCardPAN(ST_cardData_t *cardData);
+u8 getCardHolderName(CardDataTempStoring *cardData);
+u8 getCardExpiryDate(CardDataTempStoring *cardData);
+u8 getCardPAN(CardDataTempStoring *cardData);
 
 #endif

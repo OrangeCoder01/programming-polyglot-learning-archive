@@ -20,12 +20,11 @@ u8 ReadLine(char *buffer, u32 size)
         return True;
     }
 
-    /* No newline: either the line did not fit, or it is the last line of the input without a newline */
     {
         int c = fgetc(stdin);
-        if(c == EOF) { return True; }          /* last line, it fitted */
+        if(c == EOF) { return True; }
         while(c != '\n' && c != EOF) { c = fgetc(stdin); }
-        return False;                           /* too long: rest of the line thrown away */
+        return False;
     }
 }
 

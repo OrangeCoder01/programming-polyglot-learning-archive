@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "database.h"
+#include "generic_datatype.h"
 
 /* Constant value variable, fixed address pointer */
 static const char *const account_holder_names[INITIAL_ACCOUNTS] = { "Youssef Abdelhakim", "Sara Mahmoud", "Omar Alwakil",
@@ -53,5 +54,18 @@ void FreeDatabase(Client *first_client)
         Client *next_client = first_client->link;
         free(first_client);
         first_client = next_client;
+    }
+}
+
+s16 TypeChecker(const _Generic_ *Input)
+{
+    switch(Input->prime_datatype_order)
+    {
+        case ty_u8:  { return (s16) (8); }
+        case ty_s8:  { return (s16) (-8); }
+        case ty_u32: { return (s16) (320); }  /* 32 bits and concatenated 0 for indicating it is integer */
+        case ty_u64: { return (s16) (640); }  /* 64 bits and concatenated 0 for indicating it is integer */
+        case ty_f64: { return (s16) (641); }  /* 64 bits and concatenated 1 for indicating it is a floating point datatype */
+        default: { return False; }            /* Unrecognized Datatype */
     }
 }

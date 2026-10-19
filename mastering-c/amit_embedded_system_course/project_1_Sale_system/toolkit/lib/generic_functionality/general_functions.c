@@ -1,5 +1,5 @@
-
 #include "general_functions.h"
+#include <stdio.h>
 
 u8 CalculateNumberOfCharacters(const _Generic_ *char_array, u32 *length)
 {

@@ -7,17 +7,17 @@
 #define MAX_TRANSACTIONS 255
 
 static Client *accounts = NULL;                          /* the bank's accounts (linked list from the toolkit) */
-static ST_transaction_t transactions[MAX_TRANSACTIONS];  /* the bank's transactions (array) */
+static BigDataStorage transactions[MAX_TRANSACTIONS];  /* the bank's transactions (array) */
 static u32 transactions_count = 0;
 
 
-static Client *FindAccount(ST_cardData_t *cardData)
+static Client *FindAccount(CardDataTempStoring *cardData)
 {
-    Client *account = FindAccountByPAN(accounts, strtoull(cardData->primaryAccountNumber, NULL, 10));
+    Client *account = FindAccountByPAN(accounts, strtoull(cardData->primary_account_number, NULL, 10));
 
     if(account == NULL) { return NULL; }
-    if(strcmp(cardData->cardHolderName, (char *) account->card_name_holder) != 0) { return NULL; }
-    if(strcmp(cardData->cardExpirationDate, (char *) account->expiry_date) != 0) { return NULL; }
+    if(strcmp(cardData->card_holder_name, (char *) account->card_name_holder) != 0) { return NULL; }
+    if(strcmp(cardData->card_expiratory_date, (char *) account->expiry_date) != 0) { return NULL; }
     return account;
 }
 
@@ -37,35 +37,35 @@ void serverClose(void)
 }
 
 
-u8 isValidAccount(ST_cardData_t *cardData)
+u8 isValidAccount(CardDataTempStoring *cardData)
 {
     if(FindAccount(cardData) == NULL) { return False; }
     return True;
 }
 
 
-u8 isAmountAvailable(ST_terminalData_t *termData, ST_cardData_t *cardData)
+u8 isAmountAvailable(TerminalDataTempStoring *termData, CardDataTempStoring *cardData)
 {
     Client *account = FindAccount(cardData);
 
     if(account == NULL) { return False; }
-    if(account->balance >= termData->transAmount) { return True; }
+    if(account->balance >= termData->trans_amount) { return True; }
     return False;
 }
 
 
-u8 saveTransaction(ST_transaction_t *transData)
+u8 saveTransaction(BigDataStorage *trans_data)
 {
     if(transactions_count >= MAX_TRANSACTIONS) { return False; } /* the array is full */
 
     transactions_count += 1;
-    transData->transactionSequenceNumber = transactions_count;
-    transactions[transactions_count - 1] = *transData;
+    trans_data->transaction_sequence_number = transactions_count;
+    transactions[transactions_count - 1] = *trans_data;
     return True;
 }
 
 
-u8 getAccountBalance(ST_cardData_t *cardData, f64 *balance)
+u8 getAccountBalance(CardDataTempStoring *cardData, f64 *balance)
 {
     Client *account = FindAccount(cardData);
 
@@ -75,30 +75,30 @@ u8 getAccountBalance(ST_cardData_t *cardData, f64 *balance)
 }
 
 
-EN_transState_t receiveTransactionData(ST_transaction_t *transData)
+EnumTransState receiveTransactionData(BigDataStorage *trans_data)
 {
     Client *account;
 
-    if(isValidAccount(&transData->cardHolderData) == False)
+    if(isValidAccount(&trans_data->card_holder_data) == False)
     {
-        transData->transState = DECLINED_INVALID_ACCOUNT;
+        trans_data->trans_state = DECLINED_INVALID_ACCOUNT;
         return DECLINED_INVALID_ACCOUNT;
     }
 
-    if(isAmountAvailable(&transData->terminalData, &transData->cardHolderData) == False)
+    if(isAmountAvailable(&trans_data->terminal_data, &trans_data->card_holder_data) == False)
     {
-        transData->transState = DECLINED_INSUFFICIENT_FUND;
+        trans_data->trans_state = DECLINED_INSUFFICIENT_FUND;
         return DECLINED_INSUFFICIENT_FUND;
     }
 
-    account = FindAccount(&transData->cardHolderData);
-    account->balance -= transData->terminalData.transAmount;
+    account = FindAccount(&trans_data->card_holder_data);
+    account->balance -= trans_data->terminal_data.trans_amount;
 
-    transData->transState = APPROVED;
-    if(saveTransaction(transData) == False)
+    trans_data->trans_state = APPROVED;
+    if(saveTransaction(trans_data) == False)
     {
-        account->balance += transData->terminalData.transAmount;
-        transData->transState = INTERNAL_SERVER_ERROR;
+        account->balance += trans_data->terminal_data.trans_amount;
+        trans_data->trans_state = INTERNAL_SERVER_ERROR;
         return INTERNAL_SERVER_ERROR;
     }
 

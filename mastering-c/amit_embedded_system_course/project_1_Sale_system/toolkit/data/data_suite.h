@@ -1,9 +1,6 @@
 #ifndef DATA_SUITE_H
 #define DATA_SUITE_H
 
-#include <stddef.h>
-#include <stdlib.h>
-
 #define True  1
 #define False 0
 

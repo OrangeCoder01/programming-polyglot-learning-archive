@@ -27,19 +27,7 @@ typedef struct
     _PrimeDataTypeUnion_ prime_datatype_type;
 } _Generic_;
 
-/* 'static inline' because this function lives in a header: every .c file that includes it gets its own copy,
-   a plain definition here would give "multiple definition of TypeChecker" at link time. */
-static inline s16 TypeChecker(const _Generic_ *Input)
-{
-    switch(Input->prime_datatype_order)
-    {
-        case ty_u8:  { return (s16) (8); }
-        case ty_s8:  { return (s16) (-8); }
-        case ty_u32: { return (s16) (320); }  /* 32 bits and concatenated 0 for indicating it is integer */
-        case ty_u64: { return (s16) (640); }  /* 64 bits and concatenated 0 for indicating it is integer */
-        case ty_f64: { return (s16) (641); }  /* 64 bits and concatenated 1 for indicating it is a floating point datatype */
-        default: { return False; }            /* Unrecognized Datatype */
-    }
-}
+
+s16 TypeChecker(const _Generic_ *);
 
 #endif

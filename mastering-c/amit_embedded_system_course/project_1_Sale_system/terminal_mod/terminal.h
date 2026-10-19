@@ -6,15 +6,16 @@
 
 typedef struct
 {
-    f64  transAmount;
-    f64  maxTransAmount;
-    char transactionDate[11]; /* DD/MM/YYYY + '\0' */
-} ST_terminalData_t;
+    f64  trans_amount;
+    f64  max_trans_amount;
+    char transaction_date[11]; /* DD/MM/YYYY + '\0' */
+} TerminalDataTempStoring;
 
-u8 getTransactionDate(ST_terminalData_t *termData);                              /* takes the date from the PC clock */
-u8 isCardExpired(ST_cardData_t *cardData, ST_terminalData_t *termData);          /* True = the card IS expired */
-u8 getTransactionAmount(ST_terminalData_t *termData);                            /* True = valid amount typed */
-u8 isBelowMaxAmount(ST_terminalData_t *termData);                                /* True = amount is within the limit */
-u8 setMaxAmount(ST_terminalData_t *termData, f64 maxAmount);                     /* True = limit was set */
+
+u8 getTransactionDate(TerminalDataTempStoring *term_data);                                     /* takes the date from the PC clock */
+u8 isCardExpired(CardDataTempStoring *card_data, TerminalDataTempStoring *term_data);          /* True = the card IS expired */
+u8 getTransactionAmount(TerminalDataTempStoring *term_data);                                   /* True = valid amount typed */
+u8 isBelowMaxAmount(TerminalDataTempStoring *term_data);                                       /* True = amount is within the limit */
+u8 setMaxAmount(TerminalDataTempStoring *term_data, f64 max_amount);                           /* True = limit was set */
 
 #endif

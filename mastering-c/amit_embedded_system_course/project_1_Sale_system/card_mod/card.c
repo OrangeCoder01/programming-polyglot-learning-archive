@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include "card.h"
 
-u8 getCardHolderName(ST_cardData_t *cardData)
+u8 getCardHolderName(CardDataTempStoring *cardData)
 {
     char input[100];
     u32 i, length;
@@ -21,12 +21,12 @@ u8 getCardHolderName(ST_cardData_t *cardData)
         if(isalpha((unsigned char) input[i]) == 0 && input[i] != ' ' && input[i] != '-') { return False; }
     }
 
-    strcpy(cardData->cardHolderName, input);
+    strcpy(cardData->card_holder_name, input);
     return True;
 }
 
 
-u8 getCardExpiryDate(ST_cardData_t *cardData)
+u8 getCardExpiryDate(CardDataTempStoring *cardData)
 {
     char input[100];
     u32 month;
@@ -43,12 +43,12 @@ u8 getCardExpiryDate(ST_cardData_t *cardData)
     month = (input[0] - '0') * 10 + (input[1] - '0');
     if(month < 1 || month > 12) { return False; }
 
-    strcpy(cardData->cardExpirationDate, input);
+    strcpy(cardData->card_expiratory_date, input);
     return True;
 }
 
 
-u8 getCardPAN(ST_cardData_t *cardData)
+u8 getCardPAN(CardDataTempStoring *cardData)
 {
     char input[100];
     u32 i;
@@ -63,6 +63,6 @@ u8 getCardPAN(ST_cardData_t *cardData)
         if(isdigit((unsigned char) input[i]) == 0) { return False; }
     }
 
-    strcpy(cardData->primaryAccountNumber, input);
+    strcpy(cardData->primary_account_number, input);
     return True;
 }

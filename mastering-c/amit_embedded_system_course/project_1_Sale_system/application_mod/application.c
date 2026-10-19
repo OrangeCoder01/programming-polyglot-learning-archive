@@ -12,9 +12,9 @@ void appClose(void) { serverClose(); }
 
 void appStart(void)
 {
-    ST_cardData_t     card;
-    ST_terminalData_t terminal;
-    ST_transaction_t  transaction;
+    CardDataTempStoring     card;
+    TerminalDataTempStoring terminal;
+    BigDataStorage  transaction;
     f64               balance = 0.0;
 
     memset(&card, 0, sizeof(card));
@@ -32,7 +32,7 @@ void appStart(void)
     setMaxAmount(&terminal, MAX_AMOUNT);
 
     getTransactionDate(&terminal);
-    printf("Transaction date: %s\n", terminal.transactionDate);
+    printf("Transaction date: %s\n", terminal.transaction_date);
 
     if(isCardExpired(&card, &terminal) == True) { printf("\nDECLINED: expired card\n"); return; }
 
@@ -40,8 +40,8 @@ void appStart(void)
     if(isBelowMaxAmount(&terminal) == False)     { printf("\nDECLINED: amount exceeds the maximum limit\n"); return; }
 
     /* Server module */
-    transaction.cardHolderData = card;
-    transaction.terminalData   = terminal;
+    transaction.card_holder_data = card;
+    transaction.terminal_data   = terminal;
 
     switch(receiveTransactionData(&transaction))
     {
@@ -49,8 +49,8 @@ void appStart(void)
         {
             getAccountBalance(&card, &balance);
             printf("\nAPPROVED\n");
-            printf("    Card   : ************%s\n", card.primaryAccountNumber + 12); /* only the last 4 digits */
-            printf("    Amount : %.2f\n", terminal.transAmount);
+            printf("    Card   : ************%s\n", card.primary_account_number + 12); /* only the last 4 digits */
+            printf("    Amount : %.2f\n", terminal.trans_amount);
             printf("    Balance: %.2f\n", balance);
             break;
         }
