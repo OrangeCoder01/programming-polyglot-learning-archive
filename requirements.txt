@@ -1,0 +1,26 @@
+# AVR toolchain requirements for AMIT embedded course
+# Install these tools on the local machine before building AVR projects.
+
+# Windows package install commands:
+winget install --id ZakKemble.avr-gcc --accept-source-agreements --accept-package-agreements --silent
+winget install --id AVRDudes.AVRDUDE --accept-source-agreements --accept-package-agreements --silent
+
+# Project folder to build:
+# mastering-c/amit_embedded_system_course/interfacing_section_2/avrcots
+
+# VS Code AVR extension settings:
+# - avrBuilder.mcu = atmega32
+# - avrBuilder.fcpu = 8000000
+# - avrBuilder.programmer = arduino
+# - avrBuilder.port = COM4
+# - avrBuilder.sourceDir = .
+# - avrBuilder.outputDir = build
+# - avrBuilder.avrGccPath = C:\Users\Yassin\AppData\Local\Microsoft\WinGet\Packages\ZakKemble.avr-gcc_Microsoft.Winget.Source_8wekyb3d8bbwe\avr-gcc-16.1.0-x64-windows\bin\avr-g++.exe
+# - avrBuilder.avrObjcopyPath = C:\Users\Yassin\AppData\Local\Microsoft\WinGet\Packages\ZakKemble.avr-gcc_Microsoft.Winget.Source_8wekyb3d8bbwe\avr-gcc-16.1.0-x64-windows\bin\avr-objcopy.exe
+# - avrBuilder.avrSizePath = C:\Users\Yassin\AppData\Local\Microsoft\WinGet\Packages\ZakKemble.avr-gcc_Microsoft.Winget.Source_8wekyb3d8bbwe\avr-gcc-16.1.0-x64-windows\bin\avr-size.exe
+# - avrBuilder.avrdudePath = C:\Users\Yassin\AppData\Local\Microsoft\WinGet\Packages\AVRDudes.AVRDUDE_Microsoft.Winget.Source_8wekyb3d8bbwe\avrdude.exe
+
+# Notes:
+# - Do not commit the compiler binaries into Git.
+# - If your board is on another COM port, change avrBuilder.port.
+# - Open the avrcots folder itself in VS Code, not the repo root.

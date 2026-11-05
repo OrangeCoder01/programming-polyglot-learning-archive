@@ -11,8 +11,8 @@
     "-IHAL",
     "-IAPP"
   ],
-  "avrBuilder.avrGccPath": "./content/avr-g++.exe",
-  "avrBuilder.avrObjcopyPath": "./content/avr-objcopy.exe",
-  "avrBuilder.avrSizePath": "./content/avr-size.exe",
-  "avrBuilder.avrdudePath": "./content/avrdude.exe"
+  "avrBuilder.avrGccPath": "C:\\Users\\Yassin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ZakKemble.avr-gcc_Microsoft.Winget.Source_8wekyb3d8bbwe\\avr-gcc-16.1.0-x64-windows\\bin\\avr-g++.exe",
+  "avrBuilder.avrObjcopyPath": "C:\\Users\\Yassin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ZakKemble.avr-gcc_Microsoft.Winget.Source_8wekyb3d8bbwe\\avr-gcc-16.1.0-x64-windows\\bin\\avr-objcopy.exe",
+  "avrBuilder.avrSizePath": "C:\\Users\\Yassin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ZakKemble.avr-gcc_Microsoft.Winget.Source_8wekyb3d8bbwe\\avr-gcc-16.1.0-x64-windows\\bin\\avr-size.exe",
+  "avrBuilder.avrdudePath": "C:\\Users\\Yassin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\AVRDudes.AVRDUDE_Microsoft.Winget.Source_8wekyb3d8bbwe\\avrdude.exe"
 }
