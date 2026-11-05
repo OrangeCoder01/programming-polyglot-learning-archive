@@ -1,18 +1,18 @@
 {
-    "avrBuilder.mcu": "atmega32",
-    "avrBuilder.fcpu": 8000000,
-    "avrBuilder.programmer": "arduino",
-    "avrBuilder.port": "COM4",
-    "avrBuilder.sourceDir": ".",
-    "avrBuilder.outputDir": "build",
-    "avrBuilder.extraCFlags": [
-        "-ILIB",
-        "-IMCAL/1_DIO",
-        "-IHAL",
-        "-IAPP"
-    ],
-    "avrBuilder.avrGccPath": "C:\\Users\\Yassin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ZakKemble.avr-gcc_Microsoft.Winget.Source_8wekyb3d8bbwe\\avr-gcc-16.1.0-x64-windows\\bin\\avr-g++.exe",
-    "avrBuilder.avrObjcopyPath": "C:\\Users\\Yassin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ZakKemble.avr-gcc_Microsoft.Winget.Source_8wekyb3d8bbwe\\avr-gcc-16.1.0-x64-windows\\bin\\avr-objcopy.exe",
-    "avrBuilder.avrSizePath": "C:\\Users\\Yassin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ZakKemble.avr-gcc_Microsoft.Winget.Source_8wekyb3d8bbwe\\avr-gcc-16.1.0-x64-windows\\bin\\avr-size.exe",
-    "avrBuilder.avrdudePath": "C:\\Users\\Yassin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\AVRDudes.AVRDUDE_Microsoft.Winget.Source_8wekyb3d8bbwe\\avrdude.exe"
+  "avrBuilder.mcu": "atmega32",
+  "avrBuilder.fcpu": 8000000,
+  "avrBuilder.programmer": "arduino",
+  "avrBuilder.port": "COM4",
+  "avrBuilder.sourceDir": ".",
+  "avrBuilder.outputDir": "build",
+  "avrBuilder.extraCFlags": [
+    "-ILIB",
+    "-IMCAL/1_DIO",
+    "-IHAL",
+    "-IAPP"
+  ],
+  "avrBuilder.avrGccPath": "${workspaceFolder}/content/avr-g++.exe",
+  "avrBuilder.avrObjcopyPath": "${workspaceFolder}/content/avr-objcopy.exe",
+  "avrBuilder.avrSizePath": "${workspaceFolder}/content/avr-size.exe",
+  "avrBuilder.avrdudePath": "${workspaceFolder}/content/avrdude.exe"
 }
