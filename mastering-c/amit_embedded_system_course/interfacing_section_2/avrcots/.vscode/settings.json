@@ -11,8 +11,8 @@
     "-IHAL",
     "-IAPP"
   ],
-  "avrBuilder.avrGccPath": "${workspaceFolder}/content/avr-g++.exe",
-  "avrBuilder.avrObjcopyPath": "${workspaceFolder}/content/avr-objcopy.exe",
-  "avrBuilder.avrSizePath": "${workspaceFolder}/content/avr-size.exe",
-  "avrBuilder.avrdudePath": "${workspaceFolder}/content/avrdude.exe"
+  "avrBuilder.avrGccPath": "./content/avr-g++.exe",
+  "avrBuilder.avrObjcopyPath": "./content/avr-objcopy.exe",
+  "avrBuilder.avrSizePath": "./content/avr-size.exe",
+  "avrBuilder.avrdudePath": "./content/avrdude.exe"
 }
