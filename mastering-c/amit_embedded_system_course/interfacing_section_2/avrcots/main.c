@@ -1,9 +1,8 @@
 #include <avr/io.h>
-#include "bit_math_c.h"
-int main(void) 
+#include "LIB/bit_math_c.h"
+
+int main(void)
 {
-    DDRC &= 0;
-    PORTC &= 0;
 
     SetBit(DDRC, 7);
     SetBit(PORTC, 7);

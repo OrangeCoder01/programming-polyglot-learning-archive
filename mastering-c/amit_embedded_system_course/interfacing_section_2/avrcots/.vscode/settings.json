@@ -12,8 +12,8 @@
         "-IAPP"
     ],
  
-    "avrBuilder.avrGccPath": "C:\\users\\Yassin\\Documents\\WinAVR\\bin\\avr-g++.exe",
-    "avrBuilder.avrObjcopyPath": "C:\\users\\Yassin\\Documents\\WinAVR\\bin\\avr-objcopy.exe",
-    "avrBuilder.avrSizePath": "C:\\users\\Yassin\\Documents\\WinAVR\\bin\\avr-size.exe",
-    "avrBuilder.avrdudePath": "C:\\Users\\Yassin\\Documents\\WinAVR\\bin\\avrdude_baud.bat"
+    "avrBuilder.avrGccPath": "mastering-c\\amit_embedded_system_course\\interfacing_section_2\\content\\avr-g++.exe",
+    "avrBuilder.avrObjcopyPath": "mastering-c\\amit_embedded_system_course\\interfacing_section_2\\content\\avr-objcopy.exe",
+    "avrBuilder.avrSizePath": "mastering-c\\amit_embedded_system_course\\interfacing_section_2\\content\\avr-size.exe",
+    "avrBuilder.avrdudePath": "mastering-c\\amit_embedded_system_course\\interfacing_section_2\\content\\avrdude_baud.bat"
 }

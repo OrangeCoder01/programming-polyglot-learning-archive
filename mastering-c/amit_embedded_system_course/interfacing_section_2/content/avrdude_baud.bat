@@ -1,0 +1,5 @@
+Figure (1.1.1): Egypt's water challenges: Beyond the dam saga (AhramOnline)
+Figure (1.1.2): Visualizing the irrigation system with Solar panel (InterSolar Egypt)
+Figure (1.1.3): Soil Moisture Sensor (GettyImages)
+Figure (1.1.4): Solar-powered IoT field node (Link Solar)
+Figure (1.1.5) Abstract block diagram project view (made by using Canvas)
