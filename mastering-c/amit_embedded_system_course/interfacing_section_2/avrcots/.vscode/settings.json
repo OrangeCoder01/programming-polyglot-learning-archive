@@ -1,0 +1,19 @@
+{
+    "avrBuilder.mcu": "atmega32",
+    "avrBuilder.fcpu": 8000000,
+    "avrBuilder.programmer": "arduino",
+    "avrBuilder.port": "COM4",
+    "avrBuilder.sourceDir": ".",
+    "avrBuilder.outputDir": "build",
+    "avrBuilder.extraCFlags": [
+        "-ILIB",
+        "-IMCAL/1_DIO",
+        "-IHAL",
+        "-IAPP"
+    ],
+ 
+    "avrBuilder.avrGccPath": "C:\\users\\Yassin\\Documents\\WinAVR\\bin\\avr-g++.exe",
+    "avrBuilder.avrObjcopyPath": "C:\\users\\Yassin\\Documents\\WinAVR\\bin\\avr-objcopy.exe",
+    "avrBuilder.avrSizePath": "C:\\users\\Yassin\\Documents\\WinAVR\\bin\\avr-size.exe",
+    "avrBuilder.avrdudePath": "C:\\Users\\Yassin\\Documents\\WinAVR\\bin\\avrdude_baud.bat"
+}
