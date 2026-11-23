@@ -31,6 +31,6 @@ The topics from this course span from simple Gate: AND, NOT, etc. to learning re
     (4) README of the example folder (example folder is within the week folder) contain schematics (directing links) resulted from the Vivado analysis.
     (5) Example file contain the VHDL Code (Copy-pastable to Vivado with no error).
 
-    There are also Assignment and, assignment follow the same structure, while project can break this uniform structure; to understand the sturcture of the project:
+    There are also Assignment and project; assignment follow the same structure, while project can break this uniform structure; to understand the sturcture of the project:
     please, read its README.
 ```
