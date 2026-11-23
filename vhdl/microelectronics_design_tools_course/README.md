@@ -4,7 +4,7 @@ This is course was taken in 2026 in my penultimate year (4th year), this course 
 <br>
 
 ## Content
-The topics from this course span from simple Gate: AND, NOT, etc. to learning registers: D Flip Flop, D Latch, thus introducing `Synchrounous` and `Asynchronous` registers (including Clock cycle, Enable pin, Reset pin), then to Conditional logic using (`when else`, or `with select`, or `case`) implementing Truth table and Lookup tables, then to switching between Sequential and concurrent behavior, implementing modularity by applying component behaviors into larger ones such as using `half-adder` in `Full-adder`, passing through `FSM`(Finite State Machine), and later approaching more complex concepts.
+The topics from this course span from simple Gate: AND, NOT, etc. to learning registers: D Flip Flop, D Latch, thus introducing `Synchrounous` and `Asynchronous` registers (including Clock cycle, Enable pin, Reset pin), then to Conditional logic using (`when else`, or `with select`, or `case`) implementing Truth table and Lookup tables, then to switching between Sequential and oncurrent behavior, implementing modularity by applying component behaviors into larger ones such as using `half-adder` in `Full-adder`, passing through `FSM`(Finite State Machine), and later approaching more complex concepts.
 <br>
 
 ## The Objective of this course is to: 
