@@ -1,7 +1,7 @@
-# Task 1
+# Task (1):
 
 
 Location|About|Done before|
 |:------|:----------:|:-------------|
-|Page 35| Half Adder|No|
+|Page 35| AND Gate|No|
 
