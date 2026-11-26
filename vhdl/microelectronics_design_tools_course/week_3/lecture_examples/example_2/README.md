@@ -12,16 +12,16 @@ Location|About|Done before|
 **d:**
 |**Input**|**Value Radix**|**Leading Edge Value**|**Trailing Edge Value**|**Starting after time offset**|**Cancel after time offset**|**Duty Cycle**| **Period**|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|bit 1|Binary|1|0|0ns|Not Specified|50|200ns|
-|bit 2|Binary|1|0|0ns|Not Specified|50|150ns|
-|bit 3|Binary|1|0|0ns|Not Specified|50|100ns|
-|bit 4|Binary|1|0|0ns|Not Specified|50|25ns|
+|bit 1|Binary|0|1|0ns|Not Specified|50|200ns|
+|bit 2|Binary|0|1|0ns|Not Specified|50|150ns|
+|bit 3|Binary|0|1|0ns|Not Specified|50|100ns|
+|bit 4|Binary|0|1|0ns|Not Specified|50|25ns|
 
 **sel:**
 |**Input**|**Value Radix**|**Leading Edge Value**|**Trailing Edge Value**|**Starting after time offset**|**Cancel after time offset**|**Duty Cycle**| **Period**|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|bit 1|Binary|1|0|0ns|Not Specified|50|100ns|
-|bit 2|Binary|1|0|0ns|Not Specified|50|25ns|
+|bit 1|Binary|0|1|0ns|Not Specified|50|100ns|
+|bit 2|Binary|0|1|0ns|Not Specified|50|25ns|
 
 [Link to Waveform Simulation](https://drive.google.com/drive/folders/1xuqVr6X2IzjYm0-ha7HMBjpoyIP2zB-9?hl=ar)
 

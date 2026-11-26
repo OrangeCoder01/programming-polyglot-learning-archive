@@ -11,9 +11,9 @@ Location|About|Done before|
 
 |**Input**|**Value Radix**|**Leading Edge Value**|**Trailing Edge Value**|**Starting after time offset**|**Cancel after time offset**|**Duty Cycle**| **Period**|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|**a**|Binary|1|0|0ns|Not Specified|50|100ns|
-|**b**|Binary|1|0|0ns|Not Specified|50|50ns|
-|**sel**|Binary|1|0|0ns|Not Specified|50|25ns|
+|**a**|Binary|0|1|0ns|Not Specified|50|100ns|
+|**b**|Binary|0|1|0ns|Not Specified|50|50ns|
+|**sel**|Binary|0|1|0ns|Not Specified|50|25ns|
 
 [Link to Waveform Simulation](https://drive.google.com/drive/folders/1Tori1JuizA-FEYQdaZd6BTlhes7jqK24?hl=ar)
 
