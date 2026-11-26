@@ -5,7 +5,7 @@
 
 Location|About|Done before|
 |:------|:----------:|:-------------|
-|| ||
+|Page 35| OR & XOR Gate| No|
 
 ## Schematics:
 
@@ -30,10 +30,13 @@ Location|About|Done before|
 
 <br>
 
-[Link to waveform Simulation (OR Part)]()
+[Link to waveform Simulation (OR Part)](https://drive.google.com/drive/folders/1U9JIR11wRjfGBJgsK5Cl7HuA46Fcoi2W?hl=ar)
 <br>
 
-[Link to waveform Simulation (XOR Part)]()
+[Link to waveform Simulation (XOR Part)](https://drive.google.com/drive/folders/1s9p_CVWh60syGh96BjUWjDqAzhnjPqul?hl=ar)
 
 ### Elaborate Design Schematic:
-[Link to Elaborate Design Schematic]()
+[Link to Elaborate Design Schematic (OR Part)](https://drive.google.com/drive/folders/17yQM4QeemC8mRf7Eq6bD9X-wkuGFmlzw?hl=ar)
+<br>
+
+[Link to Elaborate Design Schematic (XOR Part)](https://drive.google.com/drive/folders/19A0NYlHEh5GAMM77Rw6S7cubE_MjxUu6?hl=ar)
