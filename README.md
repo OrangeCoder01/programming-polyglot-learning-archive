@@ -36,22 +36,22 @@ Some work follows a formal syllabus (a paid course, a well-known bootcamp); the 
 programming-polyglot-learning-archive/
 ├── documents/                         # Shared rules/strategy docs for repeating folder patterns
 │   └── personal-forge/
-├── mastering-c-plus-plus/
+├── c-plus-plus/
 │   ├── personal-forge/
 │   │   ├── challenges/                # 30+ standalone exercises
 │   │   └── projects/                  # 3 larger builds
 │   └── utility_functions/             # yassin_math_cpp.h and friends
-├── mastering-python/
+├── python/
 │   ├── 100-day-bootcamp/              # Dr. Angela Yu's course
 │   │   ├── day_lessons/
 │   │   └── day_projects/
 │   ├── personal-forge/
 │   │   └── challenges/
 │   └── testing_bench/                 # scratch/sandbox area
-├── mastering-c/
+├── c/
 │   ├── amit_embedded_system_course/   # AMIT Embedded Systems course, by session
 │   └── testing_bench/                 # scratch/sandbox area
-├── mastering-arduino-ide/
+├── arduino-ide/
 │   ├── arduino-mcu/
 │   │   └── arduino-uno/
 │   │       ├── debuggers/
@@ -141,7 +141,7 @@ The [`documents/`](documents) folder holds the rules and naming strategy for fol
 
 Reusable, well-tested functions live in dedicated library folders (mostly C/C++, where the payoff for avoiding repetition is highest):
 
-- `mastering-c-plus-plus/utility_functions/yassin_math_cpp.h`
+- `c-plus-plus/utility_functions/yassin_math_cpp.h`
 - Several `helper_library/utility_functions_c.h` files under individual AMIT course sessions.
 
 ## Development environment
