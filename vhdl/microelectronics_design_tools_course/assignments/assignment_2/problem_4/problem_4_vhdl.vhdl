@@ -21,16 +21,16 @@ architecture structural of mux4to1 is
     end component;
 
     signal y : std_logic_vector(0 to 3);
-begin
-    U1: dec2to4 port map 
-    (
-        w  => s,
-        En => '1',
-        y  => y
-    );
+    begin
+        U1: dec2to4 port map 
+        (
+            w  => s,
+            En => '1',
+            y  => y
+        );
 
-    f <= (w(0) and y(0)) or
-         (w(1) and y(1)) or
-         (w(2) and y(2)) or
-         (w(3) and y(3));
+        f <= (w(0) and y(0)) or
+            (w(1) and y(1)) or
+            (w(2) and y(2)) or
+            (w(3) and y(3));
 end structural;

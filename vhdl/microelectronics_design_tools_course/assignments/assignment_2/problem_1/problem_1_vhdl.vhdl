@@ -66,10 +66,10 @@ architecture structural of my_compare is
     end component;
 
     signal p1_out, p2_out, p3_out : std_logic;
-begin
-    U1: xnor2 port map ( in1 => A_IN(2), in2 => B_IN(2), out1 => p1_out );
-    U2: xnor2 port map ( in1 => A_IN(1), in2 => B_IN(1), out1 => p2_out );
-    U3: xnor2 port map ( in1 => A_IN(0), in2 => B_IN(0), out1 => p3_out );
+    begin
+        U1: xnor2 port map ( in1 => A_IN(2), in2 => B_IN(2), out1 => p1_out );
+        U2: xnor2 port map ( in1 => A_IN(1), in2 => B_IN(1), out1 => p2_out );
+        U3: xnor2 port map ( in1 => A_IN(0), in2 => B_IN(0), out1 => p3_out );
 
-    U4: and3  port map ( in1 => p1_out,  in2 => p2_out,  in3 => p3_out, out1 => EQ_OUT );
-end structural;
+        U4: and3  port map ( in1 => p1_out,  in2 => p2_out,  in3 => p3_out, out1 => EQ_OUT );
+    end structural;
